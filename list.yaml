@@ -1,117 +1,15 @@
-- name: 'awestruct'
-  lang: 'Ruby'
-  website: 'http://awestruct.org/'
-  github: 'awestruct/awestruct'
-
 - name: 'Ace'
   lang: 'Ruby'
   github: 'botanicus/ace'
 
-- name: 'Bonsai'
-  lang: 'Ruby'
-  website: 'http://tinytree.info/'
-  github: 'benschwarz/bonsai'
-
-- name: 'Deplot'
-  lang: 'Ruby'
-  github: 'cdn64/deplot'
-
-- name: 'Fairytale'
-  lang: 'Ruby'
-  github: '46Bit/fairytale'
-
-- name: 'Frank'
-  lang: 'Ruby'
-  github: 'blahed/frank'
-
-- name: 'Hobix'
-  lang: 'Ruby'
-  github: 'hobix/hobix'
-
-- name: 'Jekyll'
-  lang: 'Ruby'
-  github: 'mojombo/jekyll'
-
-- name: 'Korma'
-  lang: 'Ruby'
-  github: 'sandal/korma'
-
-- name: 'Machined'
-  lang: 'Ruby'
-  github: 'petebrowne/machined'
-
-- name: 'Magneto'
-  lang: 'Ruby'
-  github: 'donmelton/magneto'
-
-- name: 'Middleman'
-  lang: 'Ruby'
-  github: 'middleman/middleman'
-
-- name: 'Pith'
-  lang: 'Ruby'
-  github: 'mdub/pith'
-
-- name: 'RakeWeb'
-  lang: 'Ruby'
-  website: 'http://rubyforge.org/projects/rakeweb/'
-
-- name: 'Rassmalog'
-  lang: 'Ruby'
-  website: 'http://rassmalog.rubyforge.org/'
-
-- name: 'Rog'
-  lang: 'Ruby'
-  website: 'http://rog.rubyforge.org/'
-
-- name: 'Rote'
-  lang: 'Ruby'
-  website: 'http://rote.rubyforge.org/'
-
-- name: 'RubyFrontier'
-  lang: 'Ruby'
-  website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
-  github: 'mattneub/RubyFrontier'
-
-- name: 'Stasis'
-  lang: 'Ruby'
-  website: 'http://stasis.me/'
-  github: 'winton/stasis'
-
-- name: 'StaticMatic'
-  lang: 'Ruby'
-  website: 'http://rubyforge.org/projects/staticmatic/'
-
-- name: 'StaticMatic2'
-  lang: 'Ruby'
-  github: 'mindeavor/staticmatic2'
-
-- name: 'StaticWeb'
-  lang: 'Ruby'
-  website: 'http://staticweb.rubyforge.org/'
-
-- name: 'Webby'
-  lang: 'Ruby'
-  website: 'http://webby.rubyforge.org/'
-  github: 'TwP/webby'
-  # The github repo says "NO LONGER UNDER DEVELOPMENT"
-
-- name: 'webgen'
-  lang: 'Ruby'
-  website: 'http://webgen.rubyforge.org/'
-
-- name: 'Yurt CMS'
-  lang: 'Ruby'
-  website: 'http://yurtcms.roberthahn.ca/'
-
-- name: 'ZenWeb'
-  lang: 'Ruby'
-  website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
-  github: 'seattlerb/zenweb'
-
 - name: 'acrylamid'
   lang: 'Python'
   github: 'posativ/acrylamid'
+
+- name: 'awestruct'
+  lang: 'Ruby'
+  website: 'http://awestruct.org/'
+  github: 'awestruct/awestruct'
 
 - name: 'Blacksmith'
   lang: 'Node.js'
@@ -121,6 +19,11 @@
   lang: 'Python'
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
+
+- name: 'Bonsai'
+  lang: 'Ruby'
+  website: 'http://tinytree.info/'
+  github: 'benschwarz/bonsai'
 
 - name: 'Cactus'
   lang: 'Python'
@@ -144,9 +47,21 @@
   website: 'http://pypi.python.org/pypi/cyrax'
   github: 'piranha/cyrax'
 
+- name: 'Deplot'
+  lang: 'Ruby'
+  github: 'cdn64/deplot'
+
+- name: 'Fairytale'
+  lang: 'Ruby'
+  github: '46Bit/fairytale'
+
 - name: 'FMPP'
   lang: 'Java'
   website: 'http://fmpp.sourceforge.net/'
+
+- name: 'Frank'
+  lang: 'Ruby'
+  github: 'blahed/frank'
 
 - name: 'fugitive'
   lang: 'Shell'
@@ -170,9 +85,17 @@
   lang: 'Go'
   github: 'mkaz/hastie'
 
+- name: 'Hobix'
+  lang: 'Ruby'
+  github: 'hobix/hobix'
+
 - name: 'Hyde'
   lang: 'Python'
   github: 'lakshmivyas/hyde'
+
+- name: 'Jekyll'
+  lang: 'Ruby'
+  github: 'mojombo/jekyll'
 
 - name: 'jinjet'
   lang: 'Python'
@@ -182,6 +105,18 @@
   lang: 'Go'
   github: 'drone/jkl'
 
+- name: 'Korma'
+  lang: 'Ruby'
+  github: 'sandal/korma'
+
+- name: 'Machined'
+  lang: 'Ruby'
+  github: 'petebrowne/machined'
+
+- name: 'Magneto'
+  lang: 'Ruby'
+  github: 'donmelton/magneto'
+
 - name: 'Markbox'
   lang: 'Python'
   github: 'myfreeweb/markbox'
@@ -190,6 +125,10 @@
   lang: 'Python'
   website: 'http://markdoc.org/'
   github: 'zacharyvoase/markdoc'
+
+- name: 'Middleman'
+  lang: 'Ruby'
+  github: 'middleman/middleman'
 
 - name: 'mynt'
   lang: 'Python'
@@ -233,6 +172,10 @@
   website: 'http://inky.github.com/pilcrow/'
   github: 'inky/pilcrow'
 
+- name: 'Pith'
+  lang: 'Ruby'
+  github: 'mdub/pith'
+
 - name: 'poole'
   lang: 'Python'
   website: 'https://bitbucket.org/obensonne/poole'
@@ -246,13 +189,34 @@
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
 
+- name: 'RakeWeb'
+  lang: 'Ruby'
+  website: 'http://rubyforge.org/projects/rakeweb/'
+
+- name: 'Rassmalog'
+  lang: 'Ruby'
+  website: 'http://rassmalog.rubyforge.org/'
+
 - name: 'Rizzo'
   lang: 'Groovy'
   github: 'fifthposition/rizzo'
 
+- name: 'Rog'
+  lang: 'Ruby'
+  website: 'http://rog.rubyforge.org/'
+
 - name: 'romulus'
   lang: 'Node.js'
   github: 'felixge/node-romulus'
+
+- name: 'Rote'
+  lang: 'Ruby'
+  website: 'http://rote.rubyforge.org/'
+
+- name: 'RubyFrontier'
+  lang: 'Ruby'
+  website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
+  github: 'mattneub/RubyFrontier'
 
 - name: 'Ruroh'
   lang: 'language-agnostic'
@@ -273,9 +237,26 @@
   lang: 'Python'
   github: 'alvesjnr/speechhub'
 
+- name: 'Stasis'
+  lang: 'Ruby'
+  website: 'http://stasis.me/'
+  github: 'winton/stasis'
+
 - name: 'staticjinja'
   lang: 'Python'
   github: 'Ceasar/staticjinja'
+
+- name: 'StaticMatic'
+  lang: 'Ruby'
+  website: 'http://rubyforge.org/projects/staticmatic/'
+
+- name: 'StaticMatic2'
+  lang: 'Ruby'
+  github: 'mindeavor/staticmatic2'
+
+- name: 'StaticWeb'
+  lang: 'Ruby'
+  website: 'http://staticweb.rubyforge.org/'
 
 - name: 'Tahchee'
   lang: 'Python'
@@ -284,6 +265,16 @@
 - name: 'Ultra simple Site Maker'
   lang: 'Ocaml'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
+
+- name: 'Webby'
+  lang: 'Ruby'
+  website: 'http://webby.rubyforge.org/'
+  github: 'TwP/webby'
+  # The github repo says "NO LONGER UNDER DEVELOPMENT"
+
+- name: 'webgen'
+  lang: 'Ruby'
+  website: 'http://webgen.rubyforge.org/'
 
 - name: 'Website Meta Language'
   lang: 'C and Perl'
@@ -305,3 +296,12 @@
 - name: 'yst'
   lang: 'Haskell'
   github: 'jgm/yst'
+
+- name: 'Yurt CMS'
+  lang: 'Ruby'
+  website: 'http://yurtcms.roberthahn.ca/'
+
+- name: 'ZenWeb'
+  lang: 'Ruby'
+  website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
+  github: 'seattlerb/zenweb'
