@@ -1,0 +1,285 @@
+- name: 'awestruct'
+  lang: 'Ruby'
+  website: 'http://awestruct.org/'
+  github: 'awestruct/awestruct'
+
+- name: 'Ace'
+  lang: 'Ruby'
+  github: 'botanicus/ace'
+
+- name: 'Bonsai'
+  lang: 'Ruby'
+  website: 'http://tinytree.info/'
+
+- name: 'Deplot'
+  lang: 'Ruby'
+  github: 'cdn64/deplot'
+
+- name: 'Fairytale'
+  lang: 'Ruby'
+  github: '46Bit/fairytale'
+
+- name: 'Frank'
+  lang: 'Ruby'
+  github: 'blahed/frank'
+
+- name: 'Hobix'
+  lang: 'Ruby'
+  github: 'hobix/hobix'
+
+- name: 'Jekyll'
+  lang: 'Ruby'
+  github: 'mojombo/jekyll'
+
+- name: 'Korma'
+  lang: 'Ruby'
+  github: 'sandal/korma'
+
+- name: 'Machined'
+  lang: 'Ruby'
+  github: 'petebrowne/machined'
+
+- name: 'Magneto'
+  lang: 'Ruby'
+  github: 'donmelton/magneto'
+
+- name: 'Middleman'
+  lang: 'Ruby'
+  github: 'middleman/middleman'
+
+- name: 'Pith'
+  lang: 'Ruby'
+  github: 'mdub/pith'
+
+- name: 'RakeWeb'
+  lang: 'Ruby'
+  website: 'http://rubyforge.org/projects/rakeweb/'
+
+- name: 'Rassmalog'
+  lang: 'Ruby'
+  website: 'http://rassmalog.rubyforge.org/'
+
+- name: 'Rog'
+  lang: 'Ruby'
+  website: 'http://rog.rubyforge.org/'
+
+- name: 'Rote'
+  lang: 'Ruby'
+  website: 'http://rote.rubyforge.org/'
+
+- name: 'RubyFrontier'
+  lang: 'Ruby'
+  website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
+
+- name: 'Stasis'
+  lang: 'Ruby'
+  website: 'http://stasis.me/'
+
+- name: 'StaticMatic'
+  lang: 'Ruby'
+  website: 'http://rubyforge.org/projects/staticmatic/'
+
+- name: 'StaticMatic2'
+  lang: 'Ruby'
+  github: 'mindeavor/staticmatic2'
+
+- name: 'StaticWeb'
+  lang: 'Ruby'
+  website: 'http://staticweb.rubyforge.org/'
+
+- name: 'Webby'
+  lang: 'Ruby'
+  website: 'http://webby.rubyforge.org/'
+
+- name: 'webgen'
+  lang: 'Ruby'
+  website: 'http://webgen.rubyforge.org/'
+
+- name: 'Yurt CMS'
+  lang: 'Ruby'
+  website: 'http://yurtcms.roberthahn.ca/'
+
+- name: 'ZenWeb'
+  lang: 'Ruby'
+  website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
+
+- name: 'acrylamid'
+  lang: 'Python'
+  github: 'posativ/acrylamid'
+
+- name: 'Blacksmith'
+  lang: 'Node.js'
+  github: 'flatiron/blacksmith'
+
+- name: 'Blogofile'
+  lang: 'Python'
+  website: 'http://www.blogofile.com/'
+
+- name: 'Cactus'
+  lang: 'Python'
+  github: 'koenbok/Cactus'
+
+- name: 'Chisel'
+  lang: 'Python'
+  github: 'dz/chisel'
+
+- name: 'coleslaw'
+  lang: 'Common Lisp'
+  website: 'http://www.cliki.net/coleslaw'
+
+- name: 'Composer'
+  lang: 'Python'
+  github: 'shazow/composer'
+
+- name: 'cyrax'
+  lang: 'Python'
+  website: 'http://pypi.python.org/pypi/cyrax'
+
+- name: 'FMPP'
+  lang: 'Java'
+  website: 'http://fmpp.sourceforge.net/'
+
+- name: 'fugitive'
+  lang: 'Shell'
+  website: 'https://gitorious.org/fugitive'
+
+- name: 'Graze'
+  lang: 'C#'
+  github: 'mikoskinen/graze'
+
+- name: 'Hakyll'
+  lang: 'Haskell'
+  website: 'http://jaspervdj.be/hakyll/'
+
+- name: 'Hammer'
+  lang: 'language-agnostic'
+  website: 'http://hammerformac.com/'
+
+- name: 'Hastie'
+  lang: 'Go'
+  github: 'mkaz/hastie'
+
+- name: 'Hyde'
+  lang: 'Python'
+  github: 'lakshmivyas/hyde'
+
+- name: 'jinjet'
+  lang: 'Python'
+  github: 'jokull/jinjet'
+
+- name: 'jkl'
+  lang: 'Go'
+  github: 'drone/jkl'
+
+- name: 'Markbox'
+  lang: 'Python'
+  github: 'myfreeweb/markbox'
+
+- name: 'Markdoc'
+  lang: 'Python'
+  website: 'http://markdoc.org/'
+
+- name: 'mynt'
+  lang: 'Python'
+  website: 'http://mynt.mirroredwhite.com/'
+
+- name: 'nanoc'
+  lang: 'Ruby'
+  website: 'http://nanoc.stoneship.org/'
+  github: 'nanoc/nanoc'
+
+- name: 'Nikola'
+  lang: 'Python'
+  website: 'http://nikola.ralsina.com.ar/'
+
+- name: 'Pagegen'
+  lang: 'Bash'
+  website: 'http://pagegen.phnd.net/'
+
+- name: 'Pelican'
+  lang: 'Python'
+  github: 'ametaireau/pelican'
+
+- name: 'Petrify'
+  lang: 'Node.js'
+  github: 'caolan/petrify'
+
+- name: 'Phrozn'
+  lang: 'PHP'
+  website: 'http://phrozn.info'
+
+- name: 'PieCrust'
+  lang: 'PHP'
+  website: 'http://bolt80.com/piecrust/'
+
+- name: 'Pilcrow'
+  lang: 'Python'
+  github: 'pilcrow'
+
+- name: 'poole'
+  lang: 'Python'
+  website: 'https://bitbucket.org/obensonne/poole'
+
+- name: 'Punch'
+  lang: 'Node.js'
+  github: 'laktek/punch'
+
+- name: 'Quill'
+  lang: 'Node.js'
+  website: 'https://npmjs.org/package/quill'
+
+- name: 'Rizzo'
+  lang: 'Groovy'
+  github: 'fifthposition/rizzo'
+
+- name: 'romulus'
+  lang: 'Node.js'
+  github: 'felixge/node-romulus'
+
+- name: 'Ruroh'
+  lang: 'language-agnostic'
+  website: 'http://ruhoh.com/'
+
+- name: 'Second Crack'
+  lang: 'PHP'
+  website: 'http://www.marco.org/secondcrack'
+
+- name: 'Socrates'
+  lang: 'Python'
+  website: 'http://honza.ca/socrates/'
+
+- name: 'Speechhub'
+  lang: 'Python'
+  github: 'alvesjnr/speechhub'
+
+- name: 'staticjinja'
+  lang: 'Python'
+  github: 'Ceasar/staticjinja'
+
+- name: 'Tahchee'
+  lang: 'Python'
+  github: 'sebastien/tahchee'
+
+- name: 'Ultra simple Site Maker'
+  lang: 'Ocaml'
+  website: 'http://www.loup-vaillant.fr/projects/ussm/'
+
+- name: 'Website Meta Language'
+  lang: 'C and Perl'
+  website: 'http://www.thewml.org/'
+
+- name: 'Wintersmith'
+  lang: 'Node.js'
+  github: 'wintersmith'
+
+- name: 'wok'
+  lang: 'Python'
+  github: 'mythmon/wok'
+
+- name: 'yassg'
+  lang: 'Node.js'
+  website: 'https://npmjs.org/package/yassg'
+
+- name: 'yst'
+  lang: 'Haskell'
+  github: 'jgm/yst'
