@@ -10,6 +10,7 @@
 - name: 'Bonsai'
   lang: 'Ruby'
   website: 'http://tinytree.info/'
+  github: 'benschwarz/bonsai'
 
 - name: 'Deplot'
   lang: 'Ruby'
@@ -70,10 +71,12 @@
 - name: 'RubyFrontier'
   lang: 'Ruby'
   website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
+  github: 'mattneub/RubyFrontier'
 
 - name: 'Stasis'
   lang: 'Ruby'
   website: 'http://stasis.me/'
+  github: 'winton/stasis'
 
 - name: 'StaticMatic'
   lang: 'Ruby'
@@ -90,6 +93,8 @@
 - name: 'Webby'
   lang: 'Ruby'
   website: 'http://webby.rubyforge.org/'
+  github: 'TwP/webby'
+  # The github repo says "NO LONGER UNDER DEVELOPMENT"
 
 - name: 'webgen'
   lang: 'Ruby'
@@ -102,6 +107,7 @@
 - name: 'ZenWeb'
   lang: 'Ruby'
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
+  github: 'seattlerb/zenweb'
 
 - name: 'acrylamid'
   lang: 'Python'
@@ -114,6 +120,7 @@
 - name: 'Blogofile'
   lang: 'Python'
   website: 'http://www.blogofile.com/'
+  github: 'EnigmaCurry/blogofile'
 
 - name: 'Cactus'
   lang: 'Python'
@@ -126,6 +133,7 @@
 - name: 'coleslaw'
   lang: 'Common Lisp'
   website: 'http://www.cliki.net/coleslaw'
+  github: 'redline6561/coleslaw'
 
 - name: 'Composer'
   lang: 'Python'
@@ -134,6 +142,7 @@
 - name: 'cyrax'
   lang: 'Python'
   website: 'http://pypi.python.org/pypi/cyrax'
+  github: 'piranha/cyrax'
 
 - name: 'FMPP'
   lang: 'Java'
@@ -150,10 +159,12 @@
 - name: 'Hakyll'
   lang: 'Haskell'
   website: 'http://jaspervdj.be/hakyll/'
+  github: 'jaspervdj/hakyll'
 
 - name: 'Hammer'
   lang: 'language-agnostic'
   website: 'http://hammerformac.com/'
+  # This one is closed-source?
 
 - name: 'Hastie'
   lang: 'Go'
@@ -178,10 +189,12 @@
 - name: 'Markdoc'
   lang: 'Python'
   website: 'http://markdoc.org/'
+  github: 'zacharyvoase/markdoc'
 
 - name: 'mynt'
   lang: 'Python'
   website: 'http://mynt.mirroredwhite.com/'
+  github: 'Anomareh/mynt'
 
 - name: 'nanoc'
   lang: 'Ruby'
@@ -191,6 +204,7 @@
 - name: 'Nikola'
   lang: 'Python'
   website: 'http://nikola.ralsina.com.ar/'
+  # Has a google code repo
 
 - name: 'Pagegen'
   lang: 'Bash'
@@ -207,14 +221,17 @@
 - name: 'Phrozn'
   lang: 'PHP'
   website: 'http://phrozn.info'
+  github: 'farazdagi/phrozn'
 
 - name: 'PieCrust'
   lang: 'PHP'
   website: 'http://bolt80.com/piecrust/'
+  github: 'ludovicchabant/piecrust'
 
 - name: 'Pilcrow'
   lang: 'Python'
-  github: 'pilcrow'
+  website: 'http://inky.github.com/pilcrow/'
+  github: 'inky/pilcrow'
 
 - name: 'poole'
   lang: 'Python'
@@ -227,6 +244,7 @@
 - name: 'Quill'
   lang: 'Node.js'
   website: 'https://npmjs.org/package/quill'
+  github: 'theycallmeswift/quill'
 
 - name: 'Rizzo'
   lang: 'Groovy'
@@ -239,14 +257,17 @@
 - name: 'Ruroh'
   lang: 'language-agnostic'
   website: 'http://ruhoh.com/'
+  github: 'ruhoh/ruhoh.rb'
 
 - name: 'Second Crack'
   lang: 'PHP'
   website: 'http://www.marco.org/secondcrack'
+  github: 'marcoarment/secondcrack'
 
 - name: 'Socrates'
   lang: 'Python'
   website: 'http://honza.ca/socrates/'
+  github: 'honza/socrates'
 
 - name: 'Speechhub'
   lang: 'Python'
@@ -279,6 +300,7 @@
 - name: 'yassg'
   lang: 'Node.js'
   website: 'https://npmjs.org/package/yassg'
+  github: 'sma/yassg'
 
 - name: 'yst'
   lang: 'Haskell'
