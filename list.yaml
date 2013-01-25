@@ -282,7 +282,8 @@
 
 - name: 'Wintersmith'
   lang: 'Node.js'
-  github: 'wintersmith'
+  website: 'http://jnordberg.github.com/wintersmith/'
+  github: 'jnordberg/wintersmith'
 
 - name: 'wok'
   lang: 'Python'
