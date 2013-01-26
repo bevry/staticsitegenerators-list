@@ -67,6 +67,10 @@
   language: 'Shell'
   website: 'https://gitorious.org/fugitive'
 
+- name: 'gostatic'
+  language: 'Go'
+  github: 'piranha/gostatic'
+
 - name: 'Graze'
   language: 'C#'
   github: 'mikoskinen/graze'
