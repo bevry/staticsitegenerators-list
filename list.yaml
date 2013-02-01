@@ -227,6 +227,11 @@
   website: 'http://ruhoh.com/'
   github: 'ruhoh/ruhoh.rb'
 
+- name: 'Sculpin'
+  language: 'PHP'
+  website: 'http://sculpin.io/'
+  github: 'sculpin/sculpin'
+
 - name: 'Second Crack'
   language: 'PHP'
   website: 'http://www.marco.org/secondcrack'
