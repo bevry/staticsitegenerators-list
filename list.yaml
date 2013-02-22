@@ -55,6 +55,10 @@
   language: 'Ruby'
   github: '46Bit/fairytale'
 
+- name: 'Floyd'
+  language: 'Python'
+  github: 'nikcub/floyd'
+
 - name: 'FMPP'
   language: 'Java'
   website: 'http://fmpp.sourceforge.net/'
@@ -112,6 +116,10 @@
 - name: 'Korma'
   language: 'Ruby'
   github: 'sandal/korma'
+
+- name: 'Letterpress'
+  language: 'Python'
+  github: 'an0/Letterpress'
 
 - name: 'Machined'
   language: 'Ruby'
