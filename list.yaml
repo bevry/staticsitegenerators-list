@@ -216,6 +216,10 @@
   language: 'Node.js'
   github: 'laktek/punch'
 
+- name: 'Pyll'
+  language: 'Node.js'
+  github: 'arthurk/pyll'
+
 - name: 'Quill'
   language: 'Node.js'
   website: 'https://npmjs.org/package/quill'
