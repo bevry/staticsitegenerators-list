@@ -11,9 +11,17 @@
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
 
+- name: 'bazinga'
+  language: 'Perl'
+  github: 'ap0calypse/bazinga'
+
 - name: 'Blacksmith'
   language: 'Node.js'
   github: 'flatiron/blacksmith'
+
+- name: 'Blatter'
+  language: 'Python'
+  website: 'http://bitbucket.org/jek/blatter'
 
 - name: 'Blogofile'
   language: 'Python'
@@ -79,6 +87,10 @@
   language: 'C#'
   github: 'mikoskinen/graze'
 
+- name: 'Growl'
+  language: 'Python'
+  github: 'xfire/growl'
+
 - name: 'Hakyll'
   language: 'Haskell'
   website: 'http://jaspervdj.be/hakyll/'
@@ -113,9 +125,17 @@
   language: 'Go'
   github: 'drone/jkl'
 
+- name: 'Kerouac'
+  language: 'Node.js'
+  github: 'jaredhanson/kerouac'
+
 - name: 'Korma'
   language: 'Ruby'
   github: 'sandal/korma'
+
+- name: 'Lanyon'
+  language: 'Python'
+  website: 'http://lanyon.readthedocs.org/'
 
 - name: 'Letterpress'
   language: 'Python'
