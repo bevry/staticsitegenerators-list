@@ -105,6 +105,11 @@
   language: 'Go'
   github: 'mkaz/hastie'
 
+- name: 'Hexo'
+  language: 'Node.js'
+  website: 'http://zespia.tw/hexo/'
+  github: 'tommy351/hexo'
+
 - name: 'Hobix'
   language: 'Ruby'
   github: 'hobix/hobix'
