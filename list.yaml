@@ -59,6 +59,10 @@
   language: 'Ruby'
   github: 'cdn64/deplot'
 
+- name: 'DocPad'
+  language: 'Node.js'
+  github: 'bevry/docpad'
+
 - name: 'Fairytale'
   language: 'Ruby'
   github: '46Bit/fairytale'
