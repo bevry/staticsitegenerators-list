@@ -184,7 +184,7 @@
 - name: 'Nikola'
   language: 'Python'
   website: 'http://nikola.ralsina.com.ar/'
-  # Has a google code repo
+  github: 'ralsina/nikola'
 
 - name: 'Pagegen'
   language: 'Bash'
