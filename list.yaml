@@ -226,7 +226,7 @@
   github: 'laktek/punch'
 
 - name: 'Pyll'
-  language: 'Node.js'
+  language: 'Python'
   github: 'arthurk/pyll'
 
 - name: 'Quill'
