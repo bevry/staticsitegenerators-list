@@ -34,6 +34,7 @@ class SSG
     repo = Octokit.repo(@github)
     @created_at ||= repo.created_at
     @github_followers ||= repo.watchers_count
+    @language ||= repo.language
   end
 end
 
@@ -41,4 +42,5 @@ YAML.load_file('list.yaml').take(4).each do |hash|
   ssg = SSG.new(hash)
   puts ssg.name
   puts ssg.maturity
+  puts ssg.language
 end

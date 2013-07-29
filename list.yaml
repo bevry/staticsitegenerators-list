@@ -1,265 +1,203 @@
 - name: 'Ace'
-  language: 'Ruby'
   github: 'botanicus/ace'
 
 - name: 'acrylamid'
-  language: 'Python'
   github: 'posativ/acrylamid'
 
 - name: 'awestruct'
-  language: 'Ruby'
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
 
 - name: 'bazinga'
-  language: 'Perl'
   github: 'ap0calypse/bazinga'
 
 - name: 'Blacksmith'
-  language: 'Node.js'
   github: 'flatiron/blacksmith'
 
 - name: 'Blatter'
-  language: 'Python'
   website: 'http://bitbucket.org/jek/blatter'
 
 - name: 'Blogofile'
-  language: 'Python'
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
 
 - name: 'Bonsai'
-  language: 'Ruby'
   website: 'http://tinytree.info/'
   github: 'benschwarz/bonsai'
 
 - name: 'Cactus'
-  language: 'Python'
   github: 'koenbok/Cactus'
 
 - name: 'Chisel'
-  language: 'Python'
   github: 'dz/chisel'
 
 - name: 'coleslaw'
-  language: 'Common Lisp'
   website: 'http://www.cliki.net/coleslaw'
   github: 'redline6561/coleslaw'
 
 - name: 'Composer'
-  language: 'Python'
   github: 'shazow/composer'
 
 - name: 'cyrax'
-  language: 'Python'
   website: 'http://pypi.python.org/pypi/cyrax'
   github: 'piranha/cyrax'
 
 - name: 'Deplot'
-  language: 'Ruby'
   github: 'cdn64/deplot'
 
 - name: 'DocPad'
-  language: 'Node.js'
   github: 'bevry/docpad'
 
 - name: 'Fairytale'
-  language: 'Ruby'
   github: '46Bit/fairytale'
 
 - name: 'Floyd'
-  language: 'Python'
   github: 'nikcub/floyd'
 
 - name: 'FMPP'
-  language: 'Java'
   website: 'http://fmpp.sourceforge.net/'
 
 - name: 'Frank'
-  language: 'Ruby'
   github: 'blahed/frank'
 
 - name: 'fugitive'
-  language: 'Shell'
   website: 'https://gitorious.org/fugitive'
 
 - name: 'gostatic'
-  language: 'Go'
   github: 'piranha/gostatic'
 
 - name: 'Graze'
-  language: 'C#'
   github: 'mikoskinen/graze'
 
 - name: 'Growl'
-  language: 'Python'
   github: 'xfire/growl'
 
 - name: 'Hakyll'
-  language: 'Haskell'
   website: 'http://jaspervdj.be/hakyll/'
   github: 'jaspervdj/hakyll'
 
 - name: 'Hammer'
-  language: 'language-agnostic'
   website: 'http://hammerformac.com/'
   # This one is closed-source?
 
 - name: 'Hastie'
-  language: 'Go'
   github: 'mkaz/hastie'
 
 - name: 'Hexo'
-  language: 'Node.js'
   website: 'http://zespia.tw/hexo/'
   github: 'tommy351/hexo'
 
 - name: 'Hobix'
-  language: 'Ruby'
   github: 'hobix/hobix'
 
 - name: 'Hyde'
-  language: 'Python'
   github: 'lakshmivyas/hyde'
 
 - name: 'Jekyll'
-  language: 'Ruby'
   github: 'mojombo/jekyll'
 
 - name: 'jinjet'
-  language: 'Python'
   github: 'jokull/jinjet'
 
 - name: 'jkl'
-  language: 'Go'
   github: 'drone/jkl'
 
 - name: 'Kerouac'
-  language: 'Node.js'
   github: 'jaredhanson/kerouac'
 
 - name: 'Korma'
-  language: 'Ruby'
   github: 'sandal/korma'
 
 - name: 'Lanyon'
-  language: 'Python'
   website: 'http://lanyon.readthedocs.org/'
 
 - name: 'Letterpress'
-  language: 'Python'
   github: 'an0/Letterpress'
 
 - name: 'Machined'
-  language: 'Ruby'
   github: 'petebrowne/machined'
 
 - name: 'Magneto'
-  language: 'Ruby'
   github: 'donmelton/magneto'
 
 - name: 'Markbox'
-  language: 'Python'
   github: 'myfreeweb/markbox'
 
 - name: 'Markdoc'
-  language: 'Python'
   website: 'http://markdoc.org/'
   github: 'zacharyvoase/markdoc'
 
 - name: 'Middleman'
-  language: 'Ruby'
   github: 'middleman/middleman'
 
 - name: 'mynt'
-  language: 'Python'
   website: 'http://mynt.mirroredwhite.com/'
   github: 'Anomareh/mynt'
 
 - name: 'nanoc'
-  language: 'Ruby'
   website: 'http://nanoc.stoneship.org/'
   github: 'nanoc/nanoc'
 
 - name: 'Nikola'
-  language: 'Python'
   website: 'http://nikola.ralsina.com.ar/'
   github: 'ralsina/nikola'
 
 - name: 'Pagegen'
-  language: 'Bash'
   website: 'http://pagegen.phnd.net/'
 
 - name: 'Pelican'
-  language: 'Python'
   github: 'ametaireau/pelican'
 
 - name: 'Petrify'
-  language: 'Node.js'
   github: 'caolan/petrify'
 
 - name: 'Phrozn'
-  language: 'PHP'
   website: 'http://phrozn.info'
   github: 'farazdagi/phrozn'
 
 - name: 'PieCrust'
-  language: 'PHP'
   website: 'http://bolt80.com/piecrust/'
   github: 'ludovicchabant/piecrust'
 
 - name: 'Pilcrow'
-  language: 'Python'
   website: 'http://inky.github.com/pilcrow/'
   github: 'inky/pilcrow'
 
 - name: 'Pith'
-  language: 'Ruby'
   github: 'mdub/pith'
 
 - name: 'poole'
-  language: 'Python'
   website: 'https://bitbucket.org/obensonne/poole'
 
 - name: 'Punch'
-  language: 'Node.js'
   github: 'laktek/punch'
 
 - name: 'Pyll'
-  language: 'Node.js'
   github: 'arthurk/pyll'
 
 - name: 'Quill'
-  language: 'Node.js'
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
 
 - name: 'RakeWeb'
-  language: 'Ruby'
   website: 'http://rubyforge.org/projects/rakeweb/'
 
 - name: 'Rassmalog'
-  language: 'Ruby'
   website: 'http://rassmalog.rubyforge.org/'
 
 - name: 'Rizzo'
-  language: 'Groovy'
   github: 'fifthposition/rizzo'
 
 - name: 'Rog'
-  language: 'Ruby'
   website: 'http://rog.rubyforge.org/'
 
 - name: 'romulus'
-  language: 'Node.js'
   github: 'felixge/node-romulus'
 
 - name: 'Rote'
-  language: 'Ruby'
   website: 'http://rote.rubyforge.org/'
 
 - name: 'RubyFrontier'
-  language: 'Ruby'
   website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
   github: 'mattneub/RubyFrontier'
 
@@ -269,61 +207,48 @@
   github: 'ruhoh/ruhoh.rb'
 
 - name: 'Sculpin'
-  language: 'PHP'
   website: 'http://sculpin.io/'
   github: 'sculpin/sculpin'
 
 - name: 'Second Crack'
-  language: 'PHP'
   website: 'http://www.marco.org/secondcrack'
   github: 'marcoarment/secondcrack'
 
 - name: 'Socrates'
-  language: 'Python'
   website: 'http://honza.ca/socrates/'
   github: 'honza/socrates'
 
 - name: 'Speechhub'
-  language: 'Python'
   github: 'alvesjnr/speechhub'
 
 - name: 'Stasis'
-  language: 'Ruby'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
 
 - name: 'staticjinja'
-  language: 'Python'
   github: 'Ceasar/staticjinja'
 
 - name: 'StaticMatic'
-  language: 'Ruby'
   website: 'http://rubyforge.org/projects/staticmatic/'
 
 - name: 'StaticMatic2'
-  language: 'Ruby'
   github: 'mindeavor/staticmatic2'
 
 - name: 'StaticWeb'
-  language: 'Ruby'
   website: 'http://staticweb.rubyforge.org/'
 
 - name: 'Tahchee'
-  language: 'Python'
   github: 'sebastien/tahchee'
 
 - name: 'Ultra simple Site Maker'
-  language: 'Ocaml'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
 
 - name: 'Webby'
-  language: 'Ruby'
   website: 'http://webby.rubyforge.org/'
   github: 'TwP/webby'
   # The github repo says "NO LONGER UNDER DEVELOPMENT"
 
 - name: 'webgen'
-  language: 'Ruby'
   website: 'http://webgen.rubyforge.org/'
 
 - name: 'Website Meta Language'
@@ -331,28 +256,22 @@
   website: 'http://www.thewml.org/'
 
 - name: 'Wintersmith'
-  language: 'Node.js'
   website: 'http://jnordberg.github.com/wintersmith/'
   github: 'jnordberg/wintersmith'
 
 - name: 'wok'
-  language: 'Python'
   github: 'mythmon/wok'
 
 - name: 'yassg'
-  language: 'Node.js'
   website: 'https://npmjs.org/package/yassg'
   github: 'sma/yassg'
 
 - name: 'yst'
-  language: 'Haskell'
   github: 'jgm/yst'
 
 - name: 'Yurt CMS'
-  language: 'Ruby'
   website: 'http://yurtcms.roberthahn.ca/'
 
 - name: 'ZenWeb'
-  language: 'Ruby'
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
   github: 'seattlerb/zenweb'
