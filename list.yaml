@@ -4,6 +4,10 @@
 - name: 'acrylamid'
   github: 'posativ/acrylamid'
 
+- name: 'assemble'
+  website: 'http://assemble.io/'
+  github: 'assemble/assemble'
+
 - name: 'awestruct'
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
