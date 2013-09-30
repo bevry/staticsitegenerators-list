@@ -46,6 +46,7 @@
   github: 'cdn64/deplot'
 
 - name: 'DocPad'
+  website: 'http://docpad.org'
   github: 'bevry/docpad'
 
 - name: 'Fairytale'
