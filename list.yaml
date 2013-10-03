@@ -1,3 +1,13 @@
+---
+
+# Possible license values:
+# "MIT"
+# "BSD" - use for all variations of BSD
+# "Commercial" - use for projects that are sold (shareware) or are closed-source
+# false - use when the license is not revelead
+#
+# If there is another license type that is missing, use its abbreviation and add it here
+
 - name: 'Ace'
   github: 'botanicus/ace'
   license: 'MIT'
@@ -44,7 +54,7 @@
 
 - name: 'Chisel'
   github: 'dz/chisel'
-  license: null
+  license: false
 
 - name: 'coleslaw'
   website: 'http://www.cliki.net/coleslaw'
