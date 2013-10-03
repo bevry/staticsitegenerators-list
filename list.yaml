@@ -241,7 +241,7 @@
   github: 'Ceasar/staticjinja'
 
 - name: 'StaticMatic'
-  website: 'http://rubyforge.org/projects/staticmatic/'
+  github: 'staticmatic/staticmatic'
 
 - name: 'StaticMatic2'
   github: 'mindeavor/staticmatic2'
