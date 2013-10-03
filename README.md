@@ -1,4 +1,4 @@
-# Static Site Generator
+# Static Site Generators Listing
 
 A comprehensive listing of static site generators with some minimal meta data about them.
 
