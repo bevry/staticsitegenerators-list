@@ -110,6 +110,7 @@
 - name: 'Hyde'
   github: 'hyde/hyde'
   website: 'http://hyde.github.io/'
+  license: 'MIT'
 
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
