@@ -22,6 +22,7 @@
   github: 'botanicus/ace'
   license: 'MIT'
 
+
 - name: 'acrylamid'
   github: 'posativ/acrylamid'
   license: 'BSD'
@@ -254,6 +255,7 @@
 
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
+  github: 'obensonne/poole'
 
 - name: 'Punch'
   github: 'laktek/punch'
