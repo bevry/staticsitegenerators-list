@@ -268,7 +268,7 @@
   github: 'honza/socrates'
 
 - name: 'Speechhub'
-  github: 'alvesjnr/speechhub'
+  github: 'python-mg/speechhub'
 
 - name: 'Stasis'
   website: 'http://stasis.me/'
