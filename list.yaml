@@ -1,39 +1,50 @@
 - name: 'Ace'
   github: 'botanicus/ace'
+  license: 'MIT'
 
 - name: 'acrylamid'
   github: 'posativ/acrylamid'
+  license: 'BSD'
 
 - name: 'assemble'
   website: 'http://assemble.io/'
   github: 'assemble/assemble'
+  license: 'MIT'
 
 - name: 'awestruct'
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
+  license: 'MIT'
 
 - name: 'bazinga'
   github: 'ap0calypse/bazinga'
+  license: 'GPL'
 
 - name: 'Blacksmith'
   github: 'flatiron/blacksmith'
+  license: 'MIT'
 
 - name: 'Blatter'
   website: 'http://bitbucket.org/jek/blatter'
+  license: 'MIT'
 
 - name: 'Blogofile'
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
+  license: 'MIT'
 
 - name: 'Bonsai'
   website: 'http://tinytree.info/'
   github: 'benschwarz/bonsai'
+  license: 'MIT'
 
 - name: 'Cactus'
   github: 'koenbok/Cactus'
+  license: 'BSD'
 
 - name: 'Chisel'
   github: 'dz/chisel'
+  license: 'Unknown'
 
 - name: 'coleslaw'
   website: 'http://www.cliki.net/coleslaw'
@@ -52,6 +63,7 @@
 - name: 'DocPad'
   website: 'http://docpad.org'
   github: 'bevry/docpad'
+  license: 'MIT'
 
 - name: 'Fairytale'
   github: '46Bit/fairytale'
@@ -83,7 +95,7 @@
 
 - name: 'Hammer'
   website: 'http://hammerformac.com/'
-  # This one is closed-source?
+  license: 'Commercial'
 
 - name: 'Hastie'
   github: 'mkaz/hastie'
@@ -236,6 +248,7 @@
 
 - name: 'Statamic'
   website: 'http://www.statamic.com/'
+  license: 'Commercial'
 
 - name: 'staticjinja'
   github: 'Ceasar/staticjinja'
