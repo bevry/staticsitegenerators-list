@@ -236,7 +236,6 @@
   github: 'mattneub/RubyFrontier'
 
 - name: 'Ruhoh'
-  language: 'language-agnostic'
   website: 'http://ruhoh.com/'
   github: 'ruhoh/ruhoh.rb'
 
@@ -290,7 +289,6 @@
   website: 'http://webgen.rubyforge.org/'
 
 - name: 'Website Meta Language'
-  language: 'C and Perl'
   website: 'http://www.thewml.org/'
 
 - name: 'Wintersmith'
