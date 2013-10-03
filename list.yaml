@@ -69,6 +69,7 @@
 - name: 'coleslaw'
   website: 'http://www.cliki.net/coleslaw'
   github: 'redline6561/coleslaw'
+  license: 'BSD'
 
 - name: 'Composer'
   github: 'shazow/composer'
@@ -77,9 +78,11 @@
 - name: 'cyrax'
   website: 'http://pypi.python.org/pypi/cyrax'
   github: 'piranha/cyrax'
+  license: 'BSD'
 
 - name: 'Deplot'
   github: 'cdn64/deplot'
+  license: 'MIT'
 
 - name: 'DocPad'
   website: 'http://docpad.org'
@@ -88,27 +91,35 @@
 
 - name: 'Fairytale'
   github: '46Bit/fairytale'
+  license: 'MIT'
 
 - name: 'Floyd'
   github: 'nikcub/floyd'
+  license: 'BSD'
 
 - name: 'FMPP'
   website: 'http://fmpp.sourceforge.net/'
+  license: 'BSD'
 
 - name: 'Frank'
   github: 'blahed/frank'
+  license: 'MIT'
 
 - name: 'fugitive'
   website: 'https://gitorious.org/fugitive'
+  license: 'GNU'
 
 - name: 'gostatic'
   github: 'piranha/gostatic'
-
+  license: 'ISC'
+  
 - name: 'Graze'
   github: 'mikoskinen/graze'
-
+  license: 'MIT'
+  
 - name: 'Growl'
   github: 'xfire/growl'
+  license: 'GPL'
 
 - name: 'Hakyll'
   website: 'http://jaspervdj.be/hakyll/'
@@ -125,6 +136,7 @@
 - name: 'Hexo'
   website: 'http://zespia.tw/hexo/'
   github: 'tommy351/hexo'
+  license: 'MIT'
 
 - name: 'Hobix'
   github: 'hobix/hobix'
@@ -141,15 +153,19 @@
 
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
+  license: 'MIT'
 
 - name: 'jinjet'
   github: 'jokull/jinjet'
+  license: 'ISC'
 
 - name: 'jkl'
   github: 'drone/jkl'
+  license: 'MIT'
 
 - name: 'Kerouac'
   github: 'jaredhanson/kerouac'
+  license: 'MIT'
 
 - name: 'Kirby'
   website: 'http://getkirby.com/'
@@ -157,18 +173,26 @@
 
 - name: 'Korma'
   github: 'sandal/korma'
+  license: false
+  
 
 - name: 'Lanyon'
   website: 'http://lanyon.readthedocs.org/'
+  license: 'BSD'
+  
 
 - name: 'Letterpress'
   github: 'an0/Letterpress'
+  license: 'BSD'
+  
 
 - name: 'Machined'
   github: 'petebrowne/machined'
+  license: 'MIT'
 
 - name: 'Magneto'
   github: 'donmelton/magneto'
+  license: 'MIT'
 
 - name: 'Markbox'
   github: 'myfreeweb/markbox'
@@ -176,54 +200,68 @@
 - name: 'Markdoc'
   website: 'http://markdoc.org/'
   github: 'zacharyvoase/markdoc'
+  license: 'Unlicense'
 
 - name: 'Middleman'
   github: 'middleman/middleman'
+  license: 'MIT'
 
 - name: 'mynt'
   website: 'http://mynt.mirroredwhite.com/'
   github: 'Anomareh/mynt'
+  license: 'BSD'
 
 - name: 'nanoc'
   website: 'http://nanoc.stoneship.org/'
   github: 'nanoc/nanoc'
+  license: 'MIT'
 
 - name: 'Nikola'
   website: 'http://nikola.ralsina.com.ar/'
   github: 'getnikola/nikola'
+  license: 'MIT'
+  
 
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
 
 - name: 'Pelican'
   github: 'getpelican/pelican'
+  license: 'GNU'
 
 - name: 'Petrify'
   github: 'caolan/petrify'
+  license: 'MIT'
 
 - name: 'Phrozn'
   website: 'http://phrozn.info'
   github: 'farazdagi/phrozn'
+  license: 'Apache'
 
 - name: 'PieCrust'
   website: 'http://bolt80.com/piecrust/'
   github: 'ludovicchabant/piecrust'
+  license: 'Apache'
 
 - name: 'Pilcrow'
   website: 'http://inky.github.com/pilcrow/'
   github: 'inky/pilcrow'
+  license: 'MIT'
 
 - name: 'Pith'
   github: 'mdub/pith'
+  
 
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
 
 - name: 'Punch'
   github: 'laktek/punch'
+  license: 'MIT'
 
 - name: 'Pyll'
   github: 'arthurk/pyll'
+  license: 'BSD'
 
 - name: 'Quill'
   website: 'https://npmjs.org/package/quill'
@@ -231,9 +269,11 @@
 
 - name: 'RakeWeb'
   website: 'http://rubyforge.org/projects/rakeweb/'
+  license: 'Creative Commons' 
 
 - name: 'Rassmalog'
   website: 'http://rassmalog.rubyforge.org/'
+  license: 'MIT'
 
 - name: 'Rizzo'
   github: 'fifthposition/rizzo'
@@ -243,36 +283,45 @@
 
 - name: 'romulus'
   github: 'felixge/node-romulus'
+  license: 'MIT'
 
 - name: 'Rote'
   website: 'http://rote.rubyforge.org/'
+  license: 'MIT'
 
 - name: 'RubyFrontier'
   website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
   github: 'mattneub/RubyFrontier'
+  license: 'MIT'
 
 - name: 'Ruhoh'
   website: 'http://ruhoh.com/'
   github: 'ruhoh/ruhoh.rb'
+  license: 'MIT'
 
 - name: 'Sculpin'
   website: 'http://sculpin.io/'
   github: 'sculpin/sculpin'
+  license: 'MIT'
 
 - name: 'Second Crack'
   website: 'http://www.marco.org/secondcrack'
   github: 'marcoarment/secondcrack'
+  license: 'BSD'
 
 - name: 'Socrates'
   website: 'http://honza.ca/socrates/'
   github: 'honza/socrates'
+  license: 'BSD'
 
 - name: 'Speechhub'
-  github: 'python-mg/speechhub'
+  github: 'alvesjnr/speechhub'
+  license: 'GNU'
 
 - name: 'Stasis'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
+  license: 'MIT'
 
 - name: 'Statamic'
   website: 'http://www.statamic.com/'
@@ -280,45 +329,57 @@
 
 - name: 'staticjinja'
   github: 'Ceasar/staticjinja'
+  license: 'MIT'
 
 - name: 'StaticMatic'
   github: 'staticmatic/staticmatic'
+  license: 'MIT'
 
 - name: 'StaticMatic2'
   github: 'mindeavor/staticmatic2'
+  license: 'MIT'
 
 - name: 'StaticWeb'
   website: 'http://staticweb.rubyforge.org/'
+  license: 'Ruby'
 
 - name: 'Tahchee'
   github: 'sebastien/tahchee'
+  license: 'BSD'
 
 - name: 'Ultra simple Site Maker'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
+  license: 'GNU'
 
 - name: 'Webby'
   website: 'http://webby.rubyforge.org/'
   github: 'TwP/webby'
+  license: 'MIT'
 
 - name: 'webgen'
   website: 'http://webgen.rubyforge.org/'
 
 - name: 'Website Meta Language'
   website: 'http://www.thewml.org/'
+  license: 'GNU'
 
 - name: 'Wintersmith'
   website: 'http://jnordberg.github.com/wintersmith/'
   github: 'jnordberg/wintersmith'
+  license: 'MIT'
 
 - name: 'wok'
   github: 'mythmon/wok'
+  license: 'MIT'
 
 - name: 'yassg'
   website: 'https://npmjs.org/package/yassg'
   github: 'sma/yassg'
+  license: 'BSD'
 
 - name: 'yst'
   github: 'jgm/yst'
+  license: 'GNU'
 
 - name: 'Yurt CMS'
   website: 'http://yurtcms.roberthahn.ca/'
@@ -326,3 +387,4 @@
 - name: 'ZenWeb'
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
   github: 'seattlerb/zenweb'
+  license: 'MIT'
