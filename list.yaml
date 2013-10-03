@@ -3,6 +3,7 @@
 # Possible license values:
 # "MIT"
 # "BSD" - use for all variations of BSD
+# "GPL" - use for all variations of GPL
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # false - use when the license is not revelead
 #
