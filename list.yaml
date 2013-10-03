@@ -18,6 +18,11 @@
 # If a project is defunct, still keep/add it, this is meant to be a definitive listing
 # and we will fetch in the activity of the project automatically outside of this listing
 
+- name: '{ :awestruct }'
+  website: 'http://awestruct.org/'
+  github: 'awestruct/awestruct'
+  license: 'Apache'
+
 - name: 'Ace'
   github: 'botanicus/ace'
   license: 'MIT'
@@ -37,6 +42,10 @@
   github: 'awestruct/awestruct'
   license: 'MIT'
 
+- name: 'bashblog'
+  github: 'carlesfe/bashblog'
+  
+  
 - name: 'bazinga'
   github: 'ap0calypse/bazinga'
   license: 'GPL'
@@ -45,6 +54,10 @@
   github: 'flatiron/blacksmith'
   license: 'MIT'
 
+- name: 'BlazeBlogger'
+  website: 'http://blaze.blackened.cz/'
+  
+  
 - name: 'Blatter'
   website: 'http://bitbucket.org/jek/blatter'
   license: 'MIT'
@@ -53,15 +66,39 @@
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
   license: 'MIT'
+  
+- name: 'blosxom'
+  website: 'http://blosxom.sourceforge.net/'
+  github: ''
+  license: 'MIT'
 
 - name: 'Bonsai'
   website: 'http://tinytree.info/'
   github: 'benschwarz/bonsai'
   license: 'MIT'
 
+- name: 'Brace'
+  webiste: 'http://brace.io/'
+
+- name: 'brochure'
+  github: 'sstephenson/brochure'
+  license: 'MIT'
+  
 - name: 'Cactus'
   github: 'koenbok/Cactus'
   license: 'BSD'
+
+- name: 'Calepin'
+  website: 'http://calepin.co/'
+  github: 'jokull/calepin'
+  license: 'ISC'
+  
+- name: 'cavy'
+  github: 'alxlit/cavy'
+  
+- name: 'Chili'
+  website: 'http://chilipy.com/'
+  github: 'clvrobj/chili'
 
 - name: 'Chisel'
   github: 'dz/chisel'
@@ -76,6 +113,9 @@
   github: 'shazow/composer'
   license: 'MIT'
 
+- name: 'cub'
+  github: 'patcoll/cub'
+  license: 'MIT'
 - name: 'cyrax'
   website: 'http://pypi.python.org/pypi/cyrax'
   github: 'piranha/cyrax'
@@ -90,9 +130,28 @@
   github: 'bevry/docpad'
   license: 'MIT'
 
+- name: 'Drapache'
+  github: 'louissobel/Drapache'
+  licesne: 'MIT'
+  
+- name: 'DropPages'
+  website: 'http://droppages.com/'
+  
+  
+- name: 'Drop-a-Site'
+  github: 'herschel666/Drop-a-Site'
+  
+
+- name: 'dynamicmatic'
+  github: 'nex3/dynamicmatic'
+  
+  
 - name: 'Fairytale'
   github: '46Bit/fairytale'
   license: 'MIT'
+  
+- name: 'FantasticWindmill' 
+  github: 'sylvainhalle/FantasticWindmill'
 
 - name: 'Floyd'
   github: 'nikcub/floyd'
@@ -109,10 +168,21 @@
 - name: 'fugitive'
   website: 'https://gitorious.org/fugitive'
   license: 'GNU'
+  
+- name: 'Gen'
+  github: 'trq/Gen'
+  
+- name: 'gollum-site'
+  github: 'dreverri/gollum-site'
 
 - name: 'gostatic'
   github: 'piranha/gostatic'
   license: 'ISC'
+
+
+- name: 'Gravity'
+  github: 'owainlewis/gravity'
+  
   
 - name: 'Graze'
   github: 'mikoskinen/graze'
@@ -139,6 +209,19 @@
   github: 'tommy351/hexo'
   license: 'MIT'
 
+- name: 'High Voltage'
+  github: 'thoughtbot/high_voltage'
+  license: 'MIT'
+
+- name: 'Hugo'
+  website: 'http://hugo.spf13.com/'
+  github: 'spf13/hugo'
+  license: 'SPL'
+  
+- name: 'Hydrastic'
+  github: 'bpizzi/Hydrastic'
+  license: 'MIT'
+  
 - name: 'Hobix'
   github: 'hobix/hobix'
 
@@ -151,6 +234,12 @@
   github: 'joeyh/ikiwiki'
   website: 'http://ikiwiki.info/'
   license: 'GPL'
+
+- name: 'JBake'
+  website: 'http://jbake.org/'
+  github: 'jonbullock/JBake'
+  license: 'MIT'
+  
 
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
@@ -171,6 +260,10 @@
 - name: 'Kirby'
   website: 'http://getkirby.com/'
   github: 'bastianallgeier/kirbycms'
+  
+- name: 'KISSr'
+  website: 'http://www.kissr.com/'
+  
 
 - name: 'Korma'
   github: 'sandal/korma'
@@ -181,12 +274,29 @@
   website: 'http://lanyon.readthedocs.org/'
   license: 'BSD'
   
+- name: 'Laze'
+  website: 'http://avdgaag.github.io/laze/'
+  github: 'avdgaag/laze'
+  license: 'MIT'
+
+- name: 'Leo'
+  website: 'http://leohtml.sourceforge.net/'
+  license: 'GNU'
 
 - name: 'Letterpress'
   github: 'an0/Letterpress'
   license: 'BSD'
   
+- name: 'LiveReload'
+  github: 'livereload/LiveReload'
+  license: 'MIT'
 
+- name: 'lilac'
+  website: 'https://lilac.readthedocs.org/en/latest/index.html'
+  github: 'hit9/lilac'
+  license: 'MIT'
+  
+  
 - name: 'Machined'
   github: 'petebrowne/machined'
   license: 'MIT'
@@ -203,20 +313,67 @@
   github: 'zacharyvoase/markdoc'
   license: 'Unlicense'
 
+- name: 'massimo'
+  github: 'petebrowne/massimo'
+  license: 'MIT'
+  
+  
+- name: 'Miblo'
+  github: 'rafalp/Miblo'
+  license: 'BSD'
+  
+- name: 'misaki'  
+  website: 'http://liquidz.github.io/misaki/'
+  github: 'liquidz/misaki'
+  license: 'EPL'
+  
+- name: 'meinhof'
+  github: 'miguelibero/meinhof'
+  license: 'MIT'
+
 - name: 'Middleman'
   github: 'middleman/middleman'
   license: 'MIT'
+  
+  
+- name: 'Mixture'
+  website: 'http://mixture.io/'
+  license: 'Commercial'
 
+- name: 'monkeyman'
+  github: 'wspringer/monkeyman'
+  license: 'GNU'
+  
+  
+  
 - name: 'mynt'
   website: 'http://mynt.mirroredwhite.com/'
   github: 'Anomareh/mynt'
   license: 'BSD'
 
+- name: 'NanoBlogger'
+  website: 'http://nanoblogger.sourceforge.net/'
+  license: 'GNU'
+
 - name: 'nanoc'
   website: 'http://nanoc.stoneship.org/'
   github: 'nanoc/nanoc'
   license: 'MIT'
+  
+- name: 'NestaCMS'
+  website: 'http://nestacms.com/'
+  github: 'gma/nesta'
+  license: 'MIT'
+  
+- name: 'Nibbleblog'  
+  website: 'http://nibbleblog.com/'
+  github: 'dignajar/nibbleblog'
+  license: 'GNU'
 
+- name: 'Octopress'  
+  website: 'http://octopress.org/'
+  
+  
 - name: 'Nikola'
   website: 'http://nikola.ralsina.com.ar/'
   github: 'getnikola/nikola'
@@ -225,6 +382,11 @@
 
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
+  
+- name: 'Pancake.io'
+  website: 'http://pancakestacks.wordpress.com/'
+  github: 'https://github.com/hassox/pancake'
+  license: 'MIT'
 
 - name: 'Pelican'
   github: 'getpelican/pelican'
@@ -234,6 +396,11 @@
   github: 'caolan/petrify'
   license: 'MIT'
 
+- name: 'phase'
+  github: 'AD7six/phase'
+  license: 'MIT'
+  
+  
 - name: 'Phrozn'
   website: 'http://phrozn.info'
   github: 'farazdagi/phrozn'
@@ -261,6 +428,8 @@
   github: 'laktek/punch'
   license: 'MIT'
 
+- name: 'Purepress'
+
 - name: 'Pyll'
   github: 'arthurk/pyll'
   license: 'BSD'
@@ -276,6 +445,10 @@
 - name: 'Rassmalog'
   website: 'http://rassmalog.rubyforge.org/'
   license: 'MIT'
+
+
+- name: 'regenerate'
+ 
 
 - name: 'Rizzo'
   github: 'fifthposition/rizzo'
@@ -301,16 +474,59 @@
   github: 'ruhoh/ruhoh.rb'
   license: 'MIT'
 
+- name: 'Scriptogr.am'
+  website: 'http://scriptogr.am/'
+  
+
+- name: 'shelob'
+  github: 'rubyworks/shelob'
+  license: 'BSD'
+
+- name: 'Site builder console'
+  website: 'http://sitebuilder.codeplex.com/'
+  license: 'MIT'
+  
+- name: 'Site builder'
+  github: 'inanimatt/site-builder'
+  license: 'MIT'
+
+- name: 'SiteMaker'
+
+- name: 'Site44'
+  website: 'http://www.site44.com/'
+
 - name: 'Sculpin'
   website: 'http://sculpin.io/'
   github: 'sculpin/sculpin'
   license: 'MIT'
-
+  
+- name: 'Serve'  
+  website: 'http://get-serve.com/'
+  github: 'jlong/serve'
+  license: 'MIT'
+  
 - name: 'Second Crack'
   website: 'http://www.marco.org/secondcrack'
   github: 'marcoarment/secondcrack'
   license: 'BSD'
 
+- name: 'serif'
+  website: 'https://aprescott.com/posts/serif'
+  github: 'aprescott/serif'
+  license: 'MIT'
+
+- name: 'SG'
+  github: 'maxailloud/SG'
+  license: 'Public'
+  
+- name: 'simple-static'
+  
+
+- name: 'snowshoe'
+  website: 'http://getsnowshoe.com/index.html'
+  github: 'edvanbeinum/snowshoe'
+  
+  
 - name: 'Socrates'
   website: 'http://honza.ca/socrates/'
   github: 'honza/socrates'
@@ -329,6 +545,12 @@
   website: 'http://www.statamic.com/'
   license: 'Commercial'
 
+
+- name: 'static'
+  website: 'http://nakkaya.com/static.html'
+  github: 'nakkaya/static'
+  license: 'EPL'
+  
 - name: 'staticjinja'
   github: 'Ceasar/staticjinja'
   license: 'MIT'
@@ -344,15 +566,46 @@
 - name: 'StaticWeb'
   website: 'http://staticweb.rubyforge.org/'
   license: 'Ruby'
+  
+- name: 'sg'
+  website: 'http://nibble.develsec.org/projects/sw.html'
+  
+
 
 - name: 'Tahchee'
   github: 'sebastien/tahchee'
   license: 'BSD'
+  
+- name: 'Telegram'
+  website: 'https://telegr.am/'
+  
+- name: 'Templer'
+  github: 'skx/templer'
+  license: 'GNU'
+  
+- name: 'Tempo'
+
+- name: 'toto'
+  github: 'cloudhead/toto'
+  license: 'MIT'
 
 - name: 'Ultra simple Site Maker'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
   license: 'GNU'
 
+- name: 'vee'
+  website: 'http://estrabd.github.io/vee/'
+  github: 'estrabd/vee'
+  
+  
+- name: 'vimwiki'
+  github: 'vim-scripts/vimwiki'
+  license: 'MIT'
+  
+- name: 'wadoo'
+  github: 'alpacaaa/wadoo'
+  license: 'Public'
+  
 - name: 'Webby'
   website: 'http://webby.rubyforge.org/'
   github: 'TwP/webby'
@@ -365,6 +618,11 @@
   website: 'http://www.thewml.org/'
   license: 'GNU'
 
+- name: 'Werc'
+  website: 'http://werc.cat-v.org/'
+  github: 'Knorkebrot/werc'
+  license: 'MIT'
+  
 - name: 'Wintersmith'
   website: 'http://jnordberg.github.com/wintersmith/'
   github: 'jnordberg/wintersmith'
