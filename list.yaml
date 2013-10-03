@@ -132,6 +132,11 @@
   website: 'http://hyde.github.io/'
   license: 'MIT'
 
+- name: 'Ikiwiki'
+  github: 'joeyh/ikiwiki'
+  website: 'http://ikiwiki.info/'
+  license: 'GPL'
+
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
 
