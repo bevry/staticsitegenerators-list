@@ -155,7 +155,7 @@
   website: 'http://pagegen.phnd.net/'
 
 - name: 'Pelican'
-  github: 'ametaireau/pelican'
+  github: 'getpelican/pelican'
 
 - name: 'Petrify'
   github: 'caolan/petrify'
