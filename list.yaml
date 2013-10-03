@@ -108,7 +108,8 @@
   github: 'hobix/hobix'
 
 - name: 'Hyde'
-  github: 'lakshmivyas/hyde'
+  github: 'hyde/hyde'
+  website: 'http://hyde.github.io/'
 
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
