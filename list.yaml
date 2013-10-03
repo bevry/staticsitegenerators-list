@@ -1,5 +1,11 @@
 ---
 
+# Accepted project fields:
+# name - the project's name
+# github - the user/project part of the github location
+# website - their website if they have one
+# license - the project's license (or lack of license), see license values below
+
 # Possible license values:
 # "MIT"
 # "BSD" - use for all variations of BSD
