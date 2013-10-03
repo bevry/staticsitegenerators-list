@@ -9,7 +9,7 @@
 #
 # If there is another license type that is missing, use its abbreviation and add it here
 
-# If the project is defunct, still keep/add it, this is meant to be a definitive listing
+# If a project is defunct, still keep/add it, this is meant to be a definitive listing
 # and we will fetch in the activity of the project automatically outside of this listing
 
 - name: 'Ace'
