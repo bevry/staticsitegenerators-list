@@ -69,7 +69,6 @@
   
 - name: 'blosxom'
   website: 'http://blosxom.sourceforge.net/'
-  github: ''
   license: 'MIT'
 
 - name: 'Bonsai'
@@ -78,7 +77,7 @@
   license: 'MIT'
 
 - name: 'Brace'
-  webiste: 'http://brace.io/'
+  website: 'http://brace.io/'
 
 - name: 'brochure'
   github: 'sstephenson/brochure'
