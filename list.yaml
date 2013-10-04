@@ -319,7 +319,8 @@
 
 - name: 'Hobix'
   github: 'hobix/hobix'
-  license: false
+  license: 'MIT'
+
 
 - name: 'Hyde'
   github: 'hyde/hyde'
