@@ -847,6 +847,10 @@
   github: 'cloudhead/toto'
   license: 'MIT'
 
+- name: 'trofaf'
+  github: 'PuerkitoBio/trofaf'
+  license: 'BSD'
+
 
 - name: 'Ultra simple Site Maker'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
