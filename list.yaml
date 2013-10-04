@@ -730,7 +730,7 @@
   
   
 - name: 'simple-static'
-  githb: 'wlangstroth/simple-static'
+  github: 'wlangstroth/simple-static'
   license: false
 
 
