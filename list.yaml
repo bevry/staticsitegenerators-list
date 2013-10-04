@@ -523,7 +523,8 @@
 
 - name: 'Octopress'
   website: 'http://octopress.org/'
-  license: false
+  github: 'imathis/octopress'
+  license: 'MIT'
 
 
 - name: 'Nikola'
