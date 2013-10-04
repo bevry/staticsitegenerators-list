@@ -44,7 +44,7 @@
 
 - name: 'bashblog'
   github: 'carlesfe/bashblog'
-  
+  license: false
   
 - name: 'bazinga'
   github: 'ap0calypse/bazinga'
@@ -56,7 +56,7 @@
 
 - name: 'BlazeBlogger'
   website: 'http://blaze.blackened.cz/'
-  
+  license: false
   
 - name: 'Blatter'
   website: 'http://bitbucket.org/jek/blatter'
@@ -103,6 +103,10 @@
   github: 'dz/chisel'
   license: false
 
+- name: 'Cipherpress'
+  github: 'lejonet/Cipherpress'
+  license: 'GPL'
+
 - name: 'coleslaw'
   website: 'http://www.cliki.net/coleslaw'
   github: 'redline6561/coleslaw'
@@ -115,6 +119,8 @@
 - name: 'cub'
   github: 'patcoll/cub'
   license: 'MIT'
+  
+  
 - name: 'cyrax'
   website: 'http://pypi.python.org/pypi/cyrax'
   github: 'piranha/cyrax'
@@ -122,6 +128,10 @@
 
 - name: 'Deplot'
   github: 'cdn64/deplot'
+  license: 'MIT'
+
+- name: django-medusa
+  github: 'mtigas/django-medusa'
   license: 'MIT'
 
 - name: 'DocPad'
@@ -143,6 +153,16 @@
 
 - name: 'dynamicmatic'
   github: 'nex3/dynamicmatic'
+
+- name: 'Elyse'
+  github: 'FSX/elyse'
+  license: 'MIT'
+
+  
+- name: 'Engineer'
+  website: 'http://engineer.readthedocs.org/en/latest/'
+  github: 'tylerbutler/engineer'
+  license: 'MIT'
   
   
 - name: 'Fairytale'
@@ -152,10 +172,17 @@
 - name: 'FantasticWindmill' 
   github: 'sylvainhalle/FantasticWindmill'
 
+- name: 'fjord'
+  website: 'http://dkuntz2.github.io/fjord/'
+  github: 'dkuntz2/fjord'
+  license: 'BSD'
+
 - name: 'Floyd'
   github: 'nikcub/floyd'
   license: 'BSD'
 
+
+- name: 'Firedrop2'
 - name: 'FMPP'
   website: 'http://fmpp.sourceforge.net/'
   license: 'BSD'
@@ -164,13 +191,22 @@
   github: 'blahed/frank'
   license: 'MIT'
 
+- name: 'Frozen-Flask'
+  website: 'http://pythonhosted.org/Frozen-Flask/'
+  github: 'SimonSapin/Frozen-Flask'
+  license: 'BSD'
+  
 - name: 'fugitive'
   website: 'https://gitorious.org/fugitive'
   license: 'GNU'
   
 - name: 'Gen'
   github: 'trq/Gen'
-  
+
+- name: 'glynn'
+  github: 'teiko/glynn'
+  license: 'MIT'
+
 - name: 'gollum-site'
   github: 'dreverri/gollum-site'
 
@@ -199,6 +235,9 @@
 - name: 'Hammer'
   website: 'http://hammerformac.com/'
   license: 'Commercial'
+
+- name: 'handcrank'
+  website: ''
 
 - name: 'Hastie'
   github: 'mkaz/hastie'
@@ -229,6 +268,11 @@
   website: 'http://hyde.github.io/'
   license: 'MIT'
 
+- name: 'igor'
+  github: 'aconbere/igor'
+  license: false
+  
+  
 - name: 'Ikiwiki'
   github: 'joeyh/ikiwiki'
   website: 'http://ikiwiki.info/'
@@ -243,6 +287,9 @@
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
   license: 'MIT'
+
+- name: 'jinja'
+  website: 'http://jinja.pocoo.org/'
 
 - name: 'jinjet'
   github: 'jokull/jinjet'
@@ -281,10 +328,11 @@
 - name: 'Leo'
   website: 'http://leohtml.sourceforge.net/'
   license: 'GNU'
-
-- name: 'Letterpress'
-  github: 'an0/Letterpress'
-  license: 'BSD'
+  
+- name: 'lightning'
+  github: 'borismus/lightning'
+  license: false
+  
   
 - name: 'LiveReload'
   github: 'livereload/LiveReload'
@@ -304,8 +352,13 @@
   github: 'donmelton/magneto'
   license: 'MIT'
 
+- name: 'Mako'
+  website: 'http://www.makotemplates.org/'
+  license: 'MIT'
+
 - name: 'Markbox'
   github: 'myfreeweb/markbox'
+  license: false
 
 - name: 'Markdoc'
   website: 'http://markdoc.org/'
@@ -363,6 +416,10 @@
   website: 'http://nestacms.com/'
   github: 'gma/nesta'
   license: 'MIT'
+
+- name: 'nib'
+  github: 'jreese/nib'
+  license: 'MIT'
   
 - name: 'Nibbleblog'  
   website: 'http://nibbleblog.com/'
@@ -371,7 +428,7 @@
 
 - name: 'Octopress'  
   website: 'http://octopress.org/'
-  
+  license: false
   
 - name: 'Nikola'
   website: 'http://nikola.ralsina.com.ar/'
@@ -379,8 +436,15 @@
   license: 'MIT'
   
 
+- name: 'obraz'
+  website: 'http://obraz.pirx.ru/'
+  license: 'CCL'
+  
+  
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
+  license: false
+  
   
 - name: 'Pancake.io'
   website: 'http://pancakestacks.wordpress.com/'
@@ -417,7 +481,7 @@
 
 - name: 'Pith'
   github: 'mdub/pith'
-  
+  license: false  
 
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
@@ -428,6 +492,13 @@
   license: 'MIT'
 
 - name: 'Purepress'
+  github: 'megakote/purepress'
+  license: 'CC'
+  
+- name: 'PyBlosxom'
+  website: 'http://pyblosxom.github.io/'
+  github: 'pyblosxom/pyblosxom'
+  license: 'CC0'
 
 - name: 'Pyll'
   github: 'arthurk/pyll'
@@ -462,6 +533,10 @@
 - name: 'Rote'
   website: 'http://rote.rubyforge.org/'
   license: 'MIT'
+  
+- name: 'rstblog'
+  github: 'mitsuhiko/rstblog'
+  license: 'BSD'
 
 - name: 'RubyFrontier'
   website: 'http://www.apeth.com/RubyFrontierDocs/default.html'
@@ -493,7 +568,8 @@
 
 - name: 'Site44'
   website: 'http://www.site44.com/'
-
+  license: 'Comercial'
+  
 - name: 'Sculpin'
   website: 'http://sculpin.io/'
   github: 'sculpin/sculpin'
@@ -514,12 +590,19 @@
   github: 'aprescott/serif'
   license: 'MIT'
 
+- name: 'serious-chicken'
+  website: 'http://rtorr.github.io/serious-chicken/'
+  github: 'rtorr/serious-chicken'
+  license: false
+  
+  
 - name: 'SG'
   github: 'maxailloud/SG'
   license: 'Public'
   
 - name: 'simple-static'
-  
+  githb: 'wlangstroth/simple-static'
+  license: false
 
 - name: 'snowshoe'
   website: 'http://getsnowshoe.com/index.html'
@@ -534,6 +617,10 @@
 - name: 'Speechhub'
   github: 'python-mg/speechhub'
   license: 'GNU'
+
+- name: 'Sphinx'
+  website: 'http://sphinx-doc.org/'
+
 
 - name: 'Stasis'
   website: 'http://stasis.me/'
@@ -565,11 +652,12 @@
 - name: 'StaticWeb'
   website: 'http://staticweb.rubyforge.org/'
   license: 'Ruby'
-  
-- name: 'sg'
-  website: 'http://nibble.develsec.org/projects/sw.html'
-  
 
+- name: 'StrangeCase'
+  website: 'http://colinta.com/projects/StrangeCase.html'
+  github: 'colinta/StrangeCase'
+  license: 'BSD'
+  
 
 - name: 'Tahchee'
   github: 'sebastien/tahchee'
@@ -577,13 +665,17 @@
   
 - name: 'Telegram'
   website: 'https://telegr.am/'
+  license: false
+  
   
 - name: 'Templer'
   github: 'skx/templer'
   license: 'GNU'
   
 - name: 'Tempo'
-
+  license: false
+  
+  
 - name: 'toto'
   github: 'cloudhead/toto'
   license: 'MIT'
@@ -601,6 +693,10 @@
   github: 'vim-scripts/vimwiki'
   license: 'MIT'
   
+- name: 'volt'
+  github: 'bow/volt/'
+  license: 'BDS'
+  
 - name: 'wadoo'
   github: 'alpacaaa/wadoo'
   license: 'Public'
@@ -609,10 +705,15 @@
   website: 'http://webby.rubyforge.org/'
   github: 'TwP/webby'
   license: 'MIT'
+  
+- name: 'webber'
+  website: 'https://gitorious.org/webber'
+  license: 'GNU'
 
 - name: 'webgen'
   website: 'http://webgen.rubyforge.org/'
-
+  license: false
+  
 - name: 'Website Meta Language'
   website: 'http://www.thewml.org/'
   license: 'GNU'
