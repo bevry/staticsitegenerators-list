@@ -351,7 +351,7 @@
 
 - name: 'igor'
   github: 'aconbere/igor'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Ikiwiki'
