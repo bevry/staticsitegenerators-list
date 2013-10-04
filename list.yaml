@@ -544,7 +544,7 @@
   
 - name: 'Pancake.io'
   website: 'http://pancakestacks.wordpress.com/'
-  github: 'https://github.com/hassox/pancake'
+  github: 'hassox/pancake'
   license: 'MIT'
 
 
@@ -576,7 +576,7 @@
 
 
 - name: 'Pilcrow'
-  website: 'http://inky.github.com/pilcrow/'
+  website: 'http://inky.github.io/pilcrow/'
   github: 'inky/pilcrow'
   license: 'MIT'
 
@@ -878,7 +878,7 @@
   
   
 - name: 'Wintersmith'
-  website: 'http://jnordberg.github.com/wintersmith/'
+  website: 'http://jnordberg.github.io/wintersmith/'
   github: 'jnordberg/wintersmith'
   license: 'MIT'
 
