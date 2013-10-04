@@ -98,6 +98,7 @@
 - name: 'Chili'
   website: 'http://chilipy.com/'
   github: 'clvrobj/chili'
+  licesne: false
 
 - name: 'Chisel'
   github: 'dz/chisel'
@@ -145,14 +146,16 @@
   
 - name: 'DropPages'
   website: 'http://droppages.com/'
+  license: false
   
   
 - name: 'Drop-a-Site'
   github: 'herschel666/Drop-a-Site'
-  
+  license: false
 
 - name: 'dynamicmatic'
   github: 'nex3/dynamicmatic'
+  license: 'MIT'
 
 - name: 'Elyse'
   github: 'FSX/elyse'
@@ -170,7 +173,9 @@
   license: 'MIT'
   
 - name: 'FantasticWindmill' 
+  website: 'http://sylvainhalle.github.io/FantasticWindmill/'
   github: 'sylvainhalle/FantasticWindmill'
+  license: false
 
 - name: 'fjord'
   website: 'http://dkuntz2.github.io/fjord/'
@@ -202,6 +207,7 @@
   
 - name: 'Gen'
   github: 'trq/Gen'
+  license: false
 
 - name: 'glynn'
   github: 'teiko/glynn'
@@ -209,6 +215,7 @@
 
 - name: 'gollum-site'
   github: 'dreverri/gollum-site'
+  license: 'MIT'
 
 - name: 'gostatic'
   github: 'piranha/gostatic'
@@ -217,6 +224,7 @@
 
 - name: 'Gravity'
   github: 'owainlewis/gravity'
+  license: false
   
   
 - name: 'Graze'
