@@ -642,7 +642,7 @@
 
 - name: 'Rog'
   website: 'http://rog.rubyforge.org/'
-  license: false
+  license: 'GPL'
 
 
 - name: 'romulus'
