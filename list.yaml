@@ -372,7 +372,7 @@
 - name: 'Kirby'
   website: 'http://getkirby.com/'
   github: 'bastianallgeier/kirbycms'
-  license: false
+  license: 'Commercial'
 
 
 - name: 'KISSr'
