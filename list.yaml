@@ -300,6 +300,10 @@
   github: 'robmadole/handcrank'
   license: 'BSD'
 
+- name: 'happyplan'
+  website: 'http://happyplan.putaindecode.io/'
+  github: 'happyplan/happyplan'
+  license: 'MIT'
 
 - name: 'Harp'
   github: 'sintaxi/harp'
