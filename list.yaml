@@ -42,6 +42,11 @@
   license: 'MIT'
 
 
+- name: 'baker'
+  github: 'taylorchu/baker'
+  license: 'GPL'
+
+
 - name: 'bashblog'
   github: 'carlesfe/bashblog'
   license: false
