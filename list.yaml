@@ -841,7 +841,7 @@
 
 
 - name: 'volt'
-  github: 'bow/volt/'
+  github: 'bow/volt'
   license: 'BSD'
 
 
