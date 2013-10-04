@@ -142,7 +142,7 @@
 
 - name: 'Drapache'
   github: 'louissobel/Drapache'
-  licesne: 'MIT'
+  license: 'MIT'
   
 - name: 'DropPages'
   website: 'http://droppages.com/'
@@ -188,6 +188,9 @@
 
 
 - name: 'Firedrop2'
+  website: 'http://www.voidspace.org.uk/python/firedrop2/'
+  license: 'BSD'
+
 - name: 'FMPP'
   website: 'http://fmpp.sourceforge.net/'
   license: 'BSD'
@@ -245,7 +248,9 @@
   license: 'Commercial'
 
 - name: 'handcrank'
-  website: ''
+  website: 'https://pypi.python.org/pypi/handcrank'
+  github: 'robmadole/handcrank'
+  license: 'BSD'
 
 - name: 'Hastie'
   github: 'mkaz/hastie'
@@ -298,6 +303,7 @@
 
 - name: 'jinja'
   website: 'http://jinja.pocoo.org/'
+  license: false
 
 - name: 'jinjet'
   github: 'jokull/jinjet'
@@ -317,6 +323,7 @@
   
 - name: 'KISSr'
   website: 'http://www.kissr.com/'
+  license: 'Comercial'
   
 
 - name: 'Korma'
@@ -337,6 +344,10 @@
   website: 'http://leohtml.sourceforge.net/'
   license: 'GNU'
   
+- name: 'Letterpress'
+  github: 'an0/Letterpress'
+  license: 'BSD'
+
 - name: 'lightning'
   github: 'borismus/lightning'
   license: false
@@ -526,7 +537,8 @@
 
 
 - name: 'regenerate'
- 
+  website: 'https://gist.github.com/TeMPOraL/4190622'
+  license: false
 
 - name: 'Rizzo'
   github: 'fifthposition/rizzo'
@@ -558,7 +570,7 @@
 
 - name: 'Scriptogr.am'
   website: 'http://scriptogr.am/'
-  
+  license: false
 
 - name: 'shelob'
   github: 'rubyworks/shelob'
@@ -572,7 +584,6 @@
   github: 'inanimatt/site-builder'
   license: 'MIT'
 
-- name: 'SiteMaker'
 
 - name: 'Site44'
   website: 'http://www.site44.com/'
@@ -628,7 +639,7 @@
 
 - name: 'Sphinx'
   website: 'http://sphinx-doc.org/'
-
+  license: 'BSD'
 
 - name: 'Stasis'
   website: 'http://stasis.me/'
@@ -681,6 +692,7 @@
   license: 'GNU'
   
 - name: 'Tempo'
+  github: 'catnapgames/Tempo'
   license: false
   
   
@@ -693,8 +705,9 @@
   license: 'GNU'
 
 - name: 'vee'
-  website: 'http://estrabd.github.io/vee/'
+  website: 'http://www.0x743.com/vee//'
   github: 'estrabd/vee'
+  license: 'BSD'
   
   
 - name: 'vimwiki'
