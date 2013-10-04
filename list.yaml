@@ -865,7 +865,8 @@
 
 - name: 'webgen'
   website: 'http://webgen.rubyforge.org/'
-  license: false
+  github: 'gettalong/webgen'
+  license: 'GPL'
 
 
 - name: 'Website Meta Language'
