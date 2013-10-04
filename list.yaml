@@ -351,7 +351,8 @@
 
 - name: 'jinja'
   website: 'http://jinja.pocoo.org/'
-  license: false
+  github: 'mitsuhiko/jinja2'
+  license: 'BSD'
 
 
 - name: 'jinjet'
