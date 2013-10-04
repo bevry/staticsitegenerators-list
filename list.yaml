@@ -273,6 +273,12 @@
   license: 'GPL'
 
 
+- name: 'Gumdrop'
+  github: 'simonjodet/gumdrop'
+  website: 'http://gumdropapp.com/'
+  license: 'MIT'
+
+
 - name: 'Hakyll'
   website: 'http://jaspervdj.be/hakyll/'
   github: 'jaspervdj/hakyll'
