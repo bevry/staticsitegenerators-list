@@ -290,6 +290,12 @@
   license: 'BSD'
 
 
+- name: 'Harp'
+  github: 'sintaxi/harp'
+  website: 'http://harpjs.com/'
+  license: 'MIT'
+
+
 - name: 'Hastie'
   github: 'mkaz/hastie'
   license: false
