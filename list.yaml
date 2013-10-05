@@ -10,6 +10,7 @@
 # "MIT"
 # "BSD" - use for all variations of BSD
 # "GPL" - use for all variations of GPL
+# "MS-PL" - use for all variations of the Microsoft Public License
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # false - use when the license is not revelead
 #
@@ -613,6 +614,11 @@
   website: 'https://bitbucket.org/obensonne/poole'
   github: 'obensonne/poole'
   license: 'Public'
+
+
+- name: 'Pretzel'
+  github: 'Code52/pretzel'
+  license: 'MS-PL'
 
 
 - name: 'Punch'
