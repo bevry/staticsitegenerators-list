@@ -106,6 +106,12 @@
   license: 'MIT'
 
 
+- name: 'Cabin'
+  website: 'http://www.cabinjs.com/'
+  github: 'CabinJS/Cabin'
+  license: 'MIT'
+
+
 - name: 'Cactus'
   github: 'koenbok/Cactus'
   license: 'BSD'
