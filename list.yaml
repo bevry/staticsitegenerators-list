@@ -9,8 +9,14 @@
 # Possible license values:
 # "MIT"
 # "BSD" - use for all variations of BSD
-# "GPL" - use for all variations of GPL
+# "GPL" - use for all variations of GNU General Public License
+# "Public" - use for all variations of the Public Domain (inc. CC0, DWTFYWTPL)
 # "MS-PL" - use for all variations of the Microsoft Public License
+# "SimPL" - use for all variations of the Simple Public License
+# "Apache" - use for all variations of the Apache License
+# "Ruby" - use for all variations of the Ruby License
+# "EPL" - use for all variations of the Eclipse Public License
+# "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # false - use when the license is not revelead
 #
@@ -241,7 +247,7 @@
 
 - name: 'fugitive'
   website: 'https://gitorious.org/fugitive'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Gen'
@@ -331,7 +337,7 @@
 - name: 'Hugo'
   website: 'http://hugo.spf13.com/'
   github: 'spf13/hugo'
-  license: 'SPL'
+  license: 'SimPL'
 
 
 - name: 'Hydrastic'
@@ -422,7 +428,7 @@
 
 - name: 'Leo'
   website: 'http://leohtml.sourceforge.net/'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Letterpress'
@@ -472,7 +478,7 @@
 - name: 'Markdoc'
   website: 'http://markdoc.org/'
   github: 'zacharyvoase/markdoc'
-  license: 'Unlicense'
+  license: 'Public'
 
 
 - name: 'massimo'
@@ -508,7 +514,7 @@
 
 - name: 'monkeyman'
   github: 'wspringer/monkeyman'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'mynt'
@@ -519,7 +525,7 @@
 
 - name: 'NanoBlogger'
   website: 'http://nanoblogger.sourceforge.net/'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'nanoc'
@@ -542,7 +548,7 @@
 - name: 'Nibbleblog'
   website: 'http://nibbleblog.com/'
   github: 'dignajar/nibbleblog'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Octopress'
@@ -559,7 +565,7 @@
 
 - name: 'obraz'
   website: 'http://obraz.pirx.ru/'
-  license: 'CCL'
+  license: 'CC'
 
 
 - name: 'Pagegen'
@@ -575,7 +581,7 @@
 
 - name: 'Pelican'
   github: 'getpelican/pelican'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Petrify'
@@ -634,7 +640,7 @@
 - name: 'PyBlosxom'
   website: 'http://pyblosxom.github.io/'
   github: 'pyblosxom/pyblosxom'
-  license: 'CC0'
+  license: 'Public'
 
 
 - name: 'Pyll'
@@ -778,7 +784,7 @@
 
 - name: 'Speechhub'
   github: 'python-mg/speechhub'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Sphinx'
@@ -841,7 +847,7 @@
 
 - name: 'Templer'
   github: 'skx/templer'
-  license: 'GNU'
+  license: 'GPL'  # dual-licensed with Perl Aristic
 
 
 - name: 'Tempo'
@@ -860,7 +866,7 @@
 
 - name: 'Ultra simple Site Maker'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'vee'
@@ -892,7 +898,7 @@
 
 - name: 'webber'
   website: 'https://gitorious.org/webber'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'webgen'
@@ -903,7 +909,7 @@
 
 - name: 'Website Meta Language'
   website: 'http://www.thewml.org/'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'Werc'
@@ -931,7 +937,7 @@
 
 - name: 'yst'
   github: 'jgm/yst'
-  license: 'GNU'
+  license: 'GPL'
 
 
 - name: 'ZenWeb'
