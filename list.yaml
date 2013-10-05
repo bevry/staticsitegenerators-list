@@ -7,7 +7,7 @@
 
 # We also accept the following fields if GitHub was not provided (as with github we auto-detect them)
 # website - the project's website if they have one
-# language - the project's language
+# language - the project's language (note, if the entry is closed-source, use "Web" or "App")
 # description - the project's description
 # created_at - the project's creation date in "2010-10-20T13:46:08Z" format
 
