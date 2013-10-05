@@ -799,6 +799,12 @@
   license: 'BSD'
 
 
+- name: 'Stacey'
+  github: 'kolber/stacey'
+  website: 'http://staceyapp.com/'
+  license: 'MIT'
+
+
 - name: 'Stasis'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
