@@ -194,7 +194,7 @@
 
 - name: 'Drop-a-Site'
   github: 'herschel666/Drop-a-Site'
-  license: false
+  license: 'MIT'
 
 
 - name: 'dynamicmatic'
