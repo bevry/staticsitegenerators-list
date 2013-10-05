@@ -252,7 +252,7 @@
 
 - name: 'Gen'
   github: 'trq/Gen'
-  license: false
+  license: "MIT"
 
 
 - name: 'glynn'
@@ -651,7 +651,8 @@
 - name: 'Quill'
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
-  license: 'Artistic'
+  license: false
+
 
 - name: 'RakeWeb'
   website: 'http://rubyforge.org/projects/rakeweb/'
