@@ -131,7 +131,7 @@
 - name: 'Chili'
   website: 'http://chilipy.com/'
   github: 'clvrobj/chili'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Chisel'
