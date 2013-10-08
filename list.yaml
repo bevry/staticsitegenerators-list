@@ -756,6 +756,7 @@
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
   license: 'GPL'  # mentioned inside download
+  language: 'App'
 
 
 - name: 'Pagen'
