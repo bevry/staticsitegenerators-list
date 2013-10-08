@@ -42,10 +42,21 @@
   license: 'BSD'
 
 
+- name: 'Apto'
+  github: 'modparadigm/apto'
+  license: 'MIT'
+
+
 - name: 'assemble'
   website: 'http://assemble.io/'
   github: 'assemble/assemble'
   license: 'MIT'
+
+
+#- name: 'Automaton'
+#  github: 'IndigoUnited/automaton'
+#  license: 'MIT'
+# not a ssg
 
 
 - name: 'awestruct'
@@ -84,6 +95,11 @@
   license: 'MIT'
 
 
+- name: 'Blode'
+  github: 'stackoverflow/blode'
+  license: false
+
+
 - name: 'Blogofile'
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
@@ -106,9 +122,20 @@
   license: 'Commercial'
 
 
+- name: 'Bread'
+  github: 'pvorb/node-bread'
+  license: 'MIT'
+
+
 - name: 'brochure'
   github: 'sstephenson/brochure'
   license: 'MIT'
+
+
+#- name: 'Brunch'
+#  github: 'brunch/brunch'
+#  license: 'MIT'
+# not a ssg
 
 
 - name: 'Cabin'
@@ -144,6 +171,11 @@
   license: 'GPL'
 
 
+- name: 'Codex'
+  github: 'logicalparadox/codex'
+  license: 'MIT'
+
+
 - name: 'coleslaw'
   website: 'http://www.cliki.net/coleslaw'
   github: 'redline6561/coleslaw'
@@ -171,7 +203,13 @@
   license: 'MIT'
 
 
-- name: django-medusa
+#- name: 'Derby'
+#  github: 'codeparty/derby'
+#  license: 'MIT'
+#  not a ssg
+
+
+- name: 'django-medusa'
   github: 'mtigas/django-medusa'
   license: 'MIT'
 
@@ -204,6 +242,11 @@
 
 - name: 'Elyse'
   github: 'FSX/elyse'
+  license: 'MIT'
+
+
+- name: 'enfield'
+  github: 'fortes/enfield'
   license: 'MIT'
 
 
@@ -261,6 +304,11 @@
   license: 'GPL'
 
 
+- name: 'Gabby'
+  github: 'alexmingoia/gabby'
+  license: false
+
+
 - name: 'Gen'
   github: 'trq/Gen'
   license: "MIT"
@@ -296,6 +344,18 @@
   license: 'GPL'
 
 
+#- name: 'Grunt'
+#  github: 'gruntjs/grunt'
+#  license: 'MIT'
+# not a ssg
+
+
+#- name: 'GruntStart'
+#  github: 'tsvensen/gruntstart'
+#  license: 'MIT'
+# not a ssg
+
+
 - name: 'Gumdrop'
   github: 'simonjodet/gumdrop'
   website: 'http://gumdropapp.com/'
@@ -318,10 +378,12 @@
   github: 'robmadole/handcrank'
   license: 'BSD'
 
+
 - name: 'happyplan'
   website: 'http://happyplan.putaindecode.io/'
   github: 'happyplan/happyplan'
   license: 'MIT'
+
 
 - name: 'Harp'
   github: 'sintaxi/harp'
@@ -334,6 +396,11 @@
   license: false
 
 
+- name: 'Heckle'
+  github: 'tmcw/heckle'
+  license: false
+
+
 - name: 'Hexo'
   website: 'http://zespia.tw/hexo/'
   github: 'tommy351/hexo'
@@ -343,6 +410,12 @@
 - name: 'High Voltage'
   github: 'thoughtbot/high_voltage'
   license: 'MIT'
+
+
+# - name: 'Hoodie'
+#  github: 'hoodiehq/hoodie.js'
+#  license: 'Apache'
+# not a ssg
 
 
 - name: 'Hugo'
@@ -389,6 +462,11 @@
   license: 'MIT'
 
 
+- name: 'Jen'
+  github: 'rfunduk/jen'
+  license: false
+
+
 - name: 'jinja'
   website: 'http://jinja.pocoo.org/'
   github: 'mitsuhiko/jinja2'
@@ -402,6 +480,16 @@
 
 - name: 'jkl'
   github: 'drone/jkl'
+  license: 'MIT'
+
+
+- name: 'Jott'
+  github: 'jonsherrard/jott'
+  license: 'Public'
+
+
+- name: 'Kel'
+  github: 'koostudios/kel'
   license: 'MIT'
 
 
@@ -452,18 +540,28 @@
   license: false
 
 
-
-- name: 'LiveReload'
-  github: 'livereload/LiveReload'
-  license: 'MIT'
-
-
-
 - name: 'lilac'
   website: 'https://lilac.readthedocs.org/en/latest/index.html'
   github: 'hit9/lilac'
   license: 'MIT'
 
+
+#- name: 'Lineman'
+#  github: 'testdouble/lineman'
+#  license: 'MIT'
+# not a ssg
+
+
+# - name: 'LiveReload'
+#  github: 'livereload/LiveReload'
+#  license: 'MIT'
+# not a ssg
+
+
+#- name: 'Lumbar'
+#  github: 'walmartlabs/lumbar'
+#  license: 'MIT'
+# not a ssg
 
 
 - name: 'Machined'
@@ -492,6 +590,11 @@
   license: 'Public'
 
 
+- name: 'Markx'
+  github: 'jgallen23/markx'
+  license: 'MIT'
+
+
 - name: 'massimo'
   github: 'petebrowne/massimo'
   license: 'MIT'
@@ -518,9 +621,21 @@
   license: 'MIT'
 
 
+#- name: 'Mimosa'
+#  github: 'mimosa/stargazers'
+#  license: 'MIT'
+# not a ssg
+
+
 - name: 'Mixture'
   website: 'http://mixture.io/'
   license: 'Commercial'
+
+
+#- name: 'Modjs'
+#  github: 'modulejs/modjs'
+#  license: 'MIT'
+# not a ssg
 
 
 - name: 'monkeyman'
@@ -562,6 +677,26 @@
   license: 'GPL'
 
 
+- name: 'node-blog'
+  github: 'creationix/node-blog'
+  license: false
+
+
+- name: 'node-jekyll'
+  github: 'wangbus/node-jekyll'
+  license: false
+
+
+- name: 'noflo-jekyll'
+  github: 'the-grid/noflo-jekyll'
+  license: false
+
+
+- name: 'Nog'
+  github: 'c9/nog'
+  license: false
+
+
 - name: 'Octopress'
   website: 'http://octopress.org/'
   github: 'imathis/octopress'
@@ -582,6 +717,11 @@
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
   license: false
+
+
+- name: 'Pagen'
+  github: 'jawerty/pagen'
+  license: 'MIT'
 
 
 - name: 'Pancake.io'
@@ -622,15 +762,26 @@
   github: 'inky/pilcrow'
   license: 'MIT'
 
+
 - name: 'Pith'
   github: 'mdub/pith'
   license: false
+
+
+- name: 'poet'
+  github: 'jsantell/poet'
+  license: 'MIT'
 
 
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
   github: 'obensonne/poole'
   license: 'Public'
+
+
+- name: 'pop'
+  github: 'alexyoung/pop'
+  license: 'MIT'
 
 
 - name: 'Pretzel'
@@ -715,6 +866,12 @@
   website: 'http://ruhoh.com/'
   github: 'ruhoh/ruhoh.rb'
   license: 'MIT'
+
+
+#- name: 'Scotch'
+#  github: 'techwraith/scotch'
+#  license: false
+# not a ssg
 
 
 - name: 'Scriptogr.am'
@@ -852,6 +1009,11 @@
   license: 'Ruby'
 
 
+- name: 'Statix'
+  github: 'ff0000/statix'
+  license: 'MIT'
+
+
 - name: 'StrangeCase'
   website: 'http://colinta.com/projects/StrangeCase.html'
   github: 'colinta/StrangeCase'
@@ -903,6 +1065,12 @@
   license: 'MIT'
 
 
+#- name: 'Volo'
+#  github: 'volojs/volo'
+#  license: 'MIT'
+# not a ssg
+
+
 - name: 'volt'
   github: 'bow/volt'
   license: 'BSD'
@@ -911,6 +1079,11 @@
 - name: 'wadoo'
   github: 'alpacaaa/wadoo'
   license: 'Public'
+
+
+- name: 'Wanna'
+  github: 'shaoshuai0102/wanna'
+  license: false
 
 
 - name: 'Webby'
@@ -941,6 +1114,11 @@
   license: 'MIT'
 
 
+- name: 'Wheat'
+  github: 'creationix/wheat'
+  license: 'MIT'
+
+
 - name: 'Wintersmith'
   website: 'http://jnordberg.github.io/wintersmith/'
   github: 'jnordberg/wintersmith'
@@ -952,10 +1130,21 @@
   license: 'MIT'
 
 
+- name: 'Woods'
+  github: 'studiomoniker/woods'
+  license: 'MIT'
+
+
 - name: 'yassg'
   website: 'https://npmjs.org/package/yassg'
   github: 'sma/yassg'
   license: 'BSD'
+
+
+# - name: 'Yeoman'
+#  github: 'yeoman/yeoman'
+#  license: 'BSD'
+# not a ssg
 
 
 - name: 'yst'
