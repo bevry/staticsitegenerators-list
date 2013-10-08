@@ -235,6 +235,11 @@
   license: 'MIT'
 
 
+- name: 'Drupan'
+  github: 'fallenhitokiri/drupan'
+  license: 'BSD'
+
+
 - name: 'dynamicmatic'
   github: 'nex3/dynamicmatic'
   license: 'MIT'
@@ -286,6 +291,12 @@
 - name: 'FMPP'
   website: 'http://fmpp.sourceforge.net/'
   license: 'BSD'
+
+
+#- name: 'Fragments'
+#  github: 'glyphobet/fragments'
+#  license: 'BSD'
+# not a ssg  
 
 
 - name: 'Frank'
@@ -1020,6 +1031,18 @@
   license: 'BSD'
 
 
+#- name: 'Syte'
+#  github: 'rigoneri/syte'
+#  license: 'MIT'
+# not a ssg but a skeleton/theme
+
+
+#- name: 'SW'
+#  website: 'http://nibble.develsec.org/projects/sw.html'
+#  license: false
+# not a ssg
+
+
 - name: 'Tahchee'
   github: 'sebastien/tahchee'
   license: 'BSD'
@@ -1063,6 +1086,11 @@
 - name: 'vimwiki'
   github: 'vim-scripts/vimwiki'
   license: 'MIT'
+
+
+- name: 'Voldemort'
+  github: 'semk/voldemort'
+  license: 'Apache'
 
 
 #- name: 'Volo'
