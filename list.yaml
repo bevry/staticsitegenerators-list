@@ -90,12 +90,15 @@
 
 - name: 'BlazeBlogger'
   website: 'http://blaze.blackened.cz/'
-  license: false
+  license: 'GPL'  # located in download
+  language: 'Perl'
 
 
 - name: 'Blatter'
   website: 'http://bitbucket.org/jek/blatter'
   license: 'MIT'
+  language: 'Python'
+  description: "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates."
 
 
 - name: 'Blode'
@@ -112,6 +115,7 @@
 - name: 'blosxom'
   website: 'http://blosxom.sourceforge.net/'
   license: 'MIT'
+  language: 'Perl'
 
 
 - name: 'Bonsai'
@@ -123,6 +127,8 @@
 - name: 'Brace'
   website: 'http://brace.io/'
   license: 'Commercial'
+  language: 'Web'
+  description: 'Brace is the new way to host websites'
 
 
 - name: 'Bread'
@@ -231,6 +237,7 @@
 - name: 'DropPages'
   website: 'http://droppages.com/'
   license: false
+  language: 'Web'
 
 
 - name: 'Drop-a-Site'
@@ -289,11 +296,15 @@
 - name: 'Firedrop2'
   website: 'http://www.voidspace.org.uk/python/firedrop2/'
   license: 'BSD'
+  language: 'Python'
+  description: "The Blog Tool for Discerning Pythoneers"
 
 
 - name: 'FMPP'
   website: 'http://fmpp.sourceforge.net/'
   license: 'BSD'
+  language: 'Java'
+  description: "FreeMarker-based text file PreProcessor"
 
 
 #- name: 'Fragments'
@@ -316,6 +327,7 @@
 - name: 'fugitive'
   website: 'https://gitorious.org/fugitive'
   license: 'GPL'
+  language: 'Shell'
 
 
 - name: 'Gabby'
@@ -385,6 +397,8 @@
 - name: 'Hammer'
   website: 'http://hammerformac.com/'
   license: 'Commercial'
+  language: 'App'
+  description: "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
 
 
 - name: 'handcrank'
@@ -521,6 +535,7 @@
 - name: 'KISSr'
   website: 'http://www.kissr.com/'
   license: 'Commercial'
+  language: 'Web'
 
 
 - name: 'Korma'
@@ -531,6 +546,7 @@
 - name: 'Lanyon'
   website: 'http://lanyon.readthedocs.org/'
   license: 'BSD'
+  language: 'Python'
 
 
 - name: 'Laze'
@@ -542,6 +558,7 @@
 - name: 'Leo'
   website: 'http://leohtml.sourceforge.net/'
   license: 'GPL'
+  language: 'C++'
 
 
 - name: 'Letterpress'
@@ -588,9 +605,12 @@
   license: 'MIT'
 
 
-- name: 'Mako'
-  website: 'http://www.makotemplates.org/'
-  license: 'MIT'
+#- name: 'Mako'
+#  website: 'http://www.makotemplates.org/'
+#  license: 'MIT'
+#  language: 'Python'
+#  description: "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance."
+# not a ssg
 
 
 - name: 'Markbox'
@@ -644,6 +664,8 @@
 - name: 'Mixture'
   website: 'http://mixture.io/'
   license: 'Commercial'
+  language: 'App'
+  description: "Mixture. Rapid prototyping, static site generation and so much more"
 
 
 #- name: 'Modjs'
@@ -666,6 +688,7 @@
 - name: 'NanoBlogger'
   website: 'http://nanoblogger.sourceforge.net/'
   license: 'GPL'
+  language: 'Shell'
 
 
 - name: 'nanoc'
@@ -726,11 +749,13 @@
 - name: 'obraz'
   website: 'http://obraz.pirx.ru/'
   license: 'CC'
+  language: "Python"
+  description: "Like Jekyll"
 
 
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
-  license: false
+  license: 'GPL'  # mentioned inside download
 
 
 - name: 'Pagen'
@@ -833,16 +858,19 @@
 - name: 'RakeWeb'
   website: 'http://rubyforge.org/projects/rakeweb/'
   license: 'CC'
+  language: 'Ruby'
 
 
 - name: 'Rassmalog'
   website: 'http://rassmalog.rubyforge.org/'
   license: 'MIT'
+  language: 'Ruby'
 
 
 - name: 'regenerate'
   website: 'https://gist.github.com/TeMPOraL/4190622'
   license: false
+  language: 'Lisp'
 
 
 - name: 'Rizzo'
@@ -853,6 +881,7 @@
 - name: 'Rog'
   website: 'http://rog.rubyforge.org/'
   license: 'GPL'
+  language: 'Ruby'
 
 
 - name: 'romulus'
@@ -863,6 +892,8 @@
 - name: 'Rote'
   website: 'http://rote.rubyforge.org/'
   license: 'MIT'
+  language: 'Ruby'
+  description: "Rote is a simple page-based template system that was written to make it easier to author and maintain non-dynamic websites and offline documentation."
 
 
 - name: 'rstblog'
@@ -891,6 +922,7 @@
 - name: 'Scriptogr.am'
   website: 'http://scriptogr.am/'
   license: false
+  language: 'Web'
 
 
 - name: 'shelob'
@@ -901,6 +933,7 @@
 - name: 'Site builder console'
   website: 'http://sitebuilder.codeplex.com/'
   license: 'MIT'
+  language: 'C#'
 
 
 - name: 'Site builder'
@@ -911,6 +944,7 @@
 - name: 'Site44'
   website: 'http://www.site44.com/'
   license: 'Commercial'
+  language: 'Web'
 
 
 - name: 'Sculpin'
@@ -973,6 +1007,8 @@
 - name: 'Sphinx'
   website: 'http://sphinx-doc.org/'
   license: 'BSD'
+  language: 'App'
+  description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
 
 
 - name: 'Stacey'
@@ -990,6 +1026,8 @@
 - name: 'Statamic'
   website: 'http://www.statamic.com/'
   license: 'Commercial'
+  language: 'App'
+  description: "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
 
 
 - name: 'static'
@@ -1006,6 +1044,7 @@
 - name: 'StaticMate'
   website: 'https://staticmate.com/'
   license: 'Commercial'
+  language: 'Web'
 
 
 - name: 'StaticMatic'
@@ -1021,6 +1060,7 @@
 - name: 'StaticWeb'
   website: 'http://staticweb.rubyforge.org/'
   license: 'Ruby'
+  language: 'Ruby'
 
 
 - name: 'Statix'
@@ -1054,6 +1094,7 @@
 - name: 'Telegram'
   website: 'https://telegr.am/'
   license: false
+  language: 'Web'
 
 
 - name: 'Templer'
@@ -1078,6 +1119,7 @@
 - name: 'Ultra simple Site Maker'
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
   license: 'GPL'
+  language: 'Shell'
 
 
 - name: 'vee'
@@ -1123,9 +1165,10 @@
   license: 'MIT'
 
 
-- name: 'webber'
+- name: 'Webber'
   website: 'https://gitorious.org/webber'
   license: 'GPL'
+  language: 'Python'
 
 
 - name: 'webgen'
@@ -1137,6 +1180,7 @@
 - name: 'Website Meta Language'
   website: 'http://www.thewml.org/'
   license: 'GPL'
+  defunct: true
 
 
 - name: 'Werc'
