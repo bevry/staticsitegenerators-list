@@ -832,6 +832,11 @@
   license: 'MIT'
 
 
+- name: 'StaticMate'
+  website: 'https://staticmate.com/'
+  license: 'Commercial'
+
+
 - name: 'StaticMatic'
   github: 'staticmatic/staticmatic'
   license: 'MIT'
