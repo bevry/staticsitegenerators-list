@@ -726,7 +726,7 @@
 
 - name: 'noflo-jekyll'
   github: 'the-grid/noflo-jekyll'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Nog'
