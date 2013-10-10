@@ -932,6 +932,13 @@
   language: 'Web'
 
 
+- name: 'sg.py'
+  github: 'venthur/sg'
+  license: 'GPL'
+  description: 'A small, static website generator written in Python'
+  created_at: '2010-07-25T00:00:00Z'
+
+
 - name: 'shelob'
   github: 'rubyworks/shelob'
   license: 'BSD'
