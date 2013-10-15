@@ -1197,12 +1197,6 @@
   defunct: true
 
 
-- name: 'Werc'
-  website: 'http://werc.cat-v.org/'
-  github: 'Knorkebrot/werc'
-  license: 'MIT'
-
-
 - name: 'Wheat'
   github: 'creationix/wheat'
   license: 'MIT'
