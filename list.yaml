@@ -922,7 +922,7 @@
 
 #- name: 'Scotch'
 #  github: 'techwraith/scotch'
-#  license: false
+#  license: 'MIT'
 # not a ssg
 
 
