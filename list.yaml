@@ -38,22 +38,31 @@
 - name: 'Ace'
   github: 'botanicus/ace'
   license: 'MIT'
+  language: 'Ruby'
+  description: 'Ace is a powerful tool designed to easily generate even complex web sites.'
 
 
 - name: 'acrylamid'
   github: 'posativ/acrylamid'
   license: 'BSD'
+  language: 'Python'
+  description: 'Static blog generator in python with incremental rendering'
+  website: 'http://posativ.org/acrylamid/'
 
 
 - name: 'Apto'
   github: 'modparadigm/apto'
   license: 'MIT'
+  language: 'JavaScript'
+  description: 'Apto is a easy to use, straight-forward static site generator / builder for Node.js.'
 
 
 - name: 'assemble'
   website: 'http://assemble.io/'
   github: 'assemble/assemble'
   license: 'MIT'
+  language: 'JavaScript'
+  description: 'Static site generator for Grunt.js and Yeoman. Assemble makes it dead simple to build modular sites, blogs, gh-pages, components and documentation from reusable templates and data.'
 
 
 #- name: 'Automaton'
@@ -66,11 +75,15 @@
   website: 'http://awestruct.org/'
   github: 'awestruct/awestruct'
   license: 'MIT'
+  language: 'Ruby'
+  description: 'Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre.'
 
 
 - name: 'baker'
   github: 'taylorchu/baker'
   license: 'GPL'
+  language: 'bash'
+  description: 'the real static blog generator in bash'
 
 
 - name: 'bashblog'
