@@ -426,6 +426,12 @@
   license: 'MIT'
 
 
+- name: 'haroopress'
+  website: 'http://haroopress.com'
+  github: 'rhiokim/haroopress'
+  license: 'MIT'
+  
+
 - name: 'Harp'
   github: 'sintaxi/harp'
   website: 'http://harpjs.com/'
