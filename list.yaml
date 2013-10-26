@@ -370,7 +370,7 @@
 
 - name: 'Gravity'
   github: 'owainlewis/gravity'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Graze'
