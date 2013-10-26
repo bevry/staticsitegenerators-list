@@ -742,7 +742,7 @@
 
 - name: 'node-jekyll'
   github: 'wangbus/node-jekyll'
-  license: false
+  license: 'MIT'
 
 
 - name: 'noflo-jekyll'
