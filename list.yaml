@@ -22,6 +22,7 @@
 # "Ruby" - use for all variations of the Ruby License
 # "EPL" - use for all variations of the Eclipse Public License
 # "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
+# "Beer-ware" - use for all variations of the Beer-ware License
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # false - use when the license is not revelead
 #
@@ -873,7 +874,7 @@
 - name: 'Quill'
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
-  license: false
+  license: 'Beer-ware'
 
 
 - name: 'RakeWeb'
