@@ -89,7 +89,7 @@
 
 - name: 'bashblog'
   github: 'carlesfe/bashblog'
-  license: false
+  license: 'MIT'
 
 
 - name: 'bazinga'
