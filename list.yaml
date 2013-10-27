@@ -1138,7 +1138,7 @@
 
 - name: 'Tempo'
   github: 'catnapgames/Tempo'
-  license: false
+  license: 'MIT'
 
 
 - name: 'toto'
