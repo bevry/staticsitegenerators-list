@@ -615,6 +615,11 @@
 # not a ssg
 
 
+- name: 'm4-bakery'
+  github: 'datagrok/m4-bakery'
+  license: 'GPL'
+
+
 - name: 'Machined'
   github: 'petebrowne/machined'
   license: 'MIT'
