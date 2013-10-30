@@ -293,7 +293,7 @@
 - name: 'FantasticWindmill'
   website: 'http://sylvainhalle.github.io/FantasticWindmill/'
   github: 'sylvainhalle/FantasticWindmill'
-  license: false
+  license: 'GPL'
 
 
 - name: 'fjord'
