@@ -902,7 +902,7 @@
 
 - name: 'Rizzo'
   github: 'fifthposition/rizzo'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Rog'
