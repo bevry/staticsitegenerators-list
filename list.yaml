@@ -767,7 +767,7 @@
 
 
 - name: 'Nikola'
-  website: 'http://nikola.ralsina.com.ar/'
+  website: 'http://getnikola.com/'
   github: 'getnikola/nikola'
   license: 'MIT'
 
