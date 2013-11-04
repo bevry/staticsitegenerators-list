@@ -968,6 +968,11 @@
   github: 'rubyworks/shelob'
   license: 'BSD'
 
+- name: 'Sitebox.io'
+  website: 'http://www.sitebox.io'
+  license: 'Commercial'
+  description: 'New and intuitive way to create websites with dropbox'
+  language: 'Web'
 
 - name: 'Site builder console'
   website: 'http://sitebuilder.codeplex.com/'
