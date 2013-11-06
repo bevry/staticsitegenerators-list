@@ -1061,6 +1061,14 @@
   license: 'MIT'
 
 
+- name: 'Stadø'
+  website: 'http://stadoproject.org/'
+  github: 'lecnim/stado'
+  license: 'MIT'
+  language: 'Python'
+  description: "Stado is a simple, single-file, static site generator, powered by python scripts."
+  
+  
 - name: 'Stasis'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
