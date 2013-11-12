@@ -1273,6 +1273,13 @@
   license: 'GPL'
 
 
+- name: 'zas'
+  github: 'imdario/zas'
+  license: 'AGPL'
+  language: 'Go'
+  description: 'Most. Zen. Static. Website. Generator. Ever.'
+
+
 - name: 'ZenWeb'
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
   github: 'seattlerb/zenweb'
