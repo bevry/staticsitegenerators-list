@@ -588,7 +588,7 @@
 
 - name: 'lightning'
   github: 'borismus/lightning'
-  license: false
+  license: 'MIT'
 
 
 - name: 'lilac'
