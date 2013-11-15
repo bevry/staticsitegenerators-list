@@ -831,7 +831,7 @@
 
 - name: 'Pith'
   github: 'mdub/pith'
-  license: false
+  license: 'MIT'
 
 
 - name: 'poet'
