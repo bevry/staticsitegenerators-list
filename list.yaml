@@ -364,6 +364,11 @@
   license: 'MIT'
 
 
+- name: 'gor'
+  github: 'wendal/gor'
+  license: 'BSD'
+
+
 - name: 'gostatic'
   github: 'piranha/gostatic'
   license: 'ISC'
