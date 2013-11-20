@@ -383,6 +383,10 @@
   github: 'mikoskinen/graze'
   license: 'MIT'
 
+- name: 'grender'
+  github: 'peterbourgon/grender'
+  license: 'BSD'
+  language: 'Go'
 
 - name: 'Growl'
   github: 'xfire/growl'
