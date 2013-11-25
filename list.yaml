@@ -295,6 +295,10 @@
   github: 'sylvainhalle/FantasticWindmill'
   license: 'GPL'
 
+- name: 'fBlog'
+  website: 'http://sourceforge.net/projects/fortranblog/'
+  licence: 'GPL'
+  language: 'fortran'
 
 - name: 'fjord'
   website: 'http://dkuntz2.github.io/fjord/'
@@ -1293,3 +1297,5 @@
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
   github: 'seattlerb/zenweb'
   license: 'MIT'
+
+  github: 
