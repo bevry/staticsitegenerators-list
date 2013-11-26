@@ -376,6 +376,12 @@
 - name: 'gostatic'
   github: 'piranha/gostatic'
   license: 'ISC'
+  
+- name: 'Go-Static!'
+  github: 'colynb/generator-go-static'
+  license: 'MIT'
+  language: 'JavaScript'
+  description: 'Yeoman generator for static sites'
 
 
 - name: 'Gravity'
