@@ -283,8 +283,14 @@
   website: 'http://engineer.readthedocs.org/en/latest/'
   github: 'tylerbutler/engineer'
   license: 'MIT'
-
-
+  
+- name: 'Equiprose'
+  website: 'http://equiprose.org'
+  github: 'http://github.com/thibaultCha/Equiprose'
+  language: 'JavaScript'
+  license: 'MIT'
+  description: 'Flexible and powerful static website and blog generator in Node.js'
+  
 - name: 'Fairytale'
   github: '46Bit/fairytale'
   license: 'MIT'
