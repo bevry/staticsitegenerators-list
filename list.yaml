@@ -524,6 +524,11 @@
   license: 'MIT'
 
 
+- name: 'Jedie'
+  github: 'mattn/jedie'
+  license: 'MIT'
+
+
 - name: 'Jekyll'
   github: 'mojombo/jekyll'
   license: 'MIT'
