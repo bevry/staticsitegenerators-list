@@ -872,6 +872,7 @@
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
   github: 'obensonne/poole'
+  language: 'Python'
   license: 'Public'
 
 
