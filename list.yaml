@@ -1210,11 +1210,15 @@
   github: 'estrabd/vee'
   license: 'BSD'
 
-
 - name: 'vimwiki'
   github: 'vim-scripts/vimwiki'
   license: 'MIT'
 
+- name: 'VoodooPad'
+  website: 'https://plausible.coop/voodoopad/'
+  license: 'Commerical'
+  language: 'App'
+  description: 'MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript.'
 
 - name: 'Voldemort'
   github: 'semk/voldemort'
