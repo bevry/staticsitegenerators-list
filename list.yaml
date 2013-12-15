@@ -51,11 +51,12 @@
   website: 'http://posativ.org/acrylamid/'
 
 
-- name: 'Apto'
-  github: 'modparadigm/apto'
-  license: 'MIT'
-  language: 'JavaScript'
-  description: 'Apto is a easy to use, straight-forward static site generator / builder for Node.js.'
+#- name: 'Apto'
+#  github: 'modparadigm/apto'
+#  license: 'MIT'
+#  language: 'JavaScript'
+#  description: 'Apto is a easy to use, straight-forward static site generator / builder for Node.js.'
+# ^ returning a 404
 
 
 - name: 'assemble'
@@ -536,7 +537,7 @@
 
 
 - name: 'Jekyll'
-  github: 'mojombo/jekyll'
+  github: 'jekyll/jekyll'
   license: 'MIT'
 
 
