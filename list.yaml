@@ -926,6 +926,13 @@
   language: 'Ruby'
 
 
+- name: 'Really Static'
+  website: 'http://wordpress.org/plugins/really-static/'
+  license: false
+  language: 'PHP'
+  description: "Generates static HTML-files from your WordPress Blog"
+
+
 - name: 'regenerate'
   website: 'https://gist.github.com/TeMPOraL/4190622'
   license: false
