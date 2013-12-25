@@ -240,6 +240,11 @@
   license: 'MIT'
 
 
+- name: 'djangothis'
+  github: 'amitu/djangothis'
+  license: 'BSD'
+  
+
 - name: 'DocPad'
   website: 'http://docpad.org'
   github: 'bevry/docpad'
