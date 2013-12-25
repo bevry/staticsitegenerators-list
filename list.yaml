@@ -131,6 +131,8 @@
   website: 'http://blosxom.sourceforge.net/'
   license: 'MIT'
   language: 'Perl'
+  description: 'Blosxom (pronounced "blossom") is a lightweight yet feature-packed weblog application designed from the ground up with simplicity, usability, and interoperability in mind.'
+  created_at: '2002-02-28T00:00:00Z'
 
 
 - name: 'Bonsai'
