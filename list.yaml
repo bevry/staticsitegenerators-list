@@ -1335,3 +1335,8 @@
   website: 'http://www.zenspider.com/ZSS/Products/ZenWeb/'
   github: 'seattlerb/zenweb'
   license: 'MIT'
+
+-name: 'kkr'
+  github: 'dchest/kkr'
+  license: 'BSD'
+  language: 'Go'
