@@ -1336,7 +1336,7 @@
   github: 'seattlerb/zenweb'
   license: 'MIT'
 
--name: 'kkr'
+- name: 'kkr'
   github: 'dchest/kkr'
   license: 'BSD'
   language: 'Go'
