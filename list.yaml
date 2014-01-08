@@ -98,6 +98,11 @@
   license: 'GPL'
 
 
+- name: 'Benjen'
+  github: 'daeken/Benjen'
+  license: 'Public Domain/WTFPL'
+
+
 - name: 'Blacksmith'
   github: 'flatiron/blacksmith'
   license: 'MIT'
