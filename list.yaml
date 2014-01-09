@@ -1345,3 +1345,8 @@
   github: 'dchest/kkr'
   license: 'BSD'
   language: 'Go'
+  
+- name: 'nodeache'
+  github: 'nunull/nodeache'
+  license: 'MIT'
+  language: 'JavaScript'
