@@ -403,6 +403,14 @@
   description: 'Yeoman generator for static sites'
 
 
+- name: 'Grain'
+  github: 'sysgears/grain'
+  license: 'Apache'
+  language: 'Groovy'
+  description: 'Static website building framework for Groovy'
+  website: 'http://sysgears.com/grain/'
+
+
 - name: 'Gravity'
   github: 'owainlewis/gravity'
   license: 'MIT'
