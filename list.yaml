@@ -755,6 +755,11 @@
   license: 'GPL'
 
 
+- name: 'Mulder'
+  github: 'dragan/mulder'
+  license: 'MIT'
+
+
 - name: 'mynt'
   website: 'http://mynt.mirroredwhite.com/'
   github: 'Anomareh/mynt'
