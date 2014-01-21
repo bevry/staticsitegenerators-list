@@ -1082,7 +1082,7 @@
 - name: 'serious-chicken'
   website: 'http://rtorr.github.io/serious-chicken/'
   github: 'rtorr/serious-chicken'
-  license: false
+  license: 'MIT'
 
 
 - name: 'SG'
