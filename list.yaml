@@ -1363,3 +1363,8 @@
   github: 'nunull/nodeache'
   license: 'MIT'
   language: 'JavaScript'
+
+- name: 'Ghost'
+  github: 'TryGhost/Ghost'
+  license: 'MIT'
+  language: 'JavaScript'
