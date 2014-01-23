@@ -634,6 +634,7 @@
 
 
 - name: 'Leeflets'
+  website: 'https://leeflets.com'
   github: 'Leeflets/leeflets'
   license: false
   language: 'PHP'
