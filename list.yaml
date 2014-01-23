@@ -632,6 +632,12 @@
   license: 'MIT'
 
 
+- name: 'Leeflets'
+  github: 'Leeflets/leeflets'
+  license: false
+  language: 'PHP'
+
+
 - name: 'Leo'
   website: 'http://leohtml.sourceforge.net/'
   license: 'GPL'
