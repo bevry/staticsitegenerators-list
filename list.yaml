@@ -267,6 +267,13 @@
   language: 'Web'
 
 
+- name: 'Dropplets'
+  website: 'http://dropplets.com/'
+  github: 'Circa75/dropplets'
+  license: 'MIT'
+  language: 'PHP'
+
+
 - name: 'Drop-a-Site'
   github: 'herschel666/Drop-a-Site'
   license: 'MIT'
@@ -624,6 +631,12 @@
   website: 'http://avdgaag.github.io/laze/'
   github: 'avdgaag/laze'
   license: 'MIT'
+
+
+- name: 'Leeflets'
+  github: 'Leeflets/leeflets'
+  license: 'MIT'
+  language: 'PHP'
 
 
 - name: 'Leo'
