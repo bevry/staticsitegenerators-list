@@ -957,6 +957,7 @@
   website: 'https://npmjs.org/package/quill'
   github: 'theycallmeswift/quill'
   license: 'Beer-ware'
+  language: 'JavaScript'
 
 
 - name: 'RakeWeb'
