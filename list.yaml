@@ -672,6 +672,12 @@
 #  license: 'MIT'
 # not a ssg
 
+- name: 'logya'
+  github: 'yaph/logya'
+  license: 'MIT'
+  language: 'Python'
+  website: 'http://pythonhosted.org/logya/'
+  description: 'Logya is a command line tool to generate static Web sites, designed to be easy to use and flexible.'
 
 #- name: 'Lumbar'
 #  github: 'walmartlabs/lumbar'
