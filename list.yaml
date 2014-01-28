@@ -672,6 +672,10 @@
 #  license: 'MIT'
 # not a ssg
 
+- name: 'logya'
+  website: 'http://pythonhosted.org/logya/'
+  github: 'yaph/logya'
+  license: 'MIT'
 
 #- name: 'Lumbar'
 #  github: 'walmartlabs/lumbar'
