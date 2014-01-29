@@ -168,6 +168,9 @@
 #  license: 'MIT'
 # not a ssg
 
+- name: 'buster'
+  github: 'axitkhurana/buster'
+  license: false
 
 - name: 'Cabin'
   website: 'http://www.cabinjs.com/'
