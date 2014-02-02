@@ -75,7 +75,7 @@
 
 - name: 'awestruct'
   website: 'http://awestruct.org/'
-  github: 'awestruct/awestruct'
+  github: 'awestruct/awestruc't
   license: 'MIT'
   language: 'Ruby'
   description: 'Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre.'
@@ -263,6 +263,10 @@
   github: 'louissobel/Drapache'
   license: 'MIT'
 
+- name: 'drfrederson'
+  website: 'http://drf.grus.uberspace.de'
+  github: 'klml/drfrederson'
+  license: 'MIT'
 
 - name: 'DropPages'
   website: 'http://droppages.com/'
