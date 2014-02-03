@@ -263,6 +263,10 @@
   github: 'louissobel/Drapache'
   license: 'MIT'
 
+- name: 'drfrederson'
+  website: 'http://drf.grus.uberspace.de'
+  github: 'klml/drfrederson'
+  license: 'MIT'
 
 - name: 'DropPages'
   website: 'http://droppages.com/'
