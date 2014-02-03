@@ -561,7 +561,7 @@
 
 - name: 'JBake'
   website: 'http://jbake.org/'
-  github: 'jonbullock/JBake'
+  github: 'jbake-org/jbake'
   license: 'MIT'
 
 
