@@ -130,6 +130,12 @@
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
   license: 'MIT'
+  
+- name: 'Blogmark'
+  website: 'https://blogmark.me/'
+  license: false
+  language: 'Web'
+  description: 'Markdown-on-Dropbox publishing platform.'
 
 
 - name: 'blosxom'
