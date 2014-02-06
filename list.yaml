@@ -133,7 +133,7 @@
   
 - name: 'Blogmark'
   website: 'https://blogmark.me/'
-  license: false
+  license: 'Commercial'
   language: 'Web'
   description: 'Markdown-on-Dropbox publishing platform.'
 
