@@ -1403,3 +1403,9 @@
   github: 'nunull/nodeache'
   license: 'MIT'
   language: 'JavaScript'
+  
+- name: 'Spress'
+  website: 'http://spress.yosymfony.com/'
+  github: 'yosymfony/Spress'
+  license: 'MIT'
+  language: 'PHP'
