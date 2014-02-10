@@ -185,6 +185,7 @@
 
 
 - name: 'Cactus'
+  website: 'http://cactusformac.com/'
   github: 'koenbok/Cactus'
   license: 'BSD'
 
