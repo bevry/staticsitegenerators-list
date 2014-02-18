@@ -101,6 +101,13 @@
 - name: 'Benjen'
   github: 'daeken/Benjen'
   license: 'Public'
+  
+  
+- name: 'BitBalloon'
+  license: 'Commercial'
+  language: 'Web'
+  website: 'https://www.bitballoon.com/'
+  description: 'A hosting platform for your static sites & apps'
 
 
 - name: 'Blacksmith'
