@@ -1417,3 +1417,8 @@
   github: 'yosymfony/Spress'
   license: 'MIT'
   language: 'PHP'
+  
+- name: 'Felix Felicis'
+  website: 'http://lab.lepture.com/liquidluck/'
+  github: 'lepture/liquidluck'
+  language: 'Python'
