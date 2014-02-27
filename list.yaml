@@ -1425,3 +1425,11 @@
   website: 'http://lab.lepture.com/liquidluck/'
   github: 'lepture/liquidluck'
   language: 'Python'
+
+- name: 'PHPoole'
+  github: 'Narno/PHPoole'
+  license: 'MIT'
+  website: 'http://phpoole.narno.org'
+  language: 'PHP'
+  description: 'Light and easy static website generator written in PHP'
+  created_at: '2013-09-10T00:00:00Z'
