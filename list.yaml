@@ -314,6 +314,9 @@
   github: 'FSX/elyse'
   license: 'MIT'
 
+- name: 'embellih'
+  website: 'http://boscoh.github.io/embellish'
+  github: 'boscoh/embellish'
 
 - name: 'enfield'
   github: 'fortes/enfield'
