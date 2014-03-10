@@ -938,6 +938,12 @@
   license: 'MIT'
 
 
+- name: 'Polo'
+  github: 'agonzalezro/polo'
+  license: 'MIT'
+  description: 'Written in Go, Polo claims to be compatible with Pelican default configuration. The creator has used it to migrate his blog from Pelican to Polo without any much trouble.'
+  
+
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
   github: 'obensonne/poole'
