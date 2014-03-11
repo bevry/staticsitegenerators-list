@@ -1439,3 +1439,10 @@
   language: 'PHP'
   description: 'Light and easy static website generator written in PHP'
   created_at: '2013-09-10T00:00:00Z'
+  
+- name: 'Nico'
+  github: 'lepture/nico'
+  website: 'http://lab.lepture.com/nico/'
+  language: 'JavaScript'
+  license: 'BSD'
+  
