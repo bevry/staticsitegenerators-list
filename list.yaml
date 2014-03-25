@@ -1453,3 +1453,7 @@
   language: 'JavaScript'
   license: 'BSD'
   
+- name: 'Tacot'
+  website: 'https://bitbucket.org/harobed/tacot'
+  license: 'MIT'
+  language: 'Python'
