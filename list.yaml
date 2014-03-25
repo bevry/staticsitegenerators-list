@@ -793,6 +793,13 @@
 # not a ssg
 
 
+- name: 'MkDocs'
+  website: 'http://www.mkdocs.org'
+  github: 'tomchristie/mkdocs'
+  license: 'BSD'
+  language: 'Python'
+
+
 - name: 'monkeyman'
   github: 'wspringer/monkeyman'
   license: 'GPL'
