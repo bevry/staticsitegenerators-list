@@ -1306,7 +1306,11 @@
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
   license: 'GPL'
   language: 'Shell'
-
+  
+- name: 'Urubu'
+  website: 'http://urubu.jandecaluwe.com'
+  license: 'AGPL'
+  language: 'Python'
 
 - name: 'vee'
   website: 'http://www.0x743.com/vee//'
