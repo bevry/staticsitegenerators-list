@@ -1309,6 +1309,7 @@
   
 - name: 'Urubu'
   website: 'http://urubu.jandecaluwe.com'
+  github: 'jandecaluwe/urubu'
   license: 'AGPL'
   language: 'Python'
 
