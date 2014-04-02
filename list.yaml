@@ -1463,3 +1463,9 @@
   website: 'https://bitbucket.org/harobed/tacot'
   license: 'MIT'
   language: 'Python'
+  
+- name: 'SPG'
+  github: 'AdamBien/spg'
+  license: 'Apache'
+  language: 'JavaScript / Nashorn'
+  description: 'One file, no dependencies, only requires Java 8'
