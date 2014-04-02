@@ -768,6 +768,12 @@
   github: 'miguelibero/meinhof'
   license: 'MIT'
 
+- name: 'metalsmith'
+  website: 'http://metalsmith.io'
+  github: 'segmentio/metalsmith'
+  license: 'MIT'
+  language: 'javascript'
+  description: 'An extremely simple, pluggable static site generator.'
 
 - name: 'Middleman'
   github: 'middleman/middleman'
