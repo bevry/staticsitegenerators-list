@@ -1202,6 +1202,11 @@
   language: 'Python'
   description: "Stado is a simple, single-file, static site generator, powered by python scripts."
 
+- name: 'StaGen'
+  github: 'wiztools/stagen'
+  license: 'Apache'
+  language: 'Java'
+  description: 'StaGen supports Markdown, StringTemplate 4 and JSON. From the house of WizTools.org.'
 
 - name: 'Stasis'
   website: 'http://stasis.me/'
