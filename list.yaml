@@ -101,8 +101,8 @@
 - name: 'Benjen'
   github: 'daeken/Benjen'
   license: 'Public'
-  
-  
+
+
 - name: 'BitBalloon'
   license: 'Commercial'
   language: 'Web'
@@ -137,7 +137,8 @@
   website: 'http://www.blogofile.com/'
   github: 'EnigmaCurry/blogofile'
   license: 'MIT'
-  
+
+
 - name: 'Blogmark'
   website: 'https://blogmark.me/'
   license: 'Commercial'
@@ -180,6 +181,7 @@
 #  github: 'brunch/brunch'
 #  license: 'MIT'
 # not a ssg
+#
 
 - name: 'buster'
   github: 'axitkhurana/buster'
@@ -214,7 +216,8 @@
   license: false
 
 
-- name: 'Chronicle
+- name: 'Chronicle'
+  language: 'Perl'
   website: 'http://www.steve.org.uk/Software/chronicle/'
   license: 'GPL'
   description: 'A simple blog compiler, written in Perl with minimal dependencies.'
@@ -271,7 +274,7 @@
 - name: 'djangothis'
   github: 'amitu/djangothis'
   license: 'BSD'
-  
+
 
 - name: 'DocPad'
   website: 'http://docpad.org'
@@ -283,10 +286,12 @@
   github: 'louissobel/Drapache'
   license: 'MIT'
 
+
 - name: 'drfrederson'
   website: 'http://drf.grus.uberspace.de'
   github: 'klml/drfrederson'
   license: 'MIT'
+
 
 - name: 'DropPages'
   website: 'http://droppages.com/'
@@ -320,9 +325,11 @@
   github: 'FSX/elyse'
   license: 'MIT'
 
+
 - name: 'embellih'
   website: 'http://boscoh.github.io/embellish'
   github: 'boscoh/embellish'
+
 
 - name: 'enfield'
   github: 'fortes/enfield'
@@ -333,14 +340,16 @@
   website: 'http://engineer.readthedocs.org/en/latest/'
   github: 'tylerbutler/engineer'
   license: 'MIT'
-  
+
+
 - name: 'Equiprose'
   website: 'http://equiprose.org'
   github: 'http://github.com/thibaultCha/Equiprose'
   language: 'JavaScript'
   license: 'MIT'
   description: 'Flexible and powerful static website and blog generator in Node.js'
-  
+
+
 - name: 'Fairytale'
   github: '46Bit/fairytale'
   license: 'MIT'
@@ -351,10 +360,12 @@
   github: 'sylvainhalle/FantasticWindmill'
   license: 'GPL'
 
+
 - name: 'fBlog'
   website: 'http://sourceforge.net/projects/fortranblog/'
   licence: 'GPL'
   language: 'fortran'
+
 
 - name: 'fjord'
   website: 'http://dkuntz2.github.io/fjord/'
@@ -432,7 +443,8 @@
 - name: 'gostatic'
   github: 'piranha/gostatic'
   license: 'ISC'
-  
+
+
 - name: 'Go-Static!'
   github: 'colynb/generator-go-static'
   license: 'MIT'
@@ -457,10 +469,12 @@
   github: 'mikoskinen/graze'
   license: 'MIT'
 
+
 - name: 'grender'
   github: 'peterbourgon/grender'
   license: 'BSD'
   language: 'Go'
+
 
 - name: 'Growl'
   github: 'xfire/growl'
@@ -702,12 +716,14 @@
 #  license: 'MIT'
 # not a ssg
 
+
 - name: 'logya'
   github: 'yaph/logya'
   license: 'MIT'
   language: 'Python'
   website: 'http://pythonhosted.org/logya/'
   description: 'Logya is a command line tool to generate static Web sites, designed to be easy to use and flexible.'
+
 
 #- name: 'Lumbar'
 #  github: 'walmartlabs/lumbar'
@@ -774,12 +790,14 @@
   github: 'miguelibero/meinhof'
   license: 'MIT'
 
+
 - name: 'metalsmith'
   website: 'http://metalsmith.io'
   github: 'segmentio/metalsmith'
   license: 'MIT'
   language: 'javascript'
   description: 'An extremely simple, pluggable static site generator.'
+
 
 - name: 'Middleman'
   github: 'middleman/middleman'
@@ -961,7 +979,7 @@
   github: 'agonzalezro/polo'
   license: 'MIT'
   description: 'Written in Go, Polo claims to be compatible with Pelican default configuration. The creator has used it to migrate his blog from Pelican to Polo without any much trouble.'
-  
+
 
 - name: 'poole'
   website: 'https://bitbucket.org/obensonne/poole'
@@ -985,7 +1003,7 @@
   license: 'Commercial'
   language: 'Web'
   description: 'Static Website Hosting and CDN'
-  
+
 
 - name: 'Punch'
   github: 'laktek/punch'
@@ -1108,11 +1126,13 @@
   github: 'rubyworks/shelob'
   license: 'BSD'
 
+
 - name: 'Sitebox.io'
   website: 'http://www.sitebox.io'
   license: 'Commercial'
   description: 'New and intuitive way to create websites with dropbox'
   language: 'Web'
+
 
 - name: 'Site builder console'
   website: 'http://sitebuilder.codeplex.com/'
@@ -1214,6 +1234,7 @@
   language: 'Java'
   description: 'StaGen supports Markdown, StringTemplate 4 and JSON. From the house of WizTools.org.'
 
+
 - name: 'Stasis'
   website: 'http://stasis.me/'
   github: 'winton/stasis'
@@ -1308,6 +1329,7 @@
   github: 'cloudhead/toto'
   license: 'MIT'
 
+
 - name: 'trofaf'
   github: 'PuerkitoBio/trofaf'
   license: 'BSD'
@@ -1317,27 +1339,32 @@
   website: 'http://www.loup-vaillant.fr/projects/ussm/'
   license: 'GPL'
   language: 'Shell'
-  
+
+
 - name: 'Urubu'
   website: 'http://urubu.jandecaluwe.com'
   github: 'jandecaluwe/urubu'
   license: 'AGPL'
   language: 'Python'
 
+
 - name: 'vee'
   website: 'http://www.0x743.com/vee//'
   github: 'estrabd/vee'
   license: 'BSD'
 
+
 - name: 'vimwiki'
   github: 'vim-scripts/vimwiki'
   license: 'MIT'
+
 
 - name: 'VoodooPad'
   website: 'https://plausible.coop/voodoopad/'
   license: 'Commerical'
   language: 'App'
   description: 'MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript.'
+
 
 - name: 'Voldemort'
   github: 'semk/voldemort'
@@ -1440,26 +1467,31 @@
   github: 'seattlerb/zenweb'
   license: 'MIT'
 
+
 - name: 'kkr'
   github: 'dchest/kkr'
   license: 'BSD'
   language: 'Go'
-  
+
+
 - name: 'nodeache'
   github: 'nunull/nodeache'
   license: 'MIT'
   language: 'JavaScript'
-  
+
+
 - name: 'Spress'
   website: 'http://spress.yosymfony.com/'
   github: 'yosymfony/Spress'
   license: 'MIT'
   language: 'PHP'
-  
+
+
 - name: 'Felix Felicis'
   website: 'http://lab.lepture.com/liquidluck/'
   github: 'lepture/liquidluck'
   language: 'Python'
+
 
 - name: 'PHPoole'
   github: 'Narno/PHPoole'
@@ -1468,18 +1500,21 @@
   language: 'PHP'
   description: 'Light and easy static website generator written in PHP'
   created_at: '2013-09-10T00:00:00Z'
-  
+
+
 - name: 'Nico'
   github: 'lepture/nico'
   website: 'http://lab.lepture.com/nico/'
   language: 'JavaScript'
   license: 'BSD'
-  
+
+
 - name: 'Tacot'
   website: 'https://bitbucket.org/harobed/tacot'
   license: 'MIT'
   language: 'Python'
-  
+
+
 - name: 'SPG'
   github: 'AdamBien/spg'
   license: 'Apache'
