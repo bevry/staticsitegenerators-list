@@ -1191,6 +1191,11 @@
   license: false
 
 
+- name: 'sitegen'
+  github: 'leafo/sitegen'
+  license: false
+
+
 - name: 'snowshoe'
   website: 'http://getsnowshoe.com/index.html'
   github: 'edvanbeinum/snowshoe'
