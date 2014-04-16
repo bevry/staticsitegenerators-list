@@ -166,6 +166,9 @@
   language: 'Web'
   description: 'Brace is the new way to host websites'
 
+- name: 'Bramble MVC'
+  github: 'iansullivan88/bramble-mvc'
+  license: 'MIT'
 
 - name: 'Bread'
   github: 'pvorb/node-bread'
