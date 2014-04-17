@@ -1293,6 +1293,11 @@
   github: 'ff0000/statix'
   license: 'MIT'
 
+- name: 'Stog'
+  website: 'http://zoggy.github.io/stog/'
+  github: 'zoggy/stog'
+  license: 'GPL'
+  language: 'OCaml'
 
 - name: 'StrangeCase'
   website: 'http://colinta.com/projects/StrangeCase.html'
