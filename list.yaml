@@ -1362,9 +1362,10 @@
 
 
 - name: 'vee'
-  website: 'http://www.0x743.com/vee//'
+  website: 'http://estrabd.github.io/vee/'
   github: 'estrabd/vee'
   license: 'BSD'
+  description: 'Vee is a zero config, command line blog tool that is very portable across Unix systems. It provides an interactive as well as a batch interface to maintain a log of entries.'
 
 
 - name: 'vimwiki'
