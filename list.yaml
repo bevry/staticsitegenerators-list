@@ -541,7 +541,7 @@
 
 - name: 'Hastie'
   github: 'mkaz/hastie'
-  license: false
+  license: 'MIT'
 
 
 - name: 'Heckle'
