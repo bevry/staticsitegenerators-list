@@ -257,6 +257,12 @@
   github: 'piranha/cyrax'
   license: 'BSD'
 
+- name: 'Dapper'
+  website: http://vanilladraft.com/dapper/
+  github: 'markdbenson/dapper'
+  license: 'MIT'
+  language: 'Perl'
+  description: 'A publishing tool for static websites.'
 
 - name: 'Deplot'
   github: 'cdn64/deplot'
