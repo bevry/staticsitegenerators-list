@@ -779,6 +779,14 @@
   license: 'MIT'
 
 
+- name: 'Mecha'
+  website: 'http://mecha-cms.com'
+  github: 'mecha-cms/cms'
+  license: 'GPL'
+  language: 'PHP'
+  description: 'Mecha is a text file-based CMS. It does not require any database. All pages are saved in a txt file and named with specific pattern for file sorting purposes.'
+
+
 - name: 'massimo'
   github: 'petebrowne/massimo'
   license: 'MIT'
