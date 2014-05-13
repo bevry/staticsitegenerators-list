@@ -762,6 +762,9 @@
 #  description: "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance."
 # not a ssg
 
+- name: 'Makefly'
+  github: 'blankoworld/makefly'
+  license: 'GPL'
 
 - name: 'Markbox'
   github: 'myfreeweb/markbox'
