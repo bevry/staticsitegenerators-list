@@ -1095,8 +1095,11 @@
 
 
 - name: 'Roots'
+  website: 'http://roots.cx/'
   github: 'jenius/roots'
   license: 'MIT'
+  language: 'JavaScript'
+  description: "Roots is a fast, simple, and customizable static site compiler."
 
 
 - name: 'Rote'
