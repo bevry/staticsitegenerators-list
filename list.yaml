@@ -679,6 +679,7 @@
 
 - name: 'jstatico'
   github: 'egeozcan/jstatico'
+  language: 'JavaScript'
   license: 'MIT'
 
 - name: 'Kel'
