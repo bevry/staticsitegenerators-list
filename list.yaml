@@ -935,6 +935,14 @@
   description: "Like Jekyll"
 
 
+- name: 'Ocam'
+  website: 'http://toddlucas.github.io/ocam/'
+  github: 'toddlucas/ocam'
+  license: 'MIT'
+  language: "C#"
+  description: "Razor and Markdown static site generator"
+
+
 - name: 'Pagegen'
   website: 'http://pagegen.phnd.net/'
   license: 'GPL'  # mentioned inside download
