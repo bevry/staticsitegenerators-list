@@ -20,3 +20,7 @@ There are generally three types of Content Management Systems:
 Currently, this listing is for only projects that are either or both a Flat File CMS and Static Site Generator, but not for projects which are only Dynamic Servers (such as WordPress and Ghost).
 
 If you would actually like a listing of all Content Management Systems, where you can browse by their types. [Let us know in this discussion.](https://github.com/jaspervdj/static-site-generator-comparison/issues/52)
+
+## License
+
+This listing is released into the public domain.
