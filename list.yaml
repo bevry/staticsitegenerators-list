@@ -948,7 +948,6 @@
   github: 'imathis/octopress'
   license: 'MIT'
 
-
 - name: 'Nikola'
   website: 'http://getnikola.com/'
   github: 'getnikola/nikola'
@@ -1313,6 +1312,11 @@
   github: 'winton/stasis'
   license: 'MIT'
 
+- name: 'Stasis.clj'
+  github: 'magnars/stasis'
+  license: 'EPL'
+  language: 'Clojure'
+  description: 'A Clojure library of tools for developing static web sites.'
 
 - name: 'Statamic'
   website: 'http://www.statamic.com/'
