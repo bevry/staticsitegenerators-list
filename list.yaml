@@ -1263,6 +1263,12 @@
   github: 'edvanbeinum/snowshoe'
   license: false
 
+- name: 'Soapbox'
+  website: 'https://github.com/arnolddevos/Soapbox'
+  github: 'arnolddevos/Soapbox'
+  license: 'BSD'
+  language: 'scala'
+  description: 'Static site generator as an SBT plugin'
 
 - name: 'Socrates'
   website: 'http://honza.ca/socrates/'
