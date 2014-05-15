@@ -563,7 +563,7 @@
 
 
 - name: 'Hexo'
-  website: 'http://zespia.tw/hexo/'
+  website: 'http://hexo.io'
   github: 'tommy351/hexo'
   license: 'MIT'
 
