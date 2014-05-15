@@ -300,6 +300,7 @@
 - name: 'Docta'
   website: 'http://docta.05bit.com'
   github: '05bit/python-docta'
+  language: 'Python'
   license: 'BSD'
   description: 'Static site generator for building documentation.'
 
