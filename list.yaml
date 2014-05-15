@@ -1267,6 +1267,11 @@
   github: 'wlangstroth/simple-static'
   license: false
 
+- name: 'simsalabash'
+  github: 'markusfisch/simsalabash'
+  license: 'MIT'
+  language: 'bash'
+  description: 'Hypertext mechanics in BASH'
 
 - name: 'sitegen'
   github: 'leafo/sitegen'
