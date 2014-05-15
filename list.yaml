@@ -433,7 +433,7 @@
 
 - name: 'Frog'
   github: 'greghendershott/frog'
-  license: false
+  license: 'MIT'
   language: 'Racket'
 
 - name: 'Frozen-Flask'
