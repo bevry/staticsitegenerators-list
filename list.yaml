@@ -677,6 +677,9 @@
   github: 'jonsherrard/jott'
   license: 'Public'
 
+- name: 'jstatico'
+  github: 'egeozcan/jstatico'
+  license: 'MIT'
 
 - name: 'Kel'
   github: 'koostudios/kel'
