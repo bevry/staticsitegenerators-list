@@ -457,6 +457,12 @@
   github: 'trq/Gen'
   license: "MIT"
 
+- name: 'gettheshitdone'
+  github: 'johannesboyne/gettheshitdone'
+  license: 'MIT'
+  language: 'JavaScript'
+  description: 'A simple website creating tool, package, framework whatever.'
+
 
 - name: 'glynn'
   github: 'teiko/glynn'
@@ -1375,6 +1381,11 @@
   language: 'Haskell'
   description: 'publishes a static site to s3'
   created_at: '2012-07-12T19:55:23Z'
+
+- name: 'Staticsmoothie'
+  website: 'https://github.com/johannesboyne/go_lab/tree/master/staticsmoothie'
+  language: 'Go'
+  license: 'MIT'
 
 - name: 'StaticMate'
   website: 'https://staticmate.com/'
