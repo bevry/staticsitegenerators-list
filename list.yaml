@@ -387,6 +387,11 @@
   github: 'dkuntz2/fjord'
   license: 'BSD'
 
+- name: 'flim'
+  github: 'shapeshed/flim'
+  license: 'MIT'
+  language: 'JavaScript'
+  description: 'Lightweight static page generator'
 
 - name: 'Floyd'
   github: 'nikcub/floyd'
