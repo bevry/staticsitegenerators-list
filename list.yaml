@@ -20,6 +20,7 @@
 # "SimPL" - use for all variations of the Simple Public License
 # "Apache" - use for all variations of the Apache License
 # "Ruby" - use for all variations of the Ruby License
+# "Perl" - use for all variations of the Perl/Artistic License
 # "EPL" - use for all variations of the Eclipse Public License
 # "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
 # "Beer-ware" - use for all variations of the Beer-ware License
@@ -1569,3 +1570,9 @@
   license: 'Apache'
   language: 'JavaScript / Nashorn'
   description: 'One file, no dependencies, only requires Java 8'
+  
+- name 'electro'
+  github: 'caldwell/electro'
+  license: 'Perl'
+  language: 'Perl'
+  description: 'One file, uses yaml for structure of site, Template::Toolkit for HTML'
