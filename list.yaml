@@ -954,6 +954,12 @@
   github: 'getnikola/nikola'
   license: 'MIT'
 
+- name: 'o-blog'
+  website: 'http://renard.github.com/o-blog'
+  license: 'WTFPL'
+  language: 'elisp'
+  github: 'renard/o-blog'
+  description: 'Generates static sites from org-mode files'
 
 - name: 'obraz'
   website: 'http://obraz.pirx.ru/'
