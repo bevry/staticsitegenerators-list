@@ -1302,6 +1302,11 @@
   github: 'python-mg/speechhub'
   license: 'GPL'
 
+- name: 'Spine'
+  github: 'varl/spine'
+  language: 'java'
+  license: false
+  description: 'Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar'
 
 - name: 'Sphinx'
   website: 'http://sphinx-doc.org/'
