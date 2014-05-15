@@ -1554,3 +1554,9 @@
   license: 'Apache'
   language: 'JavaScript / Nashorn'
   description: 'One file, no dependencies, only requires Java 8'
+
+- name: 'jssg'
+  github: 'agrison/jssg'
+  license: 'MIT'
+  language: 'Java'
+  description: 'Java static site generator'
