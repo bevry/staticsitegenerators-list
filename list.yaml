@@ -1569,3 +1569,10 @@
   license: 'Apache'
   language: 'JavaScript / Nashorn'
   description: 'One file, no dependencies, only requires Java 8'
+  
+  
+- name: 'Text Assembler'
+  website: 'http://www.akiwi.co.uk/ta.html'
+  license: 'Free'
+  language: 'JavaScript'
+  description: 'A static website generator written in C++ integrating the Google V8 Javascript engine'
