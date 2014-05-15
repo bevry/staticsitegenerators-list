@@ -850,6 +850,15 @@
   language: 'Python'
 
 
+- name: 'mksite'
+  github: 'clehner/mksite'
+  license: 'MIT'
+  language: 'Make'
+  description: 'Fast declarative site generator using only common shell tools'
+  website: 'http://celehner.com/mksite/'
+  created_at: '2014-01-01T10:00:00Z'
+
+
 - name: 'monkeyman'
   github: 'wspringer/monkeyman'
   license: 'GPL'
