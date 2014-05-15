@@ -811,6 +811,13 @@
   license: 'MIT'
 
 
+- name: 'Maven Site Plugin'
+  website: 'http://maven.apache.org/plugins-archives/maven-site-plugin-3.3/'
+  license: 'Apache'
+  language: 'Java'
+  description: 'The Site Plugin is used to generate a site for the project. The generated site also includes the project\'s reports that were configured in the POM.'
+  
+
 - name: 'Mecha'
   website: 'http://mecha-cms.com'
   github: 'mecha-cms/cms'
