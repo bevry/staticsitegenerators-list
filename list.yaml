@@ -1248,6 +1248,10 @@
   github: 'leafo/sitegen'
   license: false
 
+- name: 'Smallest Blogger'
+  website: 'http://ranmocy.github.io/smallest-blogger'
+  github: 'ranmocy/smallest-blogger'
+  license: 'MIT'
 
 - name: 'snowshoe'
   website: 'http://getsnowshoe.com/index.html'
