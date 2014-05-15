@@ -485,6 +485,13 @@
   language: 'Go'
 
 
+- name: 'Grow'
+  github: 'grow/pygrow'
+  license: 'MIT'
+  language: 'Python'
+  website: 'http://growsdk.org'
+
+
 - name: 'Growl'
   github: 'xfire/growl'
   license: 'GPL'
