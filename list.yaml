@@ -1451,6 +1451,13 @@
   github: 'catnapgames/Tempo'
   license: 'MIT'
 
+- name: 'Tinkerer'
+  website: 'http://tinkerer.me/'
+  description: 'Tinkerer is a blogging engine/static website generator powered by Sphinx.'
+  github: 'vladris/tinkerer'
+  license: 'BSD'
+  language: 'Python'
+  
 
 - name: 'toto'
   github: 'cloudhead/toto'
