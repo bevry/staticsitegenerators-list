@@ -179,6 +179,7 @@
   website: 'http://bricolagecms.org/'
   description: 'Bricolage is an open-source, enterprise-class content management, workflow, and publishing system that greatly simplifies the tasks of creating, managing, and publishing vast libraries of content.'
   github: 'bricoleurs/bricolage'
+  language: 'Perl'
   license: 'BSD'
   
 - name: 'brochure'
