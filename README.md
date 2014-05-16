@@ -8,6 +8,8 @@ A comprehensive listing of static site generators with some minimal meta data ab
 
 [View the rendered listing.](http://staticsitegenerators.net)
 
+[Hack on the website that renders the listing.](https://github.com/bevry/staticsitegenerators)
+
 
 ## Requirements for Additions
 
