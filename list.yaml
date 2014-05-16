@@ -1668,3 +1668,11 @@
   license: "MIT"
   language: "Java"
   description: "Java static site generator"
+  
+  - name: "wordsister"
+  github: "kaihendry/wordsister"
+  license: "MIT"
+  language: "make"
+  description: "Makefile based static site generator"
+  
+  
