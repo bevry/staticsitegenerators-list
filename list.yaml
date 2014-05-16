@@ -1702,3 +1702,10 @@
   license: "MIT"
   language: "Make"
   description: "Makefile based static site generator"
+
+- name: "assg"
+  github: "lukasepple/assg"
+  license: "AGPL"
+  language: "Bash"
+  description: "awesome markdown based static site generator"
+  
