@@ -411,6 +411,12 @@
   license: "BSD"
   language: "Python"
   description: "The Blog Tool for Discerning Pythoneers"
+  
+  
+- name: "Firmant"
+  website: "https://pypi.python.org/pypi/Firmant/0.2.2"
+  license: "BSD"
+  language: "Python"
 
 
 - name: "FMPP"
