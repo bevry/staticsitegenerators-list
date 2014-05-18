@@ -1029,6 +1029,13 @@
   github: "hassox/pancake"
   license: "MIT"
 
+- name: "pansite"
+  website: "http://wcm1.web.rice.edu"
+  github: "wcaleb/website"
+  license: "CC"
+  language: "Bash"
+  description: "wrapper for Pandoc"
+
 
 - name: "Pelican"
   github: "getpelican/pelican"
@@ -1615,6 +1622,8 @@
 - name: "yst"
   github: "jgm/yst"
   license: "GPL"
+  language: "Haskell"
+  description: "uses Pandoc library"
 
 
 - name: "zas"
