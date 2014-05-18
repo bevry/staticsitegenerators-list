@@ -1709,3 +1709,9 @@
   language: "Bash"
   description: "awesome markdown based static site generator"
   
+- name: "deplate"
+  github: "tomtom/deplate"
+  website: "http://deplate.sourceforge.net/"
+  license: "GPL"
+  language: "Ruby"
+  description: "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
