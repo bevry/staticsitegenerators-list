@@ -1710,7 +1710,7 @@
   description: "awesome markdown based static site generator"
   
 - name: "deplate"
-  github: l"tomtom/deplate"
+  github: "tomtom/deplate"
   website: "http://deplate.sourceforge.net/"
   license: "GPL"
   language: "Ruby"
