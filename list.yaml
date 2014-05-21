@@ -1484,6 +1484,11 @@
   github: "sebastien/tahchee"
   license: "BSD"
 
+- name: "Teddy Hyde"
+  github: "xrd/TeddyHyde"
+  license: "MIT"
+  language: "Ruby"
+  website: "https://teddyhyde.com"
 
 - name: "Telegram"
   website: "https://telegr.am/"
