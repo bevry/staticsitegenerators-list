@@ -767,6 +767,10 @@
   github: "hit9/lilac"
   license: "MIT"
 
+- name: 'Liquidluck'
+  github: 'lepture/liquidluck'
+  website: 'http://lab.lepture.com/liquidluck/'
+  license: ''
 
 #- name: "Lineman"
 #  github: "testdouble/lineman"
