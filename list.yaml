@@ -589,6 +589,11 @@
   github: "rhiokim/haroopress"
   license: "MIT"
 
+- name: "Halwa"
+  github: "mhlakhani/halwa"
+  license: "MIT"
+  language: "Python"
+  description: "Halwa is a single file static site generator written in Python."
 
 - name: "Harp"
   github: "sintaxi/harp"
