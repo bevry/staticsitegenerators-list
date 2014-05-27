@@ -1061,6 +1061,13 @@
   github: "AD7six/phase"
   license: "MIT"
 
+- name: "Phileas"
+  website: "https://dl.dropboxusercontent.com/u/620905/phileas/index.html"
+  github: "farvardin/phileas"
+  license: "MIT"
+  language: "javascript"
+  description: "A static site generator, using javascript and simple text files written in txt2tags (markdown ultra) syntax"
+
 
 - name: "Phrozn"
   website: "http://phrozn.info"
