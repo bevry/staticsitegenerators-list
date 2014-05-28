@@ -714,6 +714,12 @@
 - name: "Kerouac"
   github: "jaredhanson/kerouac"
   license: "MIT"
+  
+
+- name: "Kickster"
+  github: "timhartmann/Kickster"
+  license: "MIT"
+  description: "Kickstarter Boilerplate with Node-Sass, Grunt, Bower, Browser-Sync and much more stuff"
 
 
 - name: "Kirby"
