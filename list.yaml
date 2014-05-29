@@ -611,6 +611,12 @@
   license: false
 
 
+- name: "Helpful Site"
+  github: "g4b1nagy/helpful-site"
+  license: "Public"
+  language: "Python"
+
+
 - name: "Hexo"
   website: "http://hexo.io"
   github: "tommy351/hexo"
