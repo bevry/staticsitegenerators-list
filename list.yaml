@@ -643,6 +643,7 @@
   website: "http://hugo.spf13.com/"
   github: "spf13/hugo"
   license: "SimPL"
+  language: "Go"
 
 
 - name: "Hydrastic"
