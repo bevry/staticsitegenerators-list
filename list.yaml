@@ -267,7 +267,7 @@
   license: "BSD"
 
 - name: "Dapper"
-  website: "http://vanilladraft.com/dapper/"
+  website: http://vanilladraft.com/dapper/
   github: "markdbenson/dapper"
   license: "MIT"
   language: "Perl"
@@ -672,9 +672,6 @@
   website: "http://ikiwiki.info/"
   license: "GPL"
 
-- name: "ipsumgenera"
-  github: "dom96/ipsumgenera"
-  license: "MIT"
 
 - name: "JBake"
   website: "http://jbake.org/"
@@ -695,6 +692,14 @@
 - name: "Jen"
   github: "rfunduk/jen"
   license: false
+  
+  
+- name: "jem-press"
+  github: "scottsievert/jem-press"
+  license: "GPL"
+  website: "http://scottsievert.github.io/jem-press/"
+  language: "Ruby"
+  description: "Markdown --> `ruby update.rb` --> site. Simple and easy to use; not blog sensitive"
 
 
 - name: "jinjet"
