@@ -1044,6 +1044,13 @@
   description: "Razor and Markdown static site generator"
 
 
+- name: "operator-DD3"
+  github: "operator-dd3/operator-dd3"
+  language: "Lua"
+  license: "Public"
+  description: "An (Extremely Basic and Limited) Static Site Generator made in Lua."
+
+
 - name: "Pagegen"
   website: "http://pagegen.phnd.net/"
   license: "GPL"  # mentioned inside download
