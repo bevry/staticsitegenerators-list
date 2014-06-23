@@ -1519,6 +1519,12 @@
   github: "sebastien/tahchee"
   license: "BSD"
 
+- name: "Tclssg"
+  github: "dbohdan/tclssg"
+  license: "MIT"
+  language: "Tcl"
+  description: "A small static site generator that uses Tcl for both program code and templates."
+
 - name: "Teddy Hyde"
   github: "xrd/TeddyHyde"
   license: "MIT"
