@@ -1446,6 +1446,14 @@
   github: "Ceasar/staticjinja"
   license: "MIT"
 
+
+- name: "staticpress"
+  github: "ravinggenius/staticpress"
+  license: "MIT"
+  language: "Ruby"
+  description: "Staticpress is a blog-focused static site generator"
+
+
 - name: "staticsite"
   github: "trevorc/staticsite"
   license: "BSD"
