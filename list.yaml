@@ -716,6 +716,14 @@
   github: "jonsherrard/jott"
   license: "Public"
 
+- name: "Jr"
+  github: "xeoncross/jr"
+  license: "MIT"
+  language: "Javascript"
+  website: "http://xeoncross.github.io/jr/"
+  description: "The static, static site generator"
+
+
 - name: "jstatico"
   github: "egeozcan/jstatico"
   language: "JavaScript"
