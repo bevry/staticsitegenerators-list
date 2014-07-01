@@ -487,6 +487,9 @@
   github: "dreverri/gollum-site"
   license: "MIT"
 
+- name: "goblog"
+  github: "icub3d/goblog"
+  license: "MIT"
 
 - name: "gor"
   github: "wendal/gor"
