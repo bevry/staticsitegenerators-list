@@ -1804,3 +1804,9 @@
   license: "GPL"
   language: "Ruby"
   description: "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
+
+- name: "yellow"
+  github: "markseu/yellowcms"
+  website: "http://datenstrom.se/yellow/"
+  license: "GPL"
+  language: "PHP"
