@@ -622,7 +622,7 @@
 
 - name: "Hexo"
   website: "http://hexo.io"
-  github: "tommy351/hexo"
+  github: "hexojs/hexo"
   license: "MIT"
 
 - name: "HīD"
