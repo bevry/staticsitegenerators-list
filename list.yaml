@@ -1597,10 +1597,11 @@
 
 
 - name: "vee"
+  license: "BSD"
   website: "http://estrabd.github.io/vee/"
   github: "estrabd/vee"
-  license: "BSD"
-  description: "Vee is a zero config, command line blog tool that is very portable across Unix systems. It provides an interactive as well as a batch interface to maintain a log of entries."
+  description: "vee is a highly portable across minimal *nix systems (including MacOSX), zero dependency, zero configuration (but configurable), commandline microblogging tool. Also provides a batch interface for piping to (e.g., output from cronjobs)."
+  language: "Bourne Shell"
 
 
 - name: "vimwiki"
