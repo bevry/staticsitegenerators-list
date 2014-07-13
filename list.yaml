@@ -133,6 +133,13 @@
   github: "stackoverflow/blode"
   license: false
 
+- name: "Blogfy"
+  website: "http://linux.sytes.net/"
+  github: "wifiextender/blogfy"
+  license: false
+  language: "Python"
+  description: "Blogfy is an open source and useful software written in Python and designed especially for those who want to create weblogs and websites in a straightforward manner. The software includes five built-in themes, which can be used by users to generate web pages or blogs. Blogfy requires no 3rd party dependencies, your text posts are glued to the html templates and everything is generated on the fly. Blogfy got automated pagination, RSS, tags and sitemap generator, it is platform independent."
+
 
 - name: "Blogofile"
   website: "http://www.blogofile.com/"
