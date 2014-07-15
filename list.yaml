@@ -1303,6 +1303,14 @@
   license: "BSD"
 
 
+- name: "Simiki"
+  github: "tankywoo/simiki"
+  website: "http://simiki.org/"
+  license: "MIT"
+  description: "Simiki is a simple wiki framework, written in Python."
+  language: "Python"
+
+
 - name: "Sitebox.io"
   website: "http://www.sitebox.io"
   license: "Commercial"
