@@ -1287,7 +1287,7 @@
 
 - name: "scms - shell cms"
   website: "http://www.lab21.net/pub/softver/sh/scms"
-  github: "djura-san/scripts/blob/master/scms"
+  github: "djura-san/scripts"
   license: "Public"
   description: "Small static website generator with imbedded markdown support. It is focused on lowering the i/o stream on discs"
   language: "Bash"
