@@ -1561,12 +1561,19 @@
 - name: "Tahchee"
   github: "sebastien/tahchee"
   license: "BSD"
+  
+- name: "tclog"
+  website: "http://wiki.tcl.tk/9148"
+  license: "BSD"
+  language: "Tcl"
+  description: "Weblog generator with a GUI editor. Uploads entries via FTP. Features: RSS 1.0, HTML templates, TrackBack, wiki-like formatting, Namazu index creation."
+  created_at: "2003-03-17T00:00:00Z"
 
 - name: "Tclssg"
   github: "dbohdan/tclssg"
   license: "MIT"
   language: "Tcl"
-  description: "A small static site generator that uses Tcl for both program code and templates."
+  description: "Tclssg is a simple static site generator written in Tcl that uses Markdown for content markup and HTML with embedded Tcl code for page templates (powered by Tcllib's textutil::expander)."
 
 - name: "Teddy Hyde"
   github: "xrd/TeddyHyde"
