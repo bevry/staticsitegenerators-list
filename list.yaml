@@ -1852,4 +1852,5 @@
   github: "wikismith/wikismith"
   website: "http://www.wikismith.com"
   license: "MIT"
-  language: "Javascript"  
+  language: "Javascript"
+  description "The fun static site generator for fans of gulp and bower"
