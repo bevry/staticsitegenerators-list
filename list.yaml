@@ -1847,3 +1847,9 @@
   website: "http://datenstrom.se/yellow/"
   license: "GPL"
   language: "PHP"
+  
+- name: "Wikismith"
+  github: "wikismith/wikismith"
+  website: "http://www.wikismith.com"
+  license: "MIT"
+  language: "Javascript"  
