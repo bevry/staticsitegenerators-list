@@ -1853,4 +1853,4 @@
   website: "http://www.wikismith.com"
   license: "MIT"
   language: "Javascript"
-  description "The fun static site generator for fans of gulp and bower"
+  description: "The fun static site generator for fans of gulp and bower"
