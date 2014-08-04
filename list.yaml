@@ -1573,7 +1573,7 @@
   github: "dbohdan/tclssg"
   license: "MIT"
   language: "Tcl"
-  description: "Tclssg is a simple static site generator written in Tcl that uses Markdown for content markup and HTML with embedded Tcl code for page templates (powered by Tcllib's textutil::expander)."
+  description: "Tclssg is a simple static site generator written in Tcl that uses Markdown for content markup and HTML with embedded Tcl code for page templates."
 
 - name: "Teddy Hyde"
   github: "xrd/TeddyHyde"
