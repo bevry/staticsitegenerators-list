@@ -683,6 +683,11 @@
   license: "GPL"
 
 
+- name: "JAGSS"
+  github: "esonderegger/jagss"
+  license: "MIT"
+
+
 - name: "JBake"
   website: "http://jbake.org/"
   github: "jbake-org/jbake"
