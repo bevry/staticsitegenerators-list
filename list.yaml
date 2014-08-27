@@ -777,6 +777,14 @@
   license: false
 
 
+- name: "Lambda Pad"
+  website: "http://www.lambdapad.io/"
+  github: "gar1t/lambdapad"
+  license: "Apache"
+  language: "Erlang"
+  description: "A static site generator in Erlang. Yes, Erlang."
+
+
 - name: "Lanyon"
   website: "http://lanyon.readthedocs.org/"
   license: "BSD"
