@@ -587,6 +587,12 @@
   github: "robmadole/handcrank"
   license: "BSD"
 
+- name: "handroll"
+  website: "http://handroll.readthedocs.org/en/latest/"
+  github: "mblayman/handroll"
+  license: "BSD"
+  language: "Python"
+  description: "A website generator for software artisans. handroll is a static website generator that uses markup languages like Markdown, ReStructuredText, and Textile."
 
 - name: "happyplan"
   website: "http://happyplan.putaindecode.io/"
