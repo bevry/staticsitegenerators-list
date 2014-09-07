@@ -1392,6 +1392,11 @@
   github: "rtorr/serious-chicken"
   license: "MIT"
 
+- name: "Shonku"
+  website: "http://shonku.rtfd.org"
+  github: "kushaldas/shonku"
+  license: "GPL"
+  language: "Go"
 
 - name: "SG"
   github: "maxailloud/SG"
