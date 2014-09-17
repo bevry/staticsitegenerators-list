@@ -1591,6 +1591,11 @@
   github: "sebastien/tahchee"
   license: "BSD"
   
+- name: "Tarbell"
+  github: "newsapps/flask-tarbell"
+  license: "MIT"
+  
+  
 - name: "tclog"
   website: "http://wiki.tcl.tk/9148"
   license: "BSD"
