@@ -313,7 +313,8 @@
 
 - name: "DocPad"
   website: "http://docpad.org"
-  github: "bevry/docpad"
+  language: "CoffeeScript"
+  github: "docpad/docpad"
   license: "MIT"
 
 
