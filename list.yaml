@@ -277,7 +277,12 @@
   website: "http://pypi.python.org/pypi/cyrax"
   github: "piranha/cyrax"
   license: "BSD"
-
+  
+- name: "catsup"
+  website: "https://github.com/whtsky/Catsup/"
+  github: "whtsky/Catsup/"
+  license: false 
+  
 - name: "Dapper"
   website: http://vanilladraft.com/dapper/
   github: "markdbenson/dapper"
