@@ -1889,3 +1889,10 @@
   license: "MIT"
   language: "Javascript"
   description: "The fun static site generator for fans of gulp and bower"
+  
+- name: "OpooPress"
+  github: "opoo/opoopress"
+  website: "http://www.opoopress.com"
+  license: "Apache"
+  language: "Java"
+  description: "OpooPress blogging framework is a java based blog aware static site generator."
