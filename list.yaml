@@ -229,6 +229,10 @@
   license: "ISC"
 
 
+- name: "Catsup"
+  github: "whtsky/castsup"
+  license: "BSD"
+
 - name: "Chili"
   website: "http://chilipy.com/"
   github: "clvrobj/chili"
