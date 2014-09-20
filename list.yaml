@@ -280,7 +280,7 @@
   
 - name: "catsup"
   website: "https://github.com/whtsky/Catsup/"
-  github: "whtsky/Catsup/"
+  github: "whtsky/Catsup"
   license: false 
   
 - name: "Dapper"
