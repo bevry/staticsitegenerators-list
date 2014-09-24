@@ -501,6 +501,10 @@
   license: "MIT"
 
 
+- name: "Glyph"
+  github: "h3rald/glyph"
+  license: "MIT"
+
 - name: "gollum-site"
   github: "dreverri/gollum-site"
   license: "MIT"
