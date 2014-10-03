@@ -932,6 +932,13 @@
 - name: "massimo"
   github: "petebrowne/massimo"
   license: "MIT"
+  
+- name: "mdwiki"
+  website: "http://www.mdwiki.info/"
+  github: "https://github.com/Dynalon/mdwiki"
+  license: "GNU GPLv3"
+  language: "Markdown"
+  description: "CMS/Wiki system using Javascript for 100% client side single page application using Markdown."
 
 
 - name: "Miblo"
