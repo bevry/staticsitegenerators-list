@@ -393,7 +393,7 @@
 
 - name: "Equiprose"
   website: "http://equiprose.org"
-  github: "http://github.com/thibaultCha/Equiprose"
+  github: "thibaultCha/Equiprose"
   language: "JavaScript"
   license: "MIT"
   description: "Flexible and powerful static website and blog generator in Node.js"
@@ -598,8 +598,7 @@
 
 
 - name: "handcrank"
-  website: "https://pypi.python.org/pypi/handcrank"
-  github: "robmadole/handcrank"
+  website: "http://pythonhosted.org/handcrank/"
   license: "BSD"
 
 - name: "handroll"
@@ -935,7 +934,7 @@
   
 - name: "mdwiki"
   website: "http://www.mdwiki.info/"
-  github: "https://github.com/Dynalon/mdwiki"
+  github: "Dynalon/mdwiki"
   license: "GPL"
   description: "CMS/Wiki system using Javascript for 100% client side single page application using Markdown."
 
@@ -1055,9 +1054,10 @@
   license: false
 
 
-- name: "node-jekyll"
-  github: "wangbus/node-jekyll"
-  license: "MIT"
+#- name: "node-jekyll"
+#  github: "wangbus/node-jekyll"
+#  license: "MIT"
+# ^ Returns a 404. No backup repo found.
 
 
 - name: "noflo-jekyll"
@@ -1157,7 +1157,7 @@
 
 - name: "Phrozn"
   website: "http://phrozn.info"
-  github: "farazdagi/phrozn"
+  github: "Pawka/phrozn"
   license: "Apache"
 
 
@@ -1218,9 +1218,10 @@
   license: "MIT"
 
 
-- name: "Purepress"
-  github: "megakote/purepress"
-  license: "CC"
+#- name: "Purepress"
+#  github: "megakote/purepress"
+#  license: "CC"
+# ^ Returns a 404. No backup repo found.
 
 
 - name: "PyBlosxom"
@@ -1820,7 +1821,7 @@
 
 - name: "Spress"
   website: "http://spress.yosymfony.com/"
-  github: "yosymfony/Spress"
+  github: "spress/Spress"
   license: "MIT"
   language: "PHP"
 
