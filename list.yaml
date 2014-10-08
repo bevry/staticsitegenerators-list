@@ -630,6 +630,8 @@
   github: "sintaxi/harp"
   website: "http://harpjs.com/"
   license: "MIT"
+  language: "JavaScript"
+  description: "Harp is a static web server that also serves Jade, Markdown, EJS, Less, Stylus, Sass, and CoffeeScript as HTML, CSS, and JavaScript without any configuration."
 
 
 - name: "Hastie"
