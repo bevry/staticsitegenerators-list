@@ -88,6 +88,7 @@
 
 
 - name: "baker"
+  website: ""
   github: "taylorchu/baker"
   license: "GPL"
   language: "Bash"
@@ -307,6 +308,7 @@
 
 
 - name: "django-medusa"
+  website: "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/"
   github: "mtigas/django-medusa"
   license: "MIT"
 
@@ -332,6 +334,7 @@
 
 
 - name: "Drapache"
+  website: ""
   github: "louissobel/Drapache"
   license: "MIT"
 
@@ -417,7 +420,7 @@
 
 
 - name: "fjord"
-  website: "http://dkuntz2.github.io/fjord/"
+  website: ""
   github: "dkuntz2/fjord"
   license: "BSD"
 
@@ -481,6 +484,7 @@
 
 
 - name: "Gabby"
+  website: "http://alexmingoia.github.io/gabby/"
   github: "alexmingoia/gabby"
   license: false
 
@@ -497,7 +501,8 @@
 
 
 - name: "glynn"
-  github: "teiko/glynn"
+  website: ""
+  github: "dmathieu/glynn"
   license: "MIT"
 
 
@@ -539,6 +544,7 @@
 
 
 - name: "Gravity"
+  website: ""
   github: "owainlewis/gravity"
   license: "MIT"
 
@@ -609,7 +615,7 @@
   description: "A website generator for software artisans. handroll is a static website generator that uses markup languages like Markdown, ReStructuredText, and Textile."
 
 - name: "happyplan"
-  website: "http://happyplan.putaindecode.io/"
+  website: "http://mdwn.in/gh/happyplan/happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
 
@@ -706,6 +712,7 @@
 
 
 - name: "JAGSS"
+  website: "http://jagss.rpy.xyz/"
   github: "esonderegger/jagss"
   license: "MIT"
 
@@ -767,6 +774,7 @@
   license: "MIT"
 
 - name: "Kel"
+  website: ""
   github: "koostudios/kel"
   license: "MIT"
 
@@ -1016,7 +1024,7 @@
 
 
 - name: "mynt"
-  website: "http://mynt.mirroredwhite.com/"
+  website: "http://mynt.uhnomoli.com/"
   github: "Anomareh/mynt"
   license: "BSD"
 
@@ -1181,6 +1189,7 @@
 
 
 - name: "poet"
+  website: "http://jsantell.github.io/poet/"
   github: "jsantell/poet"
   license: "MIT"
 
@@ -1469,6 +1478,7 @@
   license: "GPL"
 
 - name: "Spine"
+  website: ""
   github: "varl/spine"
   language: "Java"
   license: false
