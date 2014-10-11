@@ -733,6 +733,12 @@
   license: "MIT"
 
 
+- name: "Jekyll Now"
+  github: "barryclark/jekyll-now"
+  license: "MIT"
+  website: "http://www.jekyllnow.com"
+
+
 - name: "Jen"
   github: "rfunduk/jen"
   license: false
