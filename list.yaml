@@ -694,7 +694,7 @@
 - name: "Hugo"
   github: "spf13/hugo"
   license: "SimPL"
-  website: "http://hugo.spf13.com/"
+  website: "http://gohugo.io/"
   language: "Go"
 
 
