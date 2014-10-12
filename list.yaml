@@ -2016,3 +2016,28 @@
   github: "zohooo/jekyde"
   license: "MIT" # mentioned at https://github.com/zohooo/jekyde/blob/f68d91b80be27427d4998ab7a3283308f76d622c/package.json#L5
   language: "JavaScript"
+
+
+- name: "simple-website"
+  github: "alexanderte/simple-website"
+  license: "BSD"
+  language: "Go"
+
+
+- name: "Stacktic"
+  github: "stackticjs/stacktic"
+  license: "MIT"
+  website: "http://stackticjs.github.io/stacktic/"
+  language: "CoffeeScript"
+
+
+- name: "Bramble MVC"
+  github: "iansullivan88/bramble-mvc"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "Yana"
+  github: "edrock/yana"
+  license: "MIT"
+  language: "Python"
