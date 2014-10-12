@@ -2041,3 +2041,26 @@
   github: "edrock/yana"
   license: "MIT"
   language: "Python"
+
+
+- name: "Balloon"
+  github: "gschier/balloon"
+  license: "ISC" # mentioned at https://github.com/gschier/balloon/blob/bd3ea28ee8c6f0f87604407e940afe48cb5f2c14/package.json#L13
+  language: "JavaScript"
+
+
+- name: "obelisk"
+  github: "BennyHallett/obelisk"
+  license: "MIT"
+  language: "Elixir"
+
+
+- name: "Harmonic"
+  github: "es6rocks/harmonic"
+  license: "MIT"
+  language: "JavaScript"
+
+- name: "static2000"
+  github: "judas-christ/static2000"
+  license: "MIT"
+  language: "JavaScript"
