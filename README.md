@@ -2,16 +2,14 @@
 
 A comprehensive listing of static site generators with some minimal meta data about them.
 
-[View the listing.](https://github.com/jaspervdj/static-site-generator-comparison/blob/master/list.yaml)
+**[View the listing](https://github.com/jaspervdj/static-site-generator-comparison/blob/master/list.yaml) | [Edit the listing](https://github.com/jaspervdj/static-site-generator-comparison/edit/master/list.yaml)**
 
-[Edit the listing.](https://github.com/jaspervdj/static-site-generator-comparison/edit/master/list.yaml)
-
-[View the rendered listing.](http://staticsitegenerators.net)
-
-[Hack on the website that renders the listing.](https://github.com/bevry/staticsitegenerators)
+**[View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators)**
 
 
-## Requirements for Additions
+## Contributing
+
+### Requirements for additions
 
 There are generally three types of Content Management Systems:
 
@@ -19,9 +17,34 @@ There are generally three types of Content Management Systems:
 2. Flat File CMS (e.g. Jekyll, DocPad) — these allow you to write your content as files
 3. Static Site Generators (e.g. Jekyll, DocPad) — these generate a static website from your input that you can deploy anywhere
 
-Currently, this listing is for only projects that are either or both a Flat File CMS and Static Site Generator, but not for projects which are only Dynamic Servers (such as WordPress and Ghost).
+Currently, this listing is only for projects that are either a Flat File CMS and/or Static Site Generator, but not for projects which are only Dynamic Servers (such as WordPress and Ghost).
 
-If you would actually like a listing of all Content Management Systems, where you can browse by their types. [Let us know in this discussion.](https://github.com/jaspervdj/static-site-generator-comparison/issues/52)
+### Adding a static site generator
+
+Accepted project fields:
+
+* `name` - the project's name
+* `github` - the location of the GitHub repository
+* `license` - the project's license (or lack of license), see [license types](https://github.com/jaspervdj/static-site-generator-comparison/blob/master/list.yaml)
+
+Other fields are automatically collected from the GitHub repository but if the project does not have one you can use the following fields:
+
+* `website` - he project's website if they have one
+* `language` -the project's language (note, if the entry is closed-source, use "Web" or "App")
+* `description` - the project's description
+* `created_at` - the project's creation date in "2010-10-20T13:46:08Z" format (not needed if the project has a GitHub repo)
+
+Example:
+
+```
+- name: "Amazing"
+  github: "octocat/amazing"
+  license: "MIT"
+  website: "http://theamazingstaticsitegenerator.com"
+  language: "Go"
+  description: "The most amazing static site generator yet."
+  created_at: "2010-10-20T13:46:08Z"
+```
 
 ## License
 
