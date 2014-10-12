@@ -623,6 +623,7 @@
 - name: "handcrank"
   license: "BSD"
   website: "http://pythonhosted.org/handcrank/"
+  language: "Python"
 
 
 - name: "handroll"
@@ -1190,16 +1191,17 @@
   license: "MIT"
 
 
-- name: "phase"
-  github: "AD7six/phase"
-  license: "MIT"
+#- name: "phase"
+#  github: "AD7six/phase"
+#  license: "MIT"
+# ^ Returns a 404. No backup repo found.
 
 
 - name: "Phileas"
   github: "farvardin/phileas"
   license: "MIT"
   website: "https://dl.dropboxusercontent.com/u/620905/phileas/index.html"
-  language: "javascript"
+  language: "JavaScript"
   description: "A static site generator, using javascript and simple text files written in txt2tags (markdown ultra) syntax"
 
 
@@ -1830,6 +1832,7 @@
 - name: "Website Meta Language"
   license: "GPL"
   website: "http://www.thewml.org/"
+  language: "Perl"
   defunct: true
 
 
