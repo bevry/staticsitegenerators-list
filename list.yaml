@@ -215,7 +215,7 @@
 
 - name: "buster"
   github: "axitkhurana/buster"
-  license: false
+  license: "MIT"
 
 - name: "Cabin"
   github: "CabinJS/Cabin"
@@ -287,7 +287,7 @@
 
 - name: "catsup"
   github: "whtsky/Catsup"
-  license: false
+  license: "MIT"
   website: "https://github.com/whtsky/Catsup/"
 
 
@@ -356,7 +356,7 @@
 
 
 - name: "DropPages"
-  license: false
+  license: "Commercial"
   website: "http://droppages.com/"
   language: "Web"
 
@@ -390,6 +390,7 @@
 
 - name: "embellih"
   github: "boscoh/embellish"
+  license: "BSD"
   website: "http://boscoh.github.io/embellish"
 
 
@@ -498,7 +499,7 @@
 
 - name: "Gabby"
   github: "alexmingoia/gabby"
-  license: false
+  license: "BSD"
   website: "http://alexmingoia.github.io/gabby/"
 
 
@@ -667,7 +668,7 @@
 
 - name: "Heckle"
   github: "marijnh/heckle"
-  license: false
+  license: "MIT"
 
 
 - name: "Helpful Site"
@@ -764,7 +765,7 @@
 
 - name: "Jen"
   github: "rfunduk/jen"
-  license: false
+  license: "MIT"
 
 
 - name: "jem-press"
@@ -1312,7 +1313,8 @@
 
 
 - name: "Really Static"
-  license: false
+  github: "trajano/really-static"
+  license: "GPL"
   website: "http://wordpress.org/plugins/really-static/"
   language: "PHP"
   description: "Generates static HTML-files from your WordPress Blog"
@@ -1390,7 +1392,7 @@
 
 
 - name: "Scriptogr.am"
-  license: false
+  license: "Commercial"
   website: "http://scriptogr.am/"
   language: "Web"
 
@@ -1495,7 +1497,7 @@
 
 - name: "sitegen"
   github: "leafo/sitegen"
-  license: false
+  license: "MIT" # mentioned at https://github.com/leafo/sitegen/blob/4969490093c413d9b6ccd285f463cd09206dd630/sitegen-dev-1.rockspec#L12
 
 
 - name: "Smallest Blogger"
@@ -1531,7 +1533,7 @@
 
 - name: "Spine"
   github: "varl/spine"
-  license: false
+  license: "Apache"
   website: ""
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
@@ -1710,7 +1712,7 @@
 
 
 - name: "Telegram"
-  license: false
+  license: "Commercial"
   website: "https://telegr.am/"
   language: "Web"
 
@@ -1823,6 +1825,7 @@
 
 - name: "Webhook"
   github: "webhook/webhook"
+  license: "MIT"
   website: "http://www.webhook.com"
   language: "Javascript"
 
@@ -1905,8 +1908,9 @@
   language: "PHP"
 
 
-- name: "Felix Felicis"
+- name: "liquidluck"
   github: "lepture/liquidluck"
+  license: "BSD" # mentioned at https://github.com/lepture/liquidluck/blob/8bc5d23b8cbac7a0199308897422b8cf58c8b424/setup.py#L30
   website: "http://lab.lepture.com/liquidluck/"
   language: "Python"
 
