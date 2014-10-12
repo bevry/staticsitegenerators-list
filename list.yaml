@@ -2060,7 +2060,32 @@
   license: "MIT"
   language: "JavaScript"
 
+
 - name: "static2000"
   github: "judas-christ/static2000"
   license: "MIT"
   language: "JavaScript"
+
+
+- name: "statics"
+  github: "Tiendil/statics"
+  license: "BSD"
+  language: "Python"
+
+
+- name: "Beetle"
+  github: "cknv/beetle"
+  license: "MIT"
+  language: "Python"
+
+
+- name: "habit"
+  github: "punkave/habit"
+  license: "MIT" # mentioned at https://github.com/punkave/habit/blob/10f44274525e29885fe4a30ad521d7882c010a91/package.json#L18
+  language: "Python"
+
+
+- name: "staticpy"
+  github: "toddsifleet/staticpy"
+  license: "MIT"
+  language: "Python"
