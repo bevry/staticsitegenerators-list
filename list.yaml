@@ -1946,6 +1946,7 @@
   language: "JavaScript / Nashorn"
   description: "One file, no dependencies, only requires Java 8"
 
+
 - name: "electro"
   github: "caldwell/electro"
   license: "Perl"
@@ -1966,11 +1967,13 @@
   language: "Make"
   description: "Makefile based static site generator"
 
+
 - name: "assg"
   github: "lukasepple/assg"
   license: "AGPL"
   language: "Bash"
   description: "awesome markdown based static site generator"
+
 
 - name: "deplate"
   github: "tomtom/deplate"
@@ -1979,11 +1982,13 @@
   language: "Ruby"
   description: "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
 
+
 - name: "yellow"
   github: "markseu/yellowcms"
   license: "GPL"
   website: "http://datenstrom.se/yellow/"
   language: "PHP"
+
 
 - name: "Wikismith"
   github: "wikismith/wikismith"
@@ -1992,9 +1997,22 @@
   language: "Javascript"
   description: "The fun static site generator for fans of gulp and bower"
 
+
 - name: "OpooPress"
   github: "opoo/opoopress"
   license: "Apache"
   website: "http://www.opoopress.com"
   language: "Java"
   description: "OpooPress blogging framework is a java based blog aware static site generator."
+
+
+- name: "sortastatic"
+  github: "haldean/sortastatic"
+  license: "BSD"
+  language: "Go"
+
+
+- name: "Jekyde"
+  github: "zohooo/jekyde"
+  license: "MIT" # mentioned at https://github.com/zohooo/jekyde/blob/f68d91b80be27427d4998ab7a3283308f76d622c/package.json#L5
+  language: "JavaScript"
