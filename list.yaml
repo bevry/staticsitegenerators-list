@@ -41,12 +41,12 @@
   description: "Static blog generator in python with incremental rendering"
 
 
-#- name: "Apto"
-#  github: "modparadigm/apto"
-#  license: "MIT"
-#  language: "JavaScript"
-#  description: "Apto is a easy to use, straight-forward static site generator / builder for Node.js."
-# ^ Returns a 404. No backup repo found.
+- name: "Apto"
+  github: "CraigyDavi/apto"
+  license: "MIT"
+  website: "https://www.npmjs.org/package/apto"
+  language: "JavaScript"
+  description: "Apto is an easy to use, straight-forward static site generator / builder for Node.js."
 
 
 - name: "assemble"
@@ -81,7 +81,7 @@
 - name: "baker"
   github: "taylorchu/baker"
   license: "GPL"
-  website: ""
+  website: "#"
   language: "Bash"
   description: "the real static blog generator in bash"
 
@@ -173,11 +173,6 @@
   description: "Brace is the new way to host websites"
 
 
-- name: "Bramble MVC"
-  github: "iansullivan88/bramble-mvc"
-  license: "MIT"
-
-
 - name: "Bread"
   github: "pvorb/node-bread"
   license: "MIT"
@@ -236,6 +231,7 @@
 
 
 - name: "Chronicle"
+  github: "skx/chronicle2"
   license: "GPL"
   website: "http://www.steve.org.uk/Software/chronicle/"
   language: "Perl"
@@ -335,7 +331,7 @@
 - name: "Drapache"
   github: "louissobel/Drapache"
   license: "MIT"
-  website: ""
+  website: "#"
 
 
 - name: "drfrederson"
@@ -422,7 +418,7 @@
 - name: "fjord"
   github: "dkuntz2/fjord"
   license: "BSD"
-  website: ""
+  website: "#"
 
 
 - name: "flim"
@@ -507,7 +503,7 @@
 - name: "glynn"
   github: "dmathieu/glynn"
   license: "MIT"
-  website: ""
+  website: "#"
 
 
 - name: "Glyph"
@@ -553,7 +549,7 @@
 - name: "Gravity"
   github: "owainlewis/gravity"
   license: "MIT"
-  website: ""
+  website: "#"
 
 
 - name: "Graze"
@@ -798,7 +794,7 @@
 - name: "Kel"
   github: "koostudios/kel"
   license: "MIT"
-  website: ""
+  website: "#"
 
 
 - name: "Kerouac"
@@ -838,6 +834,7 @@
 
 
 - name: "Lanyon"
+  github: "arthurk/lanyon"
   license: "BSD"
   website: "http://lanyon.readthedocs.org/"
   language: "Python"
@@ -1118,7 +1115,7 @@
 
 - name: "o-blog"
   github: "renard/o-blog"
-  license: "WTFPL"
+  license: "Public"
   website: "http://renard.github.com/o-blog"
   language: "Emacs Lisp"
   description: "Generates static sites from org-mode files"
@@ -1291,8 +1288,9 @@
 
 
 - name: "Rassmalog"
-  license: "MIT"
-  website: "http://rassmalog.rubyforge.org/"
+  github: "sunaku/rassmalog"
+  license: "ISC"
+  website: "http://snk.tuxfamily.org/lib/rassmalog/"
   language: "Ruby"
 
 
@@ -1525,7 +1523,7 @@
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
-  website: ""
+  website: "#"
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
@@ -1798,7 +1796,7 @@
 - name: "Webby"
   github: "TwP/webby"
   license: "MIT"
-  website: "http://webby.rubyforge.org/"
+  website: "#"
 
 
 - name: "Webber"
@@ -1810,8 +1808,7 @@
 - name: "webgen"
   github: "gettalong/webgen"
   license: "GPL"
-  website: "http://webgen.rubyforge.org/"
-  created_at: "2004-07-08T00:00:00Z"
+  website: "http://webgen.gettalong.org/"
 
 
 - name: "Webhook"
