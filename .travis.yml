@@ -1,1 +1,4 @@
+install:
+    gem install curb
+
 language: ruby
