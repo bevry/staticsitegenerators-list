@@ -82,7 +82,7 @@
   github: "taylorchu/baker"
   license: "GPL"
   website: "#"
-  language: "Bash"
+  language: "Shell"
   description: "the real static blog generator in bash"
 
 
@@ -1164,7 +1164,7 @@
   github: "wcaleb/website"
   license: "CC"
   website: "http://wcm1.web.rice.edu"
-  language: "Bash"
+  language: "Shell"
   description: "wrapper for Pandoc"
 
 
@@ -1297,7 +1297,7 @@
 - name: "rawk"
   github: "kisom/rawk"
   website: "http://rawk.brokenlcd.net"
-  language: "Bash"
+  language: "Shell"
   description: "Rage Against Web Frameworks"
 
 
@@ -1375,7 +1375,7 @@
   github: "djura-san/scripts"
   license: "Public"
   website: "http://www.lab21.net/pub/softver/sh/scms"
-  language: "Bash"
+  language: "Shell"
   description: "Small static website generator with imbedded markdown support. It is focused on lowering the i/o stream on discs"
   created_at: "2011-07-22T00:47:18Z"
 
@@ -1480,7 +1480,7 @@
 - name: "simsalabash"
   github: "markusfisch/simsalabash"
   license: "MIT"
-  language: "Bash"
+  language: "Shell"
   description: "Hypertext mechanics in BASH"
 
 
@@ -1751,7 +1751,7 @@
   github: "estrabd/vee"
   license: "BSD"
   website: "http://estrabd.github.io/vee/"
-  language: "Bourne Shell"
+  language: "Shell"
   description: "vee is a highly portable across minimal *nix systems (including MacOSX), zero dependency, zero configuration (but configurable), commandline microblogging tool. Also provides a batch interface for piping to (e.g., output from cronjobs)."
 
 
@@ -1957,7 +1957,7 @@
 - name: "assg"
   github: "lukasepple/assg"
   license: "AGPL"
-  language: "Bash"
+  language: "Shell"
   description: "awesome markdown based static site generator"
 
 
@@ -2075,3 +2075,21 @@
   github: "toddsifleet/staticpy"
   license: "MIT"
   language: "Python"
+
+
+- name: "gin"
+  github: "epochblue/gin"
+  license: "MIT"
+  language: "Python"
+
+
+- name: "stratic"
+  github: "jaubourg/stratic"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "lettersmith"
+  github: "gordonbrander/lettersmith"
+  license: false
+  language: "Lua"
