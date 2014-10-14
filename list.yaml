@@ -82,6 +82,7 @@
 - name: "baker"
   github: "taylorchu/baker"
   license: "GPL"
+  website: false
   language: "Shell"
   description: "the real static blog generator in bash"
 
@@ -331,6 +332,7 @@
 - name: "Drapache"
   github: "louissobel/Drapache"
   license: "MIT"
+  website: false
 
 
 - name: "drfrederson"
@@ -417,6 +419,7 @@
 - name: "fjord"
   github: "dkuntz2/fjord"
   license: "BSD"
+  website: false
 
 
 - name: "flim"
@@ -501,6 +504,7 @@
 - name: "glynn"
   github: "dmathieu/glynn"
   license: "MIT"
+  website: false
 
 
 - name: "Glyph"
@@ -546,6 +550,7 @@
 - name: "Gravity"
   github: "owainlewis/gravity"
   license: "MIT"
+  website: false
 
 
 - name: "Graze"
@@ -665,7 +670,7 @@
   website: "http://hexo.io"
 
 
-- name: "HīD"
+- name: "HiD"
   github: "genehack/HiD"
   license: "Perl"
   website: "https://metacpan.org/pod/HiD"
@@ -790,6 +795,7 @@
 - name: "Kel"
   github: "koostudios/kel"
   license: "MIT"
+  website: false
 
 
 - name: "Kerouac"
@@ -1518,6 +1524,7 @@
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
+  website: false
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
@@ -1790,6 +1797,7 @@
 - name: "Webby"
   github: "TwP/webby"
   license: "MIT"
+  website: false
 
 
 - name: "Webber"
@@ -1928,7 +1936,7 @@
 
 - name: "electro"
   github: "caldwell/electro"
-  license: "Perl"
+  license: false
   language: "Perl"
   description: "One file, uses yaml for structure of site, Template::Toolkit for HTML"
 
@@ -1995,6 +2003,7 @@
   github: "zohooo/jekyde"
   license: "MIT" # mentioned at https://github.com/zohooo/jekyde/blob/f68d91b80be27427d4998ab7a3283308f76d622c/package.json#L5
   language: "JavaScript"
+  website: "http://zohooo.github.io/jekyde/"
 
 
 - name: "simple-website"
@@ -2086,3 +2095,90 @@
   github: "gordonbrander/lettersmith"
   license: false
   language: "Lua"
+
+
+- name: "zodiac"
+  github: "nuex/zodiac"
+  license: "MIT"
+  language: "Awk"
+
+
+- name: "Bryar"
+  license: "Perl"
+  website: "https://metacpan.org/pod/Bryar::Frontend::Static"
+  language: "Perl"
+
+
+- name: "Papery"
+  license: "Perl"
+  website: "https://metacpan.org/pod/Papery"
+  language: "Perl"
+
+
+- name: "Quietly Confident"
+  license: "Perl"
+  website: "http://search.cpan.org/dist/Quietly-Confident/qc.pod"
+  language: "Perl"
+
+
+- name: "StaticVolt"
+  license: "Perl"
+  website: "https://metacpan.org/pod/StaticVolt"
+  language: "Perl"
+
+
+- name: "Statocles"
+  license: "Perl"
+  website: "https://metacpan.org/pod/Statocles"
+  language: "Perl"
+
+
+- name: "Templer"
+  github: "skx/templer"
+  license: "Perl"
+  language: "Perl"
+
+
+- name: "Zucchini"
+  license: "Perl"
+  website: "https://metacpan.org/pod/Zucchini"
+  language: "Perl"
+
+
+- name: "Cloud Cannon"
+  license: "Commercial"
+  website: "http://cloudcannon.com/"
+  language: "Web"
+
+
+- name: "Yoozon"
+  license: "Commercial"
+  website: "http://www.yoozon.com/"
+  language: "Web"
+
+
+- name: "Luapress"
+  github: "Fizzadar/Luapress"
+  license: "MIT"
+  language: "Lua"
+
+
+- name: "ipsum genera"
+  github: "dom96/ipsumgenera"
+  license: "MIT"
+  language: "Nimrod"
+
+
+- name: "Broccoli Taco"
+  github: "moudy/broccoli-taco"
+  license: "MIT"
+  website: "http://broccoli-taco.com/"
+  language: "JavaScript"
+
+
+- name: "BAM"
+  github: "beautifulnode/bam"
+  license: "MIT"
+  website: "https://www.npmjs.org/package/bam"
+  language: "JavaScript"
+
