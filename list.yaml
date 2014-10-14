@@ -14,6 +14,7 @@
 # "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
 # "Beer-ware" - use for all variations of the Beer-ware License
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
+# "ISC" - use for the Internet Software Consortium license
 # false - use when the license is not revealed
 #
 # If there is another license type that is missing, use its abbreviation and add it here
@@ -81,7 +82,6 @@
 - name: "baker"
   github: "taylorchu/baker"
   license: "GPL"
-  website: "#"
   language: "Shell"
   description: "the real static blog generator in bash"
 
@@ -331,7 +331,6 @@
 - name: "Drapache"
   github: "louissobel/Drapache"
   license: "MIT"
-  website: "#"
 
 
 - name: "drfrederson"
@@ -418,7 +417,6 @@
 - name: "fjord"
   github: "dkuntz2/fjord"
   license: "BSD"
-  website: "#"
 
 
 - name: "flim"
@@ -503,7 +501,6 @@
 - name: "glynn"
   github: "dmathieu/glynn"
   license: "MIT"
-  website: "#"
 
 
 - name: "Glyph"
@@ -549,7 +546,6 @@
 - name: "Gravity"
   github: "owainlewis/gravity"
   license: "MIT"
-  website: "#"
 
 
 - name: "Graze"
@@ -794,7 +790,6 @@
 - name: "Kel"
   github: "koostudios/kel"
   license: "MIT"
-  website: "#"
 
 
 - name: "Kerouac"
@@ -1523,7 +1518,6 @@
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
-  website: "#"
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
@@ -1742,7 +1736,7 @@
 
 - name: "Urubu"
   github: "jandecaluwe/urubu"
-  license: "AGPL"
+  license: "GPL"
   website: "http://urubu.jandecaluwe.com"
   language: "Python"
 
@@ -1761,7 +1755,7 @@
 
 
 - name: "VoodooPad"
-  license: "Commerical"
+  license: "Commercial"
   website: "https://plausible.coop/voodoopad/"
   language: "App"
   description: "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
@@ -1796,7 +1790,6 @@
 - name: "Webby"
   github: "TwP/webby"
   license: "MIT"
-  website: "#"
 
 
 - name: "Webber"
@@ -1867,7 +1860,7 @@
 
 - name: "zas"
   github: "imdario/zas"
-  license: "AGPL"
+  license: "GPL"
   language: "Go"
   description: "Most. Zen. Static. Website. Generator. Ever."
 
@@ -1956,7 +1949,7 @@
 
 - name: "assg"
   github: "lukasepple/assg"
-  license: "AGPL"
+  license: "GPL"
   language: "Shell"
   description: "awesome markdown based static site generator"
 
