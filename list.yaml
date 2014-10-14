@@ -2182,3 +2182,86 @@
   website: "https://www.npmjs.org/package/bam"
   language: "JavaScript"
 
+
+- name: "Genesis"
+  github: "samstefan/genesis"
+  license: false
+  language: "JavaScript"
+
+
+- name: "gulp-ssg"
+  github: "paulwib/gulp-ssg"
+  license: "MIT"
+  language: "JavaScript"
+  description: "Static site generator plugin for gulp"
+
+
+- name: "Techy"
+  github: "krasimir/techy"
+  license: "MIT"
+  website: "http://krasimir.github.io/techy/"
+  language: "JavaScript"
+
+
+- name: "Szyslak"
+  github: "ido50/Szyslak"
+  license: "GPL"
+  language: "JavaScript"
+
+
+- name: "Susi"
+  github: "AVGP/susi"
+  license: "ISC"
+  language: "JavaScript"
+
+
+- name: "node-qssg"
+  github: "shanewholloway/node-qssg"
+  license: "MIT"
+  language: "CoffeeScript"
+
+
+- name: "Propeller"
+  github: "thegreatsunra/propeller"
+  license: "MIT"
+  website: "http://propellerjs.com"
+  language: "JavaScript"
+
+
+- name: "Blogen"
+  github: "ipconfiger/blogen"
+  license: "GPL"
+  language: "Python"
+
+
+- name: "Carew"
+  github: "carew/carew"
+  license: "MIT"
+  website: "http://carew.github.io/"
+  language: "JavaScript"
+
+
+- name: "Tags"
+  github: "braceio/tags"
+  license: "MIT"
+  website: "http://tags.brace.io/"
+  language: "Python"
+
+
+- name: "Squirrel"
+  github: "nickpetty/squirrel"
+  license: "CC"
+  language: "Python"
+
+
+- name: "Striker"
+  github: "swaroopsm/striker"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "Stasis"
+  github: "winton/stasis"
+  license: "MIT"
+  website: "http://stasis.me/"
+  language: "Ruby"
