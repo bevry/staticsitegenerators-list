@@ -613,7 +613,7 @@
 
 
 - name: "handroll"
-  github: "mblayman/handroll"
+  github: "handroll/handroll"
   license: "BSD"
   website: "http://handroll.readthedocs.org/en/latest/"
   language: "Python"
