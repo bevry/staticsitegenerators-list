@@ -2279,3 +2279,34 @@
   website: "http://isnowfy.github.io/simple/"
   language: "JavaScript"
   description: "Simple is a static blog generator with a single static page. You can write you blog online, and it will generate static html files at your repo named username.github.io which is supported by github pages."
+
+
+- name: "SGG"
+  github: "Charlesworth/SSG"
+  license: false
+  language: "Ruby"
+
+
+- name: "Lenscap"
+  github: "honza/lenscap"
+  license: "BSD"
+  language: "Python"
+
+
+- name: "lava"
+  github: "johannhof/lava"
+  license: "MIT"
+  language: "Rust"
+
+
+- name: "larassg"
+  github: "andygwood/larassg"
+  license: false
+  language: "PHP"
+
+
+- name: "LeafMeStatic"
+  github: "yqw/LeafMeStatic"
+  license: false
+  website: "http://yqw.github.io/LeafMeStatic/"
+  language: "PHP"
