@@ -1000,6 +1000,12 @@
   license: "MIT"
 
 
+- name: "Misakai Baker"
+  github: "Kelindar/misakai-baker"
+  license: "Apache"
+  language: "C#"
+  description: "Flexible and extensible static website generator for .Net people"
+
 #- name: "Mimosa"
 #  github: "mimosa/stargazers"
 #  license: "MIT"
