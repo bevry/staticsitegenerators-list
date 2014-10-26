@@ -422,6 +422,11 @@
   website: false
 
 
+- name: "Flamel"
+  github: "ipavl/flamel"
+  license: "MIT"
+
+
 - name: "flim"
   github: "shapeshed/flim"
   license: "MIT"
