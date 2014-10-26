@@ -2312,3 +2312,8 @@
   license: false
   website: "http://yqw.github.io/LeafMeStatic/"
   language: "PHP"
+  
+- name: "Static-weber"
+  github: "xorpd/static_weber"
+  license: "GPL"
+  language: "Python"
