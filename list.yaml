@@ -2299,6 +2299,12 @@
   github: "johannhof/lava"
   license: "MIT"
   language: "Rust"
+  
+  
+- name: "cobalt.rs"
+  github: "bennyklotz/cobalt.rs"
+  license: "MIT"
+  language: "Rust"
 
 
 - name: "larassg"
