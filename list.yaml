@@ -1847,7 +1847,7 @@
 - name: "Wintersmith"
   github: "jnordberg/wintersmith"
   license: "MIT"
-  website: "http://jnordberg.github.io/wintersmith/"
+  website: "http://wintersmith.io/"
 
 
 - name: "wok"
@@ -2304,8 +2304,8 @@
   github: "johannhof/lava"
   license: "MIT"
   language: "Rust"
-  
-  
+
+
 - name: "cobalt.rs"
   github: "bennyklotz/cobalt.rs"
   license: "MIT"
@@ -2323,8 +2323,44 @@
   license: false
   website: "http://yqw.github.io/LeafMeStatic/"
   language: "PHP"
-  
+
 - name: "Static-weber"
   github: "xorpd/static_weber"
   license: "GPL"
   language: "Python"
+
+
+- name: "Jekytrum"
+  github: "georgeOsdDev/jekytrum"
+  license: false
+  language: "Scala"
+
+
+- name: "Shire"
+  github: "sangupta/shire"
+  license: "Apache"
+  language: "Java"
+
+
+- name: "PowerSite"
+  github: "Jaykul/PowerSite"
+  license: false
+  language: "C#"
+
+
+- name: "Mallet"
+  github: "mattconde/Mallet"
+  license: false
+  language: "Go"
+
+
+- name: "Orca"
+  github: "andyshuxin/orca"
+  license: false
+  language: "Python"
+
+
+- name: "DSW"
+  github: "dan62f/dsw"
+  license: false
+  language: "Shell"
