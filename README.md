@@ -1,5 +1,7 @@
 # Static Site Generators Listing
 
+[![Build Status](https://api.travis-ci.org/jaspervdj/static-site-generator-comparison.svg?branch=master)](https://travis-ci.org/jaspervdj/static-site-generator-comparison)
+
 A comprehensive listing of static site generators with some minimal meta data about them.
 
 **[View the listing](https://github.com/jaspervdj/static-site-generator-comparison/blob/master/list.yaml) | [Edit the listing](https://github.com/jaspervdj/static-site-generator-comparison/edit/master/list.yaml)**
