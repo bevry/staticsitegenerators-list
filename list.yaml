@@ -2307,7 +2307,7 @@
 
 
 - name: "cobalt.rs"
-  github: "bennyklotz/cobalt.rs"
+  github: "cobalt-org/cobalt.rs"
   license: "MIT"
   language: "Rust"
 
