@@ -42,6 +42,11 @@
   description: "Static blog generator in python with incremental rendering"
 
 
+- name: "Akashic"
+  github: "Liutos/cl-github-page"
+  language: "Common Lisp"
+
+
 - name: "Apto"
   github: "CraigyDavi/apto"
   license: "MIT"
@@ -56,6 +61,13 @@
   website: "http://assemble.io/"
   language: "JavaScript"
   description: "Static site generator for Grunt.js and Yeoman. Assemble makes it dead simple to build modular sites, blogs, gh-pages, components and documentation from reusable templates and data."
+
+
+- name: "Asteroid"
+  github: "cesarparent/Asteroid"
+  license: "MIT"
+  language: "PHP"
+  description: "A simple php-powered, Markdown static blog engine."
 
 
 - name: "Automad"
@@ -77,6 +89,12 @@
   website: "http://awestruct.org/"
   language: "Ruby"
   description: "Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre."
+
+
+- name: "AYM CMS"
+  github: "lethain/aym-cms"
+  license: "MIT"
+  language: "Python"
 
 
 - name: "baker"
@@ -153,12 +171,30 @@
   description: "Markdown-on-Dropbox publishing platform."
 
 
+- name: "blogpy"
+  github: "travisred/blogpy"
+  license: "GPL"
+  language: "Python"
+
+
 - name: "blosxom"
   license: "MIT"
   website: "http://blosxom.sourceforge.net/"
   language: "Perl"
   description: "Blosxom (pronounced blossom) is a lightweight yet feature-packed weblog application designed from the ground up with simplicity, usability, and interoperability in mind."
   created_at: "2002-02-28T00:00:00Z"
+
+
+- name: "Blug"
+  github: "jeffknupp/blug"
+  license: "MIT"
+  language: "Python"
+
+
+- name: "Bolt"
+  github: "benmcredmond/Bolt"
+  license: "MIT"
+  language: "Ruby"
 
 
 - name: "Bonsai"
@@ -244,6 +280,12 @@
   license: "GPL"
 
 
+- name: "cl-blog-generator"
+  github: "hugoduncan/cl-blog-generator"
+  license: "BSD"
+  language: "Common Lisp"
+
+
 - name: "Codex"
   github: "logicalparadox/codex"
   license: "MIT"
@@ -269,6 +311,12 @@
   github: "piranha/cyrax"
   license: "BSD"
   website: "http://pypi.python.org/pypi/cyrax"
+
+
+- name: "cytoplasm"
+  github: "startling/cytoplasm"
+  license: "MIT"
+  language: "Python"
 
 
 - name: "catsup"
@@ -341,6 +389,11 @@
   website: "http://drf.grus.uberspace.de"
 
 
+- name: "dropbox-blog"
+  github: "markashleybell/dropbox-blog"
+  language: "Python"
+
+
 - name: "DropPages"
   license: "Commercial"
   website: "http://droppages.com/"
@@ -352,6 +405,11 @@
   license: "MIT"
   website: "http://dropplets.com/"
   language: "PHP"
+
+
+- name: "DropPress"
+  github: "Reiot/droppress"
+  language: "Python"
 
 
 - name: "Drop-a-Site"
@@ -367,6 +425,12 @@
 - name: "dynamicmatic"
   github: "nex3/dynamicmatic"
   license: "MIT"
+
+
+- name: "ecstatic"
+  github: "samrat/ecstatic"
+  license: "EPL"
+  language: "Clojure"
 
 
 - name: "Elyse"
@@ -458,6 +522,11 @@
   language: "Java"
   description: "FreeMarker-based text file PreProcessor"
 
+- name: "ford.py"
+  github: "citruspi/ford.py"
+  language: "Python"
+  license: "MIT"
+
 
 #- name: "Fragments"
 #  github: "glyphobet/fragments"
@@ -488,10 +557,22 @@
   language: "Shell"
 
 
+- name: "Funnel"
+  github: "shuhaowu/Funnel"
+  language: "Python"
+  license: "GPL"
+
+
 - name: "Gabby"
   github: "alexmingoia/gabby"
   license: "BSD"
   website: "http://alexmingoia.github.io/gabby/"
+
+
+- name: "Garoozis"
+  github: "aguerrera/Garoozis"
+  language: "F#"
+  license: "BSD"
 
 
 - name: "Gen"
@@ -525,6 +606,12 @@
 - name: "goblog"
   github: "icub3d/goblog"
   license: "MIT"
+
+
+- name: "Goldbarg"
+  github: "Schnouki/Golbarg"
+  language: "Python"
+  license: "GPL"
 
 
 - name: "gor"
@@ -587,6 +674,12 @@
 # ^ not a ssg
 
 
+- name: "grunt-generator"
+  github: "clavery/grunt-generator"
+  license: "MIT"
+  language: "JavaScript"
+
+
 #- name: "GruntStart"
 #  github: "tsvensen/gruntstart"
 #  license: "MIT"
@@ -597,6 +690,12 @@
   github: "simonjodet/gumdrop"
   license: "MIT"
   website: "http://gumdropapp.com/"
+
+
+- name: "haggis"
+  github: "tych0/haggis"
+  license: "BSD"
+  language: "Haskell"
 
 
 - name: "Hakyll"
@@ -744,6 +843,11 @@
   license: "MIT"
 
 
+- name: "Jekxll"
+  github: "osaris/jekxyl"
+  language: "PHP"
+
+
 - name: "Jekyll"
   github: "jekyll/jekyll"
   license: "MIT"
@@ -839,6 +943,12 @@
   description: "A static site generator in Erlang. Yes, Erlang."
 
 
+- name: "Lannister"
+  github: "wjlroe/lannister"
+  license: "CC"
+  language: "Go"
+
+
 - name: "Lanyon"
   github: "arthurk/lanyon"
   license: "BSD"
@@ -927,6 +1037,12 @@
 #  website: "http://www.makotemplates.org/"
 #  description: "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance."
 # ^ not a ssg
+
+
+- name: "makeblog"
+  github: "fyhuang/makeblog"
+  license: "BSD"
+  language: "Python"
 
 
 - name: "Makefly"
@@ -1082,6 +1198,11 @@
   website: "http://nestacms.com/"
 
 
+- name: "Neverland"
+  github: "demon386/Neverland"
+  language: "Clojure"
+
+
 - name: "nib"
   github: "jreese/nib"
   license: "MIT"
@@ -1124,6 +1245,12 @@
   github: "getnikola/nikola"
   license: "MIT"
   website: "http://getnikola.com/"
+
+
+- name: "Oak"
+  github: "marc0s/oak"
+  language: "Python"
+  license: "WTFPL"
 
 
 - name: "o-blog"
@@ -1211,6 +1338,12 @@
   website: "http://phrozn.info"
 
 
+- name: "PhlyBlog"
+  github: "phly/PhlyBlog"
+  language: "PHP"
+  license: "BSD"
+
+
 - name: "PieCrust"
   website: "http://bolt80.com/piecrust/"
   github: "ludovicchabant/piecrust"
@@ -1238,6 +1371,12 @@
   github: "agonzalezro/polo"
   license: "MIT"
   description: "Written in Go, Polo claims to be compatible with Pelican default configuration. The creator has used it to migrate his blog from Pelican to Polo without any much trouble."
+
+
+- name: "Pointless"
+  github: "scarwu/Pointless"
+  language: "PHP"
+  license: "MIT"
 
 
 - name: "poole"
@@ -1281,6 +1420,12 @@
   website: "http://pyblosxom.github.io/"
 
 
+- name: "Py'nFact"
+  github: "alberteromero/pynfact"
+  language: "Python"
+  license: "BSD"
+
+
 - name: "Pyll"
   github: "arthurk/pyll"
   license: "BSD"
@@ -1298,6 +1443,12 @@
 #  website: "http://rubyforge.org/projects/rakeweb/"
 #  language: "Ruby"
 # ^ Returns a 404. No backup repo found.
+
+
+- name: "rant"
+  github: "lrvick/rant"
+  language: "Python"
+  license: "GPL"
 
 
 - name: "Rassmalog"
@@ -1541,11 +1692,22 @@
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
 
+- name: "Spring Board"
+  github: "htaidirt/SpringBoard"
+  language: "Node.js"
+  license: "MIT"
+
+
 - name: "Sphinx"
   license: "BSD"
   website: "http://sphinx-doc.org/"
   language: "App"
   description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
+
+
+- name: "Squid"
+  github: "geekforbrains/squid"
+  language: "Python"
 
 
 - name: "Stacey"
@@ -1663,6 +1825,12 @@
   website: "http://colinta.com/projects/StrangeCase.html"
 
 
+- name: "SSC"
+  github: "kaw2k/static-site-compiler"
+  license: "BSD"
+  language: "JavaScript"
+
+
 - name: "Superstatic"
   github: "divshot/superstatic"
   license: "MIT"
@@ -1680,6 +1848,20 @@
 #  license: false
 #  website: "http://nibble.develsec.org/projects/sw.html"
 # ^ not a ssg
+
+
+- name: "SWG"
+  github: "evilsocket/SWG"
+  language: "Python"
+  license: "GPL"
+  website: "http://pythonhosted.org/swg/"
+
+
+- name: "SWSG"
+  github: "derdon/swsg"
+  language: "Python"
+  license: "WTFPL"
+  website: "http://derdon.github.io/swsg/"
 
 
 - name: "Tahchee"
@@ -1730,6 +1912,11 @@
   license: "MIT"
 
 
+- name: "Thot"
+  github: "wmark/thot"
+  language: "Python"
+
+
 - name: "Tinkerer"
   github: "vladris/tinkerer"
   license: "BSD"
@@ -1741,6 +1928,11 @@
 - name: "toto"
   github: "cloudhead/toto"
   license: "MIT"
+
+
+- name: "Tribo"
+  github: "CarterA/Tribo"
+  language: "Objective-C"
 
 
 - name: "trofaf"
@@ -1759,6 +1951,11 @@
   license: "GPL"
   website: "http://urubu.jandecaluwe.com"
   language: "Python"
+
+
+- name: "Utterson"
+  github: "pepijndevos/utterson"
+  language: "Clojure"
 
 
 - name: "vee"
@@ -1872,6 +2069,12 @@
 # ^ not a ssg
 
 
+- name: "Yggdrasil"
+  website: "http://www.psyke.org/yggdrasil/"
+  language: "Perl"
+  license: "GPL"
+
+
 - name: "yst"
   github: "jgm/yst"
   license: "GPL"
@@ -1890,6 +2093,12 @@
   github: "seattlerb/zenweb"
   license: "MIT"
   website: "http://www.zenspider.com/ZSS/Products/ZenWeb/"
+
+
+- name: "ZZBlogX"
+  website: "http://www.dmemos.de/ZZBlogX/About.html"
+  language: "newLISP"
+  license: "GPL"
 
 
 - name: "kkr"
