@@ -302,6 +302,13 @@
   license: "MIT"
 
 
+- name: "creo"
+  github: "execo/creo"
+  license: "MIT"
+  language: "Perl"
+  description: "A simple static site generator, written in Perl."
+  website: "http://execo.github.io/creo/"
+  
 - name: "cub"
   github: "patcoll/cub"
   license: "MIT"
