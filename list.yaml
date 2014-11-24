@@ -727,7 +727,7 @@
 - name: "handroll"
   github: "handroll/handroll"
   license: "BSD"
-  website: "http://handroll.readthedocs.org/en/latest/"
+  website: "http://handroll.github.io/"
   language: "Python"
   description: "A website generator for software artisans. handroll is a static website generator that uses markup languages like Markdown, ReStructuredText, and Textile."
 
