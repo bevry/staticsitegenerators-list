@@ -90,6 +90,12 @@
   language: "Ruby"
   description: "Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre."
 
+- name: "PlainSite"
+  github: "JexCheng/plain_site"
+  license: "MIT"
+  language: "Ruby"
+  description: "A Simple but Powerful and Hackable Static Site Generator."
+
 
 - name: "AYM CMS"
   github: "lethain/aym-cms"
