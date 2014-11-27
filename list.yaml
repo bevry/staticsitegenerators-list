@@ -2586,3 +2586,8 @@
   github: "dan62f/dsw"
   license: false
   language: "Shell"
+  
+- name: "PMBlog"
+  github: "lizheming/PMBlog"
+  license: false
+  language: "PHP"
