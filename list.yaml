@@ -170,12 +170,12 @@
   website: "http://www.blogofile.com/"
 
 
-- name: "Blogmark"
-  license: "Commercial"
-  website: "https://blogmark.me/"
-  language: "Web"
-  description: "Markdown-on-Dropbox publishing platform."
-
+#- name: "Blogmark"
+#  license: "Commercial"
+#  website: "https://blogmark.me/"
+#  language: "Web"
+#  description: "Markdown-on-Dropbox publishing platform."
+# ^ site offline Nov/30/14
 
 - name: "blogpy"
   github: "travisred/blogpy"
@@ -1473,7 +1473,7 @@
 
 - name: "rawk"
   github: "kisom/rawk"
-  website: "http://rawk.brokenlcd.net"
+#  website: "http://rawk.brokenlcd.net" # site offline Nov/30/14
   language: "Shell"
   description: "Rage Against Web Frameworks"
 
@@ -1675,7 +1675,7 @@
 - name: "snowshoe"
   github: "edvanbeinum/snowshoe"
   license: false
-  website: "http://getsnowshoe.com/index.html"
+#  website: "http://getsnowshoe.com/index.html" # website offline Nov/30/14
 
 
 - name: "Soapbox"
@@ -2073,7 +2073,7 @@
 - name: "yassg"
   github: "sma/yassg"
   license: "BSD"
-  website: "https://npmjs.org/package/yassg"
+#  website: "https://npmjs.org/package/yassg" # 404 response, Nov/30/14
 
 
 #- name: "Yeoman"
@@ -2190,12 +2190,12 @@
   description: "Makefile based static site generator"
 
 
-- name: "assg"
-  github: "lukasepple/assg"
-  license: "GPL"
-  language: "Shell"
-  description: "awesome markdown based static site generator"
-
+#- name: "assg"
+#  github: "lukasepple/assg"
+#  license: "GPL"
+#  language: "Shell"
+#  description: "awesome markdown based static site generator"
+# ^ 404 response, Nov/30/14
 
 - name: "deplate"
   github: "tomtom/deplate"
