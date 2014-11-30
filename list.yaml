@@ -1263,7 +1263,7 @@
 - name: "Oak"
   github: "marc0s/oak"
   language: "Python"
-  license: "WTFPL"
+  license: "Public"
 
 
 - name: "o-blog"
@@ -1873,7 +1873,7 @@
 - name: "SWSG"
   github: "derdon/swsg"
   language: "Python"
-  license: "WTFPL"
+  license: "Public"
   website: "http://derdon.github.io/swsg/"
 
 
