@@ -1844,13 +1844,6 @@
   language: "JavaScript"
 
 
-- name: "Superstatic"
-  github: "divshot/superstatic"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Static web server with custom routing and more."
-
-
 #- name: "Syte"
 #  github: "rigoneri/syte"
 #  license: "MIT"
