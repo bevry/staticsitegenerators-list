@@ -1915,11 +1915,6 @@
   language: "Web"
 
 
-- name: "Templer"
-  github: "skx/templer"
-  license: "GPL"  # dual-licensed with Perl Aristic
-
-
 - name: "Tempo"
   github: "catnapgames/Tempo"
   license: "MIT"
@@ -2370,7 +2365,7 @@
 
 - name: "Templer"
   github: "skx/templer"
-  license: "Perl"
+  license: "Perl"  # dual-licensed with Perl Aristic
   language: "Perl"
 
 
