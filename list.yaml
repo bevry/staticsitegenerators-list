@@ -2359,7 +2359,8 @@
 
 - name: "Statocles"
   license: "Perl"
-  website: "https://metacpan.org/pod/Statocles"
+  github: "preaction/Statocles"
+  website: "https://preaction.github.io/Statocles"
   language: "Perl"
 
 
