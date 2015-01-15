@@ -1551,13 +1551,14 @@
 # ^ not a ssg
 
 
-- name: "scms - shell cms"
-  github: "djura-san/scripts"
-  license: "Public"
-  website: "http://www.lab21.net/pub/softver/sh/scms"
-  language: "Shell"
-  description: "Small static website generator with imbedded markdown support. It is focused on lowering the i/o stream on discs"
-  created_at: "2011-07-22T00:47:18Z"
+# - name: "scms - shell cms"
+#   github: "djura-san/scripts"
+#   license: "Public"
+#   website: "http://www.lab21.net/pub/softver/sh/scms"
+#   language: "Shell"
+#   description: "Small static website generator with imbedded markdown support. It is focused on lowering the i/o stream on discs"
+#   created_at: "2011-07-22T00:47:18Z"
+# ^ This needs a proper website, or proper github repository
 
 
 - name: "Scriptogr.am"
