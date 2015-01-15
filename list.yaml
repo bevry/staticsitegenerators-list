@@ -1847,11 +1847,12 @@
   language: "JavaScript"
 
 
-- name: "Superstatic"
-  github: "divshot/superstatic"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Static web server with custom routing and more."
+#- name: "Superstatic"
+#  github: "divshot/superstatic"
+#  license: "MIT"
+#  language: "JavaScript"
+#  description: "Static web server with custom routing and more."
+# ^ SuperStatic is a web server, not a static site generator.
 
 
 #- name: "Syte"
