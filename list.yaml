@@ -2541,11 +2541,12 @@
   language: "PHP"
 
 
-- name: "LeafMeStatic"
-  github: "yqw/LeafMeStatic"
-  license: false
-  website: "http://yqw.github.io/LeafMeStatic/"
-  language: "PHP"
+# - name: "LeafMeStatic"
+#   github: "yqw/LeafMeStatic"
+#   license: false
+#   website: "http://yqw.github.io/LeafMeStatic/"
+#   language: "PHP"
+# ^ 404
 
 - name: "Static-weber"
   github: "xorpd/static_weber"
