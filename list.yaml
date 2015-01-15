@@ -1910,7 +1910,7 @@
 - name: "Teddy Hyde"
   github: "xrd/TeddyHyde"
   license: "MIT"
-  website: "https://teddyhyde.com"
+#  website: "https://teddyhyde.com" - no longer exists
   language: "Ruby"
 
 
