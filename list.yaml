@@ -1407,6 +1407,8 @@
 - name: "Pretzel"
   github: "Code52/pretzel"
   license: "MS-PL"
+  website: "http://code52.org/pretzel/"
+  language: "C#"
 
 
 - name: "Primoca"
