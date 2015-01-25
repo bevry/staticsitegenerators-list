@@ -1296,6 +1296,11 @@
   license: "Public"
   description: "An (Extremely Basic and Limited) Static Site Generator made in Lua."
 
+- name: "Org Mode"
+  license: "GPL"
+  website: "http://www.orgmode.org/"
+  language: "Emacs Lisp"
+  description: "Your life in plain text"
 
 - name: "Pagegen"
   license: "GPL"  # mentioned inside download
