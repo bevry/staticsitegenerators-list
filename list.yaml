@@ -1754,12 +1754,6 @@
   description: "StaGen supports Markdown, StringTemplate 4 and JSON. From the house of WizTools.org."
 
 
-- name: "Stasis"
-  github: "winton/stasis"
-  license: "MIT"
-  website: "http://stasis.me/"
-
-
 - name: "Stasis.clj"
   github: "magnars/stasis"
   license: "EPL"
@@ -2505,7 +2499,7 @@
 - name: "Stasis"
   github: "winton/stasis"
   license: "MIT"
-  website: "http://stasis.me/"
+  # website: "http://stasis.me/"
   language: "Ruby"
 
 
