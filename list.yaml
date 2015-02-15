@@ -477,7 +477,7 @@
 - name: "Equiprose"
   github: "thibaultCha/Equiprose"
   license: "MIT"
-  website: "http://equiprose.org"
+  # website: "http://equiprose.org"
   language: "JavaScript"
   description: "Flexible and powerful static website and blog generator in Node.js"
 
