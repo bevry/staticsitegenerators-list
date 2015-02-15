@@ -2599,3 +2599,10 @@
   github: "lizheming/PMBlog"
   license: false
   language: "PHP"
+
+- name: "Static Website Starter Kit"
+  github: "kriasoft/static-site-starter"
+  license: "Apache"
+  language: "JavaScript"
+  description: "Static site generator starter kit (aka project template) based on Gulp, Jade, Bootstrap, LESS, BrowserSync. It's continued for continuous deployment from Travis CI to GitHub Pages. Minimum dependencies, maximum flexibility."
+
