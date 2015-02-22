@@ -2600,3 +2600,9 @@
   language: "JavaScript"
   description: "Static site generator starter kit (aka project template) based on Gulp, Jade, Bootstrap, LESS, BrowserSync. It's continued for continuous deployment from Travis CI to GitHub Pages. Minimum dependencies, maximum flexibility."
 
+- name: "Gustav"
+  github: "futape/gustav"
+  license: "BSD"
+  website: "http://gustav.futape.de"
+  language: "PHP"
+  description: "Gustav is a powerful static-site gernerator written in PHP."
