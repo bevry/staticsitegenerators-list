@@ -17,7 +17,7 @@
 # "ISC" - use for the Internet Software Consortium license
 # false - use when the license is not revealed
 #
-# If there is another license type that is missing, guse its abbreviation and add it here
+# If there is another license type that is missing, use its abbreviation and add it here
 
 # If a project is defunct, still keep/add it, this is meant to be a definitive listing
 # and we will fetch in the activity of the project automatically outside of this listing
