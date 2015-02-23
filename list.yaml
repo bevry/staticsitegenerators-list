@@ -211,7 +211,7 @@
 
 - name: "Brace"
   license: "Commercial"
-  website: "http://brace.io/"
+  # website: "http://brace.io/" # 400 response, Feb/23/15
   language: "Web"
   description: "Brace is the new way to host websites"
 
@@ -2480,7 +2480,7 @@
 - name: "Tags"
   github: "braceio/tags"
   license: "MIT"
-  website: "http://tags.brace.io/"
+  # website: "http://tags.brace.io/" # 400 response, Feb/23/15
   language: "Python"
 
 
