@@ -2606,3 +2606,10 @@
   website: "http://gustav.futape.de"
   language: "PHP"
   description: "Gustav is a powerful static-site gernerator written in PHP."
+
+- name: "Wallflower"
+  github: "book/App-Wallflower"
+  license: "Perl"
+  website: "http://metacpan.org/pod/wallflower"
+  language: "Perl"
+  description: "Wallflower turns your Plack application into a static (read-only) web site."
