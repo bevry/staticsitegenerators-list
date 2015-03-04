@@ -2613,3 +2613,10 @@
   website: "http://metacpan.org/pod/wallflower"
   language: "Perl"
   description: "Wallflower turns your Plack application into a static (read-only) web site."
+
+- name: "Yozuch"
+  github: "akrylysov/yozuch"
+  license: "BSD"
+  website: "http://yozuch.krylysov.com/"
+  language: "Python"
+  description: "reStructuredText based static blog generator written in Python."
