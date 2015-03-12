@@ -2620,3 +2620,10 @@
   website: "http://yozuch.krylysov.com/"
   language: "Python"
   description: "reStructuredText based static blog generator written in Python."
+
+- name: "HubPress"
+  github: "HubPress/hubpress.io"
+  license: "MIT"
+  website: "http://hubpress.io/"
+  language: "Javascript"
+  description: "A web application to build your Blog on GitHub."
