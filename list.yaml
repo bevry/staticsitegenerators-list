@@ -2574,10 +2574,11 @@
   language: "C#"
 
 
-- name: "Mallet"
-  github: "mattconde/Mallet"
-  license: false
-  language: "Go"
+# - name: "Mallet"
+#   github: "mattconde/Mallet"
+#   license: false
+#   language: "Go"
+# ^ 404 on March 12, 2015: https://travis-ci.org/jaspervdj/static-site-generator-comparison/builds/54068198
 
 
 - name: "Orca"
