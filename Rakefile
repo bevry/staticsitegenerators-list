@@ -18,13 +18,13 @@ task :test do
     end
 
     # Check github
-    check_uri('https://github.com/' + entry['github']) if entry['github']
+    check_uri('https://github.com/' + entry['github'])  if entry['github']
 
     # Check website
-    check_uri entry['website'] if entry['website']
+    check_uri(entry['website'])  if entry['website']
 
     # Check license
-    check_license entry['license'] if entry['license']
+    check_license(entry['license'])  if entry['license']
   end
 end
 
@@ -35,7 +35,12 @@ def check_uri(uri)
   curl.follow_location = true
   curl.headers['User-Agent'] = 'static-site-generator-comparison-0.1.0.0'
   curl.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml'
-  curl.perform
+  begin
+    curl.perform
+  rescue Exception => e
+    puts "#{uri}: failed to curl"
+    raise e
+  end
 
   unless curl.response_code == 200
     raise "#{uri}: #{curl.response_code} response"
