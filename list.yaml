@@ -2481,7 +2481,8 @@
 - name: "Tags"
   github: "braceio/tags"
   license: "MIT"
-  website: "http://tags.brace.io/"
+  # website: "http://tags.brace.io/"
+  # ^ 404 on March 12 2015
   language: "Python"
 
 
