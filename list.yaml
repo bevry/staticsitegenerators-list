@@ -2206,8 +2206,8 @@
   description: "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
 
 
-- name: "yellow"
-  github: "markseu/yellowcms"
+- name: "Yellow"
+  github: "datenstrom/yellow"
   license: "GPL"
   website: "http://datenstrom.se/yellow/"
   language: "PHP"
