@@ -1332,6 +1332,7 @@
 - name: "Pelican"
   github: "getpelican/pelican"
   license: "GPL"
+  language: "Python"
 
 
 - name: "Petrify"
