@@ -38,7 +38,7 @@ Other fields are automatically collected from the GitHub repository but if the p
 
 Example:
 
-```
+``` yaml
 - name: "Amazing"
   github: "octocat/amazing"
   license: "MIT"
