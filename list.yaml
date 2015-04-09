@@ -46,6 +46,12 @@
   github: "Liutos/cl-github-page"
   language: "Common Lisp"
 
+- name: "AkashaCMS"
+  github: "akashacms/akashacms"
+  website: "http://akashacms.com"
+  license: "Apache"
+  language: "JavaScript"
+  description: "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
 
 - name: "Apto"
   github: "CraigyDavi/apto"
