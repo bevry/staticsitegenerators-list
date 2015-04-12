@@ -1021,7 +1021,7 @@
 - name: "lilac"
   github: "hit9/lilac"
   license: "MIT"
-  website: "https://lilac.readthedocs.org/en/latest/index.html"
+  website: "https://lilac.readthedocs.org"
 
 
 #- name: "Lineman"
