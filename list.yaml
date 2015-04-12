@@ -2644,3 +2644,10 @@
   website: "http://hubpress.io/"
   language: "Javascript"
   description: "A web application to build your Blog on GitHub."
+
+- name: "Riji"
+  github: "Songmu/p5-Riji"
+  license: "Perl"
+  website: "http://songmu.github.io/p5-Riji/blog/"
+  language: "Perl"
+  description: "Simple blog tool using Markdown and Git"
