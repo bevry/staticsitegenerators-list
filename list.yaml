@@ -995,6 +995,10 @@
   license: "MIT"
   website: "http://avdgaag.github.io/laze/"
 
+- name: "lazyblorg"
+  github: "novoid/lazyblorg"
+  license: "GPL"
+  language: "Python"
 
 - name: "Leeflets"
   github: "Leeflets/leeflets"
