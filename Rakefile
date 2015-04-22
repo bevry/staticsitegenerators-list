@@ -18,13 +18,16 @@ task :test do
     end
 
     # Check github
-    check_uri('https://github.com/' + entry['github'])  if entry['github']
+    check_uri('https://github.com/' + entry['github']) if entry['github']
 
     # Check website
-    check_uri(entry['website'])  if entry['website']
+    check_uri(entry['website']) if entry['website']
 
     # Check license
-    check_license(entry['license'])  if entry['license']
+    check_license(entry['license']) if entry['license']
+
+    # Check language
+    check_language(entry['language']) if entry['language']
   end
 end
 
@@ -56,5 +59,50 @@ def check_license(license)
 
   unless known_licenses.include? license
     raise "Unknown license: #{license}"
+  end
+end
+
+# Check language
+def check_language(language)
+  known_languages = [
+    "App",
+    "Awk",
+    "C#",
+    "C++",
+    "Clojure",
+    "CoffeeScript",
+    "Common Lisp",
+    "Dart",
+    "Elixir",
+    "Emacs Lisp",
+    "Erlang",
+    "F#",
+    "Fortran",
+    "Go",
+    "Groovy",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "Lisp",
+    "Lua",
+    "Make",
+    "Nimrod",
+    "OCaml",
+    "Objective-C",
+    "PHP",
+    "Perl",
+    "Python",
+    "Racket",
+    "Ruby",
+    "Rust",
+    "Scala",
+    "Shell",
+    "Tcl",
+    "Web",
+    "newLISP"
+  ]
+
+  unless known_languages.include? language
+    raise "Unknown language: #{language}"
   end
 end

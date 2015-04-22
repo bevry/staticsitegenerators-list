@@ -925,7 +925,7 @@
   github: "xeoncross/jr"
   license: "MIT"
   website: "http://xeoncross.github.io/jr/"
-  language: "Javascript"
+  language: "JavaScript"
   description: "The static, static site generator"
 
 
@@ -1695,9 +1695,9 @@
   license: "MIT" # mentioned at https://github.com/leafo/sitegen/blob/4969490093c413d9b6ccd285f463cd09206dd630/sitegen-dev-1.rockspec#L12
 
 - name: "SiteGen"
-  github: "https://github.com/MikeMitterer/dart-sitegen"
+  github: "MikeMitterer/dart-sitegen"
   license: "Apache"
-  language: "dartlang"
+  language: "Dart"
   description: "Sitegenerator for Dart"
   website: "https://pub.dartlang.org/packages/sitegen"
 
@@ -1742,7 +1742,7 @@
 
 - name: "Spring Board"
   github: "htaidirt/SpringBoard"
-  language: "Node.js"
+  language: "JavaScript"
   license: "MIT"
 
 
@@ -2064,7 +2064,7 @@
   github: "webhook/webhook"
   license: "MIT"
   website: "http://www.webhook.com"
-  language: "Javascript"
+  language: "JavaScript"
 
 
 - name: "Website Meta Language"
@@ -2190,7 +2190,7 @@
 - name: "SPG"
   github: "AdamBien/spg"
   license: "Apache"
-  language: "JavaScript / Nashorn"
+  language: "JavaScript"
   description: "One file, no dependencies, only requires Java 8"
 
 
@@ -2241,7 +2241,7 @@
   github: "wikismith/wikismith"
   license: "MIT"
   website: "http://www.wikismith.com"
-  language: "Javascript"
+  language: "JavaScript"
   description: "The fun static site generator for fans of gulp and bower"
 
 
@@ -2652,7 +2652,7 @@
   github: "HubPress/hubpress.io"
   license: "MIT"
   website: "http://hubpress.io/"
-  language: "Javascript"
+  language: "JavaScript"
   description: "A web application to build your Blog on GitHub."
 
 - name: "Riji"
