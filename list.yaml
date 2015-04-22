@@ -1694,6 +1694,12 @@
   github: "leafo/sitegen"
   license: "MIT" # mentioned at https://github.com/leafo/sitegen/blob/4969490093c413d9b6ccd285f463cd09206dd630/sitegen-dev-1.rockspec#L12
 
+- name: "SiteGen"
+  github: "https://github.com/MikeMitterer/dart-sitegen"
+  license: "Apache"
+  language: "dartlang"
+  description: "Sitegenerator for Dart"
+  website: "https://pub.dartlang.org/packages/sitegen"
 
 - name: "Smallest Blogger"
   github: "ranmocy/smallest-blogger"
