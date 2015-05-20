@@ -2661,3 +2661,10 @@
   website: "http://songmu.github.io/p5-Riji/blog/"
   language: "Perl"
   description: "Simple blog tool using Markdown and Git"
+
+- name: "Vegetables"
+  github: "partageit/vegetables"
+  license: "MIT"
+  website: "http://partageit.github.io/vegetables/"
+  language: "JavaScript"
+  description: "Vegetables is a CLI tool to change your Markdown documents into a static Web site, serve it locally or push it as GitHub pages."
