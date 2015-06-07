@@ -1282,7 +1282,7 @@
 - name: "Nikola"
   github: "getnikola/nikola"
   license: "MIT"
-  website: "http://getnikola.com/"
+  website: "https://getnikola.com/"
 
 
 - name: "Oak"
