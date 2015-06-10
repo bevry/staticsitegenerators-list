@@ -1112,11 +1112,11 @@
 
 
 - name: "Mecha"
-  github: "mecha-cms/cms"
+  github: "mecha-cms/mecha-cms"
   license: "GPL"
   website: "http://mecha-cms.com"
   language: "PHP"
-  description: "Mecha is a text file-based CMS. It does not require any database. All pages are saved in a txt file and named with specific pattern for file sorting purposes."
+  description: "Mecha is a file-based CMS. It does not require any database. Almost all files are stored as plain text files which grouped into folders, which you can even edit it manually through a plain text editor application."
 
 
 - name: "massimo"
