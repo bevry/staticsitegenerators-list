@@ -1313,6 +1313,11 @@
   language: "C#"
   description: "Razor and Markdown static site generator"
 
+- name: "Olai"
+  license: "Commercial"
+  website: "http://olai.in/"
+  language: "Golang"
+  description: "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
 
 - name: "operator-DD3"
   github: "operator-dd3/operator-dd3"
