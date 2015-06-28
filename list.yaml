@@ -2673,3 +2673,10 @@
   website: "http://partageit.github.io/vegetables/"
   language: "JavaScript"
   description: "Vegetables is a CLI tool to change your Markdown documents into a static Web site, serve it locally or push it as GitHub pages."
+
+- name: "Wyam"
+  github: "Wyamio/Wyam"
+  license: "MIT"
+  website: "http://wyam.io"
+  language: "C#"
+  description: "Wyam is a simple to use, highly modular, and extremely configurable static content generator."
