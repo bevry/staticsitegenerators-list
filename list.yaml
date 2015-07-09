@@ -2684,3 +2684,9 @@
   website: "http://wyam.io"
   language: "C#"
   description: "Wyam is a simple to use, highly modular, and extremely configurable static content generator."
+
+- name: "Griffin"
+  github: "pawandubey/griffin"
+  license: "Apache"
+  language: "Java"
+  description: "Blazing fast, extremely simple static site generator."
