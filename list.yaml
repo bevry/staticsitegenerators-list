@@ -577,11 +577,11 @@
   website: "http://pythonhosted.org/Frozen-Flask/"
 
 
-- name: "fugitive"
-  license: "GPL"
-  website: "https://gitorious.org/fugitive"
-  language: "Shell"
-
+#- name: "fugitive"
+#  license: "GPL"
+#  website: "https://gitorious.org/fugitive"
+#  language: "Shell"
+# gitorious is down
 
 - name: "Funnel"
   github: "shuhaowu/Funnel"
@@ -2058,10 +2058,11 @@
   website: false
 
 
-- name: "Webber"
-  license: "GPL"
-  website: "https://gitorious.org/webber"
-  language: "Python"
+#- name: "Webber"
+#  license: "GPL"
+#  website: "https://gitorious.org/webber"
+#  language: "Python"
+# gitorious is down
 
 
 - name: "webgen"
