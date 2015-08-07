@@ -305,7 +305,7 @@
 
 
 - name: "coleslaw"
-  github: "redline6561/coleslaw"
+  github: "kingcons/coleslaw"
   license: "BSD"
   website: "http://www.cliki.net/coleslaw"
 
@@ -316,7 +316,7 @@
 
 
 - name: "creo"
-  github: "execo/creo"
+  github: "ByronKellett/creo"
   license: "MIT"
   language: "Perl"
   description: "A simple static site generator, written in Perl."
@@ -396,7 +396,7 @@
 
 
 - name: "Docta"
-  github: "05bit/python-docta"
+  github: "05bit/docta"
   license: "BSD"
   website: "http://docta.05bit.com"
   language: "Python"
@@ -965,7 +965,7 @@
 
 
 - name: "Korma"
-  github: "sandal/korma"
+  github: "practicingruby/korma"
   license: false
 
 
@@ -1186,7 +1186,7 @@
 
 
 - name: "MkDocs"
-  github: "tomchristie/mkdocs"
+  github: "mkdocs/mkdocs"
   license: "BSD"
   website: "http://www.mkdocs.org"
   language: "Python"
@@ -1269,7 +1269,7 @@
 
 
 - name: "Nog"
-  github: "c9/nog"
+  github: "cloud9ide/nog"
   license: false
 
 
@@ -1922,8 +1922,9 @@
 
 
 - name: "Tarbell"
-  github: "newsapps/flask-tarbell"
+  github: "tarbell-project/tarbell"
   license: "MIT"
+  website: "http://www.tarbell.io/"
 
 
 - name: "tclog"
@@ -2168,7 +2169,7 @@
 
 
 - name: "liquidluck"
-  github: "lepture/liquidluck"
+  github: "avelino/liquidluck"
   license: "BSD" # mentioned at https://github.com/lepture/liquidluck/blob/8bc5d23b8cbac7a0199308897422b8cf58c8b424/setup.py#L30
   website: "http://lab.lepture.com/liquidluck/"
   language: "Python"
@@ -2276,7 +2277,7 @@
 
 
 - name: "simple-website"
-  github: "alexanderte/simple-website"
+  github: "alexanderteinum/simple-website"
   license: "BSD"
   language: "Go"
 
@@ -2295,7 +2296,7 @@
 
 
 - name: "Yana"
-  github: "edrock/yana"
+  github: "dariubs/yana"
   license: "MIT"
   language: "Python"
 
@@ -2313,7 +2314,7 @@
 
 
 - name: "Harmonic"
-  github: "es6rocks/harmonic"
+  github: "JSRocksHQ/harmonic"
   license: "MIT"
   language: "JavaScript"
 
@@ -2447,7 +2448,7 @@
 
 
 - name: "BAM"
-  github: "beautifulnode/bam"
+  github: "twilson63/bam"
   license: "MIT"
   website: "https://www.npmjs.org/package/bam"
   language: "JavaScript"
