@@ -2349,8 +2349,8 @@
   language: "Python"
 
 
-- name: "gin"
-  github: "epochblue/gin"
+- name: "nanogen"
+  github: "epochblue/nanogen"
   license: "MIT"
   language: "Python"
 
