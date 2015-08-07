@@ -1949,10 +1949,11 @@
   language: "Ruby"
 
 
-- name: "Telegram"
-  license: "Commercial"
-  website: "https://telegr.am/"
-  language: "Web"
+#- name: "Telegram"
+#  license: "Commercial"
+#  website: "https://telegr.am/"
+#  language: "Web"
+# Curl::Err::SSLConnectError: SSL connect error
 
 
 - name: "Tempo"
