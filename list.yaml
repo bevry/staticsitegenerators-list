@@ -2424,10 +2424,10 @@
   language: "Web"
 
 
-- name: "Yoozon"
-  license: "Commercial"
-  website: "http://www.yoozon.com/"
-  language: "Web"
+#- name: "Yoozon"
+#  license: "Commercial"
+#  website: "http://www.yoozon.com/"
+#  language: "Web"
 
 
 - name: "Luapress"
