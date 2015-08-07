@@ -740,7 +740,7 @@
 
 - name: "Hammer"
   license: "Commercial"
-  website: "http://hammerformac.com/"
+#  website: "http://hammerformac.com/"
   language: "App"
   description: "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
 
