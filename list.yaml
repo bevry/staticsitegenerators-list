@@ -214,14 +214,6 @@
   license: "MIT"
   website: "http://tinytree.info/"
 
-
-- name: "Brace"
-  license: "Commercial"
-  website: "http://brace.io/"
-  language: "Web"
-  description: "Brace is the new way to host websites"
-
-
 - name: "Bread"
   github: "pvorb/node-bread"
   license: "MIT"
