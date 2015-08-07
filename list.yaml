@@ -2173,7 +2173,7 @@
 - name: "liquidluck"
   github: "avelino/liquidluck"
   license: "BSD" # mentioned at https://github.com/lepture/liquidluck/blob/8bc5d23b8cbac7a0199308897422b8cf58c8b424/setup.py#L30
-  website: "http://lab.lepture.com/liquidluck/"
+  website: "http://www.avelino.xxx/liquidluck/"
   language: "Python"
 
 
