@@ -2252,7 +2252,7 @@
 - name: "Wikismith"
   github: "wikismith/wikismith"
   license: "MIT"
-  website: "http://www.wikismith.com"
+#  website: "http://www.wikismith.com" looks like domain was not renewed
   language: "JavaScript"
   description: "The fun static site generator for fans of gulp and bower"
 
