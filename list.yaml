@@ -1860,7 +1860,7 @@
 
 - name: "Statix"
   license: "Public"
-  language: "Bash"
+  language: "Shell"
   website: "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e"
 
 - name: "Stog"
