@@ -1329,6 +1329,7 @@
 
 
 - name: "Pagegen"
+  github: "oliverfields/pagegen_v2"
   license: "GPL"  # mentioned inside download
   website: "http://pagegen.phnd.net/"
   language: "App"
@@ -2148,7 +2149,7 @@
 
 
 - name: "ZZBlogX"
-  website: "http://www.dmemos.de/ZZBlogX/About.html"
+  website: "http://www.dmemos.de/ZZBlogX/"
   language: "newLISP"
   license: "GPL"
 
