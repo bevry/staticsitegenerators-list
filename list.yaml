@@ -214,6 +214,15 @@
   license: "MIT"
   website: "http://tinytree.info/"
 
+
+#- name: "Brace"
+#  license: "Commercial"
+#  website: "http://brace.io/"
+#  language: "Web"
+#  description: "Brace is the new way to host websites"
+# ^ Brace has shut down
+
+
 - name: "Bread"
   github: "pvorb/node-bread"
   license: "MIT"
@@ -1164,11 +1173,12 @@
 # ^ not a ssg
 
 
-- name: "Mixture"
-  license: "Commercial"
-  website: "http://mixture.io/"
-  language: "App"
-  description: "Mixture. Rapid prototyping, static site generation and so much more"
+#- name: "Mixture"
+#  license: "Commercial"
+#  website: "http://mixture.io/"
+#  language: "App"
+#  description: "Mixture. Rapid prototyping, static site generation and so much more"
+# ^ Removed download link, they recommend using alternatives - essentially shut down.
 
 
 #- name: "Modjs"
