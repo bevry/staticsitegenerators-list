@@ -272,8 +272,7 @@
 - name: "Chili"
   github: "clvrobj/chili"
   license: "MIT"
-  # website: "http://chilipy.com/"
-  # ^ 502 error
+   website: "http://chilipy.com/"
 
 
 - name: "Chisel"
@@ -322,7 +321,7 @@
   language: "Perl"
   description: "A simple static site generator, written in Perl."
   website: "http://execo.github.io/creo/"
-  
+
 - name: "cub"
   github: "patcoll/cub"
   license: "MIT"
@@ -741,7 +740,7 @@
 
 - name: "Hammer"
   license: "Commercial"
-#  website: "http://hammerformac.com/"
+  website: "http://hammerformac.com/"
   language: "App"
   description: "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
 
