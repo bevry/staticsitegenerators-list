@@ -86,6 +86,7 @@ def check_language(language)
     "Lisp",
     "Lua",
     "Make",
+    "newLISP",
     "Nimrod",
     "OCaml",
     "Objective-C",
@@ -98,8 +99,7 @@ def check_language(language)
     "Scala",
     "Shell",
     "Tcl",
-    "Web",
-    "newLISP"
+    "Web"
   ]
 
   unless known_languages.include? language
