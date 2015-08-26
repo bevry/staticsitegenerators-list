@@ -207,6 +207,7 @@
   github: "benmcredmond/Bolt"
   license: "MIT"
   language: "Ruby"
+  website: ""
 
 
 - name: "Bonsai"
@@ -297,6 +298,7 @@
   github: "hugoduncan/cl-blog-generator"
   license: "BSD"
   language: "Common Lisp"
+  website: "http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml"
 
 
 - name: "Codex"
@@ -342,7 +344,7 @@
 - name: "catsup"
   github: "whtsky/Catsup"
   license: "MIT"
-  website: "https://github.com/whtsky/Catsup/"
+  website: "https://catsup.readthedocs.org"
 
 
 - name: "Dapper"
@@ -527,6 +529,7 @@
 - name: "Floyd"
   github: "nikcub/floyd"
   license: "BSD"
+  website: "https://nikcub.github.io/floyd/"
 
 
 - name: "Firedrop2"
@@ -563,6 +566,7 @@
 - name: "Frank"
   github: "blahed/frank"
   license: "MIT"
+  website: ""
 
 
 - name: "Frog"
@@ -638,6 +642,7 @@
   github: "Schnouki/Golbarg"
   language: "Python"
   license: "GPL"
+  website: ""
 
 
 - name: "gor"
@@ -841,6 +846,7 @@
 - name: "Hobix"
   github: "hobix/hobix"
   license: "MIT"
+  website: "https://hobix.github.io/hobix/"
 
 
 - name: "Hyde"
@@ -1290,12 +1296,13 @@
   github: "marc0s/oak"
   language: "Python"
   license: "Public"
+  website: ""
 
 
 - name: "o-blog"
   github: "renard/o-blog"
   license: "Public"
-  website: "http://renard.github.com/o-blog"
+  website: "http://renard.github.io/o-blog"
   language: "Emacs Lisp"
   description: "Generates static sites from org-mode files"
 
@@ -1454,6 +1461,7 @@
 - name: "Punch"
   github: "laktek/punch"
   license: "MIT"
+  website: "https://laktek.github.io/punch/"
 
 
 #- name: "Purepress"
@@ -1723,7 +1731,6 @@
 - name: "Soapbox"
   github: "arnolddevos/Soapbox"
   license: "BSD"
-  website: "https://github.com/arnolddevos/Soapbox"
   language: "Scala"
   description: "Static site generator as an SBT plugin"
 
@@ -1882,6 +1889,7 @@
   github: "kaw2k/static-site-compiler"
   license: "BSD"
   language: "JavaScript"
+  website: "https://kaw2k.github.io/ssc-start/"
 
 
 #- name: "Superstatic"
@@ -2044,6 +2052,7 @@
 - name: "volt"
   github: "bow/volt"
   license: "BSD"
+  website: ""
 
 
 - name: "wadoo"
@@ -2694,6 +2703,5 @@
 - name: "Griffin"
   github: "pawandubey/griffin"
   license: "Apache"
-  website: "http://github.com/pawandubey/griffin"
   language: "Java"
   description: "Blazing fast, extremely simple static site generator."
