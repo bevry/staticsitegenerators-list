@@ -2,9 +2,9 @@
 
 [![Build Status](https://api.travis-ci.org/bevry/staticsitegenerators-list.svg?branch=master)](https://travis-ci.org/bevry/staticsitegenerators-list)
 
-A comprehensive listing of static site generators with some minimal meta data about them.
+A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them.
 
-**[View the listing](https://github.com/bevry/static-site-generator-comparison/blob/master/list.yaml) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.yaml)**
+**[View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.yaml) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.yaml)**
 
 **[View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators-website)**
 
@@ -27,7 +27,7 @@ Accepted project fields:
 
 * `name` - the project's name
 * `github` - the location of the GitHub repository
-* `license` - the project's license (or lack of license), see [license types](https://github.com/jaspervdj/static-site-generator-comparison/blob/master/list.yaml)
+* `license` - the project's license (or lack of license), see [license types](https://github.com/bevry/staticsitegenerators-list/blob/master/list.yaml)
 
 Other fields are automatically collected from the GitHub repository but if the project does not have one you can use the following fields:
 
