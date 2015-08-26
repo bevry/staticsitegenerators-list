@@ -2007,7 +2007,8 @@
 - name: "Utterson"
   github: "pepijndevos/utterson"
   language: "Clojure"
-
+  website: ""
+# ^ 404 error 26/08/15
 
 - name: "vee"
   github: "estrabd/vee"
