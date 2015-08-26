@@ -21,7 +21,9 @@ task :test do
     check_uri('https://github.com/' + entry['github']) if entry['github']
 
     # Check website
-    check_uri(entry['website']) if entry['website']
+    if entry['website'] != "" then
+      check_uri(entry['website']) if entry['website']
+    end
 
     # Check license
     check_license(entry['license']) if entry['license']
