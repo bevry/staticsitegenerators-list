@@ -1717,7 +1717,7 @@
 - name: "snowshoe"
   github: "edvanbeinum/snowshoe"
   license: false
-#  website: "http://getsnowshoe.com/index.html" # website offline Nov/30/14
+  website: "" # getsnowshoe.com website offline Nov/30/14
 
 
 - name: "Soapbox"
