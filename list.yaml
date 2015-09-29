@@ -849,6 +849,12 @@
   website: "https://hobix.github.io/hobix/"
 
 
+- name: "hublo"
+  github: "pyr/hublo"
+  language: "Emacs Lisp"
+  website: "http://spootnik.org/"
+
+
 - name: "Hyde"
   github: "hyde/hyde"
   license: "MIT"
@@ -964,10 +970,11 @@
   website: "http://getkirby.com/"
 
 
-- name: "KISSr"
-  license: "Commercial"
-  website: "http://www.kissr.com/"
-  language: "Web"
+#- name: "KISSr"
+#  license: "Commercial"
+#  website: "http://www.kissr.com/"
+#  language: "Web"
+# ^ defunct - 2015-09-29
 
 
 - name: "Korma"
@@ -1762,6 +1769,7 @@
 
 - name: "Sphinx"
   license: "BSD"
+  github: "sphinx-doc/sphinx"
   website: "http://sphinx-doc.org/"
   language: "App"
   description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
