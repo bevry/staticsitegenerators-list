@@ -969,11 +969,11 @@
   website: "http://getkirby.com/"
 
 
-- name: "KISSr"
-  license: "Commercial"
-  website: "http://www.kissr.com/"
-  language: "Web"
-
+# - name: "KISSr"
+#  license: "Commercial"
+#  website: "http://www.kissr.com/"
+#  language: "Web"
+# ^ site offline Oct/10/15
 
 - name: "Korma"
   github: "practicingruby/korma"
