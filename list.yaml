@@ -772,8 +772,8 @@
 - name: "happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
-  website: "http://mdwn.in/gh/happyplan/happyplan"
-
+#  website: "http://mdwn.in/gh/happyplan/happyplan"
+# ^ site offline Oct/10/15
 
 - name: "haroopress"
   github: "rhiokim/haroopress"
