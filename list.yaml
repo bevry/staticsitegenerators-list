@@ -616,6 +616,11 @@
   language: "JavaScript"
   description: "A simple website creating tool, package, framework whatever."
 
+- name: "ghost-render"
+  github: "mixu/ghost-render"
+  license: "BSD"
+  language: "JavaScript"
+  description: "Render static blog sites from Markdown using Ghost themes."
 
 - name: "glynn"
   github: "dmathieu/glynn"
@@ -1104,6 +1109,11 @@
   license: "Public"
   website: "http://markdoc.org/"
 
+- name: "markdown-styles"
+  github: "mixu/markdown-styles"
+  license: "BSD"
+  language: "JavaScript"
+  description: "Markdown to static HTML generator and multiple CSS themes for Markdown."
 
 - name: "Markx"
   github: "jgallen23/markx"
