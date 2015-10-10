@@ -273,8 +273,8 @@
 - name: "Chili"
   github: "clvrobj/chili"
   license: "MIT"
-  website: "http://chilipy.com/"
-
+#  website: "http://chilipy.com/"
+# ^ site offline Oct/10/15
 
 - name: "Chisel"
   github: "dz/chisel"
