@@ -772,8 +772,7 @@
 - name: "happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
-#  website: "http://mdwn.in/gh/happyplan/happyplan"
-# ^ site offline Oct/10/15
+  website: "http://mdwn.in/gh/happyplan/happyplan"
 
 - name: "haroopress"
   github: "rhiokim/haroopress"
@@ -1486,11 +1485,11 @@
   website: "http://pyblosxom.github.io/"
 
 
-- name: "Py'nFact"
-  github: "alberteromero/pynfact"
-  language: "Python"
-  license: "BSD"
-
+#- name: "Py'nFact"
+#  github: "alberteromero/pynfact"
+#  language: "Python"
+#  license: "BSD"
+# 404 - as of 2015-10-22
 
 - name: "Pyll"
   github: "arthurk/pyll"
