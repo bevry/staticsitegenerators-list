@@ -273,8 +273,8 @@
 - name: "Chili"
   github: "clvrobj/chili"
   license: "MIT"
-  website: "http://chilipy.com/"
-
+#  website: "http://chilipy.com/"
+# ^ site offline Oct/10/15
 
 - name: "Chisel"
   github: "dz/chisel"
@@ -616,6 +616,11 @@
   language: "JavaScript"
   description: "A simple website creating tool, package, framework whatever."
 
+- name: "ghost-render"
+  github: "mixu/ghost-render"
+  license: "BSD"
+  language: "JavaScript"
+  description: "Render static blog sites from Markdown using Ghost themes."
 
 - name: "glynn"
   github: "dmathieu/glynn"
@@ -767,8 +772,8 @@
 - name: "happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
-  website: "http://mdwn.in/gh/happyplan/happyplan"
-
+#  website: "http://mdwn.in/gh/happyplan/happyplan"
+# ^ site offline Oct/10/15
 
 - name: "haroopress"
   github: "rhiokim/haroopress"
@@ -964,11 +969,11 @@
   website: "http://getkirby.com/"
 
 
-- name: "KISSr"
-  license: "Commercial"
-  website: "http://www.kissr.com/"
-  language: "Web"
-
+# - name: "KISSr"
+#  license: "Commercial"
+#  website: "http://www.kissr.com/"
+#  language: "Web"
+# ^ site offline Oct/10/15
 
 - name: "Korma"
   github: "practicingruby/korma"
@@ -1104,6 +1109,11 @@
   license: "Public"
   website: "http://markdoc.org/"
 
+- name: "markdown-styles"
+  github: "mixu/markdown-styles"
+  license: "BSD"
+  language: "JavaScript"
+  description: "Markdown to static HTML generator and multiple CSS themes for Markdown."
 
 - name: "Markx"
   github: "jgallen23/markx"
