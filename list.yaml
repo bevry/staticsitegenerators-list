@@ -2705,3 +2705,9 @@
   license: "Apache"
   language: "Java"
   description: "Blazing fast, extremely simple static site generator."
+
+- name: "Refrain"
+  github: "shootaroo/refrain"
+  license: "MIT"
+  language: "JavaScript"
+  description: "Refrain from unnecessary building."
