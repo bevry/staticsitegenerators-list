@@ -165,7 +165,7 @@
 - name: "Blogfy"
   github: "wifiextender/blogfy"
   license: false
-  website: "http://linux.sytes.net/"
+  #website: "http://linux.sytes.net/" 404 2015-10-22
   language: "Python"
   description: "Blogfy is an open source and useful software written in Python and designed especially for those who want to create weblogs and websites in a straightforward manner. The software includes five built-in themes, which can be used by users to generate web pages or blogs. Blogfy requires no 3rd party dependencies, your text posts are glued to the html templates and everything is generated on the fly. Blogfy got automated pagination, RSS, tags and sitemap generator, it is platform independent."
 
