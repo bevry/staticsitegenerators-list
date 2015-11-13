@@ -405,6 +405,13 @@
   description: "Static site generator for building documentation."
 
 
+- name: "DOS on Dope"
+  license: "BSD"
+  website: "http://www.secretgeek.net/dod_intro"
+  language: "Batch"
+  description: "DOS on DOPE is the modern MVC framework built on the awesome power of Batch scripts."
+
+
 - name: "Drapache"
   github: "louissobel/Drapache"
   license: "MIT"
@@ -486,7 +493,6 @@
 - name: "Equiprose"
   github: "thibaultCha/Equiprose"
   license: "MIT"
-  # website: "http://equiprose.org"
   language: "JavaScript"
   description: "Flexible and powerful static website and blog generator in Node.js"
 
@@ -974,13 +980,6 @@
   website: "http://getkirby.com/"
 
 
-# - name: "KISSr"
-#  license: "Commercial"
-#  website: "http://www.kissr.com/"
-#  language: "Web"
-# ^ site offline Oct/10/15
-
-
 - name: "Korma"
   github: "practicingruby/korma"
   license: false
@@ -1280,12 +1279,6 @@
   license: false
 
 
-#- name: "node-jekyll"
-#  github: "wangbus/node-jekyll"
-#  license: "MIT"
-# ^ Returns a 404. No backup repo found.
-
-
 - name: "noflo-jekyll"
   github: "the-grid/noflo-jekyll"
   license: "MIT"
@@ -1387,12 +1380,6 @@
   license: "MIT"
 
 
-#- name: "phase"
-#  github: "AD7six/phase"
-#  license: "MIT"
-# ^ Returns a 404. No backup repo found.
-
-
 - name: "Phileas"
   github: "farvardin/phileas"
   license: "MIT"
@@ -1492,12 +1479,6 @@
   website: "http://pyblosxom.github.io/"
 
 
-#- name: "Py'nFact"
-#  github: "alberteromero/pynfact"
-#  language: "Python"
-#  license: "BSD"
-# 404 - as of 2015-10-22
-
 - name: "Pyll"
   github: "arthurk/pyll"
   license: "BSD"
@@ -1510,11 +1491,10 @@
   language: "JavaScript"
 
 
-#- name: "RakeWeb"
-#  license: "CC"
-#  website: "http://rubyforge.org/projects/rakeweb/"
-#  language: "Ruby"
-# ^ Returns a 404. No backup repo found.
+- name: "RakeWeb"
+  github: "rweald/rakeweb"
+  license: "Apache"
+  language: "Ruby"
 
 
 - name: "rant"
@@ -1532,7 +1512,6 @@
 
 - name: "rawk"
   github: "kisom/rawk"
-#  website: "http://rawk.brokenlcd.net" # site offline Nov/30/14
   language: "Shell"
   description: "Rage Against Web Frameworks"
 
@@ -1974,13 +1953,6 @@
   license: "MIT"
 #  website: "https://teddyhyde.com" - no longer exists
   language: "Ruby"
-
-
-#- name: "Telegram"
-#  license: "Commercial"
-#  website: "https://telegr.am/"
-#  language: "Web"
-# Curl::Err::SSLConnectError: SSL connect error
 
 
 - name: "Tempo"
