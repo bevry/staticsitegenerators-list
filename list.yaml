@@ -2115,6 +2115,12 @@
   defunct: true
 
 
+- name: "Websleydale"
+  github: "kalgynirae/websleydale"
+  language: "Python"
+  license: "MIT"
+
+
 - name: "Wheat"
   github: "creationix/wheat"
   license: "MIT"
