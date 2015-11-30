@@ -54,7 +54,7 @@
   description: "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
 
 - name: "Apto"
-  github: "CraigyDavi/apto"
+  github: "davisonio/apto"
   license: "MIT"
   website: "https://www.npmjs.org/package/apto"
   language: "JavaScript"
@@ -1704,7 +1704,6 @@
 - name: "serif"
   github: "aprescott/serif"
   license: "MIT"
-  website: "https://aprescott.com/posts/serif"
 
 
 - name: "serious-chicken"
