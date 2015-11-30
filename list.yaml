@@ -950,7 +950,12 @@
   license: "MIT"
   language: "JavaScript"
 
-
+- name: "kalastatic"
+  github: "kalamuna/kalastatic"
+  license: "MIT"
+  language: "Node"
+  website: http://test-kalastatic.at.kalamuna.com
+  
 - name: "Kel"
   github: "koostudios/kel"
   license: "MIT"
