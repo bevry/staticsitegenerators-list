@@ -980,6 +980,12 @@
   website: "http://getkirby.com/"
 
 
+- name: "KISSr"
+  license: "Commercial"
+  website: "http://www.kissr.com/"
+  language: "Web"
+
+
 - name: "Korma"
   github: "practicingruby/korma"
   license: false
@@ -1284,6 +1290,12 @@
   license: "MIT"
 
 
+#- name: "node-jekyll"
+#  github: "wangbus/node-jekyll"
+#  license: "MIT"
+# ^ Returns a 404. No backup repo found.
+
+
 - name: "Nog"
   github: "cloud9ide/nog"
   license: false
@@ -1378,6 +1390,12 @@
 - name: "Petrify"
   github: "caolan/petrify"
   license: "MIT"
+
+
+#- name: "phase"
+#  github: "AD7six/phase"
+#  license: "MIT"
+# ^ Returns a 404. No backup repo found.
 
 
 - name: "Phileas"
@@ -1478,6 +1496,12 @@
   license: "Public"
   website: "http://pyblosxom.github.io/"
 
+
+#- name: "Py'nFact"
+#  github: "alberteromero/pynfact"
+#  language: "Python"
+#  license: "BSD"
+# 404 - as of 2015-10-22
 
 - name: "Pyll"
   github: "arthurk/pyll"
@@ -1953,6 +1977,13 @@
   license: "MIT"
 #  website: "https://teddyhyde.com" - no longer exists
   language: "Ruby"
+
+
+#- name: "Telegram"
+#  license: "Commercial"
+#  website: "https://telegr.am/"
+#  language: "Web"
+# Curl::Err::SSLConnectError: SSL connect error
 
 
 - name: "Tempo"
