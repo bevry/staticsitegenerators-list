@@ -1376,7 +1376,6 @@
 - name: "Pancake.io"
   github: "hassox/pancake"
   license: "MIT"
-  website: "http://pancakestacks.wordpress.com/"
 
 
 - name: "pansite"
