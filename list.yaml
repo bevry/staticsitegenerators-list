@@ -1386,6 +1386,12 @@
   license: "GPL"
   language: "Python"
 
+- name: "Perun"
+  github: "hashobject/perun"
+  website: "https://perun.io"
+  license: "EPL"
+  language: "Clojure"
+  description: "Composable static site generator build with Clojure and Boot"
 
 - name: "Petrify"
   github: "caolan/petrify"
