@@ -1328,11 +1328,12 @@
   description: "Generates static sites from org-mode files"
 
 
-- name: "obraz"
-  license: "CC"
-  website: "http://obraz.pirx.ru/"
-  language: "Python"
-  description: "Like Jekyll"
+#- name: "obraz"
+#  license: "CC"
+#  website: "http://obraz.pirx.ru/"
+#  language: "Python"
+#  description: "Like Jekyll"
+# ^ 502 error - 2015-11-30
 
 
 - name: "Ocam"
