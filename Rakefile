@@ -69,6 +69,7 @@ def check_language(language)
   known_languages = [
     "App",
     "Awk",
+    "Batch",
     "C#",
     "C++",
     "Clojure",
