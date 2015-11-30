@@ -1353,7 +1353,7 @@
   license: "GPL"
   website: "http://www.orgmode.org/"
   language: "Emacs Lisp"
-  description: "Your life in plain text"
+  description: "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
 
 - name: "Pagegen"
   github: "oliverfields/pagegen_v2"
