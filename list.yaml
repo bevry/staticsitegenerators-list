@@ -100,6 +100,7 @@
   github: "lethain/aym-cms"
   license: "MIT"
   language: "Python"
+  website: "http://www.aymcms.com/"
 
 
 - name: "baker"
@@ -409,7 +410,7 @@
 - name: "Drapache"
   github: "louissobel/Drapache"
   license: "MIT"
-  website: false
+  website: "https://github.com/louissobel/Drapache"
 
 
 - name: "drfrederson"
@@ -460,6 +461,7 @@
   github: "samrat/ecstatic"
   license: "EPL"
   language: "Clojure"
+  website: "https://github.com/samrat/ecstatic"
 
 
 - name: "Elyse"
@@ -489,6 +491,7 @@
   license: "MIT"
   language: "JavaScript"
   description: "Flexible and powerful static website and blog generator in Node.js"
+  website: "https://github.com/thibaultCha/Equiprose"
 
 
 - name: "Fairytale"
@@ -511,7 +514,7 @@
 - name: "fjord"
   github: "dkuntz2/fjord"
   license: "BSD"
-  website: false
+  website: "https://github.com/dkuntz2/fjord"
 
 
 - name: "Flamel"
@@ -965,7 +968,7 @@
 - name: "Kel"
   github: "koostudios/kel"
   license: "MIT"
-  website: false
+  website: "https://www.npmjs.com/package/kel"
 
 
 - name: "Kerouac"
@@ -1382,6 +1385,7 @@
 - name: "Pancake.io"
   github: "hassox/pancake"
   license: "MIT"
+  website: "https://pancakestacks.wordpress.com/"
 
 
 - name: "pansite"
@@ -1481,6 +1485,7 @@
 - name: "pop"
   github: "alexyoung/pop"
   license: "MIT"
+  website: "https://github.com/alexyoung/pop"
 
 
 - name: "Pretzel"
@@ -1556,6 +1561,7 @@
   github: "kisom/rawk"
   language: "Shell"
   description: "Rage Against Web Frameworks"
+  website: "https://github.com/kisom/rawk"
 
 
 - name: "Really Static"
@@ -1761,7 +1767,7 @@
 - name: "snowshoe"
   github: "edvanbeinum/snowshoe"
   license: false
-  website: "" # getsnowshoe.com website offline Nov/30/14
+  website: "https://github.com/edvanbeinum/snowshoe"
 
 
 - name: "Soapbox"
@@ -1788,6 +1794,7 @@
   website: false
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
+  website: "http://vlv.io/"
 
 
 - name: "Spring Board"
@@ -2052,8 +2059,8 @@
 - name: "Utterson"
   github: "pepijndevos/utterson"
   language: "Clojure"
-  website: ""
-# ^ 404 error 26/08/15
+  website: "https://github.com/pepijndevos/utterson"
+
 
 - name: "vee"
   github: "estrabd/vee"
@@ -2216,6 +2223,7 @@
   github: "nunull/nodeache"
   license: "MIT"
   language: "JavaScript"
+  website: "https://www.npmjs.com/package/nodeache"
 
 
 - name: "Spress"
