@@ -53,13 +53,6 @@
   language: "JavaScript"
   description: "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
 
-- name: "Apto"
-  github: "davisonio/apto"
-  license: "MIT"
-  website: "https://www.npmjs.org/package/apto"
-  language: "JavaScript"
-  description: "Apto is an easy to use, straight-forward static site generator / builder for Node.js."
-
 
 - name: "assemble"
   github: "assemble/assemble"
@@ -207,7 +200,7 @@
   github: "benmcredmond/Bolt"
   license: "MIT"
   language: "Ruby"
-  website: ""
+  website: "https://github.com/benmcredmond/Bolt"
 
 
 - name: "Bonsai"
@@ -227,6 +220,7 @@
 - name: "Bread"
   github: "pvorb/node-bread"
   license: "MIT"
+  website: "https://www.npmjs.com/package/bread"
 
 
 - name: "Bricolage CMS"
@@ -332,7 +326,7 @@
 - name: "cyrax"
   github: "piranha/cyrax"
   license: "BSD"
-  website: "http://pypi.python.org/pypi/cyrax"
+  website: "https://pypi.python.org/pypi/cyrax"
 
 
 - name: "cytoplasm"
@@ -368,7 +362,7 @@
 
 - name: "Divshot"
   license: "Commercial"
-  website: "http://www.divshot.com/"
+  website: "https://divshot.com/"
   language: "Web"
   description: "Static web Platform-as-a-Service with pushState support."
 
@@ -421,7 +415,7 @@
 - name: "drfrederson"
   github: "klml/drfrederson"
   license: "MIT"
-  website: "http://drf.grus.uberspace.de"
+  website: "http://drfrederson.klml.org/"
 
 
 - name: "dropbox-blog"
@@ -476,7 +470,7 @@
 - name: "embellih"
   github: "boscoh/embellish"
   license: "BSD"
-  website: "http://boscoh.github.io/embellish"
+  website: "http://boscoh.github.io/embellish/"
 
 
 - name: "enfield"
@@ -602,7 +596,7 @@
 - name: "Gabby"
   github: "alexmingoia/gabby"
   license: "BSD"
-  website: "http://alexmingoia.github.io/gabby/"
+  website: "http://www.alexmingoia.com/gabby/"
 
 
 - name: "Garoozis"
@@ -637,7 +631,13 @@
 - name: "Glyph"
   github: "h3rald/glyph"
   license: "MIT"
+  website: "https://h3rald.com/glyph/"
 
+- name: "Apto"
+  license: "MIT"
+  website: "https://www.npmjs.com/package/apto"
+  language: "JavaScript"
+  description: "Apto is an easy to use, straight-forward static site generator / builder for Node.js."
 
 - name: "gollum-site"
   github: "dreverri/gollum-site"
@@ -693,12 +693,11 @@
   license: "MIT"
   website: "http://getgrav.org"
   language: "PHP"
-  
 
 - name: "Graze"
   github: "mikoskinen/graze"
   license: "MIT"
-
+  website: "http://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor"
 
 - name: "grender"
   github: "peterbourgon/grender"
@@ -820,7 +819,7 @@
 - name: "Hexo"
   github: "hexojs/hexo"
   license: "MIT"
-  website: "http://hexo.io"
+  website: "https://hexo.io/"
 
 
 - name: "HiD"
@@ -833,6 +832,7 @@
 - name: "High Voltage"
   github: "thoughtbot/high_voltage"
   license: "MIT"
+  website: "http://thoughtbot.github.io/high_voltage/"
 
 
 # - name: "Hoodie"
@@ -885,7 +885,7 @@
 - name: "JAGSS"
   github: "esonderegger/jagss"
   license: "MIT"
-  website: "http://jagss.rpy.xyz/"
+  website: "https://jagss.rpy.xyz/"
 
 
 - name: "JBake"
@@ -923,7 +923,7 @@
 - name: "jem-press"
   github: "scottsievert/jem-press"
   license: "GPL"
-  website: "http://scottsievert.github.io/jem-press/"
+  website: "http://scottsievert.com/jem-press/"
   language: "Ruby"
   description: "Markdown --> `ruby update.rb` --> site. Simple and easy to use; not blog sensitive"
 
@@ -987,7 +987,7 @@
 
 - name: "KISSr"
   license: "Commercial"
-  website: "http://www.kissr.com/"
+  website: "https://www.kissr.com/"
   language: "Web"
 
 
@@ -1084,6 +1084,7 @@
 - name: "m4-bakery"
   github: "datagrok/m4-bakery"
   license: "GPL"
+  website: "http://datagrok.github.io/m4-bakery/"
 
 
 - name: "Machined"
@@ -1181,7 +1182,7 @@
 - name: "metalsmith"
   github: "segmentio/metalsmith"
   license: "MIT"
-  website: "http://metalsmith.io"
+  website: "http://www.metalsmith.io"
   language: "JavaScript"
   description: "An extremely simple, pluggable static site generator."
 
@@ -1282,7 +1283,7 @@
 - name: "Nibbleblog"
   github: "dignajar/nibbleblog"
   license: "GPL"
-  website: "http://nibbleblog.com/"
+  website: "http://www.nibbleblog.com/"
 
 
 - name: "node-blog"
@@ -1328,7 +1329,7 @@
 - name: "o-blog"
   github: "renard/o-blog"
   license: "Public"
-  website: "http://renard.github.io/o-blog"
+  website: "http://renard.github.io/o-blog/"
   language: "Emacs Lisp"
   description: "Generates static sites from org-mode files"
 
@@ -1362,7 +1363,7 @@
 
 - name: "Org Mode"
   license: "GPL"
-  website: "http://www.orgmode.org/"
+  website: "http://orgmode.org/"
   language: "Emacs Lisp"
   description: "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
 
@@ -1395,6 +1396,7 @@
   github: "getpelican/pelican"
   license: "GPL"
   language: "Python"
+  website: "http://blog.getpelican.com"
 
 - name: "Perun"
   github: "hashobject/perun"
@@ -1527,7 +1529,7 @@
 - name: "Quill"
   github: "theycallmeswift/quill"
   license: "Beer-ware"
-  website: "https://npmjs.org/package/quill"
+  website: "https://www.npmjs.com/package/quill"
   language: "JavaScript"
 
 
@@ -1546,7 +1548,7 @@
 - name: "Rassmalog"
   github: "sunaku/rassmalog"
   license: "ISC"
-  website: "http://snk.tuxfamily.org/lib/rassmalog/"
+  website: "http://snk.tuxfamily.org/lib/rassmalog/doc/guide.html"
   language: "Ruby"
 
 
@@ -1559,7 +1561,7 @@
 - name: "Really Static"
   github: "trajano/really-static"
   license: "GPL"
-  website: "http://wordpress.org/plugins/really-static/"
+  website: "https://wordpress.org/plugins/really-static/"
   language: "PHP"
   description: "Generates static HTML-files from your WordPress Blog"
 
@@ -1689,7 +1691,7 @@
 - name: "Sculpin"
   github: "sculpin/sculpin"
   license: "MIT"
-  website: "http://sculpin.io/"
+  website: "https://sculpin.io/"
 
 
 - name: "Serve"
@@ -1837,7 +1839,7 @@
 
 - name: "Statamic"
   license: "Commercial"
-  website: "http://www.statamic.com/"
+  website: "http://statamic.com/"
   language: "App"
   description: "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
 
@@ -2036,7 +2038,7 @@
 
 - name: "Ultra simple Site Maker"
   license: "GPL"
-  website: "http://www.loup-vaillant.fr/projects/ussm/"
+  website: "http://loup-vaillant.fr/projects/ussm/"
   language: "Shell"
 
 
@@ -2195,7 +2197,7 @@
 - name: "ZenWeb"
   github: "seattlerb/zenweb"
   license: "MIT"
-  website: "http://www.zenspider.com/ZSS/Products/ZenWeb/"
+  website: "http://www.zenspider.com/projects/zenweb.html"
 
 
 - name: "ZZBlogX"
@@ -2455,7 +2457,7 @@
 - name: "Statocles"
   license: "Perl"
   github: "preaction/Statocles"
-  website: "https://preaction.github.io/Statocles"
+  website: "http://preaction.github.io/Statocles/"
   language: "Perl"
 
 
@@ -2505,7 +2507,7 @@
 - name: "BAM"
   github: "twilson63/bam"
   license: "MIT"
-  website: "https://www.npmjs.org/package/bam"
+  website: "https://www.npmjs.com/package/bam"
   language: "JavaScript"
 
 
@@ -2702,7 +2704,7 @@
 - name: "Wallflower"
   github: "book/App-Wallflower"
   license: "Perl"
-  website: "http://metacpan.org/pod/wallflower"
+  website: "https://metacpan.org/pod/wallflower"
   language: "Perl"
   description: "Wallflower turns your Plack application into a static (read-only) web site."
 
