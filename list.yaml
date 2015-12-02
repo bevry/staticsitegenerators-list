@@ -843,6 +843,11 @@
 #  license: "Apache"
 # ^ not a ssg
 
+- name: "Hooloo"
+  github: "Sneezry/Hooloo"
+  license: "MIT"
+  language: "JavaScript"
+
 
 - name: "Hugo"
   github: "spf13/hugo"
