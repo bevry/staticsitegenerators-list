@@ -360,6 +360,11 @@
   github: "cdn64/deplot"
   license: "MIT"
 
+- name: "Desi"
+  license: "(MIT OR Apache-2.0)"
+  website: "https://dear.desi/"
+  language: "JavaScript"
+  description: "The DIY blog platform for normal people. Written to run in your browser, happens to run in node.js. Built with developers in mind."
 
 - name: "Divshot"
   license: "Commercial"
