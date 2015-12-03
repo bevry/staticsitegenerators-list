@@ -379,6 +379,9 @@
   license: "MIT"
   website: "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/"
 
+- name: "django-staticgen"
+  github: "mishbahr/django-staticgen"
+  language: "Python"
 
 - name: "djangothis"
   github: "amitu/djangothis"
@@ -763,6 +766,11 @@
   description: "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
 
 
+- name: "hanayo"
+  github: "disoul/hanayo"
+  language: "Javascript"
+  description: "A static blog generator writed by Node.js"
+
 - name: "handcrank"
   license: "BSD"
   website: "http://pythonhosted.org/handcrank/"
@@ -884,6 +892,11 @@
   license: "GPL"
   website: "http://ikiwiki.info/"
 
+
+- name: "ink"
+  github: "InkProject/ink"
+  language: "Go"
+  website: "http://www.inkpaper.io/"
 
 - name: "JAGSS"
   github: "esonderegger/jagss"
@@ -1194,6 +1207,12 @@
   github: "middleman/middleman"
   license: "MIT"
 
+- name: "MinoriWiki"
+  github: "phoenixlzx/MinoriWiki"
+  licence: "MIT"
+  website: "http://phoenixlzx.github.io/MinoriWiki/"
+  language: "Javascript"
+  description: "MinoriWiki is a static Wiki site Generator"
 
 - name: "Misakai Baker"
   github: "Kelindar/misakai-baker"
@@ -1401,6 +1420,10 @@
   license: "GPL"
   language: "Python"
   website: "http://blog.getpelican.com"
+
+- name: "Penguin"
+  github: "Endi1/Penguin"
+  language: "Python"
 
 - name: "Perun"
   github: "hashobject/perun"
@@ -1856,6 +1879,10 @@
   license: "EPL"
   website: "http://nakkaya.com/static.html"
 
+
+- name: "static-io"
+  github: "CosminAnca/static-io"
+  licence: "MIT"
 
 - name: "staticjinja"
   github: "Ceasar/staticjinja"
