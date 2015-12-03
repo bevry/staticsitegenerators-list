@@ -768,7 +768,7 @@
 
 - name: "hanayo"
   github: "disoul/hanayo"
-  language: "Javascript"
+  language: "JavaScript"
   description: "A static blog generator writed by Node.js"
 
 - name: "handcrank"
@@ -1211,7 +1211,7 @@
   github: "phoenixlzx/MinoriWiki"
   licence: "MIT"
   website: "http://phoenixlzx.github.io/MinoriWiki/"
-  language: "Javascript"
+  language: "JavaScript"
   description: "MinoriWiki is a static Wiki site Generator"
 
 - name: "Misakai Baker"
