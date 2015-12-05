@@ -2098,7 +2098,8 @@
 
 
 - name: "vimwiki"
-  github: "vim-scripts/vimwiki"
+  github: "vimwiki/vimwiki"
+  website: "http://vimwiki.github.io/"
   license: "MIT"
 
 
