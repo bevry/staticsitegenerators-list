@@ -975,7 +975,7 @@
   github: "kalamuna/kalastatic"
   license: "MIT"
   language: "JavaScript"
-  website: "http://test-kalastatic.at.kalamuna.com"
+#  website: "http://test-kalastatic.at.kalamuna.com" 401 Error on 2015-12-10
 
 - name: "Kel"
   github: "koostudios/kel"
