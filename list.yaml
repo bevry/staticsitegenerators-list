@@ -633,12 +633,6 @@
   language: "JavaScript"
   description: "Render static blog sites from Markdown using Ghost themes."
 
-- name: "glynn"
-  github: "dmathieu/glynn"
-  license: "MIT"
-  website: false
-
-
 - name: "Glyph"
   github: "h3rald/glyph"
   license: "MIT"
@@ -981,7 +975,7 @@
   github: "kalamuna/kalastatic"
   license: "MIT"
   language: "JavaScript"
-  website: "http://test-kalastatic.at.kalamuna.com"
+#  website: "http://test-kalastatic.at.kalamuna.com" 401 Error on 2015-12-10
 
 - name: "Kel"
   github: "koostudios/kel"
@@ -1541,6 +1535,11 @@
 #  license: "CC"
 # ^ Returns a 404. No backup repo found.
 
+- name: "PyBlue"
+  github: "ialbert/pyblue"
+  licence: "MIT"
+  website: "http://ialbert.github.io/pyblue/"
+  language: "Python"
 
 - name: "PyBlosxom"
   github: "pyblosxom/pyblosxom"
