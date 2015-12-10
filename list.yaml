@@ -633,12 +633,6 @@
   language: "JavaScript"
   description: "Render static blog sites from Markdown using Ghost themes."
 
-- name: "glynn"
-  github: "dmathieu/glynn"
-  license: "MIT"
-  website: false
-
-
 - name: "Glyph"
   github: "h3rald/glyph"
   license: "MIT"
