@@ -995,7 +995,7 @@
 
 
 - name: "Kirby"
-  github: "bastianallgeier/kirbycms"
+  github: "https://github.com/getkirby/starterkit"
   license: "Commercial"
   website: "http://getkirby.com/"
 
