@@ -18,11 +18,11 @@ task :test do
     end
 
     # Check github
-    check_uri('https://github.com/' + entry['github']) if entry['github']
+    check_uri('https://github.com/' + entry['github'], 1) if entry['github']
 
     # Check website
     if entry['website'] != "" then
-      check_uri(entry['website']) if entry['website']
+      check_uri(entry['website'], 1) if entry['website']
     end
 
     # Check license
@@ -35,7 +35,6 @@ end
 
 # Check that the URI returns a 200
 def check_uri(uri, attempt)
-  attempt = attempt || 1
   curl = Curl::Easy.new(uri)
   curl.ssl_verify_peer = false
   curl.follow_location = true
