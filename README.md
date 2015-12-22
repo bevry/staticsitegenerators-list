@@ -6,6 +6,8 @@ A comprehensive, partially automatically generated comparison of static site gen
 
 **[View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.yaml) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.yaml)**
 
+**[View the rendered listing](https://staticsitegenerators.net/list.json)**
+
 **[View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators-website)**
 
 
