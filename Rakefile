@@ -34,7 +34,8 @@ task :test do
 end
 
 # Check that the URI returns a 200
-def check_uri(uri)
+def check_uri(uri, attempt)
+  attempt = attempt || 1
   curl = Curl::Easy.new(uri)
   curl.ssl_verify_peer = false
   curl.follow_location = true
@@ -44,7 +45,13 @@ def check_uri(uri)
     curl.perform
   rescue Exception => e
     puts "#{uri}: failed to curl"
-    raise e
+    if attempt >= 3
+      puts "#{uri}: tried #{attempt} times, giving up"
+      raise e
+    else
+      puts "#{uri}: tried #{attempt} times, trying again"
+      check_uri(uri, attempt + 1)
+    end
   end
 
   unless curl.response_code == 200
