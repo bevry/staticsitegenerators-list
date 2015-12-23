@@ -100,7 +100,6 @@
   github: "lethain/aym-cms"
   license: "MIT"
   language: "Python"
-  website: "http://www.aymcms.com/"
 
 
 - name: "baker"
@@ -1007,7 +1006,7 @@
 
 - name: "KISSr"
   license: "Commercial"
-  website: "https://www.kissr.com/"
+#  website: "https://www.kissr.com/" Error 500 23/12/2015
   language: "Web"
 
 
