@@ -100,7 +100,6 @@
   github: "lethain/aym-cms"
   license: "MIT"
   language: "Python"
-  website: "http://www.aymcms.com/"
 
 
 - name: "baker"
