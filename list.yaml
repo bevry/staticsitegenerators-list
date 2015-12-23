@@ -1004,10 +1004,11 @@
   website: "http://getkirby.com/"
 
 
-- name: "KISSr"
-  license: "Commercial"
-#  website: "https://www.kissr.com/" Error 500 23/12/2015
-  language: "Web"
+# - name: "KISSr"
+#   license: "Commercial"
+#   website: "https://www.kissr.com/"
+#   language: "Web"
+# Website Error 500 23/12/2015
 
 
 - name: "Korma"
