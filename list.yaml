@@ -2805,3 +2805,10 @@
   license: 'Commercial'
   language: 'JavaScript'
   description: 'A static website generator written in C++ integrating the Google V8 Javascript engine'
+
+- name: 'Silex'
+  github: "silexlabs/Silex"
+  website: 'http://www.silex.me'
+  license: 'GPL'
+  language: 'JavaScript'
+  description: 'Silex is a website builder for web designers to create static HTML websites online.'
