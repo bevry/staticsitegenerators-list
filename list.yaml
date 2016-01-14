@@ -1200,7 +1200,7 @@
 
 
 - name: "metalsmith"
-  github: "segmentio/metalsmith"
+  github: "metalsmith/metalsmith"
   license: "MIT"
   website: "http://www.metalsmith.io"
   language: "JavaScript"
@@ -1741,7 +1741,7 @@
 - name: "Second Crack"
   github: "marcoarment/secondcrack"
   license: "BSD"
-  website: "http://www.marco.org/secondcrack"
+  # website: "http://www.marco.org/secondcrack" 404 error on 2016/01/04
 
 
 - name: "serif"
