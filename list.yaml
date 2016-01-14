@@ -1823,10 +1823,9 @@
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
-  website: false
+  website: false  # do not use "http://vlv.io/", it is not the website for this
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
-  website: "http://vlv.io/"
 
 
 - name: "Spring Board"
