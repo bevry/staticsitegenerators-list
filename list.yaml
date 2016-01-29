@@ -316,6 +316,13 @@
   license: "MIT"
 
 
+- name: "Cory"
+  github: "leo/cory"
+  license: "MIT"
+  language: "JavaScript"
+  description: "A static site generator for JavaScript lovers"
+
+
 - name: "creo"
   github: "ByronKellett/creo"
   license: "MIT"
