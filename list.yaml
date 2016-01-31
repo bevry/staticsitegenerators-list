@@ -1059,6 +1059,9 @@
   license: "MIT"
   language: "PHP"
 
+- name: "Lektor"
+  github: "lektor/lektor"
+  license: "BSD"
 
 - name: "Leo"
   license: "GPL"
