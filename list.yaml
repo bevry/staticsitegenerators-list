@@ -1888,7 +1888,7 @@
 - name: "Statamic"
   license: "Commercial"
   website: "http://statamic.com/"
-  language: "App"
+  language: "PHP"
   description: "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
 
 
