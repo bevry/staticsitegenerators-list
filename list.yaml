@@ -1886,7 +1886,6 @@
 
 
 - name: "Statamic"
-  github: "statamic"
   license: "Commercial"
   website: "http://statamic.com/"
   language: "PHP"
