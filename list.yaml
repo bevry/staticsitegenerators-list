@@ -649,6 +649,12 @@
   license: "MIT"
   website: "https://h3rald.com/glyph/"
 
+- name: "guetzli"
+  github: "muellermichel/guetzli"
+  license: "LGPL"
+  language: "Python"
+  description: "A Deliciously Fast and Simple CMS Based on Files"
+
 - name: "Apto"
   license: "MIT"
   website: "https://www.npmjs.com/package/apto"
