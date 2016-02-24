@@ -1471,11 +1471,11 @@
   description: "A static site generator, using javascript and simple text files written in txt2tags (markdown ultra) syntax"
 
 
-- name: "Phrozn"
-  github: "Pawka/phrozn"
-  license: "Apache"
-  website: "http://phrozn.info"
-
+#- name: "Phrozn"
+#  github: "Pawka/phrozn"
+#  license: "Apache"
+#  website: "http://phrozn.info"
+# http://phrozn.info: failed to curl
 
 - name: "PhlyBlog"
   github: "phly/PhlyBlog"
