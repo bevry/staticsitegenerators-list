@@ -757,10 +757,10 @@
 # ^ not a ssg
 
 
-- name: "Gumdrop"
-  github: "simonjodet/gumdrop"
-  license: "MIT"
-  website: "http://gumdropapp.com/"
+#- name: "Gumdrop"
+#  github: "simonjodet/gumdrop"
+#  license: "MIT"
+#  website: "http://gumdropapp.com/"
 
 
 - name: "haggis"
