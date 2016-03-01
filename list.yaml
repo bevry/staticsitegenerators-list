@@ -633,6 +633,13 @@
   license: "BSD"
 
 
+- name: "Gatsby"
+  github: "gatsbyjs/gatsby"
+  license: "MIT"
+  language: "JavaScript"
+  description: "A React.js static site generator."
+  
+
 - name: "Gen"
   github: "trq/Gen"
   license: "MIT"
