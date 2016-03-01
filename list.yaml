@@ -2833,3 +2833,10 @@
   license: 'GPL'
   language: 'JavaScript'
   description: 'Silex is a website builder for web designers to create static HTML websites online.'
+
+- name: 'Weaver'
+  github: "davidsiaw/weaver"
+  website: 'http://davidsiaw.github.io/weaver-docs/'
+  license: 'MIT'
+  language: 'Ruby'
+  description: 'Weaver is a simple but rich Ruby DSL for generating static websites.'
