@@ -61,7 +61,7 @@ end
 # Check license
 def check_license(license)
   known_licenses = [
-    "MIT", "BSD", "GPL", "Public", "MS-PL", "SimPL", "Apache", "Ruby", "Perl",
+    "MIT", "BSD", "LGPL", "GPL", "Public", "MS-PL", "SimPL", "Apache", "Ruby", "Perl",
     "EPL", "CC", "Beer-ware", "Commercial", "ISC", false
   ]
 
