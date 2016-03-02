@@ -657,7 +657,7 @@
 
 - name: "guetzli"
   github: "muellermichel/guetzli"
-  license: "LGPL"
+  license: "GPL"
   language: "Python"
   description: "A Deliciously Fast and Simple CMS Based on Files"
 
