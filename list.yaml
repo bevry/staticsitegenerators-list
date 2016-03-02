@@ -4,6 +4,7 @@
 # "MIT"
 # "BSD" - use for all variations of BSD
 # "GPL" - use for all variations of GNU General Public License
+# "LGPL" - use for all variations of GNU Lesser General Public License
 # "Public" - use for all variations of the Public Domain (inc. CC0, DWTFYWTPL, WTFPL)
 # "MS-PL" - use for all variations of the Microsoft Public License
 # "SimPL" - use for all variations of the Simple Public License
