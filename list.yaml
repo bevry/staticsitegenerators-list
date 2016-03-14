@@ -2194,6 +2194,12 @@
   website: "http://webgen.gettalong.org/"
 
 
+- name: "webgen"
+  github: "janpecha/webgen"
+  license: "BSD"
+  language: "PHP"
+
+
 - name: "Webhook"
   github: "webhook/webhook"
   license: "MIT"
