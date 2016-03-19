@@ -27,6 +27,12 @@
 # KEEP THESE IN
 # the reason they are here is that people often confuse them with static site generators
 
+- name: "Easystatic"
+  github: "easystatic/easystatic"
+  license: "Apache"
+  language: "JavaScript"
+  description: "Easystatic is powered by Markdown It for web pages, EJS and Postcss for site layout, and Browsersync as development server with 'live editing' and testing the site an all connected devices."
+
 
 - name: "Ace"
   github: "botanicus/ace"
