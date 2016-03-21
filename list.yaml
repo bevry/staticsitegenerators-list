@@ -644,8 +644,7 @@
   github: "gatsbyjs/gatsby"
   license: "MIT"
   language: "JavaScript"
-  description: "A React.js static site generator."
-  
+
 
 - name: "Gen"
   github: "trq/Gen"
@@ -656,18 +655,19 @@
   github: "johannesboyne/gettheshitdone"
   license: "MIT"
   language: "JavaScript"
-  description: "A simple website creating tool, package, framework whatever."
+
 
 - name: "ghost-render"
   github: "mixu/ghost-render"
   license: "BSD"
   language: "JavaScript"
-  description: "Render static blog sites from Markdown using Ghost themes."
+
 
 - name: "Glyph"
   github: "h3rald/glyph"
   license: "MIT"
   website: "https://h3rald.com/glyph/"
+
 
 - name: "guetzli"
   github: "muellermichel/guetzli"
@@ -675,11 +675,13 @@
   language: "Python"
   description: "A Deliciously Fast and Simple CMS Based on Files"
 
+
 - name: "Apto"
   license: "MIT"
   website: "https://www.npmjs.com/package/apto"
   language: "JavaScript"
   description: "Apto is an easy to use, straight-forward static site generator / builder for Node.js."
+
 
 - name: "gollum-site"
   github: "dreverri/gollum-site"
@@ -736,10 +738,12 @@
   website: "http://getgrav.org"
   language: "PHP"
 
+
 - name: "Graze"
   github: "mikoskinen/graze"
   license: "MIT"
   website: "http://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor"
+
 
 - name: "grender"
   github: "peterbourgon/grender"
@@ -825,6 +829,7 @@
   github: "happyplan/happyplan"
   license: "MIT"
   website: "http://mdwn.in/gh/happyplan/happyplan"
+
 
 - name: "haroopress"
   github: "rhiokim/haroopress"
@@ -1008,11 +1013,13 @@
   license: "MIT"
   language: "JavaScript"
 
+
 - name: "kalastatic"
   github: "kalamuna/kalastatic"
   license: "MIT"
   language: "JavaScript"
 #  website: "http://test-kalastatic.at.kalamuna.com" 401 Error on 2015-12-10
+
 
 - name: "Kel"
   github: "koostudios/kel"
