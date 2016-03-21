@@ -2980,7 +2980,8 @@
 
 - name: "react-static"
   github: "rpearce/react-static"
-  website: "http://robertwpearce.com/react-static/"
+  # website: "http://robertwpearce.com/react-static/"
+  # ^ 404 on 2016-03-21
   license: "MIT"
   language: "JavaScript"
 
