@@ -7,6 +7,7 @@
 # "LGPL" - use for all variations of GNU Lesser General Public License
 # "Public" - use for all variations of the Public Domain (inc. CC0, DWTFYWTPL, WTFPL)
 # "MS-PL" - use for all variations of the Microsoft Public License
+# "MPL" - use for all variations of the Mozilla Public License v2
 # "SimPL" - use for all variations of the Simple Public License
 # "Apache" - use for all variations of the Apache License
 # "Ruby" - use for all variations of the Ruby License
@@ -34,6 +35,8 @@
   description: "Easystatic is powered by Markdown It for web pages, EJS and Postcss for site layout, and Browsersync as development server with 'live editing' and testing the site an all connected devices."
 
 
+# A
+
 - name: "Ace"
   github: "botanicus/ace"
   license: "MIT"
@@ -53,6 +56,7 @@
   github: "Liutos/cl-github-page"
   language: "Common Lisp"
 
+
 - name: "AkashaCMS"
   github: "akashacms/akashacms"
   website: "http://akashacms.com"
@@ -60,13 +64,15 @@
   language: "JavaScript"
   description: "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
 
+
 - name: "Appernetic"
   license: "Commercial"
   website: "https://appernetic.io/"
   language: "Web"
   description: "A Static Site Generator as a Service. Appernetic is a web service for managing and generating static content for GitHub Pages."
   created_at: "2016-01-20T15:46:08Z"
-  
+
+
 - name: "assemble"
   github: "assemble/assemble"
   license: "MIT"
@@ -114,6 +120,8 @@
   license: "MIT"
   language: "Python"
 
+
+# B
 
 - name: "baker"
   github: "taylorchu/baker"
@@ -181,6 +189,7 @@
   language: "Python"
   description: "A simple static site generator with markdown and Jinja2 templates, with incremental builds"
 
+
 - name: "Blogofile"
   github: "EnigmaCurry/blogofile"
   license: "MIT"
@@ -193,6 +202,7 @@
 #  language: "Web"
 #  description: "Markdown-on-Dropbox publishing platform."
 # ^ site offline Nov/30/14
+
 
 - name: "blogpy"
   github: "travisred/blogpy"
@@ -263,6 +273,9 @@
 - name: "buster"
   github: "axitkhurana/buster"
   license: "MIT"
+
+
+# C
 
 - name: "Cabin"
   github: "CabinJS/Cabin"
@@ -365,6 +378,8 @@
   license: "MIT"
   website: "https://catsup.readthedocs.org"
 
+
+# D
 
 - name: "Dapper"
   github: "markdbenson/dapper"
@@ -489,6 +504,8 @@
   license: "MIT"
 
 
+# E
+
 - name: "ecstatic"
   github: "samrat/ecstatic"
   license: "EPL"
@@ -525,6 +542,8 @@
   description: "Flexible and powerful static website and blog generator in Node.js"
   website: "https://github.com/thibaultCha/Equiprose"
 
+
+# F
 
 - name: "Fairytale"
   github: "46Bit/fairytale"
@@ -622,11 +641,14 @@
 #  language: "Shell"
 # gitorious is down
 
+
 - name: "Funnel"
   github: "shuhaowu/Funnel"
   language: "Python"
   license: "GPL"
 
+
+# G
 
 - name: "Gabby"
   github: "alexmingoia/gabby"
@@ -787,6 +809,8 @@
 #  website: "http://gumdropapp.com/"
 
 
+# H
+
 - name: "haggis"
   github: "tych0/haggis"
   license: "BSD"
@@ -928,6 +952,8 @@
   license: "MIT"
 
 
+# I
+
 - name: "Ikiwiki"
   github: "joeyh/ikiwiki"
   license: "GPL"
@@ -938,6 +964,9 @@
   github: "InkProject/ink"
   language: "Go"
   website: "http://www.inkpaper.io/"
+
+
+# J
 
 - name: "JAGSS"
   github: "esonderegger/jagss"
@@ -1014,6 +1043,8 @@
   language: "JavaScript"
 
 
+# K
+
 - name: "kalastatic"
   github: "kalamuna/kalastatic"
   license: "MIT"
@@ -1056,6 +1087,8 @@
   license: false
 
 
+# L
+
 - name: "Lambda Pad"
   github: "gar1t/lambdapad"
   license: "Apache"
@@ -1082,15 +1115,18 @@
   license: "MIT"
   website: "http://avdgaag.github.io/laze/"
 
+
 - name: "lazyblorg"
   github: "novoid/lazyblorg"
   license: "GPL"
   language: "Python"
 
+
 - name: "Leeflets"
   github: "Leeflets/leeflets"
   license: "MIT"
   language: "PHP"
+
 
 - name: "Lektor"
   github: "lektor/lektor"
@@ -1143,6 +1179,8 @@
 #  license: "MIT"
 # ^ not a ssg
 
+
+# M
 
 - name: "m4-bakery"
   github: "datagrok/m4-bakery"
@@ -1254,6 +1292,7 @@
   github: "middleman/middleman"
   license: "MIT"
 
+
 - name: "MinoriWiki"
   github: "phoenixlzx/MinoriWiki"
   licence: "MIT"
@@ -1261,12 +1300,14 @@
   language: "JavaScript"
   description: "MinoriWiki is a static Wiki site Generator"
 
+
 - name: "Misakai Baker"
   github: "Kelindar/misakai-baker"
   license: "Apache"
   language: "C#"
   description: "Flexible and extensible static website generator for .Net people"
   website: "http://baker.misakai.com"
+
 
 #- name: "Mimosa"
 #  github: "mimosa/stargazers"
@@ -1319,6 +1360,8 @@
   license: "BSD"
   website: "http://mynt.uhnomoli.com/"
 
+
+# N
 
 - name: "NanoBlogger"
   license: "GPL"
@@ -1388,6 +1431,8 @@
   website: "https://getnikola.com/"
 
 
+# O
+
 - name: "Oak"
   github: "marc0s/oak"
   language: "Python"
@@ -1418,11 +1463,13 @@
   language: "C#"
   description: "Razor and Markdown static site generator"
 
+
 - name: "Olai"
   license: "Commercial"
   website: "http://olai.in/"
   language: "Go"
   description: "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
+
 
 - name: "operator-DD3"
   github: "operator-dd3/operator-dd3"
@@ -1430,11 +1477,15 @@
   license: "Public"
   description: "An (Extremely Basic and Limited) Static Site Generator made in Lua."
 
+
 - name: "Org Mode"
   license: "GPL"
   website: "http://orgmode.org/"
   language: "Emacs Lisp"
   description: "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
+
+
+# P
 
 - name: "Pagegen"
   github: "oliverfields/pagegen_v2"
@@ -1468,9 +1519,11 @@
   language: "Python"
   website: "http://blog.getpelican.com"
 
+
 - name: "Penguin"
   github: "Endi1/Penguin"
   language: "Python"
+
 
 - name: "Perun"
   github: "hashobject/perun"
@@ -1478,6 +1531,7 @@
   license: "EPL"
   language: "Clojure"
   description: "Composable static site generator build with Clojure and Boot"
+
 
 - name: "Petrify"
   github: "caolan/petrify"
@@ -1503,6 +1557,7 @@
 #  license: "Apache"
 #  website: "http://phrozn.info"
 # http://phrozn.info: failed to curl
+
 
 - name: "PhlyBlog"
   github: "phly/PhlyBlog"
@@ -1583,11 +1638,13 @@
 #  license: "CC"
 # ^ Returns a 404. No backup repo found.
 
+
 - name: "PyBlue"
   github: "ialbert/pyblue"
   licence: "MIT"
   website: "http://ialbert.github.io/pyblue/"
   language: "Python"
+
 
 - name: "PyBlosxom"
   github: "pyblosxom/pyblosxom"
@@ -1601,10 +1658,13 @@
 #  license: "BSD"
 # 404 - as of 2015-10-22
 
+
 - name: "Pyll"
   github: "arthurk/pyll"
   license: "BSD"
 
+
+# Q
 
 - name: "Quill"
   github: "theycallmeswift/quill"
@@ -1612,6 +1672,8 @@
   website: "https://www.npmjs.com/package/quill"
   language: "JavaScript"
 
+
+# R
 
 - name: "RakeWeb"
   github: "rweald/rakeweb"
@@ -1702,6 +1764,8 @@
   license: "MIT"
   website: "http://ruhoh.com/"
 
+
+# S
 
 #- name: "Scotch"
 #  github: "techwraith/scotch"
@@ -1826,12 +1890,14 @@
   github: "leafo/sitegen"
   license: "MIT" # mentioned at https://github.com/leafo/sitegen/blob/4969490093c413d9b6ccd285f463cd09206dd630/sitegen-dev-1.rockspec#L12
 
+
 - name: "SiteGen"
   github: "MikeMitterer/dart-sitegen"
   license: "Apache"
   language: "Dart"
   description: "Sitegenerator for Dart"
   website: "https://pub.dartlang.org/packages/sitegen"
+
 
 - name: "Smallest Blogger"
   github: "ranmocy/smallest-blogger"
@@ -1934,6 +2000,7 @@
 - name: "static-io"
   github: "CosminAnca/static-io"
   licence: "MIT"
+
 
 - name: "staticjinja"
   github: "Ceasar/staticjinja"
@@ -2048,6 +2115,8 @@
   website: "http://derdon.github.io/swsg/"
 
 
+# T
+
 - name: "Tahchee"
   github: "sebastien/tahchee"
   license: "BSD"
@@ -2121,6 +2190,8 @@
   license: "BSD"
 
 
+# U
+
 - name: "Ultra simple Site Maker"
   license: "GPL"
   website: "http://loup-vaillant.fr/projects/ussm/"
@@ -2139,6 +2210,8 @@
   language: "Clojure"
   website: "https://github.com/pepijndevos/utterson"
 
+
+# V
 
 - name: "vee"
   github: "estrabd/vee"
@@ -2177,6 +2250,8 @@
   license: "BSD"
   website: ""
 
+
+# W
 
 - name: "wadoo"
   github: "alpacaaa/wadoo"
@@ -2254,6 +2329,8 @@
   license: "MIT"
 
 
+# Y
+
 - name: "yassg"
   github: "sma/yassg"
   license: "BSD"
@@ -2278,6 +2355,8 @@
   language: "Haskell"
   description: "uses Pandoc library"
 
+
+# Z
 
 - name: "zas"
   github: "imdario/zas"
@@ -2381,6 +2460,7 @@
 #  language: "Shell"
 #  description: "awesome markdown based static site generator"
 # ^ 404 response, Nov/30/14
+
 
 - name: "deplate"
   github: "tomtom/deplate"
@@ -2775,78 +2855,80 @@
   github: "dan62f/dsw"
   license: false
   language: "Shell"
-  
+
+
 - name: "PMBlog"
   github: "lizheming/PMBlog"
   license: false
   language: "PHP"
 
+
 - name: "Static Website Starter Kit"
   github: "kriasoft/static-site-starter"
   license: "Apache"
   language: "JavaScript"
-  description: "Static site generator starter kit (aka project template) based on Gulp, Jade, Bootstrap, LESS, BrowserSync. It's continued for continuous deployment from Travis CI to GitHub Pages. Minimum dependencies, maximum flexibility."
+
 
 - name: "Gustav"
   github: "futape/gustav"
   license: "BSD"
   website: "http://gustav.futape.de"
   language: "PHP"
-  description: "Gustav is a powerful static-site gernerator written in PHP."
+
 
 - name: "Wallflower"
   github: "book/App-Wallflower"
   license: "Perl"
   website: "https://metacpan.org/pod/wallflower"
   language: "Perl"
-  description: "Wallflower turns your Plack application into a static (read-only) web site."
+
 
 - name: "Yozuch"
   github: "akrylysov/yozuch"
   license: "BSD"
   website: "http://yozuch.krylysov.com/"
   language: "Python"
-  description: "reStructuredText based static blog generator written in Python."
+
 
 - name: "HubPress"
   github: "HubPress/hubpress.io"
   license: "MIT"
   website: "http://hubpress.io/"
   language: "JavaScript"
-  description: "A web application to build your Blog on GitHub."
+
 
 - name: "Riji"
   github: "Songmu/p5-Riji"
   license: "Perl"
   website: "http://songmu.github.io/p5-Riji/blog/"
   language: "Perl"
-  description: "Simple blog tool using Markdown and Git"
+
 
 - name: "Vegetables"
   github: "partageit/vegetables"
   license: "MIT"
   website: "http://partageit.github.io/vegetables/"
   language: "JavaScript"
-  description: "Vegetables is a CLI tool to change your Markdown documents into a static Web site, serve it locally or push it as GitHub pages."
+
 
 - name: "Wyam"
   github: "Wyamio/Wyam"
   license: "MIT"
   website: "http://wyam.io"
   language: "C#"
-  description: "Wyam is a simple to use, highly modular, and extremely configurable static content generator."
+
 
 - name: "Griffin"
   github: "pawandubey/griffin"
   license: "Apache"
   language: "Java"
-  description: "Blazing fast, extremely simple static site generator."
+
 
 - name: "Refrain"
   github: "shootaroo/refrain"
   license: "MIT"
   language: "JavaScript"
-  description: "Refrain from unnecessary building."
+
 
 - name: 'Text Assembler'
   website: 'http://www.akiwi.co.uk/ta.html'
@@ -2854,16 +2936,57 @@
   language: 'JavaScript'
   description: 'A static website generator written in C++ integrating the Google V8 Javascript engine'
 
+
 - name: 'Silex'
   github: "silexlabs/Silex"
   website: 'http://www.silex.me'
   license: 'GPL'
   language: 'JavaScript'
-  description: 'Silex is a website builder for web designers to create static HTML websites online.'
+
 
 - name: 'Weaver'
   github: "davidsiaw/weaver"
   website: 'http://davidsiaw.github.io/weaver-docs/'
   license: 'MIT'
   language: 'Ruby'
-  description: 'Weaver is a simple but rich Ruby DSL for generating static websites.'
+
+
+- name: "statinamic"
+  github: "MoOx/statinamic"
+  website: "http://moox.io/statinamic/"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "react-static-site"
+  github: "BradDenver/react-static-site"
+  license: false
+  language: "JavaScript"
+
+
+- name: "antwar"
+  github: "antwarjs/antwar"
+  website: "http://antwarjs.github.io/"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "reacat"
+  github: "reacat/reacat"
+  website: "http://reacat.com/"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "react-static"
+  github: "rpearce/react-static"
+  website: "http://robertwpearce.com/react-static/"
+  license: "MIT"
+  language: "JavaScript"
+
+
+- name: "reactivate"
+  github: "azmenak/reactivate"
+  license: "MPL"
+  language: "JavaScript"
+
