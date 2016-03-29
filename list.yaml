@@ -922,6 +922,7 @@
   website: "http://towiski.de/hsc/index.html"
   language: "C"
   created_at: "1995-10-09T00:00:00Z"
+  description: "HTML-like macro language, included make tool and dependency generator"
 
 
 - name: "Hugo"
