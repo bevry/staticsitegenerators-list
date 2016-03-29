@@ -916,6 +916,13 @@
 #  license: "Apache"
 # ^ not a ssg
 
+- name: "HSC"
+  github: "mbethke/hsc"
+  license: "GPL"
+  website: "http://towiski.de/hsc/index.html"
+  language: "C"
+  created_at: "1995-10-09T00:00:00Z"
+
 
 - name: "Hugo"
   github: "spf13/hugo"
