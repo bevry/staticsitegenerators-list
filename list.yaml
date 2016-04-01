@@ -1631,6 +1631,12 @@
   github: "laktek/punch"
   license: "MIT"
   website: "https://laktek.github.io/punch/"
+  
+- name: "Pulse CMS"
+  license: "Commercial"
+  website: "https://pulsecms.com"
+  language: "PHP"
+  description: "The easiest flat-file CMS for designers and their clients"
 
 
 #- name: "Purepress"
