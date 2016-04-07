@@ -76,6 +76,7 @@ def check_language(language)
     "App",
     "Awk",
     "Batch",
+    "C",
     "C#",
     "C++",
     "Clojure",
