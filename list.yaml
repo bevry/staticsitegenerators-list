@@ -816,6 +816,10 @@
 #  license: "MIT"
 #  website: "http://gumdropapp.com/"
 
+- name: "GSL"
+  github: "imatix/gsl"
+  license: "GPL"
+  language: "C"
 
 # H
 
