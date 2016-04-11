@@ -36,6 +36,13 @@
 
 
 # A
+- name: "ABlog"
+  github: "abakan/ablog"
+  license: license.txt "Permission is hereby granted, free of charge (...)"
+  website: "http://ablog.readthedocs.org/"
+  language: "Python"
+  description: "ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog with"
+  created at: "2016-04-11"
 
 - name: "Ace"
   github: "botanicus/ace"
