@@ -39,7 +39,8 @@
 
 - name: "ABlog"
   github: "abakan/ablog"
-
+  license: "MIT"
+  
 
 - name: "Ace"
   github: "botanicus/ace"
