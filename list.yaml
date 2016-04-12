@@ -37,6 +37,10 @@
 
 # A
 
+- name: "ABlog"
+  github: "abakan/ablog"
+
+
 - name: "Ace"
   github: "botanicus/ace"
   license: "MIT"
