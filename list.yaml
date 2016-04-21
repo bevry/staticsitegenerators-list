@@ -3022,3 +3022,10 @@
   license: "MPL"
   language: "JavaScript"
 
+
+- name: "Tagy"
+  github: "melnikov-ivan/tagy"
+  license: "MIT"
+  language: "Python"
+  description: "Fully customizable structure and any params"
+
