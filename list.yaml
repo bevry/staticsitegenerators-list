@@ -1637,6 +1637,11 @@
   license: "MIT"
   website: "https://github.com/alexyoung/pop"
 
+- name: "PPWizard"
+  license: "Public"
+  website: "http://dennisbareis.com/ppwizard.htm"
+  language: "REXX"
+  description: "Uses classic REXX or Regina interpreter"
 
 - name: "Pretzel"
   github: "Code52/pretzel"
