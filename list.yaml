@@ -1978,7 +1978,7 @@
   license: "BSD"
   github: "sphinx-doc/sphinx"
   website: "http://sphinx-doc.org/"
-  language: "App"
+  language: "Python"
   description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
 
 
