@@ -2982,11 +2982,12 @@
   language: 'Ruby'
 
 
-- name: "statinamic"
-  github: "MoOx/statinamic"
-  website: "http://moox.io/statinamic/"
+- name: "Phenomic"
+  github: "MoOx/phenomic"
+  website: "https://phenomic.io/"
   license: "MIT"
   language: "JavaScript"
+  description: "Modern static website generator to create dynamic websites using React components"
 
 
 - name: "react-static-site"
