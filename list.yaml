@@ -1932,7 +1932,6 @@
 - name: "Smallest Blogger"
   github: "ranmocy/smallest-blogger"
   license: "MIT"
-  website: "http://ranmocy.info/smallest-blogger/"
 
 
 - name: "snowshoe"
