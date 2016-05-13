@@ -486,7 +486,6 @@
 - name: "Dropplets"
   github: "Circa75/dropplets"
   license: "MIT"
-  website: "http://dropplets.com/"
   language: "PHP"
 
 
