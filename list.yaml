@@ -869,7 +869,6 @@
 - name: "happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
-  website: "http://mdwn.in/gh/happyplan/happyplan"
 
 
 - name: "haroopress"
