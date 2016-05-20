@@ -104,6 +104,7 @@ def check_language(language)
     "Perl",
     "Python",
     "Racket",
+    "REXX",
     "Ruby",
     "Rust",
     "Scala",
