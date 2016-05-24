@@ -37,6 +37,12 @@
 
 # A
 
+- name: "ABlog"
+  github: "abakan/ablog"
+  license: "MIT"
+  language: "Python"
+  
+
 - name: "Ace"
   github: "botanicus/ace"
   license: "MIT"
@@ -480,7 +486,6 @@
 - name: "Dropplets"
   github: "Circa75/dropplets"
   license: "MIT"
-  website: "http://dropplets.com/"
   language: "PHP"
 
 
@@ -816,6 +821,10 @@
 #  license: "MIT"
 #  website: "http://gumdropapp.com/"
 
+- name: "GSL"
+  github: "imatix/gsl"
+  license: "GPL"
+  language: "C"
 
 # H
 
@@ -860,7 +869,6 @@
 - name: "happyplan"
   github: "happyplan/happyplan"
   license: "MIT"
-  website: "http://mdwn.in/gh/happyplan/happyplan"
 
 
 - name: "haroopress"
@@ -923,6 +931,14 @@
 #  github: "hoodiehq/hoodie.js"
 #  license: "Apache"
 # ^ not a ssg
+
+- name: "HSC"
+  github: "mbethke/hsc"
+  license: "GPL"
+  website: "http://towiski.de/hsc/index.html"
+  language: "C"
+  created_at: "1995-10-09T00:00:00Z"
+  description: "HTML-like macro language, included make tool and dependency generator"
 
 
 - name: "Hugo"
@@ -1620,6 +1636,11 @@
   license: "MIT"
   website: "https://github.com/alexyoung/pop"
 
+- name: "PPWizard"
+  license: "Public"
+  website: "http://dennisbareis.com/ppwizard.htm"
+  language: "REXX"
+  description: "Uses classic REXX or Regina interpreter"
 
 - name: "Pretzel"
   github: "Code52/pretzel"
@@ -1916,7 +1937,6 @@
 - name: "Smallest Blogger"
   github: "ranmocy/smallest-blogger"
   license: "MIT"
-  website: "http://ranmocy.info/smallest-blogger/"
 
 
 - name: "snowshoe"
@@ -1961,7 +1981,7 @@
   license: "BSD"
   github: "sphinx-doc/sphinx"
   website: "http://sphinx-doc.org/"
-  language: "App"
+  language: "Python"
   description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
 
 
@@ -2965,11 +2985,12 @@
   language: 'Ruby'
 
 
-- name: "statinamic"
-  github: "MoOx/statinamic"
-  website: "http://moox.io/statinamic/"
+- name: "Phenomic"
+  github: "MoOx/phenomic"
+  website: "https://phenomic.io/"
   license: "MIT"
   language: "JavaScript"
+  description: "Modern static website generator to create dynamic websites using React components"
 
 
 - name: "react-static-site"
@@ -3004,4 +3025,11 @@
   github: "azmenak/reactivate"
   license: "MPL"
   language: "JavaScript"
+
+
+- name: "Tagy"
+  github: "melnikov-ivan/tagy"
+  license: "MIT"
+  language: "Python"
+  description: "Fully customizable structure and any params"
 
