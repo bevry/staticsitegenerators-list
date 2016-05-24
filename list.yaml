@@ -41,7 +41,7 @@
   github: "abakan/ablog"
   license: "MIT"
   language: "Python"
-  
+
 
 - name: "Ace"
   github: "botanicus/ace"
@@ -1002,6 +1002,14 @@
   github: "jbake-org/jbake"
   license: "MIT"
   website: "http://jbake.org/"
+
+
+- name: "JBlogfy"
+  github: "wifiextender/jblogfy"
+  license: "GPL"
+  website: "https://wifiextender.github.io"
+  language: "JavaScript"
+  description: "Static blog written in JavaScript."
 
 
 - name: "Jedie"
