@@ -17,6 +17,7 @@
 # "Beer-ware" - use for all variations of the Beer-ware License
 # "Commercial" - use for projects that are sold (shareware) or are closed-source
 # "ISC" - use for the Internet Software Consortium license
+# "WTFPL" - use for all variations of the What The Fuck Public License
 # false - use when the license is not revealed
 #
 # If there is another license type that is missing, use its abbreviation and add it here
@@ -192,6 +193,7 @@
 - name: "blogc++"
   license: "WTFPL"
   language: "C++"
+  website: "http://bitbucket.org/tux_/blogcpp"
   description: "Just another static blog generator, written in C++17."
 
 - name: "blogit"
