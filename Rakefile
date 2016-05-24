@@ -62,7 +62,7 @@ end
 def check_license(license)
   known_licenses = [
     "MIT", "BSD", "LGPL", "GPL", "Public", "MS-PL", "MPL", "SimPL", "Apache", "Ruby", "Perl",
-    "EPL", "CC", "Beer-ware", "Commercial", "ISC", false
+    "EPL", "CC", "Beer-ware", "Commercial", "ISC", "WTFPL", false
   ]
 
   unless known_licenses.include? license
