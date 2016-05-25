@@ -1038,6 +1038,12 @@
   description: "Markdown --> `ruby update.rb` --> site. Simple and easy to use; not blog sensitive"
 
 
+- name: "jigsaw"
+  github: "tightenco/jigsaw"
+  license: "MIT"
+  website: "http://jigsaw.tighten.co"
+
+
 - name: "jinjet"
   github: "jokull/jinjet"
   license: "ISC"
