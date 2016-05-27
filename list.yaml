@@ -1970,6 +1970,11 @@
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
+- name: "Spina"
+  github: "denkGroot/Spina"
+  license: "MIT"
+  language: "Ruby"
+  website: "http://www.spinacms.com"
 
 - name: "Spring Board"
   github: "htaidirt/SpringBoard"
