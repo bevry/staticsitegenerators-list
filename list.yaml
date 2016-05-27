@@ -1790,7 +1790,7 @@
 
 
 - name: "Roots"
-  github: "jenius/roots"
+  github: "jescalan/roots"
   license: "MIT"
   website: "http://roots.cx/"
   language: "JavaScript"
