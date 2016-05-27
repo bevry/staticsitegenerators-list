@@ -1058,6 +1058,8 @@
   github: "tightenco/jigsaw"
   license: "MIT"
   website: "http://jigsaw.tighten.co"
+  language: "PHP"
+  description: "Static site generator using Laravel Blade for templates and Markdown for content"
 
 
 - name: "jinjet"
