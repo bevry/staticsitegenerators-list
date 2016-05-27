@@ -1618,7 +1618,7 @@
 
 
 - name: "Pilcrow"
-  github: "inky/pilcrow"
+  github: "araile/pilcrow"
   license: "MIT"
   website: "http://inky.github.io/pilcrow/"
 
