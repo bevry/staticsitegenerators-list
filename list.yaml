@@ -173,7 +173,7 @@
 
 - name: "Blatter"
   license: "MIT"
-  website: "http://bitbucket.org/jek/blatter"
+  website: "https://bitbucket.org/jek/blatter"
   language: "Python"
   description: "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates."
 
@@ -193,7 +193,7 @@
 - name: "blogc++"
   license: "WTFPL"
   language: "C++"
-  website: "http://bitbucket.org/tux_/blogcpp"
+  website: "https://bitbucket.org/tux_/blogcpp"
   description: "Just another static blog generator, written in C++17."
 
 - name: "blogit"
@@ -252,7 +252,7 @@
 
 #- name: "Brace"
 #  license: "Commercial"
-#  website: "http://brace.io/"
+#  website: "http://blog.brace.io"
 #  language: "Web"
 #  description: "Brace is the new way to host websites"
 # ^ Brace has shut down
@@ -322,7 +322,7 @@
 - name: "Chronicle"
   github: "skx/chronicle2"
   license: "GPL"
-  website: "http://www.steve.org.uk/Software/chronicle/"
+  website: "https://www.steve.org.uk/Software/chronicle/"
   language: "Perl"
   description: "A simple blog compiler, written in Perl with minimal dependencies."
 
@@ -571,7 +571,7 @@
 
 - name: "fBlog"
   licence: "GPL"
-  website: "http://sourceforge.net/projects/fortranblog/"
+  website: "https://sourceforge.net/projects/fortranblog/"
   language: "Fortran"
 
 
@@ -778,7 +778,7 @@
 - name: "Grav"
   github: "getgrav/grav"
   license: "MIT"
-  website: "http://getgrav.org"
+  website: "https://getgrav.org/"
   language: "PHP"
 
 
@@ -797,7 +797,7 @@
 - name: "Grow"
   github: "grow/pygrow"
   license: "MIT"
-  website: "http://growsdk.org"
+  website: "https://grow.io/"
   language: "Python"
 
 
@@ -845,7 +845,7 @@
 - name: "Hakyll"
   github: "jaspervdj/hakyll"
   license: "BSD"
-  website: "http://jaspervdj.be/hakyll/"
+  website: "https://jaspervdj.be/hakyll/"
 
 
 - name: "Hammer"
@@ -1118,7 +1118,7 @@
 - name: "Kirby"
   github: "getkirby/starterkit"
   license: "Commercial"
-  website: "http://getkirby.com/"
+  website: "https://getkirby.com/"
 
 
 # - name: "KISSr"
@@ -1306,7 +1306,7 @@
 - name: "mdwiki"
   github: "Dynalon/mdwiki"
   license: "GPL"
-  website: "http://www.mdwiki.info/"
+  website: "http://dynalon.github.io/mdwiki/"
   description: "CMS/Wiki system using Javascript for 100% client side single page application using Markdown."
 
 
@@ -1612,7 +1612,7 @@
 
 
 - name: "PieCrust"
-  website: "http://bolt80.com/piecrust/"
+  website: "https://bolt80.com/piecrust/"
   github: "ludovicchabant/piecrust"
   license: "Apache"
 
@@ -1685,7 +1685,7 @@
 
 - name: "Pulse CMS"
   license: "Commercial"
-  website: "https://pulsecms.com"
+  website: "https://www.pulsecms.com/"
   language: "PHP"
   description: "The easiest flat-file CMS for designers and their clients"
 
@@ -1905,7 +1905,7 @@
 - name: "Second Crack"
   github: "marcoarment/secondcrack"
   license: "BSD"
-  # website: "http://www.marco.org/secondcrack" 404 error on 2016/01/04
+  # website: "https://marco.org/secondcrack" 404 error on 2016/01/04
 
 
 - name: "serif"
@@ -1922,7 +1922,7 @@
 - name: "Shonku"
   github: "kushaldas/shonku"
   license: "GPL"
-  website: "http://shonku.rtfd.org"
+  website: "http://shonku.readthedocs.io/en/latest/"
   language: "Go"
 
 
@@ -1988,7 +1988,7 @@
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
-  website: false  # do not use "http://vlv.io/", it is not the website for this
+  website: false  # do not use "http://www.vlv.io/", it is not the website for this
   language: "Java"
   description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
 
@@ -2007,7 +2007,7 @@
 - name: "Sphinx"
   license: "BSD"
   github: "sphinx-doc/sphinx"
-  website: "http://sphinx-doc.org/"
+  website: "http://www.sphinx-doc.org/en/stable/"
   language: "Python"
   description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
 
@@ -2047,7 +2047,7 @@
 
 - name: "Statamic"
   license: "Commercial"
-  website: "http://statamic.com/"
+  website: "https://statamic.com/"
   language: "PHP"
   description: "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
 
@@ -2395,7 +2395,7 @@
 - name: "yassg"
   github: "sma/yassg"
   license: "BSD"
-#  website: "https://npmjs.org/package/yassg" # 404 response, Nov/30/14
+#  website: "https://www.npmjs.com/package/yassg" # 404 response, Nov/30/14
 
 
 #- name: "Yeoman"
@@ -2933,7 +2933,7 @@
 - name: "Gustav"
   github: "futape/gustav"
   license: "BSD"
-  website: "http://gustav.futape.de"
+  website: "https://github.com/futape/gustav"
   language: "PHP"
 
 
