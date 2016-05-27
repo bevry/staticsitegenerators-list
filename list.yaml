@@ -42,7 +42,7 @@
   github: "abakan/ablog"
   license: "MIT"
   language: "Python"
-  
+
 
 - name: "Ace"
   github: "botanicus/ace"
@@ -414,7 +414,8 @@
 
 - name: "Desi"
   license: "Apache"
-  website: "https://dear.desi/"
+#  website: "https://dear.desi/"
+# ^ site offline May/24/16
   language: "JavaScript"
   description: "The DIY blog platform for normal people. Written to run in your browser, happens to run in node.js. Built with developers in mind."
 
@@ -1009,6 +1010,14 @@
   github: "jbake-org/jbake"
   license: "MIT"
   website: "http://jbake.org/"
+
+
+- name: "JBlogfy"
+  github: "wifiextender/jblogfy"
+  license: "GPL"
+  website: "https://wifiextender.github.io"
+  language: "JavaScript"
+  description: "Static blog written in JavaScript."
 
 
 - name: "Jedie"
