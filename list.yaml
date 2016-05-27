@@ -1047,7 +1047,7 @@
 
 
 - name: "jem-press"
-  github: "scottsievert/jem-press"
+  github: "stsievert/jem-press"
   license: "GPL"
   website: "http://scottsievert.com/jem-press/"
   language: "Ruby"
