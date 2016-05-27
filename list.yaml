@@ -795,7 +795,7 @@
 
 
 - name: "Grow"
-  github: "grow/pygrow"
+  github: "grow/grow"
   license: "MIT"
   website: "https://grow.io/"
   language: "Python"
