@@ -3033,3 +3033,10 @@
   language: "Python"
   description: "Fully customizable structure and any params"
 
+
+- name: "s2gen"
+  github: "denisftw/s2gen"
+  website: "http://appliedscala.com/s2gen/"
+  license: "MIT"
+  language: "Scala"
+  description: "A simple Scala-based generator that uses Markdown and Freemarker"
