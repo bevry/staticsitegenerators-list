@@ -389,7 +389,7 @@
 - name: "catsup"
   github: "whtsky/Catsup"
   license: "MIT"
-  website: "https://catsup.readthedocs.io"
+  website: "https://catsup.readthedocs.io/en/latest/"
 
 
 # D
@@ -545,7 +545,7 @@
 - name: "Engineer"
   github: "tylerbutler/engineer"
   license: "MIT"
-  website: "http://engineer.readthedocs.io/en/latest/"
+  website: "https://engineer.readthedocs.io/en/latest/"
 
 
 - name: "Equiprose"
@@ -1152,7 +1152,7 @@
 - name: "Lanyon"
   github: "arthurk/lanyon"
   license: "BSD"
-  website: "http://lanyon.readthedocs.io"
+  website: "https://lanyon.readthedocs.io/en/latest/"
   language: "Python"
 
 
@@ -1197,7 +1197,7 @@
 - name: "lilac"
   github: "hit9/lilac"
   license: "MIT"
-  website: "https://lilac.readthedocs.io"
+  website: "https://lilac.readthedocs.io/en/latest/"
 
 
 #- name: "Lineman"
