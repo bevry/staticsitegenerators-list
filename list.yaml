@@ -54,7 +54,7 @@
 - name: "acrylamid"
   github: "posativ/acrylamid"
   license: "BSD"
-  website: "http://posativ.org/acrylamid/"
+  website: "https://posativ.org/acrylamid/"
   language: "Python"
   description: "Static blog generator in python with incremental rendering"
 
@@ -389,7 +389,7 @@
 - name: "catsup"
   github: "whtsky/Catsup"
   license: "MIT"
-  website: "https://catsup.readthedocs.org"
+  website: "https://catsup.readthedocs.io"
 
 
 # D
@@ -545,7 +545,7 @@
 - name: "Engineer"
   github: "tylerbutler/engineer"
   license: "MIT"
-  website: "http://engineer.readthedocs.org/en/latest/"
+  website: "http://engineer.readthedocs.io/en/latest/"
 
 
 - name: "Equiprose"
@@ -1152,7 +1152,7 @@
 - name: "Lanyon"
   github: "arthurk/lanyon"
   license: "BSD"
-  website: "http://lanyon.readthedocs.org/"
+  website: "http://lanyon.readthedocs.io"
   language: "Python"
 
 
@@ -1197,7 +1197,7 @@
 - name: "lilac"
   github: "hit9/lilac"
   license: "MIT"
-  website: "https://lilac.readthedocs.org"
+  website: "https://lilac.readthedocs.io"
 
 
 #- name: "Lineman"
@@ -2460,7 +2460,7 @@
 
 - name: "liquidluck"
   github: "avelino/liquidluck"
-  license: "BSD" # mentioned at https://github.com/lepture/liquidluck/blob/8bc5d23b8cbac7a0199308897422b8cf58c8b424/setup.py#L30
+  license: "BSD"
   website: "http://www.avelino.xxx/liquidluck/"
   language: "Python"
 
