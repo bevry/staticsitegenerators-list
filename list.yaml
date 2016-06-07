@@ -1453,7 +1453,11 @@
 - name: "Nibbleblog"
   github: "dignajar/nibbleblog"
   license: "GPL"
-  website: "http://www.nibbleblog.com/"
+  # website: "http://www.nibbleblog.com/"
+  # ^ https://travis-ci.org/bevry/staticsitegenerators-list/builds/135892483
+  # website works but doesn't seem to allow our script to verify it exists
+  # as such, too bad, your website gets commented out
+  # however, as it is a github repo, it should be added anyway without verification during the enhancement stage
 
 
 - name: "node-blog"
