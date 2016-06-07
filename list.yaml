@@ -642,6 +642,9 @@
   license: "MIT"
   website: ""
 
+- name: "Franklin"
+  github: "bryanbraun/franklin"
+  license: "MIT"
 
 - name: "Frog"
   github: "greghendershott/frog"
