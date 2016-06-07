@@ -645,7 +645,6 @@
 - name: "Franklin"
   github: "bryanbraun/franklin"
   license: "MIT"
-  website: ""
 
 - name: "Frog"
   github: "greghendershott/frog"
