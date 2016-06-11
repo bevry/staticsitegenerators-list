@@ -1693,14 +1693,12 @@
   language: "Web"
   description: "Static Website Hosting and CDN"
 
-
-- name : "Prosopopee"
+- name: "Prosopopee"
   license: "GPL"
-  github : "https://github.com/Psycojoker/prosopopee"
+  github: "https://github.com/Psycojoker/prosopopee"
   language: "Python"
   description: "a static website generator a clone of exposure.co or medium"
   
-
 - name: "Punch"
   github: "laktek/punch"
   license: "MIT"
