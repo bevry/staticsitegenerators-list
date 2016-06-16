@@ -2497,7 +2497,7 @@
 - name: "PHPoole"
   github: "Narno/PHPoole"
   license: "MIT"
-  website: "http://phpoole.narno.org"
+  website: "http://phpoole.org"
   language: "PHP"
   description: "Light and easy static website generator written in PHP"
   created_at: "2013-09-10T00:00:00Z"
