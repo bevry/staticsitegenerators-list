@@ -1476,10 +1476,10 @@
 # ^ Returns a 404. No backup repo found.
 
 
-- name: "Nog"
-  github: "cloud9ide/nog"
-  license: false
-
+#- name: "Nog"
+#  github: "cloud9ide/nog"
+#  license: false
+# ^ Returns a 404. No backup repo found.
 
 - name: "Octopress"
   github: "imathis/octopress"
@@ -1695,7 +1695,7 @@
 
 - name: "Prosopopee"
   license: "GPL"
-  github: "https://github.com/Psycojoker/prosopopee"
+  github: "Psycojoker/prosopopee"
   language: "Python"
   description: "a static website generator a clone of exposure.co or medium"
   
