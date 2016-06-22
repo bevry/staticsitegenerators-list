@@ -2141,6 +2141,12 @@
 #  language: "Ruby"
 # ^ Returns a 404. No backup repo found.
 
+- name: "Statik"
+  license: "MIT"
+  github: "thanethomson/statik"
+  language: "Python"
+  description: "A generic static site generator aimed at developers (Python 3 + SQLAlchemy + Jinja2)"
+
 
 - name: "Statix"
   github: "ff0000/statix"
