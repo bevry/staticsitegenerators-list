@@ -321,9 +321,10 @@
 #  website: "http://chilipy.com/"
 # ^ site offline Oct/10/15
 
+
 - name: "Chisel"
   github: "dz/chisel"
-  license: false
+  license: "MIT"
 
 
 - name: "Chronicle"
