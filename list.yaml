@@ -1780,6 +1780,14 @@
   website: "https://github.com/kisom/rawk"
 
 
+- name: "Read the Docs (RTD)"
+  github: "rtfd/readthedocs.org"
+  license: "MIT"
+  website: "https://readthedocs.org/"
+  language: "Python"
+  description: "RTD will parse a documentation written in reStructuredText or Markdown and create a searchable HTML site upon. The the documentation source will be fetched from a repository stored in a supported version control system (Mercurial, Git, Subversion, Bazaar). Controled with webhooks, RTD will automatically update the HTML site when the repository changes. readthedocs.org offers the service of hosting software documentations."
+
+
 - name: "Really Static"
   github: "trajano/really-static"
   license: "GPL"
