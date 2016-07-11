@@ -1763,7 +1763,7 @@
 - name: "rant"
   github: "lrvick/rant"
   language: "Python"
-  license: "GPL"
+  license: "Apache"
 
 
 - name: "Rassmalog"
