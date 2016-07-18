@@ -1252,6 +1252,12 @@
   license: "MIT"
 
 
+- name: "Madoko"
+  github: "houshuang/madoko"
+  license: "Apache"
+  website: "https://www.npmjs.com/package/madoko"
+  
+
 - name: "Magneto"
   github: "donmelton/magneto"
   license: "MIT"
@@ -1263,7 +1269,6 @@
 #  website: "http://www.makotemplates.org/"
 #  description: "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance."
 # ^ not a ssg
-
 
 - name: "makeblog"
   github: "fyhuang/makeblog"
@@ -1418,6 +1423,8 @@
   github: "Anomareh/mynt"
   license: "BSD"
   website: "http://mynt.uhnomoli.com/"
+
+
 
 
 # N
