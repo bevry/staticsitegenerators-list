@@ -2022,6 +2022,14 @@
   license: "GPL"
 
 
+- name: "Spike"
+  github: "static-dev/spike"
+  license: "MIT"
+  website: "https://spike.readme.io"
+  language: "JavaScript"
+  description: "A modern static build tool, powered by webpack"
+
+
 - name: "Spine"
   github: "varl/spine"
   license: "Apache"
