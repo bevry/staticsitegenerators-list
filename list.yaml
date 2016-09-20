@@ -876,6 +876,12 @@
   website: "http://pythonhosted.org/handcrank/"
   language: "Python"
 
+- name: "Handle"
+  description: "A static site generator powered by PHP and the command line."
+  website: "https://handlecli.com/"
+  github: "https://github.com/gilbitron/handle"
+  language: "PHP"
+  license: "MIT"
 
 - name: "handroll"
   github: "handroll/handroll"
