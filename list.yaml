@@ -399,7 +399,13 @@
   license: "MIT"
   website: "https://catsup.readthedocs.io/en/latest/"
 
-
+- name: "CMX.js"
+  github: "bullpizzle/cmx.js"
+  license: "MIT"
+  language: "JavaScript"
+  website: "http://cmxjs.byronlk.net"
+  description: "A completely client-side CMS."
+  
 # D
 
 - name: "Dapper"
