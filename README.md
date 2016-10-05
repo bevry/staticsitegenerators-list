@@ -69,13 +69,15 @@ Accepted project fields:
   - if license is missing, omit this field
   - if license is not applicable because it is a commercial service, use `false`
   - if multiple licenses, see the [SPDX parser](https://www.npmjs.com/package/spdx) for formatting
-- `tags` at least one or more of the following tags that apply to the project (if no tags apply, it probably isn't related to static site generators):
-  - `flat-file` for projects that import local file content into a database (such as importing local files into an in-memory database for static file generation, like most static site generators do)
-  - `generator` for projects that export content to a static website
-  - `server` for projects that provide their own custom server for previewing content
-  - `editor` for projects that provide a custom editing experience for content, e.g. Contentful.com, Prose.io
-  - `host` for projects that host generated static content, e.g. GitHub Pages, Surge.sh
-  - `extensible` for projects that provide users with directives for adding new features
+- `is` should be one of the following:
+  - `file file cms` a project that takes in local file content, renders it, and exposes the rendered contents via its own web server, without exporting to static files that can be deployment elsewhere, such as Grav and Harp
+  - `static site generator` a project that takes in local file content, renders it, and exports it into a static file content for deployment somewhere, with or without a bundled web server, such as Jekyll and DocPad
+  - `static site importer` a project that takes in local or dynamic content and imports it into a database, such as a file system to Contentful importer
+  - `static site exporter` a project that takes in database content and generates a static website with it, such as a Contentful or Wordpress to static website exporter
+  - `static site deployment` a project that hosts static site content, such as GitHub Pages or Surge.sh
+  - `static site editor` a project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin
+  - `other` if some other type of project that is related to flat-file content management systems or static website generators
+- `extensible` should be `true` or `false` providing whether or not the project provides a way for users to add new features
 
 Dates should be in ISO format which looks like this `2006-08-18T16:00:00.000Z`. Conversion can be done with JavaScript using `console.log(new Date('19-Aug-2006').toISOString())` or via the command line using Node.js via `node -e "console.log(new Date('19-Aug-2006').toISOString())"`.
 
