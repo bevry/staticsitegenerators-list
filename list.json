@@ -377,6 +377,7 @@
   {
     "name": "cyrax",
     "github": "piranha/cyrax",
+    "license": "ISC",
     "website": "https://pypi.python.org/pypi/cyrax"
   },
   {
