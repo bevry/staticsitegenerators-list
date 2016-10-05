@@ -231,6 +231,7 @@
   {
     "name": "Bricolage CMS",
     "github": "bricoleurs/bricolage",
+    "license": "(BSD-3-Clause AND LGPL-2.1 AND CC-BY-SA-2.5)",
     "website": "http://bricolagecms.org/",
     "language": "Perl",
     "description": "Bricolage is an open-source, enterprise-class content management, workflow, and publishing system that greatly simplifies the tasks of creating, managing, and publishing vast libraries of content."
