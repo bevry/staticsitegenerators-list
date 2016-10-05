@@ -2385,7 +2385,8 @@
   },
   {
     "name": "Tahchee",
-    "github": "sebastien/tahchee"
+    "github": "sebastien/tahchee",
+    "license": "BSD-3-Clause"
   },
   {
     "name": "Tarbell",
