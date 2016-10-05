@@ -70,8 +70,9 @@ Accepted project fields:
   - if license is not applicable because it is a commercial service, use `false`
   - if multiple licenses, see the [SPDX parser](https://www.npmjs.com/package/spdx) for formatting
 - `tags` at least one or more of the following tags that apply to the project (if no tags apply, it probably isn't related to static site generators):
-  - `flat-file` for projects that import file content into a database
+  - `flat-file` for projects that import local file content into a database (such as importing local files into an in-memory database for static file generation, like most static site generators do)
   - `generator` for projects that export content to a static website
+  - `server` for projects that provide their own custom server for previewing content
   - `editor` for projects that provide a custom editing experience for content, e.g. Contentful.com, Prose.io
   - `host` for projects that host generated static content, e.g. GitHub Pages, Surge.sh
   - `extensible` for projects that provide users with directives for adding new features
