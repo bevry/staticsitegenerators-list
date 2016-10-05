@@ -417,7 +417,7 @@
   {
     "name": "Desi",
     "github": "DearDesi/desirae",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "website": "https://dear.desi",
     "language": "JavaScript",
     "description": "The DIY blog platform for normal people. Written to run in your browser, happens to run in node.js. Built with developers in mind."
