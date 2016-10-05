@@ -86,7 +86,6 @@ joe.suite('static site generators list', function (suite, test) {
 	})
 
 	test('licenses are valid SPDX', function () {
-		this.setConfig({failure: 'warning'})
 		data.forEach(function ({name, license}) {
 			if ( license ) {
 				assert(validSPDX(license), `${name}: license of ${license} is not a valid SPDX identifier: http://spdx.org/licenses/`)
