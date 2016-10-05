@@ -3,6 +3,7 @@ const fs = require('fs')
 const {equal} = require('assert-helpers')
 const assert = require('assert')
 const validSPDX = require('spdx-expression-validate')
+const {sort} = require('./util')
 const path = './list.json'
 const corrective = false
 
@@ -45,11 +46,7 @@ joe.suite('static site generators list', function (suite, test) {
 
 	test('sorted and formatted data', function (done) {
 		// sort data via string method
-		const sorted = data.sort((a, b) => {
-			a = a.name.toLowerCase()
-			b = b.name.toLowerCase()
-			return a <= b ? -1 : (a >= b ? 1 : 0)
-		})
+		const sorted = sort(data)
 		// convert result into string for comparison
 		const source = JSON.stringify(data, null, '  ')
 		const result = JSON.stringify(sorted, null, '  ')
@@ -108,6 +105,10 @@ joe.suite('static site generators list', function (suite, test) {
 				})
 			}
 		})
+	})
+
+	test('render is successful', function (done) {
+		require('./render')(done)
 	})
 
 })

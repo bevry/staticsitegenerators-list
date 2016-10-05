@@ -166,7 +166,12 @@
     "test:eslint": "eslint ./source",
     "test": "node --harmony ./test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "arrangekeys": "^1.2.0",
+    "extendr": "^3.2.2",
+    "extract-opts": "^3.3.1",
+    "getrepos": "^1.0.7"
+  },
   "devDependencies": {
     "assert-helpers": "^4.4.0",
     "eslint": "^2.13.1",
