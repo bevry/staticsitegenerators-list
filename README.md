@@ -74,7 +74,7 @@ Accepted project fields:
   - `static site generator` a project that takes in local file content, renders it, and exports it into a static file content for deployment somewhere, with or without a bundled web server, such as Jekyll and DocPad
   - `static site importer` a project that takes in local or dynamic content and imports it into a database, such as a file system to Contentful importer
   - `static site exporter` a project that takes in database content and generates a static website with it, such as a Contentful or Wordpress to static website exporter
-  - `static site deployment` a project that hosts static site content, such as GitHub Pages or Surge.sh
+  - `static site host` a project that hosts static site content, such as GitHub Pages or Surge.sh
   - `static site editor` a project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin
   - `other` if some other type of project that is related to flat-file content management systems or static website generators
 - `extensible` should be `true` or `false` providing whether or not the project provides a way for users to add new features
