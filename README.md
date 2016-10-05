@@ -31,9 +31,9 @@ A comprehensive, partially automatically generated comparison of static site gen
 <!-- /DESCRIPTION -->
 
 
-- [View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.json) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.json)-
-- [View the rendered listing](https://staticsitegenerators.net/list.json)-
-- [View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators-website)-
+- [View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.json) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.json)
+- [View the rendered listing](https://staticsitegenerators.net/list.json)
+- [View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators-website)
 
 
 ## Contributing
@@ -145,7 +145,9 @@ When you submit your pull request, your submission will be automatically tested,
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
+<ul><li><a href="http://jaspervdj.be">Jasper Van der Jeugt</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jaspervdj" title="View the GitHub contributions of Jasper Van der Jeugt on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="https://github.com/davisonio">Craig Davison</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=davisonio" title="View the GitHub contributions of Craig Davison on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -250,7 +252,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://www.gar1t.com">Garrett Smith</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=gar1t" title="View the GitHub contributions of Garrett Smith on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://shapeshed.com">George Ornbo</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=shapeshed" title="View the GitHub contributions of George Ornbo on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://mhlakhani.com">Hasnain Lakhani</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=mhlakhani" title="View the GitHub contributions of Hasnain Lakhani on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com">Hugh Brown</a></li>
 <li><a href="http://imelnikov.ru">Ivan Melnikov</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=melnikov-ivan" title="View the GitHub contributions of Ivan Melnikov on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.janpecha.cz/">Jan Pecha</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=janpecha" title="View the GitHub contributions of Jan Pecha on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://grow.io">Jeremy Weinstein</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jeremydw" title="View the GitHub contributions of Jeremy Weinstein on repository bevry/staticsitegenerators-list">view contributions</a></li>
@@ -261,7 +263,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://genehack.org">John SJ Anderson</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=genehack" title="View the GitHub contributions of John SJ Anderson on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/johngtait">John Tait</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=johngtait" title="View the GitHub contributions of John Tait on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/jonschlinkert">Jon Schlinkert</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonschlinkert" title="View the GitHub contributions of Jon Schlinkert on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://jonathanbullock.com">Jonathan Bullock</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonbullock" title="View the GitHub contributions of Jonathan Bullock on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
+<li><a href="http://jonathanbullock.com">Jonathan Bullock</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonbullock" title="View the GitHub contributions of Jonathan Bullock on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 
 
