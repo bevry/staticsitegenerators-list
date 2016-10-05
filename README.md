@@ -56,24 +56,25 @@ Entries are stored within the `list.json` file.
 
 Accepted project fields:
 
-- `name` - the project's name
-- `github` - the slug of the GitHub repository if applicable
-- `gitlab` - the slug of the GitLab repository if applicable
-- `bitbucket` - the slug of BitBucket repository if applicable
-- `website` - the project's website if they have one
-- `tags` - should be an array of whichever of these tags relate the project:
-  - `flat-file` for projects that import file content into a database
-  - `generator` for projects that export content to a static website
-  - `editor` for projects that provide gui based editor for content, e.g. Contentful.com, Prose.io
-  - `host` for projects that host generated static content, e.g. GitHub Pages, Surge.sh
-- `license` - the project's [SPDX license code](https://spdx.org/licenses/)
+- `name` the project's name
+- `github` the slug of the GitHub repository if applicable
+- `gitlab` the slug of the GitLab repository if applicable
+- `bitbucket` the slug of BitBucket repository if applicable
+- `website` the project's website if they have one
+- `language` the project's primary programming language if applicable
+- `description` the project's description
+- `created_at` the project's date of creation in ISO format
+- `updated_at` the project's date of last update in ISO format
+- `license` the project's [SPDX license code](https://spdx.org/licenses/)
   - if license is missing, omit this field
   - if license is not applicable because it is a commercial service, use `false`
   - if multiple licenses, see the [SPDX parser](https://www.npmjs.com/package/spdx) for formatting
-- `language` - the project's primary programming language if applicable
-- `description` - the project's description
-- `created_at` - the project's date of creation in ISO format
-- `updated_at` - the project's date of last update in ISO format
+- `tags` at least one or more of the following tags that apply to the project (if no tags apply, it probably isn't related to static site generators):
+  - `flat-file` for projects that import file content into a database
+  - `generator` for projects that export content to a static website
+  - `editor` for projects that provide a custom editing experience for content, e.g. Contentful.com, Prose.io
+  - `host` for projects that host generated static content, e.g. GitHub Pages, Surge.sh
+  - `extensible` for projects that provide users with directives for adding new features
 
 Dates should be in ISO format which looks like this `2006-08-18T16:00:00.000Z`. Conversion can be done with JavaScript using `console.log(new Date('19-Aug-2006').toISOString())` or via the command line using Node.js via `node -e "console.log(new Date('19-Aug-2006').toISOString())"`.
 
