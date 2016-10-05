@@ -1,3140 +1,2679 @@
----
-
-# Possible license values:
-# "MIT"
-# "BSD" - use for all variations of BSD
-# "GPL" - use for all variations of GNU General Public License
-# "LGPL" - use for all variations of GNU Lesser General Public License
-# "Public" - use for all variations of the Public Domain (inc. CC0, DWTFYWTPL, WTFPL)
-# "MS-PL" - use for all variations of the Microsoft Public License
-# "MPL" - use for all variations of the Mozilla Public License v2
-# "SimPL" - use for all variations of the Simple Public License
-# "Apache" - use for all variations of the Apache License
-# "Ruby" - use for all variations of the Ruby License
-# "Perl" - use for all variations of the Perl/Artistic License
-# "EPL" - use for all variations of the Eclipse Public License
-# "CC" - use for all variations of the Creative Commons Licenses (except CC0, that should be Public)
-# "Beer-ware" - use for all variations of the Beer-ware License
-# "Commercial" - use for projects that are sold (shareware) or are closed-source
-# "ISC" - use for the Internet Software Consortium license
-# "WTFPL" - use for all variations of the What The Fuck Public License
-# false - use when the license is not revealed
-#
-# If there is another license type that is missing, use its abbreviation and add it here
-
-# If a project is defunct, still keep/add it, this is meant to be a definitive listing
-# and we will fetch in the activity of the project automatically outside of this listing
-
-# Sometime you will see commented out entries with "not a ssg" in them
-# KEEP THESE IN
-# the reason they are here is that people often confuse them with static site generators
-
-- name: "Easystatic"
-  github: "easystatic/easystatic"
-  license: "Apache"
-  language: "JavaScript"
-  description: "Easystatic is powered by Markdown It for web pages, EJS and Postcss for site layout, and Browsersync as development server with 'live editing' and testing the site an all connected devices."
-
-
-# A
-
-- name: "ABlog"
-  github: "abakan/ablog"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "Ace"
-  github: "botanicus/ace"
-  license: "MIT"
-  language: "Ruby"
-  description: "Ace is a powerful tool designed to easily generate even complex web sites."
-
-
-- name: "acrylamid"
-  github: "posativ/acrylamid"
-  license: "BSD"
-  website: "https://posativ.org/acrylamid/"
-  language: "Python"
-  description: "Static blog generator in python with incremental rendering"
-
-
-- name: "Akashic"
-  github: "Liutos/cl-github-page"
-  language: "Common Lisp"
-
-
-- name: "AkashaCMS"
-  github: "akashacms/akashacms"
-  website: "http://akashacms.com"
-  license: "Apache"
-  language: "JavaScript"
-  description: "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
-
-
-- name: "Appernetic"
-  license: "Commercial"
-  website: "https://appernetic.io/"
-  language: "Web"
-  description: "A Static Site Generator as a Service. Appernetic is a web service for managing and generating static content for GitHub Pages."
-  created_at: "2016-01-20T15:46:08Z"
-
-
-- name: "assemble"
-  github: "assemble/assemble"
-  license: "MIT"
-  website: "http://assemble.io/"
-  language: "JavaScript"
-  description: "Static site generator for Grunt.js and Yeoman. Assemble makes it dead simple to build modular sites, blogs, gh-pages, components and documentation from reusable templates and data."
-
-
-- name: "Asteroid"
-  github: "cesarparent/Asteroid"
-  license: "MIT"
-  language: "PHP"
-  description: "A simple php-powered, Markdown static blog engine."
-
-
-- name: "Automad"
-  license: "MIT"
-  website: "http://automad.org/"
-  language: "PHP"
-  description: "Automad is a file-based CMS and template engine. It is designed to be fully portable without any dependencies on databases or fixed locations and doesn't require any complicated setup process."
-
-
-#- name: "Automaton"
-#  github: "IndigoUnited/automaton"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "awestruct"
-  github: "awestruct/awestruct"
-  license: "MIT"
-  website: "http://awestruct.org/"
-  language: "Ruby"
-  description: "Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre."
-
-- name: "PlainSite"
-  github: "JexCheng/plain_site"
-  license: "MIT"
-  language: "Ruby"
-  description: "A Simple but Powerful and Hackable Static Site Generator."
-
-
-- name: "AYM CMS"
-  github: "lethain/aym-cms"
-  license: "MIT"
-  language: "Python"
-
-
-# B
-
-- name: "baker"
-  github: "taylorchu/baker"
-  license: "GPL"
-  website: false
-  language: "Shell"
-  description: "the real static blog generator in bash"
-
-
-- name: "bashblog"
-  github: "cfenollosa/bashblog"
-  license: "GPL"
-
-
-- name: "bazinga"
-  github: "ap0calypse/bazinga"
-  license: "GPL"
-
-
-- name: "Benjen"
-  github: "daeken/Benjen"
-  license: "Public"
-
-
-- name: "BitBalloon"
-  license: "Commercial"
-  website: "https://www.bitballoon.com/"
-  language: "Web"
-  description: "A hosting platform for your static sites & apps"
-
-
-- name: "Blacksmith"
-  github: "flatiron/blacksmith"
-  license: "MIT"
-
-
-- name: "BlazeBlogger"
-  website: "http://blaze.blackened.cz/"
-  license: "GPL"  # located in download
-  language: "Perl"
-
-
-- name: "Blatter"
-  license: "MIT"
-  website: "https://bitbucket.org/jek/blatter"
-  language: "Python"
-  description: "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates."
-
-
-- name: "Blode"
-  github: "stackoverflow/blode"
-  license: false
-
-
-- name: "Blogfy"
-  github: "wifiextender/blogfy"
-  license: false
-  language: "Python"
-  description: "Blogfy is an open source and useful software written in Python and designed especially for those who want to create weblogs and websites in a straightforward manner. The software includes five built-in themes, which can be used by users to generate web pages or blogs. Blogfy requires no 3rd party dependencies, your text posts are glued to the html templates and everything is generated on the fly. Blogfy got automated pagination, RSS, tags and sitemap generator, it is platform independent."
-
-
-- name: "blogc"
-  github: "blogc/blogc"
-  license: "BSD"
-  website: "https://blogc.rgm.io"
-  language: "C"
-  description: "blogc is a blog compiler."
-
-- name: "blogc++"
-  license: "WTFPL"
-  language: "C++"
-  website: "https://bitbucket.org/tux_/blogcpp"
-  description: "Just another static blog generator, written in C++17."
-
-- name: "blogit"
-  github: "oz123/blogit"
-  license: "GPL"
-  language: "Python"
-  description: "A simple static site generator with markdown and Jinja2 templates, with incremental builds"
-
-
-- name: "Blogofile"
-  github: "EnigmaCurry/blogofile"
-  license: "MIT"
-  website: "http://www.blogofile.com/"
-
-
-#- name: "Blogmark"
-#  license: "Commercial"
-#  website: "https://blogmark.me/"
-#  language: "Web"
-#  description: "Markdown-on-Dropbox publishing platform."
-# ^ site offline Nov/30/14
-
-
-- name: "blogpy"
-  github: "travisred/blogpy"
-  license: "GPL"
-  language: "Python"
-
-
-- name: "blosxom"
-  license: "MIT"
-  website: "http://blosxom.sourceforge.net/"
-  language: "Perl"
-  description: "Blosxom (pronounced blossom) is a lightweight yet feature-packed weblog application designed from the ground up with simplicity, usability, and interoperability in mind."
-  created_at: "2002-02-28T00:00:00Z"
-
-
-- name: "Blug"
-  github: "jeffknupp/blug"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "Bolt"
-  github: "benmcredmond/Bolt"
-  license: "MIT"
-  language: "Ruby"
-  website: "https://github.com/benmcredmond/Bolt"
-
-
-- name: "Bonsai"
-  github: "benschwarz/bonsai"
-  license: "MIT"
-  website: "http://tinytree.info/"
-
-
-#- name: "Brace"
-#  license: "Commercial"
-#  website: "http://blog.brace.io"
-#  language: "Web"
-#  description: "Brace is the new way to host websites"
-# ^ Brace has shut down
-
-
-- name: "Bread"
-  github: "pvorb/node-bread"
-  license: "MIT"
-  website: "https://www.npmjs.com/package/bread"
-
-
-- name: "Bricolage CMS"
-  github: "bricoleurs/bricolage"
-  license: "BSD"
-  website: "http://bricolagecms.org/"
-  language: "Perl"
-  description: "Bricolage is an open-source, enterprise-class content management, workflow, and publishing system that greatly simplifies the tasks of creating, managing, and publishing vast libraries of content."
-
-
-- name: "brochure"
-  github: "sstephenson/brochure"
-  license: "MIT"
-
-
-#- name: "Brunch"
-#  github: "brunch/brunch"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "buster"
-  github: "axitkhurana/buster"
-  license: "MIT"
-
-
-# C
-
-- name: "Cabin"
-  github: "CabinJS/Cabin"
-  license: "MIT"
-  website: "http://www.cabinjs.com/"
-
-
-- name: "Cactus"
-  github: "koenbok/Cactus"
-  license: "BSD"
-  website: "http://cactusformac.com/"
-
-
-- name: "Calepin"
-  github: "jokull/calepin"
-  license: "ISC"
-  website: "http://calepin.co/"
-
-
-- name: "Chili"
-  github: "clvrobj/chili"
-  license: "MIT"
-#  website: "http://chilipy.com/"
-# ^ site offline Oct/10/15
-
-
-- name: "Chisel"
-  github: "dz/chisel"
-  license: "MIT"
-
-
-- name: "Chronicle"
-  github: "skx/chronicle2"
-  license: "GPL"
-  website: "https://www.steve.org.uk/Software/chronicle/"
-  language: "Perl"
-  description: "A simple blog compiler, written in Perl with minimal dependencies."
-
-
-- name: "Cipherpress"
-  github: "lejonet/Cipherpress"
-  license: "GPL"
-
-
-- name: "cl-blog-generator"
-  github: "hugoduncan/cl-blog-generator"
-  license: "BSD"
-  language: "Common Lisp"
-  website: "http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml"
-
-
-- name: "Codex"
-  github: "logicalparadox/codex"
-  license: "MIT"
-
-
-- name: "coleslaw"
-  github: "kingcons/coleslaw"
-  license: "BSD"
-  website: "http://www.cliki.net/coleslaw"
-
-
-- name: "Composer"
-  github: "shazow/composer"
-  license: "MIT"
-
-
-- name: "Cory"
-  github: "leo/cory"
-  license: "MIT"
-  language: "JavaScript"
-  description: "A static site generator for JavaScript lovers"
-
-
-- name: "creo"
-  github: "ByronKellett/creo"
-  license: "MIT"
-  language: "Perl"
-  description: "A simple static site generator, written in Perl."
-  website: "http://execo.github.io/creo/"
-
-- name: "cub"
-  github: "patcoll/cub"
-  license: "MIT"
-
-
-- name: "cyrax"
-  github: "piranha/cyrax"
-  license: "BSD"
-  website: "https://pypi.python.org/pypi/cyrax"
-
-
-- name: "cytoplasm"
-  github: "startling/cytoplasm"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "catsup"
-  github: "whtsky/Catsup"
-  license: "MIT"
-  website: "https://catsup.readthedocs.io/en/latest/"
-
-- name: "CMX.js"
-  github: "bullpizzle/cmx.js"
-  license: "MIT"
-  language: "JavaScript"
-  website: "http://cmxjs.byronlk.net"
-  description: "A completely client-side CMS."
-  
-# D
-
-- name: "Dapper"
-  github: "markdbenson/dapper"
-  license: "MIT"
-  website: http://vanilladraft.com/dapper/
-  language: "Perl"
-  description: "A publishing tool for static websites."
-
-- name: "Daux.io"
-  github: "justinwalsh/daux.io"
-  license: "MIT"
-  website: http://daux.io/
-  language: "PHP"
-  description: "Documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way."
-
-- name: "Deplot"
-  github: "cdn64/deplot"
-  license: "MIT"
-
-- name: "Desi"
-  license: "Apache"
-#  website: "https://dear.desi/"
-# ^ site offline May/24/16
-  language: "JavaScript"
-  description: "The DIY blog platform for normal people. Written to run in your browser, happens to run in node.js. Built with developers in mind."
-
-- name: "Divshot"
-  license: "Commercial"
-  website: "https://divshot.com/"
-  language: "Web"
-  description: "Static web Platform-as-a-Service with pushState support."
-
-
-#- name: "Derby"
-#  github: "codeparty/derby"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "django-medusa"
-  github: "mtigas/django-medusa"
-  license: "MIT"
-  website: "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/"
-
-- name: "django-staticgen"
-  github: "mishbahr/django-staticgen"
-  language: "Python"
-
-- name: "djangothis"
-  github: "amitu/djangothis"
-  license: "BSD"
-
-
-- name: "DocPad"
-  github: "docpad/docpad"
-  license: "MIT"
-  website: "http://docpad.org"
-  language: "CoffeeScript"
-
-
-- name: "Docta"
-  github: "05bit/docta"
-  license: "BSD"
-  website: "http://docta.05bit.com"
-  language: "Python"
-  description: "Static site generator for building documentation."
-
-
-- name: "DOS on Dope"
-  license: "BSD"
-  website: "http://www.secretgeek.net/dod_intro"
-  language: "Batch"
-  description: "DOS on DOPE is the modern MVC framework built on the awesome power of Batch scripts."
-
-
-- name: "Drapache"
-  github: "louissobel/Drapache"
-  license: "MIT"
-  website: "https://github.com/louissobel/Drapache"
-
-
-- name: "drfrederson"
-  github: "klml/drfrederson"
-  license: "MIT"
-  website: "http://drfrederson.klml.org/"
-
-
-- name: "dropbox-blog"
-  github: "markashleybell/dropbox-blog"
-  language: "Python"
-
-
-- name: "DropPages"
-  license: "Commercial"
-  website: "http://droppages.com/"
-  language: "Web"
-
-
-- name: "Dropplets"
-  github: "Circa75/dropplets"
-  license: "MIT"
-  language: "PHP"
-
-
-- name: "DropPress"
-  github: "Reiot/droppress"
-  language: "Python"
-
-
-- name: "Drop-a-Site"
-  github: "herschel666/Drop-a-Site"
-  license: "MIT"
-
-
-- name: "Drupan"
-  github: "fallenhitokiri/drupan"
-  license: "BSD"
-
-
-- name: "dynamicmatic"
-  github: "nex3/dynamicmatic"
-  license: "MIT"
-
-
-# E
-
-- name: "ecstatic"
-  github: "samrat/ecstatic"
-  license: "EPL"
-  language: "Clojure"
-  website: "https://github.com/samrat/ecstatic"
-
-
-- name: "Elyse"
-  github: "FSX/elyse"
-  license: "MIT"
-
-
-- name: "embellih"
-  github: "boscoh/embellish"
-  license: "BSD"
-  website: "http://boscoh.github.io/embellish/"
-
-
-- name: "enfield"
-  github: "fortes/enfield"
-  license: "MIT"
-
-
-- name: "Engineer"
-  github: "tylerbutler/engineer"
-  license: "MIT"
-  website: "https://engineer.readthedocs.io/en/latest/"
-
-
-- name: "Equiprose"
-  github: "thibaultCha/Equiprose"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Flexible and powerful static website and blog generator in Node.js"
-  website: "https://github.com/thibaultCha/Equiprose"
-
-
-# F
-
-- name: "Fairytale"
-  github: "46Bit/fairytale"
-  license: "MIT"
-
-
-- name: "FantasticWindmill"
-  github: "sylvainhalle/FantasticWindmill"
-  license: "GPL"
-  website: "http://sylvainhalle.github.io/FantasticWindmill/"
-
-
-- name: "fBlog"
-  licence: "GPL"
-  website: "https://sourceforge.net/projects/fortranblog/"
-  language: "Fortran"
-
-
-- name: "fjord"
-  github: "dkuntz2/fjord"
-  license: "BSD"
-  website: "https://github.com/dkuntz2/fjord"
-
-
-- name: "Flamel"
-  github: "ipavl/flamel"
-  license: "MIT"
-
-
-- name: "flim"
-  github: "shapeshed/flim"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Lightweight static page generator"
-
-
-- name: "Floyd"
-  github: "nikcub/floyd"
-  license: "BSD"
-  website: "https://nikcub.github.io/floyd/"
-
-
-- name: "Firedrop2"
-  license: "BSD"
-  website: "http://www.voidspace.org.uk/python/firedrop2/"
-  language: "Python"
-  description: "The Blog Tool for Discerning Pythoneers"
-
-
-- name: "Firmant"
-  license: "BSD"
-  website: "https://pypi.python.org/pypi/Firmant/0.2.2"
-  language: "Python"
-
-
-- name: "FMPP"
-  license: "BSD"
-  website: "http://fmpp.sourceforge.net/"
-  language: "Java"
-  description: "FreeMarker-based text file PreProcessor"
-
-- name: "ford.py"
-  github: "citruspi/ford.py"
-  language: "Python"
-  license: "MIT"
-
-
-#- name: "Fragments"
-#  github: "glyphobet/fragments"
-#  license: "BSD"
-# ^ not a ssg
-
-
-- name: "Frank"
-  github: "blahed/frank"
-  license: "MIT"
-  website: ""
-
-- name: "Franklin"
-  github: "bryanbraun/franklin"
-  license: "MIT"
-
-- name: "Frog"
-  github: "greghendershott/frog"
-  license: "MIT"
-  language: "Racket"
-
-
-- name: "Frozen-Flask"
-  github: "SimonSapin/Frozen-Flask"
-  license: "BSD"
-  website: "http://pythonhosted.org/Frozen-Flask/"
-
-
-#- name: "fugitive"
-#  license: "GPL"
-#  website: "https://gitorious.org/fugitive"
-#  language: "Shell"
-# gitorious is down
-
-
-- name: "Funnel"
-  github: "shuhaowu/Funnel"
-  language: "Python"
-  license: "GPL"
-
-
-# G
-
-- name: "Gabby"
-  github: "alexmingoia/gabby"
-  license: "BSD"
-  website: "http://www.alexmingoia.com/gabby/"
-
-
-- name: "Garoozis"
-  github: "aguerrera/Garoozis"
-  language: "F#"
-  license: "BSD"
-
-
-- name: "Gatsby"
-  github: "gatsbyjs/gatsby"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "geminiBlog"
-  github: "wifiextender/geminiblog"
-  license: "MIT"
-  website: "https://wifiextender.github.io"
-  language: "JavaScript"
-  description: "Static blog written in JavaScript, improved fork "
-
-
-- name: "Gen"
-  github: "trq/Gen"
-  license: "MIT"
-
-
-- name: "gettheshitdone"
-  github: "johannesboyne/gettheshitdone"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "ghost-render"
-  github: "mixu/ghost-render"
-  license: "BSD"
-  language: "JavaScript"
-
-
-- name: "Glyph"
-  github: "h3rald/glyph"
-  license: "MIT"
-  website: "https://h3rald.com/glyph/"
-
-
-- name: "guetzli"
-  github: "muellermichel/guetzli"
-  license: "LGPL"
-  language: "Python"
-  description: "A Deliciously Fast and Simple CMS Based on Files"
-
-
-- name: "Apto"
-  license: "MIT"
-  website: "https://www.npmjs.com/package/apto"
-  language: "JavaScript"
-  description: "Apto is an easy to use, straight-forward static site generator / builder for Node.js."
-
-
-- name: "gollum-site"
-  github: "dreverri/gollum-site"
-  license: "MIT"
-
-
-- name: "goblog"
-  github: "icub3d/goblog"
-  license: "MIT"
-
-
-- name: "Goldbarg"
-  github: "Schnouki/Golbarg"
-  language: "Python"
-  license: "GPL"
-  website: ""
-
-
-- name: "gor"
-  github: "wendal/gor"
-  license: "BSD"
-
-
-- name: "gostatic"
-  github: "piranha/gostatic"
-  license: "ISC"
-
-
-- name: "Go-Static!"
-  github: "colynb/generator-go-static"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Yeoman generator for static sites"
-
-
-- name: "Grain"
-  github: "sysgears/grain"
-  license: "Apache"
-  website: "http://sysgears.com/grain/"
-  language: "Groovy"
-  description: "Static website building framework for Groovy"
-
-
-# - name: "Gravity"
-#   github: "owainlewis/gravity"
-#   license: "MIT"
-#   website: false
-# no longer exists it seems
-
-
-- name: "Grav"
-  github: "getgrav/grav"
-  license: "MIT"
-  website: "https://getgrav.org/"
-  language: "PHP"
-
-
-- name: "Graze"
-  github: "mikoskinen/graze"
-  license: "MIT"
-  website: "http://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor"
-
-
-- name: "grender"
-  github: "peterbourgon/grender"
-  license: "BSD"
-  language: "Go"
-
-
-- name: "Grow"
-  github: "grow/grow"
-  license: "MIT"
-  website: "https://grow.io/"
-  language: "Python"
-
-
-- name: "Growl"
-  github: "xfire/growl"
-  license: "GPL"
-
-
-#- name: "Grunt"
-#  github: "gruntjs/grunt"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "grunt-generator"
-  github: "clavery/grunt-generator"
-  license: "MIT"
-  language: "JavaScript"
-
-
-#- name: "GruntStart"
-#  github: "tsvensen/gruntstart"
-#  license: "MIT"
-# ^ not a ssg
-
-
-#- name: "Gumdrop"
-#  github: "simonjodet/gumdrop"
-#  license: "MIT"
-#  website: "http://gumdropapp.com/"
-
-- name: "GSL"
-  github: "imatix/gsl"
-  license: "GPL"
-  language: "C"
-
-# H
-
-- name: "haggis"
-  github: "tych0/haggis"
-  license: "BSD"
-  language: "Haskell"
-
-
-- name: "Hakyll"
-  github: "jaspervdj/hakyll"
-  license: "BSD"
-  website: "https://jaspervdj.be/hakyll/"
-
-
-- name: "Hammer"
-  license: "Commercial"
-  website: "http://hammerformac.com/"
-  language: "App"
-  description: "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
-
-
-- name: "hanayo"
-  github: "disoul/hanayo"
-  language: "JavaScript"
-  description: "A static blog generator writed by Node.js"
-
-- name: "handcrank"
-  license: "BSD"
-  website: "http://pythonhosted.org/handcrank/"
-  language: "Python"
-
-- name: "Handle"
-  description: "A static site generator powered by PHP and the command line."
-  website: "https://handlecli.com/"
-  github: "https://github.com/gilbitron/handle"
-  language: "PHP"
-  license: "MIT"
-
-- name: "handroll"
-  github: "handroll/handroll"
-  license: "BSD"
-  website: "http://handroll.github.io/"
-  language: "Python"
-  description: "A website generator for software artisans. handroll is a static website generator that uses markup languages like Markdown, ReStructuredText, and Textile."
-
-
-- name: "happyplan"
-  github: "happyplan/happyplan"
-  license: "MIT"
-
-
-- name: "haroopress"
-  github: "rhiokim/haroopress"
-  license: "MIT"
-  website: "http://haroopress.com"
-
-
-- name: "Halwa"
-  github: "mhlakhani/halwa"
-  license: "MIT"
-  language: "Python"
-  description: "Halwa is a single file static site generator written in Python."
-
-
-- name: "Harp"
-  github: "sintaxi/harp"
-  license: "MIT"
-  website: "http://harpjs.com/"
-  language: "JavaScript"
-  description: "Harp is a static web server that also serves Jade, Markdown, EJS, Less, Stylus, Sass, and CoffeeScript as HTML, CSS, and JavaScript without any configuration."
-
-
-- name: "Hastie"
-  github: "mkaz/hastie"
-  license: "MIT"
-
-
-- name: "Heckle"
-  github: "marijnh/heckle"
-  license: "MIT"
-
-
-- name: "Helpful Site"
-  github: "g4b1nagy/helpful-site"
-  license: "Public"
-  language: "Python"
-
-
-- name: "Hexo"
-  github: "hexojs/hexo"
-  license: "MIT"
-  website: "https://hexo.io/"
-
-
-- name: "HiD"
-  github: "genehack/HiD"
-  license: "Perl"
-  website: "https://metacpan.org/pod/HiD"
-  language: "Perl"
-
-
-- name: "High Voltage"
-  github: "thoughtbot/high_voltage"
-  license: "MIT"
-  website: "http://thoughtbot.github.io/high_voltage/"
-
-
-# - name: "Hoodie"
-#  github: "hoodiehq/hoodie.js"
-#  license: "Apache"
-# ^ not a ssg
-
-- name: "HSC"
-  github: "mbethke/hsc"
-  license: "GPL"
-  website: "http://towiski.de/hsc/index.html"
-  language: "C"
-  created_at: "1995-10-09T00:00:00Z"
-  description: "HTML-like macro language, included make tool and dependency generator"
-
-
-- name: "Hugo"
-  github: "spf13/hugo"
-  license: "Apache"
-  website: "http://gohugo.io/"
-  language: "Go"
-
-
-- name: "Hydrastic"
-  github: "bpizzi/Hydrastic"
-  license: "MIT"
-
-
-- name: "Hobix"
-  github: "hobix/hobix"
-  license: "MIT"
-  website: "https://hobix.github.io/hobix/"
-
-
-- name: "hublo"
-  github: "pyr/hublo"
-  language: "Emacs Lisp"
-  website: "http://spootnik.org/"
-
-
-- name: "Hyde"
-  github: "hyde/hyde"
-  license: "MIT"
-  website: "http://hyde.github.io/"
-
-
-- name: "igor"
-  github: "aconbere/igor"
-  license: "MIT"
-
-
-# I
-
-- name: "Ikiwiki"
-  github: "joeyh/ikiwiki"
-  license: "GPL"
-  website: "http://ikiwiki.info/"
-
-
-- name: "ink"
-  github: "InkProject/ink"
-  language: "Go"
-  website: "http://www.inkpaper.io/"
-
-
-# J
-
-- name: "JAGSS"
-  github: "esonderegger/jagss"
-  license: "MIT"
-  website: "https://jagss.rpy.xyz/"
-
-
-- name: "JBake"
-  github: "jbake-org/jbake"
-  license: "MIT"
-  website: "http://jbake.org/"
-
-
-- name: "JBlogfy"
-  github: "wifiextender/jblogfy"
-  license: "GPL"
-  website: "https://wifiextender.github.io"
-  language: "JavaScript"
-  description: "Static blog written in JavaScript."
-
-
-- name: "Jedie"
-  github: "mattn/jedie"
-  license: "MIT"
-
-
-- name: "Jekxll"
-  github: "osaris/jekxyl"
-  language: "PHP"
-
-
-- name: "Jekyll"
-  github: "jekyll/jekyll"
-  license: "MIT"
-
-
-- name: "Jekyll Now"
-  github: "barryclark/jekyll-now"
-  license: "MIT"
-  website: "http://www.jekyllnow.com"
-
-
-- name: "Jen"
-  github: "rfunduk/jen"
-  license: "MIT"
-
-
-- name: "jem-press"
-  github: "stsievert/jem-press"
-  license: "GPL"
-  website: "http://scottsievert.com/jem-press/"
-  language: "Ruby"
-  description: "Markdown --> `ruby update.rb` --> site. Simple and easy to use; not blog sensitive"
-
-
-- name: "jigsaw"
-  github: "tightenco/jigsaw"
-  license: "MIT"
-  website: "http://jigsaw.tighten.co"
-  language: "PHP"
-  description: "Static site generator using Laravel Blade for templates and Markdown for content"
-
-
-- name: "jinjet"
-  github: "jokull/jinjet"
-  license: "ISC"
-
-
-- name: "jkl"
-  github: "drone/jkl"
-  license: "MIT"
-
-
-- name: "Jott"
-  github: "jonsherrard/jott"
-  license: "Public"
-
-
-- name: "Jr"
-  github: "xeoncross/jr"
-  license: "MIT"
-  website: "http://xeoncross.github.io/jr/"
-  language: "JavaScript"
-  description: "The static, static site generator"
-
-
-- name: "jstatico"
-  github: "egeozcan/jstatico"
-  license: "MIT"
-  language: "JavaScript"
-
-
-# K
-
-- name: "kalastatic"
-  github: "kalamuna/kalastatic"
-  license: "MIT"
-  language: "JavaScript"
-#  website: "http://test-kalastatic.at.kalamuna.com" 401 Error on 2015-12-10
-
-
-- name: "Kel"
-  github: "koostudios/kel"
-  license: "MIT"
-  website: "https://www.npmjs.com/package/kel"
-
-
-- name: "Kerouac"
-  github: "jaredhanson/kerouac"
-  license: "MIT"
-
-
-- name: "Kickster"
-  github: "timhartmann/Kickster"
-  license: "MIT"
-  description: "Kickstarter Boilerplate with Node-Sass, Grunt, Bower, Browser-Sync and much more stuff"
-
-
-- name: "Kirby"
-  github: "getkirby/starterkit"
-  license: "Commercial"
-  website: "https://getkirby.com/"
-
-
-# - name: "KISSr"
-#   license: "Commercial"
-#   website: "https://www.kissr.com/"
-#   language: "Web"
-# Website Error 500 23/12/2015
-
-
-- name: "Korma"
-  github: "practicingruby/korma"
-  license: false
-
-
-# L
-
-- name: "Lambda Pad"
-  github: "gar1t/lambdapad"
-  license: "Apache"
-  website: "http://www.lambdapad.io/"
-  language: "Erlang"
-  description: "A static site generator in Erlang. Yes, Erlang."
-
-
-- name: "Lannister"
-  github: "wjlroe/lannister"
-  license: "CC"
-  language: "Go"
-
-
-- name: "Lanyon"
-  github: "arthurk/lanyon"
-  license: "BSD"
-  website: "https://lanyon.readthedocs.io/en/latest/"
-  language: "Python"
-
-
-- name: "Laze"
-  github: "avdgaag/laze"
-  license: "MIT"
-  website: "http://avdgaag.github.io/laze/"
-
-
-- name: "lazyblorg"
-  github: "novoid/lazyblorg"
-  license: "GPL"
-  language: "Python"
-
-
-- name: "Leeflets"
-  github: "Leeflets/leeflets"
-  license: "MIT"
-  language: "PHP"
-
-
-- name: "Lektor"
-  github: "lektor/lektor"
-  license: "BSD"
-
-- name: "Leo"
-  license: "GPL"
-  website: "http://leohtml.sourceforge.net/"
-  language: "C++"
-
-
-- name: "Letterpress"
-  github: "an0/Letterpress"
-  license: "BSD"
-
-
-- name: "lightning"
-  github: "borismus/lightning"
-  license: "MIT"
-
-
-- name: "lilac"
-  github: "hit9/lilac"
-  license: "MIT"
-  website: "https://lilac.readthedocs.io/en/latest/"
-
-
-#- name: "Lineman"
-#  github: "testdouble/lineman"
-#  license: "MIT"
-# ^ not a ssg
-
-
-#- name: "LiveReload"
-#  github: "livereload/LiveReload"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "logya"
-  github: "yaph/logya"
-  license: "MIT"
-  website: "http://pythonhosted.org/logya/"
-  language: "Python"
-  description: "Logya is a command line tool to generate static Web sites, designed to be easy to use and flexible."
-
-
-#- name: "Lumbar"
-#  github: "walmartlabs/lumbar"
-#  license: "MIT"
-# ^ not a ssg
-
-
-# M
-
-- name: "m4-bakery"
-  github: "datagrok/m4-bakery"
-  license: "GPL"
-  website: "http://datagrok.github.io/m4-bakery/"
-
-
-- name: "Machined"
-  github: "petebrowne/machined"
-  license: "MIT"
-
-
-- name: "Madoko"
-  github: "houshuang/madoko"
-  license: "Apache"
-  website: "https://www.npmjs.com/package/madoko"
-  
-
-- name: "Magneto"
-  github: "donmelton/magneto"
-  license: "MIT"
-
-
-#- name: "Mako"
-#  license: "MIT"
-#  language: "Python"
-#  website: "http://www.makotemplates.org/"
-#  description: "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance."
-# ^ not a ssg
-
-- name: "makeblog"
-  github: "fyhuang/makeblog"
-  license: "BSD"
-  language: "Python"
-
-
-- name: "Makefly"
-  github: "blankoworld/makefly"
-  license: "GPL"
-
-
-- name: "Markbox"
-  github: "myfreeweb/markbox"
-  license: false
-
-
-- name: "Markdoc"
-  github: "zacharyvoase/markdoc"
-  license: "Public"
-  website: "http://markdoc.org/"
-
-- name: "markdown-styles"
-  github: "mixu/markdown-styles"
-  license: "BSD"
-  language: "JavaScript"
-  description: "Markdown to static HTML generator and multiple CSS themes for Markdown."
-
-- name: "Markx"
-  github: "jgallen23/markx"
-  license: "MIT"
-
-
-- name: "Maven Site Plugin"
-  license: "Apache"
-  website: "http://maven.apache.org/plugins-archives/maven-site-plugin-3.3/"
-  language: "Java"
-  description: "The Site Plugin is used to generate a site for the project. The generated site also includes the project's reports that were configured in the POM."
-
-
-- name: "Mecha"
-  github: "mecha-cms/mecha-cms"
-  license: "GPL"
-  website: "http://mecha-cms.com"
-  language: "PHP"
-  description: "Mecha is a file-based CMS. It does not require any database. Almost all files are stored as plain text files which grouped into folders, which you can even edit it manually through a plain text editor application."
-
-
-- name: "massimo"
-  github: "petebrowne/massimo"
-  license: "MIT"
-
-- name: "mdwiki"
-  github: "Dynalon/mdwiki"
-  license: "GPL"
-  website: "http://dynalon.github.io/mdwiki/"
-  description: "CMS/Wiki system using Javascript for 100% client side single page application using Markdown."
-
-
-- name: "Miblo"
-  github: "rafalp/Miblo"
-  license: "BSD"
-
-
-- name: "misaki"
-  github: "liquidz/misaki"
-  license: "EPL"
-  website: "http://liquidz.github.io/misaki/"
-
-
-- name: "meinhof"
-  github: "miguelibero/meinhof"
-  license: "MIT"
-
-
-- name: "metalsmith"
-  github: "metalsmith/metalsmith"
-  license: "MIT"
-  website: "http://www.metalsmith.io"
-  language: "JavaScript"
-  description: "An extremely simple, pluggable static site generator."
-
-
-- name: "Middleman"
-  github: "middleman/middleman"
-  license: "MIT"
-
-
-- name: "MinoriWiki"
-  github: "phoenixlzx/MinoriWiki"
-  licence: "MIT"
-  website: "http://phoenixlzx.github.io/MinoriWiki/"
-  language: "JavaScript"
-  description: "MinoriWiki is a static Wiki site Generator"
-
-
-- name: "Misakai Baker"
-  github: "Kelindar/misakai-baker"
-  license: "Apache"
-  language: "C#"
-  description: "Flexible and extensible static website generator for .Net people"
-  website: "http://baker.misakai.com"
-
-
-#- name: "Mimosa"
-#  github: "mimosa/stargazers"
-#  license: "MIT"
-# ^ not a ssg
-
-
-#- name: "Mixture"
-#  license: "Commercial"
-#  website: "http://mixture.io/"
-#  language: "App"
-#  description: "Mixture. Rapid prototyping, static site generation and so much more"
-# ^ Removed download link, they recommend using alternatives - essentially shut down.
-
-
-#- name: "Modjs"
-#  github: "modulejs/modjs"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "MkDocs"
-  github: "mkdocs/mkdocs"
-  license: "BSD"
-  website: "http://www.mkdocs.org"
-  language: "Python"
-
-
-- name: "mksite"
-  github: "clehner/mksite"
-  license: "MIT"
-  website: "http://celehner.com/mksite/"
-  language: "Make"
-  description: "Fast declarative site generator using only common shell tools"
-  created_at: "2014-01-01T10:00:00Z"
-
-
-- name: "monkeyman"
-  github: "wspringer/monkeyman"
-  license: "GPL"
-
-
-- name: "Mulder"
-  github: "dragan/mulder"
-  license: "MIT"
-
-
-- name: "mynt"
-  github: "Anomareh/mynt"
-  license: "BSD"
-  website: "http://mynt.uhnomoli.com/"
-
-
-
-
-# N
-
-- name: "NanoBlogger"
-  license: "GPL"
-  website: "http://nanoblogger.sourceforge.net/"
-  language: "Shell"
-
-
-- name: "nanoc"
-  github: "nanoc/nanoc"
-  license: "MIT"
-  website: "http://nanoc.ws/"
-  created_at: "2007-05-02T12:00:00Z"
-
-
-- name: "NestaCMS"
-  github: "gma/nesta"
-  license: "MIT"
-  website: "http://nestacms.com/"
-
-
-- name: "Neverland"
-  github: "demon386/Neverland"
-  language: "Clojure"
-
-
-- name: "nib"
-  github: "jreese/nib"
-  license: "MIT"
-
-
-- name: "Nibbleblog"
-  github: "dignajar/nibbleblog"
-  license: "GPL"
-  # website: "http://www.nibbleblog.com/"
-  # ^ https://travis-ci.org/bevry/staticsitegenerators-list/builds/135892483
-  # website works but doesn't seem to allow our script to verify it exists
-  # as such, too bad, your website gets commented out
-  # however, as it is a github repo, it should be added anyway without verification during the enhancement stage
-
-
-- name: "node-blog"
-  github: "creationix/node-blog"
-  license: false
-
-
-- name: "noflo-jekyll"
-  github: "the-grid/noflo-jekyll"
-  license: "MIT"
-
-
-#- name: "node-jekyll"
-#  github: "wangbus/node-jekyll"
-#  license: "MIT"
-# ^ Returns a 404. No backup repo found.
-
-
-#- name: "Nog"
-#  github: "cloud9ide/nog"
-#  license: false
-# ^ Returns a 404. No backup repo found.
-
-- name: "Octopress"
-  github: "imathis/octopress"
-  license: "MIT"
-  website: "http://octopress.org/"
-
-
-- name: "Nikola"
-  github: "getnikola/nikola"
-  license: "MIT"
-  website: "https://getnikola.com/"
-
-
-# O
-
-- name: "Oak"
-  github: "marc0s/oak"
-  language: "Python"
-  license: "Public"
-  website: ""
-
-
-- name: "o-blog"
-  github: "renard/o-blog"
-  license: "Public"
-  website: "http://renard.github.io/o-blog/"
-  language: "Emacs Lisp"
-  description: "Generates static sites from org-mode files"
-
-
-#- name: "obraz"
-#  license: "CC"
-#  website: "http://obraz.pirx.ru/"
-#  language: "Python"
-#  description: "Like Jekyll"
-# ^ 502 error - 2015-11-30
-
-
-- name: "Ocam"
-  github: "toddlucas/ocam"
-  license: "MIT"
-  website: "http://toddlucas.github.io/ocam/"
-  language: "C#"
-  description: "Razor and Markdown static site generator"
-
-
-- name: "Olai"
-  license: "Commercial"
-  website: "http://olai.in/"
-  language: "Go"
-  description: "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
-
-
-- name: "operator-DD3"
-  github: "operator-dd3/operator-dd3"
-  language: "Lua"
-  license: "Public"
-  description: "An (Extremely Basic and Limited) Static Site Generator made in Lua."
-
-
-- name: "Org Mode"
-  license: "GPL"
-  website: "http://orgmode.org/"
-  language: "Emacs Lisp"
-  description: "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
-
-
-# P
-
-- name: "Pagegen"
-  github: "oliverfields/pagegen_v2"
-  license: "GPL"  # mentioned inside download
-  website: "http://pagegen.phnd.net/"
-  language: "App"
-
-
-- name: "Pagen"
-  github: "jawerty/pagen"
-  license: "MIT"
-
-
-- name: "Pancake.io"
-  github: "hassox/pancake"
-  license: "MIT"
-  website: "https://pancakestacks.wordpress.com/"
-
-
-- name: "pansite"
-  github: "wcaleb/website"
-  license: "CC"
-  website: "http://wcm1.web.rice.edu"
-  language: "Shell"
-  description: "wrapper for Pandoc"
-
-
-- name: "Pelican"
-  github: "getpelican/pelican"
-  license: "GPL"
-  language: "Python"
-  website: "http://blog.getpelican.com"
-
-
-- name: "Penguin"
-  github: "Endi1/Penguin"
-  language: "Python"
-
-
-- name: "Perun"
-  github: "hashobject/perun"
-  website: "https://perun.io"
-  license: "EPL"
-  language: "Clojure"
-  description: "Composable static site generator build with Clojure and Boot"
-
-
-- name: "Petrify"
-  github: "caolan/petrify"
-  license: "MIT"
-
-
-#- name: "phase"
-#  github: "AD7six/phase"
-#  license: "MIT"
-# ^ Returns a 404. No backup repo found.
-
-
-- name: "Phileas"
-  github: "farvardin/phileas"
-  license: "MIT"
-  website: "https://dl.dropboxusercontent.com/u/620905/phileas/index.html"
-  language: "JavaScript"
-  description: "A static site generator, using javascript and simple text files written in txt2tags (markdown ultra) syntax"
-
-
-#- name: "Phrozn"
-#  github: "Pawka/phrozn"
-#  license: "Apache"
-#  website: "http://phrozn.info"
-# http://phrozn.info: failed to curl
-
-
-- name: "PhlyBlog"
-  github: "phly/PhlyBlog"
-  language: "PHP"
-  license: "BSD"
-
-
-- name: "PieCrust"
-  website: "https://bolt80.com/piecrust/"
-  github: "ludovicchabant/piecrust"
-  license: "Apache"
-
-
-- name: "Pilcrow"
-  github: "araile/pilcrow"
-  license: "MIT"
-  website: "http://inky.github.io/pilcrow/"
-
-
-- name: "Pith"
-  github: "mdub/pith"
-  license: "MIT"
-
-
-- name: "poet"
-  github: "jsantell/poet"
-  license: "MIT"
-  website: "http://jsantell.github.io/poet/"
-
-
-- name: "Polo"
-  github: "agonzalezro/polo"
-  license: "MIT"
-  description: "Written in Go, Polo claims to be compatible with Pelican default configuration. The creator has used it to migrate his blog from Pelican to Polo without any much trouble."
-
-
-- name: "Pointless"
-  github: "scarwu/Pointless"
-  language: "PHP"
-  license: "MIT"
-
-
-- name: "poole"
-  github: "obensonne/poole"
-  license: "Public"
-  website: "https://bitbucket.org/obensonne/poole"
-  language: "Python"
-
-
-- name: "pop"
-  github: "alexyoung/pop"
-  license: "MIT"
-  website: "https://github.com/alexyoung/pop"
-
-- name: "PPWizard"
-  license: "Public"
-  website: "http://dennisbareis.com/ppwizard.htm"
-  language: "REXX"
-  description: "Uses classic REXX or Regina interpreter"
-
-- name: "Pretzel"
-  github: "Code52/pretzel"
-  license: "MS-PL"
-  website: "http://code52.org/pretzel/"
-  language: "C#"
-
-
-- name: "Primoca"
-  license: "Commercial"
-  website: "http://www.primoca.com/"
-  language: "Web"
-  description: "Static Website Hosting and CDN"
-
-- name: "Prosopopee"
-  license: "GPL"
-  github: "Psycojoker/prosopopee"
-  language: "Python"
-  description: "a static website generator a clone of exposure.co or medium"
-  
-- name: "Punch"
-  github: "laktek/punch"
-  license: "MIT"
-  website: "https://laktek.github.io/punch/"
-
-- name: "Pulse CMS"
-  license: "Commercial"
-  website: "https://www.pulsecms.com/"
-  language: "PHP"
-  description: "The easiest flat-file CMS for designers and their clients"
-
-
-#- name: "Purepress"
-#  github: "megakote/purepress"
-#  license: "CC"
-# ^ Returns a 404. No backup repo found.
-
-
-- name: "PyBlue"
-  github: "ialbert/pyblue"
-  licence: "MIT"
-  website: "http://ialbert.github.io/pyblue/"
-  language: "Python"
-
-
-- name: "PyBlosxom"
-  github: "pyblosxom/pyblosxom"
-  license: "Public"
-  website: "http://pyblosxom.github.io/"
-
-
-#- name: "Py'nFact"
-#  github: "alberteromero/pynfact"
-#  language: "Python"
-#  license: "BSD"
-# 404 - as of 2015-10-22
-
-
-- name: "Pyll"
-  github: "arthurk/pyll"
-  license: "BSD"
-
-
-# Q
-
-- name: "Quill"
-  github: "theycallmeswift/quill"
-  license: "Beer-ware"
-  website: "https://www.npmjs.com/package/quill"
-  language: "JavaScript"
-
-
-# R
-
-- name: "RakeWeb"
-  github: "rweald/rakeweb"
-  license: "Apache"
-  language: "Ruby"
-
-
-- name: "rant"
-  github: "lrvick/rant"
-  language: "Python"
-  license: "Apache"
-
-
-- name: "Rassmalog"
-  github: "sunaku/rassmalog"
-  license: "ISC"
-  website: "http://snk.tuxfamily.org/lib/rassmalog/doc/guide.html"
-  language: "Ruby"
-
-
-- name: "rawk"
-  github: "kisom/rawk"
-  language: "Shell"
-  description: "Rage Against Web Frameworks"
-  website: "https://github.com/kisom/rawk"
-
-
-- name: "Read the Docs (RTD)"
-  github: "rtfd/readthedocs.org"
-  license: "MIT"
-  website: "https://readthedocs.org/"
-  language: "Python"
-  description: "RTD will parse a documentation written in reStructuredText or Markdown and create a searchable HTML site upon. The the documentation source will be fetched from a repository stored in a supported version control system (Mercurial, Git, Subversion, Bazaar). Controled with webhooks, RTD will automatically update the HTML site when the repository changes. readthedocs.org offers the service of hosting software documentations."
-
-
-- name: "Really Static"
-  github: "trajano/really-static"
-  license: "GPL"
-  website: "https://wordpress.org/plugins/really-static/"
-  language: "PHP"
-  description: "Generates static HTML-files from your WordPress Blog"
-
-
-- name: "regenerate"
-  license: false
-  website: "https://gist.github.com/TeMPOraL/4190622"
-  language: "Lisp"
-
-
-- name: "Rizzo"
-  github: "fifthposition/rizzo"
-  license: "MIT"
-
-
-#- name: "Rog"
-#  license: "GPL"
-#  website: "http://rog.rubyforge.org/"
-#  language: "Ruby"
-# ^ Returns a 404. No backup repo found.
-
-
-- name: "romulus"
-  github: "felixge/node-romulus"
-  license: "MIT"
-
-
-- name: "Roots"
-  github: "jescalan/roots"
-  license: "MIT"
-  website: "http://roots.cx/"
-  language: "JavaScript"
-  description: "Roots is a fast, simple, and customizable static site compiler."
-
-
-- name: "Rosid"
-  github: "electerious/Rosid"
-  license: "MIT"
-  website: "http://rosid.electerious.com/"
-  language: "JavaScript"
-  description: "Just-in-time development server and static site generator."
-
-
-#- name: "Rote"
-#  license: "MIT"
-#  website: "http://rote.rubyforge.org/"
-#  language: "Ruby"
-#  description: "Rote is a simple page-based template system that was written to make it easier to author and maintain non-dynamic websites and offline documentation."
-# ^ Returns a 404. No backup repo found.
-
-
-- name: "rstblog"
-  github: "mitsuhiko/rstblog"
-  license: "BSD"
-
-
-- name: "RubyFrontier"
-  github: "mattneub/RubyFrontier"
-  license: "MIT"
-  website: "http://www.apeth.com/RubyFrontierDocs/default.html"
-
-
-- name: "Ruhoh"
-  github: "ruhoh/ruhoh.rb"
-  license: "MIT"
-  website: "http://ruhoh.com/"
-
-
-# S
-
-#- name: "Scotch"
-#  github: "techwraith/scotch"
-#  license: "MIT"
-# ^ not a ssg
-
-
-# - name: "scms - shell cms"
-#   github: "djura-san/scripts"
-#   license: "Public"
-#   website: "http://www.lab21.net/pub/softver/sh/scms"
-#   language: "Shell"
-#   description: "Small static website generator with imbedded markdown support. It is focused on lowering the i/o stream on discs"
-#   created_at: "2011-07-22T00:47:18Z"
-# ^ This needs a proper website, or proper github repository
-
-
-- name: "Scriptogr.am"
-  license: "Commercial"
-  website: "http://scriptogr.am/"
-  language: "Web"
-
-
-- name: "sg.py"
-  github: "venthur/sg"
-  license: "GPL"
-  description: "A small, static website generator written in Python"
-  created_at: "2010-07-25T00:00:00Z"
-
-
-- name: "shelob"
-  github: "rubyworks/shelob"
-  license: "BSD"
-
-
-- name: "Simiki"
-  github: "tankywoo/simiki"
-  license: "MIT"
-  website: "http://simiki.org/"
-  description: "Simiki is a simple wiki framework, written in Python."
-  language: "Python"
-
-
-- name: "Sitebox.io"
-  license: "Commercial"
-  website: "http://www.sitebox.io"
-  description: "New and intuitive way to create websites with dropbox"
-  language: "Web"
-
-
-- name: "Site builder console"
-  license: "MIT"
-  website: "http://sitebuilder.codeplex.com/"
-  language: "C#"
-
-
-- name: "Site builder"
-  github: "inanimatt/site-builder"
-  license: "MIT"
-
-
-- name: "Site44"
-  license: "Commercial"
-  website: "http://www.site44.com/"
-  language: "Web"
-
-
-- name: "Sculpin"
-  github: "sculpin/sculpin"
-  license: "MIT"
-  website: "https://sculpin.io/"
-
-
-- name: "Serve"
-  github: "jlong/serve"
-  license: "MIT"
-  website: "http://get-serve.com/"
-
-
-- name: "Second Crack"
-  github: "marcoarment/secondcrack"
-  license: "BSD"
-  # website: "https://marco.org/secondcrack" 404 error on 2016/01/04
-
-
-- name: "serif"
-  github: "aprescott/serif"
-  license: "MIT"
-
-
-- name: "serious-chicken"
-  github: "rtorr/serious-chicken"
-  license: "MIT"
-  website: "http://rtorr.github.io/serious-chicken/"
-
-
-- name: "Shonku"
-  github: "kushaldas/shonku"
-  license: "GPL"
-  website: "http://shonku.readthedocs.io/en/latest/"
-  language: "Go"
-
-
-- name: "SG"
-  github: "maxailloud/SG"
-  license: "Public"
-
-
-- name: "simple-static"
-  github: "wlangstroth/simple-static"
-  license: false
-
-
-- name: "simsalabash"
-  github: "markusfisch/simsalabash"
-  license: "MIT"
-  language: "Shell"
-  description: "Hypertext mechanics in BASH"
-
-
-- name: "sitegen"
-  github: "leafo/sitegen"
-  license: "MIT" # mentioned at https://github.com/leafo/sitegen/blob/4969490093c413d9b6ccd285f463cd09206dd630/sitegen-dev-1.rockspec#L12
-
-
-- name: "SiteGen"
-  github: "MikeMitterer/dart-sitegen"
-  license: "Apache"
-  language: "Dart"
-  description: "Sitegenerator for Dart"
-  website: "https://pub.dartlang.org/packages/sitegen"
-
-
-- name: "Smallest Blogger"
-  github: "ranmocy/smallest-blogger"
-  license: "MIT"
-
-
-- name: "snowshoe"
-  github: "edvanbeinum/snowshoe"
-  license: false
-  website: "https://github.com/edvanbeinum/snowshoe"
-
-
-- name: "Soapbox"
-  github: "arnolddevos/Soapbox"
-  license: "BSD"
-  language: "Scala"
-  description: "Static site generator as an SBT plugin"
-
-
-- name: "Socrates"
-  github: "honza/socrates"
-  license: "BSD"
-  website: "http://honza.ca/socrates/"
-
-
-- name: "Speechhub"
-  github: "python-mg/speechhub"
-  license: "GPL"
-
-
-- name: "Spike"
-  github: "static-dev/spike"
-  license: "MIT"
-  website: "https://spike.readme.io"
-  language: "JavaScript"
-  description: "A modern static build tool, powered by webpack"
-
-
-- name: "Spine"
-  github: "varl/spine"
-  license: "Apache"
-  website: false  # do not use "http://www.vlv.io/", it is not the website for this
-  language: "Java"
-  description: "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
-
-- name: "Spina"
-  github: "denkGroot/Spina"
-  license: "MIT"
-  language: "Ruby"
-  website: "http://www.spinacms.com"
-
-- name: "Spring Board"
-  github: "htaidirt/SpringBoard"
-  language: "JavaScript"
-  license: "MIT"
-
-
-- name: "Sphinx"
-  license: "BSD"
-  github: "sphinx-doc/sphinx"
-  website: "http://www.sphinx-doc.org/en/stable/"
-  language: "Python"
-  description: "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
-
-
-- name: "Squid"
-  github: "geekforbrains/squid"
-  language: "Python"
-
-
-- name: "Stacey"
-  github: "kolber/stacey"
-  license: "MIT"
-  website: "http://staceyapp.com/"
-
-
-- name: "Stadø"
-  github: "lecnim/stado"
-  license: "MIT"
-  website: "http://stadoproject.org/"
-  language: "Python"
-  description: "Stado is a simple, single-file, static site generator, powered by python scripts."
-
-
-- name: "StaGen"
-  github: "wiztools/stagen"
-  license: "Apache"
-  language: "Java"
-  description: "StaGen supports Markdown, StringTemplate 4 and JSON. From the house of WizTools.org."
-
-
-- name: "Stasis.clj"
-  github: "magnars/stasis"
-  license: "EPL"
-  language: "Clojure"
-  description: "A Clojure library of tools for developing static web sites."
-
-
-- name: "Statamic"
-  license: "Commercial"
-  website: "https://statamic.com/"
-  language: "PHP"
-  description: "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
-
-
-- name: "static"
-  github: "nakkaya/static"
-  license: "EPL"
-  website: "http://nakkaya.com/static.html"
-
-
-- name: "static-io"
-  github: "CosminAnca/static-io"
-  licence: "MIT"
-
-
-- name: "staticjinja"
-  github: "Ceasar/staticjinja"
-  license: "MIT"
-
-
-- name: "staticpress"
-  github: "ravinggenius/staticpress"
-  license: "MIT"
-  language: "Ruby"
-  description: "Staticpress is a blog-focused static site generator"
-
-
-- name: "staticsite"
-  github: "trevorc/staticsite"
-  license: "BSD"
-  language: "Haskell"
-  description: "publishes a static site to s3"
-  created_at: "2012-07-12T19:55:23Z"
-
-
-#- name: "StaticMate"
-#  license: "Commercial"
-#  website: "http://staticmate.com/"
-#  language: "Web"
-# ^ Website down
-
-
-- name: "Staticsmoothie"
-  license: "MIT"
-  website: "https://github.com/johannesboyne/go_lab/tree/master/staticsmoothie"
-  language: "Go"
-
-
-- name: "StaticMatic"
-  github: "staticmatic/staticmatic"
-  license: "MIT"
-
-
-- name: "StaticMatic2"
-  github: "mindeavor/staticmatic2"
-  license: "MIT"
-
-
-#- name: "StaticWeb"
-#  license: "Ruby"
-#  website: "http://staticweb.rubyforge.org/"
-#  language: "Ruby"
-# ^ Returns a 404. No backup repo found.
-
-- name: "Statik"
-  license: "MIT"
-  github: "thanethomson/statik"
-  language: "Python"
-  description: "A generic static site generator aimed at developers (Python 3 + SQLAlchemy + Jinja2)"
-
-
-- name: "Statix"
-  github: "ff0000/statix"
-  license: "MIT"
-
-- name: "Statix"
-  license: "Public"
-  language: "Shell"
-  website: "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e"
-
-- name: "Stog"
-  github: "zoggy/stog"
-  license: "GPL"
-  website: "http://zoggy.github.io/stog/"
-  language: "OCaml"
-
-
-- name: "StrangeCase"
-  github: "colinta/StrangeCase"
-  license: "BSD"
-  website: "http://colinta.com/projects/StrangeCase.html"
-
-
-- name: "SSC"
-  github: "kaw2k/static-site-compiler"
-  license: "BSD"
-  language: "JavaScript"
-  website: "https://kaw2k.github.io/ssc-start/"
-
-
-#- name: "Superstatic"
-#  github: "divshot/superstatic"
-#  license: "MIT"
-#  language: "JavaScript"
-#  description: "Static web server with custom routing and more."
-# ^ SuperStatic is a web server, not a static site generator.
-
-
-#- name: "Syte"
-#  github: "rigoneri/syte"
-#  license: "MIT"
-# ^ not a ssg but a skeleton/theme
-
-
-#- name: "SW"
-#  license: false
-#  website: "http://nibble.develsec.org/projects/sw.html"
-# ^ not a ssg
-
-
-- name: "SWG"
-  github: "evilsocket/SWG"
-  language: "Python"
-  license: "GPL"
-  website: "http://pythonhosted.org/swg/"
-
-
-- name: "SWSG"
-  github: "derdon/swsg"
-  language: "Python"
-  license: "Public"
-  website: "http://derdon.github.io/swsg/"
-
-
-# T
-
-- name: "Tahchee"
-  github: "sebastien/tahchee"
-  license: "BSD"
-
-
-- name: "Tarbell"
-  github: "tarbell-project/tarbell"
-  license: "MIT"
-  website: "http://www.tarbell.io/"
-
-
-- name: "tclog"
-  license: "BSD"
-  website: "http://wiki.tcl.tk/9148"
-  language: "Tcl"
-  description: "Weblog generator with a GUI editor. Uploads entries via FTP. Features: RSS 1.0, HTML templates, TrackBack, wiki-like formatting, Namazu index creation."
-  created_at: "2003-03-17T00:00:00Z"
-
-
-- name: "Tclssg"
-  github: "tclssg/tclssg"
-  license: "MIT"
-  language: "Tcl"
-  description: "Tclssg is a static site generator written in Tcl that uses Markdown for content markup and HTML with embedded Tcl code for page templates."
-
-
-- name: "Teddy Hyde"
-  github: "xrd/TeddyHyde"
-  license: "MIT"
-#  website: "https://teddyhyde.com" - no longer exists
-  language: "Ruby"
-
-
-#- name: "Telegram"
-#  license: "Commercial"
-#  website: "https://telegr.am/"
-#  language: "Web"
-# Curl::Err::SSLConnectError: SSL connect error
-
-
-- name: "Tempo"
-  github: "catnapgames/Tempo"
-  license: "MIT"
-
-
-- name: "Thot"
-  github: "wmark/thot"
-  language: "Python"
-
-
-- name: "Tinkerer"
-  github: "vladris/tinkerer"
-  license: "BSD"
-  website: "http://tinkerer.me/"
-  language: "Python"
-  description: "Tinkerer is a blogging engine/static website generator powered by Sphinx."
-
-
-- name: "toto"
-  github: "cloudhead/toto"
-  license: "MIT"
-
-
-- name: "Tribo"
-  github: "CarterA/Tribo"
-  language: "Objective-C"
-
-
-- name: "trofaf"
-  github: "PuerkitoBio/trofaf"
-  license: "BSD"
-
-
-# U
-
-- name: "Ultra simple Site Maker"
-  license: "GPL"
-  website: "http://loup-vaillant.fr/projects/ussm/"
-  language: "Shell"
-
-
-- name: "Urubu"
-  github: "jandecaluwe/urubu"
-  license: "GPL"
-  website: "http://urubu.jandecaluwe.com"
-  language: "Python"
-
-
-- name: "Utterson"
-  github: "pepijndevos/utterson"
-  language: "Clojure"
-  website: "https://github.com/pepijndevos/utterson"
-
-
-# V
-
-- name: "vee"
-  github: "estrabd/vee"
-  license: "BSD"
-  website: "http://estrabd.github.io/vee/"
-  language: "Shell"
-  description: "vee is a highly portable across minimal *nix systems (including MacOSX), zero dependency, zero configuration (but configurable), commandline microblogging tool. Also provides a batch interface for piping to (e.g., output from cronjobs)."
-
-
-- name: "vimwiki"
-  github: "vimwiki/vimwiki"
-  website: "http://vimwiki.github.io/"
-  license: "MIT"
-
-
-- name: "VoodooPad"
-  license: "Commercial"
-  website: "https://plausible.coop/voodoopad/"
-  language: "App"
-  description: "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
-
-
-- name: "Voldemort"
-  github: "semk/voldemort"
-  license: "Apache"
-
-
-#- name: "Volo"
-#  github: "volojs/volo"
-#  license: "MIT"
-# ^ not a ssg
-
-
-- name: "volt"
-  github: "bow/volt"
-  license: "BSD"
-  website: ""
-
-
-# W
-
-- name: "wadoo"
-  github: "alpacaaa/wadoo"
-  license: "Public"
-
-
-- name: "Wanna"
-  github: "shaoshuai0102/wanna"
-  license: false
-
-
-- name: "Webby"
-  github: "TwP/webby"
-  license: "MIT"
-  website: false
-
-
-#- name: "Webber"
-#  license: "GPL"
-#  website: "https://gitorious.org/webber"
-#  language: "Python"
-# gitorious is down
-
-
-- name: "webgen"
-  github: "gettalong/webgen"
-  license: "GPL"
-  website: "http://webgen.gettalong.org/"
-
-
-- name: "webgen"
-  github: "janpecha/webgen"
-  license: "BSD"
-  language: "PHP"
-
-
-- name: "Webhook"
-  github: "webhook/webhook"
-  license: "MIT"
-  website: "http://www.webhook.com"
-  language: "JavaScript"
-
-
-- name: "Website Meta Language"
-  license: "GPL"
-  website: "http://www.thewml.org/"
-  language: "Perl"
-  defunct: true
-
-
-- name: "Websleydale"
-  github: "kalgynirae/websleydale"
-  language: "Python"
-  license: "MIT"
-
-
-- name: "Wheat"
-  github: "creationix/wheat"
-  license: "MIT"
-
-
-- name: "Wintersmith"
-  github: "jnordberg/wintersmith"
-  license: "MIT"
-  website: "http://wintersmith.io/"
-
-
-- name: "wok"
-  github: "mythmon/wok"
-  license: "MIT"
-
-
-- name: "Woods"
-  github: "studiomoniker/woods"
-  license: "MIT"
-
-
-# Y
-
-- name: "yassg"
-  github: "sma/yassg"
-  license: "BSD"
-#  website: "https://www.npmjs.com/package/yassg" # 404 response, Nov/30/14
-
-
-#- name: "Yeoman"
-#  github: "yeoman/yeoman"
-#  license: "BSD"
-# ^ not a ssg
-
-
-- name: "Yggdrasil"
-  website: "http://www.psyke.org/yggdrasil/"
-  language: "Perl"
-  license: "GPL"
-
-
-- name: "yst"
-  github: "jgm/yst"
-  license: "GPL"
-  language: "Haskell"
-  description: "uses Pandoc library"
-
-
-# Z
-
-- name: "zas"
-  github: "imdario/zas"
-  license: "GPL"
-  language: "Go"
-  description: "Most. Zen. Static. Website. Generator. Ever."
-
-
-- name: "ZenWeb"
-  github: "seattlerb/zenweb"
-  license: "MIT"
-  website: "http://www.zenspider.com/projects/zenweb.html"
-
-
-- name: "ZZBlogX"
-  website: "http://www.dmemos.de/ZZBlogX/"
-  language: "newLISP"
-  license: "GPL"
-
-
-- name: "kkr"
-  github: "dchest/kkr"
-  license: "BSD"
-  language: "Go"
-
-
-- name: "nodeache"
-  github: "nunull/nodeache"
-  license: "MIT"
-  language: "JavaScript"
-  website: "https://www.npmjs.com/package/nodeache"
-
-
-- name: "Spress"
-  github: "spress/Spress"
-  license: "MIT"
-  website: "http://spress.yosymfony.com/"
-  language: "PHP"
-
-
-- name: "liquidluck"
-  github: "avelino/liquidluck"
-  license: "BSD"
-  website: "http://www.avelino.xxx/liquidluck/"
-  language: "Python"
-
-
-- name: "PHPoole"
-  github: "Narno/PHPoole"
-  license: "MIT"
-  website: "http://phpoole.org"
-  language: "PHP"
-  description: "Light and easy static website generator written in PHP"
-  created_at: "2013-09-10T00:00:00Z"
-
-
-- name: "Nico"
-  github: "lepture/nico"
-  license: "BSD"
-  website: "http://lab.lepture.com/nico/"
-  language: "JavaScript"
-
-
-- name: "Tacot"
-  license: "MIT"
-  website: "https://bitbucket.org/harobed/tacot"
-  language: "Python"
-
-
-- name: "SPG"
-  github: "AdamBien/spg"
-  license: "Apache"
-  language: "JavaScript"
-  description: "One file, no dependencies, only requires Java 8"
-
-
-- name: "electro"
-  github: "caldwell/electro"
-  license: false
-  language: "Perl"
-  description: "One file, uses yaml for structure of site, Template::Toolkit for HTML"
-
-
-- name: "jssg"
-  github: "agrison/jssg"
-  license: "MIT"
-  language: "Java"
-  description: "Java static site generator"
-
-
-- name: "wordsister"
-  github: "kaihendry/wordsister"
-  license: "MIT"
-  language: "Make"
-  description: "Makefile based static site generator"
-
-
-#- name: "assg"
-#  github: "lukasepple/assg"
-#  license: "GPL"
-#  language: "Shell"
-#  description: "awesome markdown based static site generator"
-# ^ 404 response, Nov/30/14
-
-
-- name: "deplate"
-  github: "tomtom/deplate"
-  license: "GPL"
-  website: "http://deplate.sourceforge.net/"
-  language: "Ruby"
-  description: "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
-
-
-- name: "Yellow"
-  github: "datenstrom/yellow"
-  license: "GPL"
-  website: "http://datenstrom.se/yellow/"
-  language: "PHP"
-
-
-- name: "Wikismith"
-  github: "wikismith/wikismith"
-  license: "MIT"
-#  website: "http://www.wikismith.com" looks like domain was not renewed
-  language: "JavaScript"
-  description: "The fun static site generator for fans of gulp and bower"
-
-
-- name: "OpooPress"
-  github: "opoo/opoopress"
-  license: "Apache"
-  website: "http://www.opoopress.com"
-  language: "Java"
-  description: "OpooPress blogging framework is a java based blog aware static site generator."
-
-
-- name: "sortastatic"
-  github: "haldean/sortastatic"
-  license: "BSD"
-  language: "Go"
-
-
-- name: "Jekyde"
-  github: "zohooo/jekyde"
-  license: "MIT" # mentioned at https://github.com/zohooo/jekyde/blob/f68d91b80be27427d4998ab7a3283308f76d622c/package.json#L5
-  language: "JavaScript"
-  website: "http://zohooo.github.io/jekyde/"
-
-
-- name: "simple-website"
-  github: "alexanderteinum/simple-website"
-  license: "BSD"
-  language: "Go"
-
-
-- name: "Stacktic"
-  github: "stackticjs/stacktic"
-  license: "MIT"
-  website: "http://stackticjs.github.io/stacktic/"
-  language: "CoffeeScript"
-
-
-- name: "Bramble MVC"
-  github: "iansullivan88/bramble-mvc"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "Yana"
-  github: "dariubs/yana"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "Balloon"
-  github: "gschier/balloon"
-  license: "ISC" # mentioned at https://github.com/gschier/balloon/blob/bd3ea28ee8c6f0f87604407e940afe48cb5f2c14/package.json#L13
-  language: "JavaScript"
-
-
-- name: "obelisk"
-  github: "BennyHallett/obelisk"
-  license: "MIT"
-  language: "Elixir"
-
-
-- name: "Harmonic"
-  github: "JSRocksHQ/harmonic"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "static2000"
-  github: "judas-christ/static2000"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "statics"
-  github: "Tiendil/statics"
-  license: "BSD"
-  language: "Python"
-
-
-- name: "Beetle"
-  github: "cknv/beetle"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "habit"
-  github: "punkave/habit"
-  license: "MIT" # mentioned at https://github.com/punkave/habit/blob/10f44274525e29885fe4a30ad521d7882c010a91/package.json#L18
-  language: "Python"
-
-
-- name: "staticpy"
-  github: "toddsifleet/staticpy"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "nanogen"
-  github: "epochblue/nanogen"
-  license: "MIT"
-  language: "Python"
-
-
-- name: "stratic"
-  github: "jaubourg/stratic"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "lettersmith"
-  github: "gordonbrander/lettersmith"
-  license: false
-  language: "Lua"
-
-
-- name: "zodiac"
-  github: "nuex/zodiac"
-  license: "MIT"
-  language: "Awk"
-
-
-- name: "Bryar"
-  license: "Perl"
-  website: "https://metacpan.org/pod/Bryar::Frontend::Static"
-  language: "Perl"
-
-
-- name: "Papery"
-  license: "Perl"
-  website: "https://metacpan.org/pod/Papery"
-  language: "Perl"
-
-
-- name: "Quietly Confident"
-  license: "Perl"
-  website: "http://search.cpan.org/dist/Quietly-Confident/qc.pod"
-  language: "Perl"
-
-
-- name: "StaticVolt"
-  license: "Perl"
-  website: "https://metacpan.org/pod/StaticVolt"
-  language: "Perl"
-
-
-- name: "Statocles"
-  license: "Perl"
-  github: "preaction/Statocles"
-  website: "http://preaction.github.io/Statocles/"
-  language: "Perl"
-
-
-- name: "Templer"
-  github: "skx/templer"
-  license: "Perl"  # dual-licensed with Perl Aristic
-  language: "Perl"
-
-
-- name: "Zucchini"
-  license: "Perl"
-  website: "https://metacpan.org/pod/Zucchini"
-  language: "Perl"
-
-
-- name: "Cloud Cannon"
-  license: "Commercial"
-  website: "http://cloudcannon.com/"
-  language: "Web"
-
-
-#- name: "Yoozon"
-#  license: "Commercial"
-#  website: "http://www.yoozon.com/"
-#  language: "Web"
-
-
-- name: "Luapress"
-  github: "Fizzadar/Luapress"
-  license: "MIT"
-  language: "Lua"
-
-
-- name: "ipsum genera"
-  github: "dom96/ipsumgenera"
-  license: "MIT"
-  language: "Nimrod"
-
-
-- name: "Broccoli Taco"
-  github: "moudy/broccoli-taco"
-  license: "MIT"
-  website: "http://broccoli-taco.com/"
-  language: "JavaScript"
-
-
-- name: "BAM"
-  github: "twilson63/bam"
-  license: "MIT"
-  website: "https://www.npmjs.com/package/bam"
-  language: "JavaScript"
-
-
-- name: "Genesis"
-  github: "samstefan/genesis"
-  license: false
-  language: "JavaScript"
-
-
-- name: "gulp-ssg"
-  github: "paulwib/gulp-ssg"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Static site generator plugin for gulp"
-
-
-- name: "Techy"
-  github: "krasimir/techy"
-  license: "MIT"
-  website: "http://krasimir.github.io/techy/"
-  language: "JavaScript"
-
-
-- name: "Szyslak"
-  github: "ido50/Szyslak"
-  license: "GPL"
-  language: "JavaScript"
-
-
-- name: "Susi"
-  github: "AVGP/susi"
-  license: "ISC"
-  language: "JavaScript"
-
-
-- name: "node-qssg"
-  github: "shanewholloway/node-qssg"
-  license: "MIT"
-  language: "CoffeeScript"
-
-
-- name: "Propeller"
-  github: "thegreatsunra/propeller"
-  license: "MIT"
-  # website: "http://propellerjs.com"  404 on 2016-01-14
-  language: "JavaScript"
-
-
-- name: "Blogen"
-  github: "ipconfiger/blogen"
-  license: "GPL"
-  language: "Python"
-
-
-- name: "Carew"
-  github: "carew/carew"
-  license: "MIT"
-  website: "http://carew.github.io/"
-  language: "JavaScript"
-
-
-- name: "Tags"
-  github: "braceio/tags"
-  license: "MIT"
-  # website: "http://tags.brace.io/"
-  # ^ 404 on March 12 2015
-  language: "Python"
-
-
-- name: "Squirrel"
-  github: "nickpetty/squirrel"
-  license: "CC"
-  language: "Python"
-
-
-- name: "Striker"
-  github: "swaroopsm/striker"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "Stasis"
-  github: "winton/stasis"
-  license: "MIT"
-  # website: "http://stasis.me/"
-  language: "Ruby"
-
-
-- name: "Simple"
-  github: "isnowfy/simple"
-  license: "MIT"
-  website: "http://isnowfy.github.io/simple/"
-  language: "JavaScript"
-  description: "Simple is a static blog generator with a single static page. You can write you blog online, and it will generate static html files at your repo named username.github.io which is supported by github pages."
-
-
-- name: "SGG"
-  github: "Charlesworth/SSG"
-  license: false
-  language: "Ruby"
-
-
-- name: "Lenscap"
-  github: "honza/lenscap"
-  license: "BSD"
-  language: "Python"
-
-
-- name: "lava"
-  github: "johannhof/lava"
-  license: "MIT"
-  language: "Rust"
-
-
-- name: "cobalt.rs"
-  github: "cobalt-org/cobalt.rs"
-  license: "MIT"
-  language: "Rust"
-
-
-- name: "larassg"
-  github: "andygwood/larassg"
-  license: false
-  language: "PHP"
-
-
-# - name: "LeafMeStatic"
-#   github: "yqw/LeafMeStatic"
-#   license: false
-#   website: "http://yqw.github.io/LeafMeStatic/"
-#   language: "PHP"
-# ^ 404
-
-- name: "Static-weber"
-  github: "xorpd/static_weber"
-  license: "GPL"
-  language: "Python"
-
-
-- name: "Jekytrum"
-  github: "georgeOsdDev/jekytrum"
-  license: false
-  language: "Scala"
-
-
-- name: "Shire"
-  github: "sangupta/shire"
-  license: "Apache"
-  language: "Java"
-
-
-- name: "PowerSite"
-  github: "Jaykul/PowerSite"
-  license: false
-  language: "C#"
-
-
-# - name: "Mallet"
-#   github: "mattconde/Mallet"
-#   license: false
-#   language: "Go"
-# ^ 404 on March 12, 2015: https://travis-ci.org/jaspervdj/static-site-generator-comparison/builds/54068198
-
-
-- name: "Orca"
-  github: "andyshuxin/orca"
-  license: false
-  language: "Python"
-
-
-- name: "DSW"
-  github: "dan62f/dsw"
-  license: false
-  language: "Shell"
-
-
-- name: "PMBlog"
-  github: "lizheming/PMBlog"
-  license: false
-  language: "PHP"
-
-
-- name: "Static Website Starter Kit"
-  github: "kriasoft/static-site-starter"
-  license: "Apache"
-  language: "JavaScript"
-
-
-- name: "Gustav"
-  github: "futape/gustav"
-  license: "BSD"
-  website: "https://github.com/futape/gustav"
-  language: "PHP"
-
-
-- name: "Wallflower"
-  github: "book/App-Wallflower"
-  license: "Perl"
-  website: "https://metacpan.org/pod/wallflower"
-  language: "Perl"
-
-
-- name: "Yozuch"
-  github: "akrylysov/yozuch"
-  license: "BSD"
-  website: "http://yozuch.krylysov.com/"
-  language: "Python"
-
-
-- name: "HubPress"
-  github: "HubPress/hubpress.io"
-  license: "MIT"
-  website: "http://hubpress.io/"
-  language: "JavaScript"
-
-
-- name: "Riji"
-  github: "Songmu/p5-Riji"
-  license: "Perl"
-  website: "http://songmu.github.io/p5-Riji/blog/"
-  language: "Perl"
-
-
-- name: "Vegetables"
-  github: "partageit/vegetables"
-  license: "MIT"
-  website: "http://partageit.github.io/vegetables/"
-  language: "JavaScript"
-
-
-- name: "Wyam"
-  github: "Wyamio/Wyam"
-  license: "MIT"
-  website: "http://wyam.io"
-  language: "C#"
-
-
-- name: "Griffin"
-  github: "pawandubey/griffin"
-  license: "Apache"
-  language: "Java"
-
-
-- name: "Refrain"
-  github: "shootaroo/refrain"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: 'Text Assembler'
-  website: 'http://www.akiwi.co.uk/ta.html'
-  license: 'Commercial'
-  language: 'JavaScript'
-  description: 'A static website generator written in C++ integrating the Google V8 Javascript engine'
-
-
-- name: 'Silex'
-  github: "silexlabs/Silex"
-  website: 'http://www.silex.me'
-  license: 'GPL'
-  language: 'JavaScript'
-
-
-- name: 'Weaver'
-  github: "davidsiaw/weaver"
-  website: 'http://davidsiaw.github.io/weaver-docs/'
-  license: 'MIT'
-  language: 'Ruby'
-
-
-- name: "Phenomic"
-  github: "MoOx/phenomic"
-  website: "https://phenomic.io/"
-  license: "MIT"
-  language: "JavaScript"
-  description: "Modern static website generator to create dynamic websites using React components"
-
-
-- name: "react-static-site"
-  github: "BradDenver/react-static-site"
-  license: false
-  language: "JavaScript"
-
-
-- name: "antwar"
-  github: "antwarjs/antwar"
-  website: "http://antwarjs.github.io/"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "reacat"
-  github: "reacat/reacat"
-  website: "http://reacat.com/"
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "react-static"
-  github: "rpearce/react-static"
-  # website: "http://robertwpearce.com/react-static/"
-  # ^ 404 on 2016-03-21
-  license: "MIT"
-  language: "JavaScript"
-
-
-- name: "reactivate"
-  github: "azmenak/reactivate"
-  license: "MPL"
-  language: "JavaScript"
-
-
-- name: "Tagy"
-  github: "melnikov-ivan/tagy"
-  license: "MIT"
-  language: "Python"
-  description: "Fully customizable structure and any params"
-
-
-- name: "s2gen"
-  github: "denisftw/s2gen"
-  website: "http://appliedscala.com/s2gen/"
-  license: "MIT"
-  language: "Scala"
-  description: "A simple Scala-based generator that uses Markdown and Freemarker"
+[
+  {
+    "name": "ABlog",
+    "github": "abakan/ablog",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Ace",
+    "github": "botanicus/ace",
+    "license": "MIT",
+    "language": "Ruby",
+    "description": "Ace is a powerful tool designed to easily generate even complex web sites."
+  },
+  {
+    "name": "acrylamid",
+    "github": "posativ/acrylamid",
+    "license": "BSD-2-Clause",
+    "website": "https://posativ.org/acrylamid/",
+    "language": "Python",
+    "description": "Static blog generator in python with incremental rendering"
+  },
+  {
+    "name": "AkashaCMS",
+    "github": "akashacms/akashacms",
+    "website": "http://akashacms.com",
+    "language": "JavaScript",
+    "description": "AkashaCMS is a flexible, powerful, content management system and static site generator written in Node.js"
+  },
+  {
+    "name": "Akashic",
+    "github": "Liutos/cl-github-page",
+    "language": "Common Lisp"
+  },
+  {
+    "name": "antwar",
+    "github": "antwarjs/antwar",
+    "website": "http://antwarjs.github.io/",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Appernetic",
+    "license": false,
+    "website": "https://appernetic.io/",
+    "language": "Web",
+    "description": "A Static Site Generator as a Service. Appernetic is a web service for managing and generating static content for GitHub Pages.",
+    "created_at": "2016-01-20T15:46:08Z"
+  },
+  {
+    "name": "assemble",
+    "github": "assemble/assemble",
+    "license": "MIT",
+    "website": "http://assemble.io/",
+    "language": "JavaScript",
+    "description": "Static site generator for Grunt.js and Yeoman. Assemble makes it dead simple to build modular sites, blogs, gh-pages, components and documentation from reusable templates and data."
+  },
+  {
+    "name": "Asteroid",
+    "github": "cesarparent/Asteroid",
+    "license": "MIT",
+    "language": "PHP",
+    "description": "A simple php-powered, Markdown static blog engine."
+  },
+  {
+    "name": "Automad",
+    "license": "MIT",
+    "website": "http://automad.org/",
+    "language": "PHP",
+    "description": "Automad is a file-based CMS and template engine. It is designed to be fully portable without any dependencies on databases or fixed locations and doesn't require any complicated setup process."
+  },
+  {
+    "name": "awestruct",
+    "github": "awestruct/awestruct",
+    "license": "MIT",
+    "website": "http://awestruct.org/",
+    "language": "Ruby",
+    "description": "Awestruct is a framework for creating static HTML sites, inspired by the Jekyll utility in the same genre."
+  },
+  {
+    "name": "AYM CMS",
+    "github": "lethain/aym-cms",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "baker",
+    "github": "taylorchu/baker",
+    "license": "GPL-2.0",
+    "language": "Shell",
+    "description": "the real static blog generator in bash"
+  },
+  {
+    "name": "Balloon",
+    "github": "gschier/balloon",
+    "license": "ISC",
+    "language": "JavaScript"
+  },
+  {
+    "name": "BAM",
+    "github": "twilson63/bam",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "bashblog",
+    "github": "cfenollosa/bashblog",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "bazinga",
+    "github": "ap0calypse/bazinga",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "Beetle",
+    "github": "cknv/beetle",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Benjen",
+    "github": "daeken/Benjen",
+    "license": "WTFPL"
+  },
+  {
+    "name": "BitBalloon",
+    "license": false,
+    "website": "https://www.bitballoon.com/",
+    "language": "Web",
+    "description": "A hosting platform for your static sites & apps"
+  },
+  {
+    "name": "Blacksmith",
+    "github": "flatiron/blacksmith",
+    "license": "MIT"
+  },
+  {
+    "name": "Blatter",
+    "license": "MIT",
+    "website": "https://bitbucket.org/jek/blatter",
+    "language": "Python",
+    "description": "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates."
+  },
+  {
+    "name": "BlazeBlogger",
+    "website": "http://blaze.blackened.cz/",
+    "license": "GPL-3.0",
+    "language": "Perl"
+  },
+  {
+    "name": "Blode",
+    "github": "stackoverflow/blode"
+  },
+  {
+    "name": "blogc",
+    "github": "blogc/blogc",
+    "license": "BSD-3-Clause",
+    "website": "https://blogc.rgm.io",
+    "language": "C",
+    "description": "blogc is a blog compiler."
+  },
+  {
+    "name": "blogc++",
+    "license": "WTFPL",
+    "language": "C++",
+    "website": "https://bitbucket.org/tux_/blogcpp",
+    "description": "Just another static blog generator, written in C++17."
+  },
+  {
+    "name": "Blogen",
+    "github": "ipconfiger/blogen",
+    "language": "Python"
+  },
+  {
+    "name": "blogit",
+    "github": "oz123/blogit",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "description": "A simple static site generator with markdown and Jinja2 templates, with incremental builds"
+  },
+  {
+    "name": "Blogofile",
+    "github": "EnigmaCurry/blogofile",
+    "license": "MIT"
+  },
+  {
+    "name": "blogpy",
+    "github": "travisred/blogpy",
+    "license": "GPL-3.0",
+    "language": "Python"
+  },
+  {
+    "name": "blosxom",
+    "license": "MIT",
+    "website": "http://blosxom.sourceforge.net/",
+    "language": "Perl",
+    "description": "Blosxom (pronounced blossom) is a lightweight yet feature-packed weblog application designed from the ground up with simplicity, usability, and interoperability in mind.",
+    "created_at": "2002-02-28T00:00:00Z"
+  },
+  {
+    "name": "Blug",
+    "github": "jeffknupp/blug",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Bolt",
+    "github": "benmcredmond/Bolt",
+    "license": "MIT",
+    "language": "Ruby",
+    "website": "https://github.com/benmcredmond/Bolt"
+  },
+  {
+    "name": "Bonsai",
+    "github": "benschwarz/bonsai",
+    "license": "MIT",
+    "website": "http://tinytree.info/"
+  },
+  {
+    "name": "Bramble MVC",
+    "github": "iansullivan88/bramble-mvc",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Bread",
+    "github": "pvorb/node-bread",
+    "license": "MIT"
+  },
+  {
+    "name": "Bricolage CMS",
+    "github": "bricoleurs/bricolage",
+    "website": "http://bricolagecms.org/",
+    "language": "Perl",
+    "description": "Bricolage is an open-source, enterprise-class content management, workflow, and publishing system that greatly simplifies the tasks of creating, managing, and publishing vast libraries of content."
+  },
+  {
+    "name": "Broccoli Taco",
+    "github": "moudy/broccoli-taco",
+    "license": "MIT",
+    "website": "http://broccoli-taco.com/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "brochure",
+    "github": "sstephenson/brochure",
+    "license": "MIT"
+  },
+  {
+    "name": "Bryar",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/Bryar::Frontend::Static",
+    "language": "Perl"
+  },
+  {
+    "name": "buster",
+    "github": "axitkhurana/buster",
+    "license": "MIT"
+  },
+  {
+    "name": "Cabin",
+    "github": "CabinJS/Cabin",
+    "license": "MIT",
+    "website": "http://www.cabinjs.com/"
+  },
+  {
+    "name": "Cactus",
+    "github": "eudicots/Cactus",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Calepin",
+    "github": "jokull/calepin",
+    "license": "ISC",
+    "website": "http://calepin.co/"
+  },
+  {
+    "name": "Carew",
+    "github": "carew/carew",
+    "license": "MIT",
+    "website": "http://carew.github.io/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "catsup",
+    "github": "whtsky/Catsup",
+    "license": "MIT",
+    "website": "https://catsup.readthedocs.io/en/latest/"
+  },
+  {
+    "name": "Chili",
+    "github": "clvrobj/chili",
+    "license": "MIT"
+  },
+  {
+    "name": "Chisel",
+    "github": "dz/chisel",
+    "license": "MIT"
+  },
+  {
+    "name": "Chronicle",
+    "github": "skx/chronicle2",
+    "license": "(GPL-3.0 OR Artistic-1.0-Perl)",
+    "website": "https://steve.fi/Software/chronicle/",
+    "language": "Perl",
+    "description": "A simple blog compiler, written in Perl with minimal dependencies."
+  },
+  {
+    "name": "Cipherpress",
+    "github": "lejonet/Cipherpress",
+    "license": "GPL-2.0"
+  },
+  {
+    "name": "cl-blog-generator",
+    "github": "hugoduncan/cl-blog-generator",
+    "license": "BSD-2-Clause",
+    "language": "Common Lisp",
+    "website": "http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml"
+  },
+  {
+    "name": "Cloud Cannon",
+    "license": false,
+    "website": "http://cloudcannon.com/",
+    "language": "Web"
+  },
+  {
+    "name": "CMX.js",
+    "github": "bullpizzle/cmx.js",
+    "license": "MIT",
+    "language": "JavaScript",
+    "website": "http://cmxjs.byronlk.net",
+    "description": "A completely client-side CMS."
+  },
+  {
+    "name": "cobalt.rs",
+    "github": "cobalt-org/cobalt.rs",
+    "license": "MIT",
+    "language": "Rust"
+  },
+  {
+    "name": "Codex",
+    "github": "logicalparadox/codex",
+    "license": "MIT"
+  },
+  {
+    "name": "coleslaw",
+    "github": "kingcons/coleslaw",
+    "license": "BSD-2-Clause",
+    "website": "http://www.cliki.net/coleslaw"
+  },
+  {
+    "name": "Composer",
+    "github": "shazow/composer",
+    "license": "MIT"
+  },
+  {
+    "name": "Cory",
+    "github": "leo/cory",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "A static site generator for JavaScript lovers"
+  },
+  {
+    "name": "creo",
+    "github": "ByronKellett/creo",
+    "license": "MIT",
+    "language": "Perl",
+    "description": "A simple static site generator, written in Perl.",
+    "website": "http://execo.github.io/creo/"
+  },
+  {
+    "name": "cub",
+    "github": "patcoll/cub",
+    "license": "MIT"
+  },
+  {
+    "name": "cyrax",
+    "github": "piranha/cyrax",
+    "website": "https://pypi.python.org/pypi/cyrax"
+  },
+  {
+    "name": "cytoplasm",
+    "github": "startling/cytoplasm",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Dapper",
+    "github": "markdbenson/dapper",
+    "license": "MIT",
+    "language": "Perl",
+    "description": "A publishing tool for static websites."
+  },
+  {
+    "name": "Daux.io",
+    "github": "justinwalsh/daux.io",
+    "license": "MIT",
+    "website": "http://daux.io/",
+    "language": "PHP",
+    "description": "Documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way."
+  },
+  {
+    "name": "deplate",
+    "github": "tomtom/deplate",
+    "license": "GPL-2.0",
+    "website": "http://deplate.sourceforge.net/",
+    "language": "Ruby",
+    "description": "A static site generator for viki markup (a personal wiki for vim); converts also to LaTeX etc."
+  },
+  {
+    "name": "Deplot",
+    "github": "cdn64/deplot",
+    "license": "MIT"
+  },
+  {
+    "name": "Divshot",
+    "license": false,
+    "website": "https://divshot.com/",
+    "language": "Web",
+    "description": "Static web Platform-as-a-Service with pushState support."
+  },
+  {
+    "name": "django-medusa",
+    "github": "mtigas/django-medusa",
+    "license": "MIT",
+    "website": "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/"
+  },
+  {
+    "name": "django-staticgen",
+    "github": "mishbahr/django-staticgen",
+    "language": "Python"
+  },
+  {
+    "name": "djangothis",
+    "github": "amitu/djangothis",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "DocPad",
+    "github": "docpad/docpad",
+    "license": "MIT",
+    "website": "http://docpad.org",
+    "language": "CoffeeScript"
+  },
+  {
+    "name": "Docta",
+    "github": "05bit/docta",
+    "license": "BSD-3-Clause",
+    "website": "http://docta.05bit.com",
+    "language": "Python",
+    "description": "Static site generator for building documentation."
+  },
+  {
+    "name": "DOS on Dope",
+    "license": "BSD-3-Clause",
+    "website": "http://dod.codeplex.com",
+    "language": "Batch",
+    "description": "DOS on DOPE is the modern MVC framework built on the awesome power of Batch scripts."
+  },
+  {
+    "name": "Drapache",
+    "github": "louissobel/Drapache",
+    "license": "MIT",
+    "website": "https://github.com/louissobel/Drapache"
+  },
+  {
+    "name": "drfrederson",
+    "github": "klml/drfrederson",
+    "license": "MIT",
+    "website": "http://drfrederson.klml.org/"
+  },
+  {
+    "name": "Drop-a-Site",
+    "github": "herschel666/Drop-a-Site",
+    "license": "MIT"
+  },
+  {
+    "name": "dropbox-blog",
+    "github": "markashleybell/dropbox-blog",
+    "language": "Python"
+  },
+  {
+    "name": "DropPages",
+    "license": false,
+    "website": "http://droppages.com/",
+    "language": "Web"
+  },
+  {
+    "name": "Dropplets",
+    "github": "Circa75/dropplets",
+    "license": "MIT",
+    "language": "PHP"
+  },
+  {
+    "name": "DropPress",
+    "github": "Reiot/droppress",
+    "language": "Python"
+  },
+  {
+    "name": "Drupan",
+    "github": "fallenhitokiri/drupan",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "DSW",
+    "github": "dan62f/dsw",
+    "language": "Shell"
+  },
+  {
+    "name": "dynamicmatic",
+    "github": "nex3/dynamicmatic",
+    "license": "MIT"
+  },
+  {
+    "name": "Easystatic",
+    "github": "easystatic/easystatic",
+    "license": "Apache-2.0",
+    "language": "JavaScript",
+    "description": "Easystatic is powered by Markdown It for web pages, EJS and Postcss for site layout, and Browsersync as development server with 'live editing' and testing the site an all connected devices."
+  },
+  {
+    "name": "ecstatic",
+    "github": "samrat/ecstatic",
+    "license": "EPL-1.0",
+    "language": "Clojure",
+    "website": "https://github.com/samrat/ecstatic"
+  },
+  {
+    "name": "electro",
+    "github": "caldwell/electro",
+    "language": "Perl",
+    "description": "One file, uses yaml for structure of site, Template::Toolkit for HTML"
+  },
+  {
+    "name": "Elyse",
+    "github": "FSX/elyse",
+    "license": "MIT"
+  },
+  {
+    "name": "embellih",
+    "github": "boscoh/embellish",
+    "license": "BSD-2-Clause",
+    "website": "http://boscoh.github.io/embellish/"
+  },
+  {
+    "name": "enfield",
+    "github": "fortes/enfield",
+    "license": "MIT"
+  },
+  {
+    "name": "Engineer",
+    "github": "tylerbutler/engineer",
+    "license": "MIT",
+    "website": "https://engineer.readthedocs.io/en/latest/"
+  },
+  {
+    "name": "Equiprose",
+    "github": "thibaultCha/Equiprose",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Flexible and powerful static website and blog generator in Node.js"
+  },
+  {
+    "name": "Fairytale",
+    "github": "46Bit/fairytale",
+    "license": "MIT"
+  },
+  {
+    "name": "FantasticWindmill",
+    "github": "sylvainhalle/FantasticWindmill",
+    "website": "http://sylvainhalle.github.io/FantasticWindmill/"
+  },
+  {
+    "name": "fBlog",
+    "licence": "GPL-3.0",
+    "website": "https://sourceforge.net/projects/fortranblog/",
+    "language": "Fortran"
+  },
+  {
+    "name": "Firedrop2",
+    "license": "BSD-3-Clause",
+    "website": "http://www.voidspace.org.uk/python/firedrop2/",
+    "language": "Python",
+    "description": "The Blog Tool for Discerning Pythoneers"
+  },
+  {
+    "name": "Firmant",
+    "license": "BSD-3-Clause",
+    "website": "https://pypi.python.org/pypi/Firmant/0.2.2",
+    "language": "Python"
+  },
+  {
+    "name": "fjord",
+    "github": "dkuntz2/fjord",
+    "license": "BSD-3-Clause",
+    "website": "https://github.com/dkuntz2/fjord"
+  },
+  {
+    "name": "Flamel",
+    "github": "ipavl/flamel",
+    "license": "MIT"
+  },
+  {
+    "name": "flim",
+    "github": "shapeshed/flim",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Lightweight static page generator"
+  },
+  {
+    "name": "Floyd",
+    "github": "nikcub/floyd",
+    "license": "BSD-2-Clause",
+    "website": "https://nikcub.github.io/floyd/"
+  },
+  {
+    "name": "FMPP",
+    "license": "Apache-2.0",
+    "website": "http://fmpp.sourceforge.net/",
+    "language": "Java",
+    "description": "FreeMarker-based text file PreProcessor"
+  },
+  {
+    "name": "ford.py",
+    "github": "citruspi/ford.py",
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "name": "Frank",
+    "github": "blahed/frank",
+    "license": "MIT"
+  },
+  {
+    "name": "Franklin",
+    "github": "bryanbraun/franklin",
+    "license": "MIT"
+  },
+  {
+    "name": "Frog",
+    "github": "greghendershott/frog",
+    "license": "MIT",
+    "language": "Racket"
+  },
+  {
+    "name": "Frozen-Flask",
+    "github": "Frozen-Flask/Frozen-Flask",
+    "license": "BSD-3-Clause",
+    "website": "http://pythonhosted.org/Frozen-Flask/"
+  },
+  {
+    "name": "Funnel",
+    "github": "shuhaowu/Funnel",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "Gabby",
+    "github": "alexmingoia/gabby",
+    "license": "BSD-3-Clause",
+    "website": "http://www.alexmingoia.com/gabby/"
+  },
+  {
+    "name": "Garoozis",
+    "github": "aguerrera/Garoozis",
+    "language": "F#",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Gatsby",
+    "github": "gatsbyjs/gatsby",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Gen",
+    "github": "trq/Gen",
+    "license": "MIT"
+  },
+  {
+    "name": "Genesis",
+    "github": "samstefan/genesis",
+    "language": "JavaScript"
+  },
+  {
+    "name": "gettheshitdone",
+    "github": "johannesboyne/gettheshitdone",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "ghost-render",
+    "github": "mixu/ghost-render",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Glyph",
+    "github": "h3rald/glyph",
+    "license": "MIT",
+    "website": "https://h3rald.com/glyph/"
+  },
+  {
+    "name": "Go-Static!",
+    "github": "colynb/generator-go-static",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Yeoman generator for static sites"
+  },
+  {
+    "name": "goblog",
+    "github": "icub3d/goblog",
+    "license": "MIT"
+  },
+  {
+    "name": "Goldbarg",
+    "github": "Schnouki/Golbarg",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "gollum-site",
+    "github": "dreverri/gollum-site",
+    "license": "MIT"
+  },
+  {
+    "name": "gor",
+    "github": "wendal/gor"
+  },
+  {
+    "name": "gostatic",
+    "github": "piranha/gostatic",
+    "license": "ISC"
+  },
+  {
+    "name": "Grain",
+    "github": "sysgears/grain",
+    "license": "(Apache-2.0 AND MIT)",
+    "website": "http://sysgears.com/grain/",
+    "language": "Groovy",
+    "description": "Static website building framework for Groovy"
+  },
+  {
+    "name": "Grav",
+    "github": "getgrav/grav",
+    "license": "MIT",
+    "website": "https://getgrav.org/",
+    "language": "PHP"
+  },
+  {
+    "name": "Graze",
+    "github": "mikoskinen/graze",
+    "license": "MIT",
+    "website": "http://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor"
+  },
+  {
+    "name": "grender",
+    "github": "peterbourgon/grender",
+    "license": "BSD-3-Clause",
+    "language": "Go"
+  },
+  {
+    "name": "Griffin",
+    "github": "pawandubey/griffin",
+    "license": "Apache-2.0",
+    "language": "Java"
+  },
+  {
+    "name": "Grow",
+    "github": "grow/grow",
+    "license": "MIT",
+    "website": "https://grow.io/",
+    "language": "Python"
+  },
+  {
+    "name": "Growl",
+    "github": "xfire/growl",
+    "license": "GPL-2.0"
+  },
+  {
+    "name": "grunt-generator",
+    "github": "clavery/grunt-generator",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "GSL",
+    "github": "imatix/gsl",
+    "license": "GPL-3.0",
+    "language": "C"
+  },
+  {
+    "name": "guetzli",
+    "github": "muellermichel/guetzli",
+    "license": "(LGPL-3.0 OR GPL-3.0)",
+    "language": "Python",
+    "description": "A Deliciously Fast and Simple CMS Based on Files"
+  },
+  {
+    "name": "gulp-ssg",
+    "github": "paulwib/gulp-ssg",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Static site generator plugin for gulp"
+  },
+  {
+    "name": "Gustav",
+    "github": "futape/gustav",
+    "license": "BSD-3-Clause",
+    "website": "https://github.com/futape/gustav",
+    "language": "PHP"
+  },
+  {
+    "name": "habit",
+    "github": "punkave/habit",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "haggis",
+    "github": "tych0/haggis",
+    "license": "MIT",
+    "language": "Haskell"
+  },
+  {
+    "name": "Hakyll",
+    "github": "jaspervdj/hakyll",
+    "license": "BSD-3-Clause",
+    "website": "https://jaspervdj.be/hakyll/"
+  },
+  {
+    "name": "Halwa",
+    "github": "mhlakhani/halwa",
+    "license": "MIT",
+    "language": "Python",
+    "description": "Halwa is a single file static site generator written in Python."
+  },
+  {
+    "name": "Hammer",
+    "license": false,
+    "website": "http://hammerformac.com/",
+    "language": "App",
+    "description": "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
+  },
+  {
+    "name": "hanayo",
+    "github": "disoul/hanayo",
+    "language": "JavaScript",
+    "description": "A static blog generator writed by Node.js"
+  },
+  {
+    "name": "handcrank",
+    "website": "http://pythonhosted.org/handcrank/",
+    "language": "Python"
+  },
+  {
+    "name": "Handle",
+    "description": "A static site generator powered by PHP and the command line.",
+    "website": "https://handlecli.com/",
+    "github": "gilbitron/handle",
+    "language": "PHP",
+    "license": "MIT"
+  },
+  {
+    "name": "handroll",
+    "github": "handroll/handroll",
+    "license": "BSD-2-Clause",
+    "language": "Python",
+    "description": "A website generator for software artisans. handroll is a static website generator that uses markup languages like Markdown, ReStructuredText, and Textile."
+  },
+  {
+    "name": "happyplan",
+    "github": "happyplan/happyplan",
+    "license": "MIT"
+  },
+  {
+    "name": "Harmonic",
+    "github": "JSRocksHQ/harmonic",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "haroopress",
+    "github": "rhiokim/haroopress",
+    "license": "MIT",
+    "website": "http://haroopress.com"
+  },
+  {
+    "name": "Harp",
+    "github": "sintaxi/harp",
+    "license": "MIT",
+    "website": "http://harpjs.com/",
+    "language": "JavaScript",
+    "description": "Harp is a static web server that also serves Jade, Markdown, EJS, Less, Stylus, Sass, and CoffeeScript as HTML, CSS, and JavaScript without any configuration."
+  },
+  {
+    "name": "Hastie",
+    "github": "mkaz/hastie",
+    "license": "MIT"
+  },
+  {
+    "name": "Heckle",
+    "github": "marijnh/heckle",
+    "license": "MIT"
+  },
+  {
+    "name": "Helpful Site",
+    "github": "g4b1nagy/helpful-site",
+    "license": "Unlicense",
+    "language": "Python"
+  },
+  {
+    "name": "Hexo",
+    "github": "hexojs/hexo",
+    "license": "MIT",
+    "website": "https://hexo.io/"
+  },
+  {
+    "name": "HiD",
+    "github": "genehack/HiD",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/HiD",
+    "language": "Perl"
+  },
+  {
+    "name": "High Voltage",
+    "github": "thoughtbot/high_voltage",
+    "license": "MIT",
+    "website": "http://thoughtbot.github.io/high_voltage/"
+  },
+  {
+    "name": "Hobix",
+    "github": "hobix/hobix",
+    "license": "MIT",
+    "website": "https://hobix.github.io/hobix/"
+  },
+  {
+    "name": "HSC",
+    "github": "mbethke/hsc",
+    "license": "GPL-2.0",
+    "language": "C",
+    "created_at": "1995-10-09T00:00:00Z",
+    "description": "HTML-like macro language, included make tool and dependency generator"
+  },
+  {
+    "name": "hublo",
+    "github": "pyr/hublo",
+    "language": "Emacs Lisp",
+    "website": "http://spootnik.org/"
+  },
+  {
+    "name": "HubPress",
+    "github": "HubPress/hubpress.io",
+    "license": "MIT",
+    "website": "http://hubpress.io/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Hugo",
+    "github": "spf13/hugo",
+    "license": "Apache-2.0",
+    "website": "http://gohugo.io/",
+    "language": "Go"
+  },
+  {
+    "name": "Hyde",
+    "github": "hyde/hyde",
+    "license": "MIT",
+    "website": "http://hyde.github.io/"
+  },
+  {
+    "name": "Hydrastic",
+    "github": "bpizzi/Hydrastic",
+    "license": "MIT"
+  },
+  {
+    "name": "igor",
+    "github": "aconbere/igor",
+    "license": "MIT"
+  },
+  {
+    "name": "Ikiwiki",
+    "github": "joeyh/ikiwiki",
+    "website": "http://ikiwiki.info/"
+  },
+  {
+    "name": "ink",
+    "github": "InkProject/ink",
+    "language": "Go"
+  },
+  {
+    "name": "ipsum genera",
+    "github": "dom96/ipsumgenera",
+    "license": "MIT",
+    "language": "Nimrod"
+  },
+  {
+    "name": "JAGSS",
+    "github": "esonderegger/jagss",
+    "license": "MIT",
+    "website": "https://jagss.rpy.xyz/"
+  },
+  {
+    "name": "JBake",
+    "github": "jbake-org/jbake",
+    "license": "MIT",
+    "website": "http://jbake.org/"
+  },
+  {
+    "name": "Jedie",
+    "github": "mattn/jedie",
+    "license": "MIT"
+  },
+  {
+    "name": "Jekxll",
+    "github": "osaris/jekxyl",
+    "language": "PHP"
+  },
+  {
+    "name": "Jekyde",
+    "github": "zohooo/jekyde",
+    "license": "MIT",
+    "language": "JavaScript",
+    "website": "http://zohooo.github.io/jekyde/"
+  },
+  {
+    "name": "Jekyll",
+    "github": "jekyll/jekyll",
+    "license": "MIT"
+  },
+  {
+    "name": "Jekyll Now",
+    "github": "barryclark/jekyll-now",
+    "license": "MIT",
+    "website": "http://www.jekyllnow.com"
+  },
+  {
+    "name": "Jekytrum",
+    "github": "georgeOsdDev/jekytrum",
+    "language": "Scala"
+  },
+  {
+    "name": "jem-press",
+    "github": "stsievert/jem-press",
+    "license": "GPL-3.0",
+    "website": "http://scottsievert.com/jem-press/",
+    "language": "Ruby",
+    "description": "Markdown --> `ruby update.rb` --> site. Simple and easy to use; not blog sensitive"
+  },
+  {
+    "name": "Jen",
+    "github": "rfunduk/jen",
+    "license": "MIT"
+  },
+  {
+    "name": "jigsaw",
+    "github": "tightenco/jigsaw",
+    "license": "MIT",
+    "website": "http://jigsaw.tighten.co",
+    "language": "PHP",
+    "description": "Static site generator using Laravel Blade for templates and Markdown for content"
+  },
+  {
+    "name": "jinjet",
+    "github": "jokull/jinjet",
+    "license": "ISC"
+  },
+  {
+    "name": "jkl",
+    "github": "drone/jkl",
+    "license": "MIT"
+  },
+  {
+    "name": "Jott",
+    "github": "jonsherrard/jott",
+    "license": "Unlicense"
+  },
+  {
+    "name": "Journo",
+    "github": "jashkenas/journo",
+    "license": "MIT"
+  },
+  {
+    "name": "Jr",
+    "github": "xeoncross/jr",
+    "license": "MIT",
+    "website": "http://xeoncross.github.io/jr/",
+    "language": "JavaScript",
+    "description": "The static, static site generator"
+  },
+  {
+    "name": "jssg",
+    "github": "agrison/jssg",
+    "license": "MIT",
+    "language": "Java",
+    "description": "Java static site generator"
+  },
+  {
+    "name": "jstatico",
+    "github": "egeozcan/jstatico",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "kalastatic",
+    "github": "kalamuna/kalastatic",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Kel",
+    "github": "koostudios/kel",
+    "license": "MIT"
+  },
+  {
+    "name": "Kerouac",
+    "github": "jaredhanson/kerouac",
+    "license": "MIT"
+  },
+  {
+    "name": "Kickster",
+    "github": "timhartmann/Kickster",
+    "license": "MIT",
+    "description": "Kickstarter Boilerplate with Node-Sass, Grunt, Bower, Browser-Sync and much more stuff"
+  },
+  {
+    "name": "Kirby",
+    "github": "getkirby/starterkit",
+    "license": false,
+    "website": "https://getkirby.com/"
+  },
+  {
+    "name": "kkr",
+    "github": "dchest/kkr",
+    "license": "BSD-2-Clause",
+    "language": "Go"
+  },
+  {
+    "name": "Korma",
+    "github": "practicingruby/korma"
+  },
+  {
+    "name": "Lambda Pad",
+    "github": "gar1t/lambdapad",
+    "language": "Erlang",
+    "description": "A static site generator in Erlang. Yes, Erlang."
+  },
+  {
+    "name": "Lannister",
+    "github": "wjlroe/lannister",
+    "license": "CC-BY-SA-3.0",
+    "language": "Go"
+  },
+  {
+    "name": "Lanyon",
+    "github": "arthurk/lanyon",
+    "license": "BSD-3-Clause",
+    "website": "https://lanyon.readthedocs.io/en/latest/",
+    "language": "Python"
+  },
+  {
+    "name": "larassg",
+    "github": "andygwood/larassg",
+    "language": "PHP"
+  },
+  {
+    "name": "lava",
+    "github": "johannhof/lava",
+    "license": "MIT",
+    "language": "Rust"
+  },
+  {
+    "name": "Laze",
+    "github": "avdgaag/laze",
+    "license": "MIT",
+    "website": "http://avdgaag.github.io/laze/"
+  },
+  {
+    "name": "lazyblorg",
+    "github": "novoid/lazyblorg",
+    "license": "GPL-3.0",
+    "language": "Python"
+  },
+  {
+    "name": "Leeflets",
+    "github": "Leeflets/leeflets",
+    "license": "MIT",
+    "language": "PHP"
+  },
+  {
+    "name": "Lektor",
+    "github": "lektor/lektor",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Lenscap",
+    "github": "honza/lenscap",
+    "license": "BSD-2-Clause",
+    "language": "Python"
+  },
+  {
+    "name": "Leo",
+    "license": "GPL-2.0",
+    "website": "http://leohtml.sourceforge.net/",
+    "language": "C++"
+  },
+  {
+    "name": "Letterpress",
+    "github": "an0/Letterpress",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "lettersmith",
+    "github": "gordonbrander/lettersmith",
+    "language": "Lua"
+  },
+  {
+    "name": "lightning",
+    "github": "borismus/lightning",
+    "license": "MIT"
+  },
+  {
+    "name": "lilac",
+    "github": "hit9/lilac",
+    "license": "MIT",
+    "website": "https://lilac.readthedocs.io/en/latest/"
+  },
+  {
+    "name": "liquidluck",
+    "github": "avelino/liquidluck",
+    "website": "http://www.avelino.xxx/liquidluck/",
+    "language": "Python"
+  },
+  {
+    "name": "logya",
+    "github": "yaph/logya",
+    "license": "MIT",
+    "website": "http://pythonhosted.org/logya/",
+    "language": "Python",
+    "description": "Logya is a command line tool to generate static Web sites, designed to be easy to use and flexible."
+  },
+  {
+    "name": "Luapress",
+    "github": "Fizzadar/Luapress",
+    "license": "MIT",
+    "language": "Lua"
+  },
+  {
+    "name": "m4-bakery",
+    "github": "datagrok/m4-bakery",
+    "license": "AGPL-3.0",
+    "website": "http://datagrok.github.io/m4-bakery/"
+  },
+  {
+    "name": "Machined",
+    "github": "petebrowne/machined",
+    "license": "MIT"
+  },
+  {
+    "name": "Madoko",
+    "github": "houshuang/madoko",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "Magneto",
+    "github": "donmelton/magneto",
+    "license": "MIT"
+  },
+  {
+    "name": "makeblog",
+    "github": "fyhuang/makeblog",
+    "license": "BSD-2-Clause",
+    "language": "Python"
+  },
+  {
+    "name": "Makefly",
+    "github": "blankoworld/makefly",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "Markbox",
+    "github": "myfreeweb/markbox"
+  },
+  {
+    "name": "Markdoc",
+    "github": "zacharyvoase/markdoc",
+    "license": "Unlicense",
+    "website": "http://markdoc.org/"
+  },
+  {
+    "name": "markdown-styles",
+    "github": "mixu/markdown-styles",
+    "license": "BSD-3-Clause",
+    "language": "JavaScript",
+    "description": "Markdown to static HTML generator and multiple CSS themes for Markdown."
+  },
+  {
+    "name": "Markx",
+    "github": "jgallen23/markx",
+    "license": "MIT"
+  },
+  {
+    "name": "massimo",
+    "github": "petebrowne/massimo",
+    "license": "MIT"
+  },
+  {
+    "name": "Maven Site Plugin",
+    "license": "Apache-2.0",
+    "website": "http://maven.apache.org/plugins-archives/maven-site-plugin-3.3/",
+    "language": "Java",
+    "description": "The Site Plugin is used to generate a site for the project. The generated site also includes the project's reports that were configured in the POM."
+  },
+  {
+    "name": "mdwiki",
+    "github": "Dynalon/mdwiki",
+    "license": "AGPL-3.0",
+    "website": "http://dynalon.github.io/mdwiki/",
+    "description": "CMS/Wiki system using Javascript for 100% client side single page application using Markdown."
+  },
+  {
+    "name": "Mecha",
+    "github": "mecha-cms/mecha-cms",
+    "license": "GPL-3.0",
+    "language": "PHP",
+    "description": "Mecha is a file-based CMS. It does not require any database. Almost all files are stored as plain text files which grouped into folders, which you can even edit it manually through a plain text editor application."
+  },
+  {
+    "name": "meinhof",
+    "github": "miguelibero/meinhof",
+    "license": "MIT"
+  },
+  {
+    "name": "metalsmith",
+    "github": "metalsmith/metalsmith",
+    "license": "MIT",
+    "website": "http://www.metalsmith.io",
+    "language": "JavaScript",
+    "description": "An extremely simple, pluggable static site generator."
+  },
+  {
+    "name": "Miblo",
+    "github": "rafalp/Miblo",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "Middleman",
+    "github": "middleman/middleman",
+    "license": "MIT"
+  },
+  {
+    "name": "MinoriWiki",
+    "github": "phoenixlzx/MinoriWiki",
+    "licence": "MIT",
+    "website": "http://phoenixlzx.github.io/MinoriWiki/",
+    "language": "JavaScript",
+    "description": "MinoriWiki is a static Wiki site Generator"
+  },
+  {
+    "name": "Misakai Baker",
+    "github": "Kelindar/misakai-baker",
+    "license": "Apache-2.0",
+    "language": "C#",
+    "description": "Flexible and extensible static website generator for .Net people",
+    "website": "http://baker.misakai.com"
+  },
+  {
+    "name": "misaki",
+    "github": "liquidz/misaki",
+    "license": "EPL-1.0",
+    "website": "http://liquidz.github.io/misaki/"
+  },
+  {
+    "name": "MkDocs",
+    "github": "mkdocs/mkdocs",
+    "license": "BSD-2-Clause",
+    "website": "http://www.mkdocs.org",
+    "language": "Python"
+  },
+  {
+    "name": "mksite",
+    "github": "clehner/mksite",
+    "license": "MIT",
+    "website": "http://celehner.com/mksite/",
+    "language": "Make",
+    "description": "Fast declarative site generator using only common shell tools",
+    "created_at": "2014-01-01T10:00:00Z"
+  },
+  {
+    "name": "monkeyman",
+    "github": "wspringer/monkeyman",
+    "license": "GPL-2.0"
+  },
+  {
+    "name": "Mulder",
+    "github": "dragan/mulder",
+    "license": "MIT"
+  },
+  {
+    "name": "mynt",
+    "github": "Anomareh/mynt",
+    "license": "BSD-3-Clause",
+    "website": "http://mynt.uhnomoli.com/"
+  },
+  {
+    "name": "NanoBlogger",
+    "license": "GPL-3.0",
+    "website": "http://nanoblogger.sourceforge.net/",
+    "language": "Shell"
+  },
+  {
+    "name": "nanoc",
+    "github": "nanoc/nanoc",
+    "license": "MIT",
+    "website": "http://nanoc.ws/",
+    "created_at": "2007-05-02T12:00:00Z"
+  },
+  {
+    "name": "nanogen",
+    "github": "epochblue/nanogen",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "NestaCMS",
+    "github": "gma/nesta",
+    "license": "MIT",
+    "website": "http://nestacms.com/"
+  },
+  {
+    "name": "Neverland",
+    "github": "demon386/Neverland",
+    "language": "Clojure"
+  },
+  {
+    "name": "nib",
+    "github": "jreese/nib",
+    "license": "MIT"
+  },
+  {
+    "name": "Nibbleblog",
+    "github": "dignajar/nibbleblog",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "Nico",
+    "github": "lepture/nico",
+    "license": "BSD-3-Clause",
+    "website": "http://lab.lepture.com/nico/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Nikola",
+    "github": "getnikola/nikola",
+    "license": "MIT",
+    "website": "https://getnikola.com/"
+  },
+  {
+    "name": "node-blog",
+    "github": "creationix/node-blog"
+  },
+  {
+    "name": "node-qssg",
+    "github": "shanewholloway/node-qssg",
+    "license": "MIT",
+    "language": "CoffeeScript"
+  },
+  {
+    "name": "nodeache",
+    "github": "nunull/nodeache",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "noflo-jekyll",
+    "github": "the-grid/noflo-jekyll",
+    "license": "MIT"
+  },
+  {
+    "name": "o-blog",
+    "github": "renard/o-blog",
+    "license": "WTFPL",
+    "website": "http://renard.github.io/o-blog-v2/",
+    "language": "Emacs Lisp",
+    "description": "Generates static sites from org-mode files"
+  },
+  {
+    "name": "Oak",
+    "github": "marc0s/oak",
+    "language": "Python",
+    "license": "WTFPL"
+  },
+  {
+    "name": "obelisk",
+    "github": "BennyHallett/obelisk",
+    "license": "MIT",
+    "language": "Elixir"
+  },
+  {
+    "name": "Ocam",
+    "github": "toddlucas/ocam",
+    "license": "MIT",
+    "website": "http://toddlucas.github.io/ocam/",
+    "language": "C#",
+    "description": "Razor and Markdown static site generator"
+  },
+  {
+    "name": "Octopress",
+    "github": "imathis/octopress",
+    "license": "MIT",
+    "website": "http://octopress.org/"
+  },
+  {
+    "name": "Olai",
+    "license": false,
+    "website": "http://olai.in/",
+    "language": "Go",
+    "description": "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
+  },
+  {
+    "name": "operator-DD3",
+    "github": "operator-dd3/operator-dd3",
+    "language": "Lua",
+    "license": "Unlicense",
+    "description": "An (Extremely Basic and Limited) Static Site Generator made in Lua."
+  },
+  {
+    "name": "OpooPress",
+    "github": "opoo/opoopress",
+    "license": "Apache-2.0",
+    "website": "http://www.opoopress.com",
+    "language": "Java",
+    "description": "OpooPress blogging framework is a java based blog aware static site generator."
+  },
+  {
+    "name": "Orca",
+    "github": "andyshuhsin/orca",
+    "language": "Python"
+  },
+  {
+    "name": "Org Mode",
+    "license": "GPL-3.0",
+    "website": "http://orgmode.org/",
+    "language": "Emacs Lisp",
+    "description": "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
+  },
+  {
+    "name": "Pagegen",
+    "github": "oliverfields/pagegen_v2",
+    "website": "http://pagegen.phnd.net/"
+  },
+  {
+    "name": "Pagen",
+    "github": "jawerty/pagen",
+    "license": "MIT"
+  },
+  {
+    "name": "Pancake.io",
+    "github": "hassox/pancake",
+    "license": "MIT",
+    "website": "https://pancakestacks.wordpress.com/"
+  },
+  {
+    "name": "pansite",
+    "github": "wcaleb/website",
+    "license": "CC-BY-SA-3.0",
+    "website": "http://wcm1.web.rice.edu",
+    "language": "Shell",
+    "description": "wrapper for Pandoc"
+  },
+  {
+    "name": "Papery",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/Papery",
+    "language": "Perl"
+  },
+  {
+    "name": "Pelican",
+    "github": "getpelican/pelican",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "website": "http://blog.getpelican.com"
+  },
+  {
+    "name": "Penguin",
+    "github": "Endi1/Penguin",
+    "language": "Python"
+  },
+  {
+    "name": "Perun",
+    "github": "hashobject/perun",
+    "website": "https://perun.io",
+    "license": "EPL-1.0",
+    "language": "Clojure",
+    "description": "Composable static site generator build with Clojure and Boot"
+  },
+  {
+    "name": "Petrify",
+    "github": "caolan/petrify",
+    "license": "MIT"
+  },
+  {
+    "name": "Phenomic",
+    "github": "MoOx/phenomic",
+    "website": "https://phenomic.io/",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Modern static website generator to create dynamic websites using React components"
+  },
+  {
+    "name": "Phileas",
+    "github": "farvardin/phileas",
+    "license": "MIT",
+    "website": "https://dl.dropboxusercontent.com/u/620905/phileas/index.html",
+    "language": "JavaScript",
+    "description": "A static site generator, using javascript and simple text files written in txt2tags (markdown ultra) syntax"
+  },
+  {
+    "name": "PhlyBlog",
+    "github": "phly/PhlyBlog",
+    "language": "PHP",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "PHPoole",
+    "github": "Narno/PHPoole",
+    "license": "MIT",
+    "website": "http://phpoole.org",
+    "language": "PHP",
+    "description": "Light and easy static website generator written in PHP",
+    "created_at": "2013-09-10T00:00:00Z"
+  },
+  {
+    "name": "PieCrust",
+    "website": "https://bolt80.com/piecrust/",
+    "github": "ludovicchabant/piecrust",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "Pilcrow",
+    "github": "araile/pilcrow",
+    "license": "MIT",
+    "website": "http://inky.github.io/pilcrow/"
+  },
+  {
+    "name": "Pith",
+    "github": "mdub/pith",
+    "license": "MIT"
+  },
+  {
+    "name": "PlainSite",
+    "github": "JexCheng/plain_site",
+    "license": "MIT",
+    "language": "Ruby",
+    "description": "A Simple but Powerful and Hackable Static Site Generator."
+  },
+  {
+    "name": "PMBlog",
+    "github": "lizheming/PMBlog",
+    "language": "PHP"
+  },
+  {
+    "name": "poet",
+    "github": "jsantell/poet",
+    "license": "MIT",
+    "website": "http://jsantell.github.io/poet/"
+  },
+  {
+    "name": "Pointless",
+    "github": "scarwu/Pointless",
+    "language": "PHP",
+    "license": "MIT"
+  },
+  {
+    "name": "Polo",
+    "github": "agonzalezro/polo",
+    "license": "MIT",
+    "description": "Written in Go, Polo claims to be compatible with Pelican default configuration. The creator has used it to migrate his blog from Pelican to Polo without any much trouble."
+  },
+  {
+    "name": "poole",
+    "github": "obensonne/poole",
+    "license": "GPL-3.0",
+    "website": "https://bitbucket.org/obensonne/poole",
+    "language": "Python"
+  },
+  {
+    "name": "pop",
+    "github": "alexyoung/pop",
+    "license": "MIT",
+    "website": "https://github.com/alexyoung/pop"
+  },
+  {
+    "name": "PowerSite",
+    "github": "Jaykul/PowerSite",
+    "language": "C#"
+  },
+  {
+    "name": "PPWizard",
+    "website": "http://dennisbareis.com/ppwizard.htm",
+    "language": "REXX",
+    "description": "Uses classic REXX or Regina interpreter"
+  },
+  {
+    "name": "Pretzel",
+    "github": "Code52/pretzel",
+    "license": "MS-PL",
+    "website": "http://code52.org/pretzel/",
+    "language": "C#"
+  },
+  {
+    "name": "Primoca",
+    "license": false,
+    "website": "http://www.primoca.com/",
+    "language": "Web",
+    "description": "Static Website Hosting and CDN"
+  },
+  {
+    "name": "Propeller",
+    "github": "thegreatsunra/propeller",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Pulse CMS",
+    "license": false,
+    "website": "https://www.pulsecms.com/",
+    "language": "PHP",
+    "description": "The easiest flat-file CMS for designers and their clients"
+  },
+  {
+    "name": "Punch",
+    "github": "laktek/punch",
+    "license": "MIT",
+    "website": "https://laktek.github.io/punch/"
+  },
+  {
+    "name": "PyBlosxom",
+    "github": "pyblosxom/pyblosxom",
+    "license": "MIT",
+    "website": "http://pyblosxom.github.io/"
+  },
+  {
+    "name": "PyBlue",
+    "github": "ialbert/pyblue-central",
+    "licence": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Pyll",
+    "github": "arthurk/pyll",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Quietly Confident",
+    "license": "Artistic-1.0-Perl",
+    "website": "http://search.cpan.org/dist/Quietly-Confident/qc.pod",
+    "language": "Perl"
+  },
+  {
+    "name": "Quill",
+    "github": "theycallmeswift/quill",
+    "license": "Beerware",
+    "language": "JavaScript"
+  },
+  {
+    "name": "RakeWeb",
+    "github": "rweald/rakeweb",
+    "license": "Apache-2.0",
+    "language": "Ruby"
+  },
+  {
+    "name": "rant",
+    "github": "lrvick/rant",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "Rassmalog",
+    "github": "sunaku/rassmalog",
+    "license": "ISC",
+    "website": "http://snk.tuxfamily.org/lib/rassmalog/doc/guide.html",
+    "language": "Ruby"
+  },
+  {
+    "name": "rawk",
+    "github": "kisom/rawk",
+    "language": "Shell",
+    "description": "Rage Against Web Frameworks",
+    "website": "https://github.com/kisom/rawk"
+  },
+  {
+    "name": "reacat",
+    "github": "reacat/reacat",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "react-static",
+    "github": "rpearce/react-static",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "react-static-site",
+    "github": "BradDenver/react-static-site",
+    "language": "JavaScript"
+  },
+  {
+    "name": "reactivate",
+    "github": "azmenak/reactivate",
+    "license": "MPL-2.0",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Read the Docs (RTD)",
+    "github": "rtfd/readthedocs.org",
+    "license": "MIT",
+    "website": "https://readthedocs.org/",
+    "language": "Python",
+    "description": "RTD will parse a documentation written in reStructuredText or Markdown and create a searchable HTML site upon. The the documentation source will be fetched from a repository stored in a supported version control system (Mercurial, Git, Subversion, Bazaar). Controled with webhooks, RTD will automatically update the HTML site when the repository changes. readthedocs.org offers the service of hosting software documentations."
+  },
+  {
+    "name": "Really Static",
+    "github": "trajano/really-static",
+    "license": "GPL-3.0",
+    "website": "https://wordpress.org/plugins/really-static/",
+    "language": "PHP",
+    "description": "Generates static HTML-files from your WordPress Blog"
+  },
+  {
+    "name": "Refrain",
+    "github": "shootaroo/refrain",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "regenerate",
+    "website": "https://gist.github.com/TeMPOraL/4190622",
+    "language": "Lisp"
+  },
+  {
+    "name": "Riji",
+    "github": "Songmu/p5-Riji",
+    "license": "Artistic-1.0-Perl",
+    "website": "http://songmu.github.io/p5-Riji/blog/",
+    "language": "Perl"
+  },
+  {
+    "name": "Rizzo",
+    "github": "fifthposition/rizzo",
+    "license": "MIT"
+  },
+  {
+    "name": "romulus",
+    "github": "felixge/node-romulus",
+    "license": "MIT"
+  },
+  {
+    "name": "Roots",
+    "github": "jescalan/roots",
+    "license": "MIT",
+    "website": "http://roots.cx/",
+    "language": "JavaScript",
+    "description": "Roots is a fast, simple, and customizable static site compiler."
+  },
+  {
+    "name": "Rosid",
+    "github": "electerious/Rosid",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Just-in-time development server and static site generator."
+  },
+  {
+    "name": "rstblog",
+    "github": "mitsuhiko/rstblog",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "RubyFrontier",
+    "github": "mattneub/RubyFrontier",
+    "license": "MIT",
+    "website": "http://www.apeth.com/RubyFrontierDocs/default.html"
+  },
+  {
+    "name": "Ruhoh",
+    "github": "ruhoh/ruhoh.rb",
+    "license": "MIT",
+    "website": "http://ruhoh.com/"
+  },
+  {
+    "name": "s2gen",
+    "github": "denisftw/s2gen",
+    "website": "http://appliedscala.com/s2gen/",
+    "license": "MIT",
+    "language": "Scala",
+    "description": "A simple Scala-based generator that uses Markdown and Freemarker"
+  },
+  {
+    "name": "Scriptogr.am",
+    "license": false,
+    "website": "http://scriptogr.am/",
+    "language": "Web"
+  },
+  {
+    "name": "Sculpin",
+    "github": "sculpin/sculpin",
+    "license": "MIT",
+    "website": "https://sculpin.io/"
+  },
+  {
+    "name": "Second Crack",
+    "github": "marcoarment/secondcrack",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "serif",
+    "github": "aprescott/serif",
+    "license": "MIT"
+  },
+  {
+    "name": "serious-chicken",
+    "github": "rtorr/serious-chicken",
+    "license": "MIT",
+    "website": "http://rtorr.github.io/serious-chicken/"
+  },
+  {
+    "name": "Serve",
+    "github": "jlong/serve",
+    "license": "MIT",
+    "website": "http://get-serve.com/"
+  },
+  {
+    "name": "SG",
+    "github": "maxailloud/SG",
+    "license": "WTFPL"
+  },
+  {
+    "name": "sg.py",
+    "github": "venthur/sg",
+    "license": "GPL-3.0",
+    "description": "A small, static website generator written in Python",
+    "created_at": "2010-07-25T00:00:00Z"
+  },
+  {
+    "name": "SGG",
+    "github": "Charlesworth/SSG",
+    "language": "Ruby"
+  },
+  {
+    "name": "shelob",
+    "github": "rubyworks/shelob",
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "Shire",
+    "github": "sangupta/shire",
+    "license": "Apache-2.0",
+    "language": "Java"
+  },
+  {
+    "name": "Shonku",
+    "github": "kushaldas/shonku",
+    "website": "http://shonku.readthedocs.io/en/latest/",
+    "language": "Go"
+  },
+  {
+    "name": "Silex",
+    "github": "silexlabs/Silex",
+    "website": "http://www.silex.me",
+    "license": "GPL-3.0",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Simiki",
+    "github": "tankywoo/simiki",
+    "license": "MIT",
+    "website": "http://simiki.org/",
+    "description": "Simiki is a simple wiki framework, written in Python.",
+    "language": "Python"
+  },
+  {
+    "name": "Simple",
+    "github": "isnowfy/simple",
+    "license": "MIT",
+    "website": "http://isnowfy.github.io/simple/",
+    "language": "JavaScript",
+    "description": "Simple is a static blog generator with a single static page. You can write you blog online, and it will generate static html files at your repo named username.github.io which is supported by github pages."
+  },
+  {
+    "name": "simple-static",
+    "github": "wlangstroth/simple-static"
+  },
+  {
+    "name": "simple-website",
+    "github": "alexanderteinum/simple-website",
+    "language": "Go"
+  },
+  {
+    "name": "simsalabash",
+    "github": "markusfisch/simsalabash",
+    "license": "MIT",
+    "language": "Shell",
+    "description": "Hypertext mechanics in BASH"
+  },
+  {
+    "name": "Site builder",
+    "github": "inanimatt/site-builder",
+    "license": "MIT"
+  },
+  {
+    "name": "Site builder console",
+    "license": "MIT",
+    "website": "http://sitebuilder.codeplex.com/",
+    "language": "C#"
+  },
+  {
+    "name": "Site44",
+    "license": false,
+    "website": "http://www.site44.com/",
+    "language": "Web"
+  },
+  {
+    "name": "Sitebox.io",
+    "license": false,
+    "website": "http://www.sitebox.io",
+    "description": "New and intuitive way to create websites with dropbox",
+    "language": "Web"
+  },
+  {
+    "name": "SiteGen",
+    "github": "MikeMitterer/dart-sitegen",
+    "license": "(Apache-2.0 AND BSD-3-Clause)",
+    "language": "Dart",
+    "description": "Sitegenerator for Dart",
+    "website": "https://pub.dartlang.org/packages/sitegen"
+  },
+  {
+    "name": "sitegen",
+    "github": "leafo/sitegen",
+    "license": "MIT"
+  },
+  {
+    "name": "Smallest Blogger",
+    "github": "ranmocy/smallest-blogger",
+    "license": "MIT"
+  },
+  {
+    "name": "snowshoe",
+    "github": "edvanbeinum/snowshoe",
+    "website": "https://github.com/edvanbeinum/snowshoe"
+  },
+  {
+    "name": "Soapbox",
+    "github": "arnolddevos/Soapbox",
+    "language": "Scala",
+    "description": "Static site generator as an SBT plugin"
+  },
+  {
+    "name": "Socrates",
+    "github": "honza/socrates",
+    "license": "BSD-3-Clause",
+    "website": "http://honza.ca/socrates/"
+  },
+  {
+    "name": "sortastatic",
+    "github": "haldean/sortastatic",
+    "license": "BSD-2-Clause",
+    "language": "Go"
+  },
+  {
+    "name": "Speechhub",
+    "github": "pythonmg/speechhub",
+    "license": "GPL-3.0"
+  },
+  {
+    "name": "SPG",
+    "github": "AdamBien/spg",
+    "license": "Apache-2.0",
+    "language": "JavaScript",
+    "description": "One file, no dependencies, only requires Java 8"
+  },
+  {
+    "name": "Sphinx",
+    "license": "BSD-2-Clause",
+    "github": "sphinx-doc/sphinx",
+    "website": "http://www.sphinx-doc.org/en/stable/",
+    "description": "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license."
+  },
+  {
+    "name": "Spike",
+    "github": "static-dev/spike",
+    "license": "MIT",
+    "website": "https://spike.readme.io",
+    "language": "JavaScript",
+    "description": "A modern static build tool, powered by webpack"
+  },
+  {
+    "name": "Spina",
+    "github": "denkGroot/Spina",
+    "license": "MIT",
+    "language": "Ruby",
+    "website": "http://www.spinacms.com"
+  },
+  {
+    "name": "Spine",
+    "github": "varl/spine",
+    "language": "Java",
+    "description": "Write content in markdown and some HTML to go with it and generate it into a static site that runs from a jar"
+  },
+  {
+    "name": "Spress",
+    "github": "spress/Spress",
+    "license": "MIT",
+    "website": "http://spress.yosymfony.com/",
+    "language": "PHP"
+  },
+  {
+    "name": "Spring Board",
+    "github": "htaidirt/SpringBoard",
+    "language": "JavaScript",
+    "license": "MIT"
+  },
+  {
+    "name": "Squid",
+    "github": "geekforbrains/squid",
+    "language": "Python"
+  },
+  {
+    "name": "Squirrel",
+    "github": "nickpetty/squirrel",
+    "language": "Python"
+  },
+  {
+    "name": "SSC",
+    "github": "kaw2k/static-site-compiler",
+    "language": "JavaScript",
+    "website": "https://kaw2k.github.io/ssc-start/"
+  },
+  {
+    "name": "Stacey",
+    "github": "kolber/stacey",
+    "license": "MIT",
+    "website": "http://staceyapp.com/"
+  },
+  {
+    "name": "Stacktic",
+    "github": "stackticjs/stacktic",
+    "license": "MIT",
+    "website": "http://stackticjs.github.io/stacktic/",
+    "language": "CoffeeScript"
+  },
+  {
+    "name": "Stadø",
+    "github": "lecnim/stado",
+    "license": "MIT",
+    "website": "http://stadoproject.org/",
+    "language": "Python",
+    "description": "Stado is a simple, single-file, static site generator, powered by python scripts."
+  },
+  {
+    "name": "StaGen",
+    "github": "wiztools/stagen",
+    "license": "Apache-2.0",
+    "language": "Java",
+    "description": "StaGen supports Markdown, StringTemplate 4 and JSON. From the house of WizTools.org."
+  },
+  {
+    "name": "Stasis",
+    "github": "winton/stasis",
+    "license": "MIT",
+    "language": "Ruby"
+  },
+  {
+    "name": "Stasis.clj",
+    "github": "magnars/stasis",
+    "license": "EPL-1.0",
+    "language": "Clojure",
+    "description": "A Clojure library of tools for developing static web sites."
+  },
+  {
+    "name": "Statamic",
+    "license": false,
+    "website": "https://statamic.com/",
+    "language": "PHP",
+    "description": "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
+  },
+  {
+    "name": "static",
+    "github": "nakkaya/static",
+    "license": "EPL-1.0"
+  },
+  {
+    "name": "Static Website Starter Kit",
+    "github": "kriasoft/static-site-starter",
+    "license": "Apache-2.0",
+    "language": "JavaScript"
+  },
+  {
+    "name": "static-io",
+    "github": "CosminAnca/static-io",
+    "licence": "MIT"
+  },
+  {
+    "name": "Static-weber",
+    "github": "xorpd/static_weber",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "static2000",
+    "github": "judas-christ/static2000",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "staticjinja",
+    "github": "Ceasar/staticjinja",
+    "license": "MIT"
+  },
+  {
+    "name": "StaticMatic",
+    "github": "staticmatic/staticmatic",
+    "license": "MIT"
+  },
+  {
+    "name": "StaticMatic2",
+    "github": "mindeavor/staticmatic2",
+    "license": "MIT"
+  },
+  {
+    "name": "staticpress",
+    "github": "ravinggenius/staticpress",
+    "license": "MIT",
+    "language": "Ruby",
+    "description": "Staticpress is a blog-focused static site generator"
+  },
+  {
+    "name": "staticpy",
+    "github": "toddsifleet/staticpy",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "statics",
+    "github": "Tiendil/statics",
+    "license": "BSD-3-Clause",
+    "language": "Python"
+  },
+  {
+    "name": "staticsite",
+    "github": "trevorc/staticsite",
+    "license": "BSD-3-Clause",
+    "language": "Haskell",
+    "description": "publishes a static site to s3",
+    "created_at": "2012-07-12T19:55:23Z"
+  },
+  {
+    "name": "Staticsmoothie",
+    "license": "MIT",
+    "website": "https://github.com/johannesboyne/go_lab/tree/master/staticsmoothie",
+    "language": "Go"
+  },
+  {
+    "name": "StaticVolt",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/StaticVolt",
+    "language": "Perl"
+  },
+  {
+    "name": "Statik",
+    "license": "MIT",
+    "github": "thanethomson/statik",
+    "language": "Python",
+    "description": "A generic static site generator aimed at developers (Python 3 + SQLAlchemy + Jinja2)"
+  },
+  {
+    "name": "Statix",
+    "github": "ff0000/statix",
+    "license": "MIT"
+  },
+  {
+    "name": "Statix",
+    "language": "Shell",
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e"
+  },
+  {
+    "name": "Statocles",
+    "license": "Artistic-1.0-Perl",
+    "github": "preaction/Statocles",
+    "website": "http://preaction.github.io/Statocles/",
+    "language": "Perl"
+  },
+  {
+    "name": "Stog",
+    "github": "zoggy/stog",
+    "license": "GPL-3.0",
+    "website": "http://zoggy.github.io/stog/",
+    "language": "OCaml"
+  },
+  {
+    "name": "StrangeCase",
+    "github": "colinta/StrangeCase",
+    "license": "BSD-2-Clause",
+    "website": "http://colinta.com/projects/StrangeCase.html"
+  },
+  {
+    "name": "stratic",
+    "github": "jaubourg/stratic",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Striker",
+    "github": "swaroopsm/striker",
+    "license": "MIT",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Susi",
+    "github": "AVGP/susi",
+    "license": "ISC",
+    "language": "JavaScript"
+  },
+  {
+    "name": "SWG",
+    "github": "evilsocket/SWG",
+    "language": "Python",
+    "license": "GPL-3.0",
+    "website": "http://pythonhosted.org/swg/"
+  },
+  {
+    "name": "SWSG",
+    "github": "derdon/swsg",
+    "language": "Python",
+    "license": "WTFPL",
+    "website": "http://derdon.github.io/swsg/"
+  },
+  {
+    "name": "Szyslak",
+    "github": "ido50/Szyslak",
+    "license": "GPL-3.0",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Tacot",
+    "license": "MIT",
+    "website": "https://bitbucket.org/harobed/tacot",
+    "language": "Python"
+  },
+  {
+    "name": "Tags",
+    "github": "braceio/tags",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "Tagy",
+    "github": "melnikov-ivan/tagy",
+    "license": "MIT",
+    "language": "Python",
+    "description": "Fully customizable structure and any params"
+  },
+  {
+    "name": "Tahchee",
+    "github": "sebastien/tahchee"
+  },
+  {
+    "name": "Tarbell",
+    "github": "tarbell-project/tarbell",
+    "license": "MIT",
+    "website": "http://www.tarbell.io/"
+  },
+  {
+    "name": "tclog",
+    "license": "BSD-3-Clause",
+    "website": "http://wiki.tcl.tk/9148",
+    "testWebsite": false,
+    "language": "Tcl",
+    "description": "Weblog generator with a GUI editor. Uploads entries via FTP. Features: RSS 1.0, HTML templates, TrackBack, wiki-like formatting, Namazu index creation.",
+    "created_at": "2003-03-17T00:00:00Z"
+  },
+  {
+    "name": "Tclssg",
+    "github": "tclssg/tclssg",
+    "license": "MIT",
+    "language": "Tcl",
+    "description": "Tclssg is a static site generator written in Tcl that uses Markdown for content markup and HTML with embedded Tcl code for page templates."
+  },
+  {
+    "name": "Techy",
+    "github": "krasimir/techy",
+    "license": "MIT",
+    "website": "http://krasimir.github.io/techy/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Teddy Hyde",
+    "github": "xrd/TeddyHyde",
+    "license": "MIT",
+    "language": "Ruby"
+  },
+  {
+    "name": "Templer",
+    "github": "skx/templer",
+    "license": "Artistic-1.0-Perl",
+    "language": "Perl"
+  },
+  {
+    "name": "Tempo",
+    "github": "catnapgames/Tempo",
+    "license": "MIT"
+  },
+  {
+    "name": "Text Assembler",
+    "website": "http://www.akiwi.co.uk/ta.html",
+    "license": false,
+    "language": "JavaScript",
+    "description": "A static website generator written in C++ integrating the Google V8 Javascript engine"
+  },
+  {
+    "name": "Thot",
+    "github": "wmark/thot",
+    "language": "Python"
+  },
+  {
+    "name": "Tinkerer",
+    "github": "vladris/tinkerer",
+    "license": "BSD-2-Clause-FreeBSD",
+    "website": "http://tinkerer.me/",
+    "language": "Python",
+    "description": "Tinkerer is a blogging engine/static website generator powered by Sphinx."
+  },
+  {
+    "name": "toto",
+    "github": "cloudhead/toto",
+    "license": "MIT"
+  },
+  {
+    "name": "Tribo",
+    "github": "CarterA/Tribo",
+    "language": "Objective-C"
+  },
+  {
+    "name": "trofaf",
+    "github": "PuerkitoBio/trofaf",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Ultra simple Site Maker",
+    "license": "GPL-3.0",
+    "website": "http://loup-vaillant.fr/projects/ussm/",
+    "language": "Shell"
+  },
+  {
+    "name": "Urubu",
+    "github": "jandecaluwe/urubu",
+    "license": "GPL-3.0",
+    "website": "http://urubu.jandecaluwe.com",
+    "language": "Python"
+  },
+  {
+    "name": "Utterson",
+    "github": "pepijndevos/utterson",
+    "language": "Clojure",
+    "website": "https://github.com/pepijndevos/utterson"
+  },
+  {
+    "name": "vee",
+    "github": "estrabd/vee",
+    "website": "http://estrabd.github.io/vee/",
+    "language": "Shell",
+    "description": "vee is a highly portable across minimal *nix systems (including MacOSX), zero dependency, zero configuration (but configurable), commandline microblogging tool. Also provides a batch interface for piping to (e.g., output from cronjobs)."
+  },
+  {
+    "name": "Vegetables",
+    "github": "partageit/vegetables",
+    "license": "MIT",
+    "website": "http://partageit.github.io/vegetables/",
+    "language": "JavaScript"
+  },
+  {
+    "name": "vimwiki",
+    "github": "vimwiki/vimwiki",
+    "website": "http://vimwiki.github.io/",
+    "license": "MIT"
+  },
+  {
+    "name": "Voldemort",
+    "github": "semk/voldemort",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "volt",
+    "github": "bow/volt",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "VoodooPad",
+    "license": false,
+    "website": "https://plausible.coop/voodoopad/",
+    "language": "App",
+    "description": "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
+  },
+  {
+    "name": "wadoo",
+    "github": "alpacaaa/wadoo",
+    "license": "WTFPL"
+  },
+  {
+    "name": "Wallflower",
+    "github": "book/App-Wallflower",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/wallflower",
+    "language": "Perl"
+  },
+  {
+    "name": "Wanna",
+    "github": "shaoshuai0102/wanna"
+  },
+  {
+    "name": "Weaver",
+    "github": "davidsiaw/weaver",
+    "website": "http://davidsiaw.github.io/weaver-docs/",
+    "license": "MIT",
+    "language": "Ruby"
+  },
+  {
+    "name": "Webby",
+    "github": "TwP/webby",
+    "license": "MIT"
+  },
+  {
+    "name": "webgen",
+    "github": "janpecha/webgen",
+    "license": "BSD-3-Clause",
+    "language": "PHP"
+  },
+  {
+    "name": "webgen",
+    "github": "gettalong/webgen",
+    "license": "GPL-3.0",
+    "website": "http://webgen.gettalong.org/"
+  },
+  {
+    "name": "Webhook",
+    "github": "webhook/webhook",
+    "license": "MIT",
+    "website": "http://www.webhook.com",
+    "language": "JavaScript"
+  },
+  {
+    "name": "Website Meta Language",
+    "license": "GPL-2.0",
+    "website": "http://www.thewml.org/",
+    "language": "Perl",
+    "updated_at": "2006-08-18T16:00:00.000Z"
+  },
+  {
+    "name": "Websleydale",
+    "github": "kalgynirae/websleydale",
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "name": "Wheat",
+    "github": "creationix/wheat",
+    "license": "MIT"
+  },
+  {
+    "name": "Wikismith",
+    "github": "wikismith/wikismith",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "The fun static site generator for fans of gulp and bower"
+  },
+  {
+    "name": "Wintersmith",
+    "github": "jnordberg/wintersmith",
+    "license": "MIT",
+    "website": "http://wintersmith.io/"
+  },
+  {
+    "name": "wok",
+    "github": "mythmon/wok",
+    "license": "MIT"
+  },
+  {
+    "name": "Woods",
+    "github": "studiomoniker/woods",
+    "license": "MIT"
+  },
+  {
+    "name": "wordsister",
+    "github": "kaihendry/wordsister",
+    "license": "MIT",
+    "language": "Make",
+    "description": "Makefile based static site generator"
+  },
+  {
+    "name": "Wyam",
+    "github": "Wyamio/Wyam",
+    "license": "MIT",
+    "website": "http://wyam.io",
+    "language": "C#"
+  },
+  {
+    "name": "Yana",
+    "github": "dariubs/yana",
+    "license": "MIT",
+    "language": "Python"
+  },
+  {
+    "name": "yassg",
+    "github": "sma/yassg",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "Yellow",
+    "github": "datenstrom/yellow",
+    "license": "GPL-2.0",
+    "language": "PHP"
+  },
+  {
+    "name": "Yggdrasil",
+    "website": "http://www.psyke.org/yggdrasil/",
+    "language": "Perl",
+    "license": "GPL-2.0",
+    "created_at": "2002-07-17T00:00:00.000Z",
+    "updated_at": "2003-10-19T00:00:00.000Z"
+  },
+  {
+    "name": "Yozuch",
+    "github": "akrylysov/yozuch",
+    "license": "BSD-3-Clause",
+    "website": "http://yozuch.krylysov.com/",
+    "language": "Python"
+  },
+  {
+    "name": "yst",
+    "github": "jgm/yst",
+    "license": "GPL-2.0",
+    "language": "Haskell",
+    "description": "uses Pandoc library"
+  },
+  {
+    "name": "zas",
+    "github": "imdario/zas",
+    "license": "AGPL-3.0",
+    "language": "Go",
+    "description": "Most. Zen. Static. Website. Generator. Ever."
+  },
+  {
+    "name": "ZenWeb",
+    "github": "seattlerb/zenweb",
+    "license": "MIT",
+    "website": "http://www.zenspider.com/projects/zenweb.html"
+  },
+  {
+    "name": "zodiac",
+    "github": "nuex/zodiac",
+    "license": "MIT",
+    "language": "Awk"
+  },
+  {
+    "name": "Zucchini",
+    "license": "Artistic-1.0-Perl",
+    "website": "https://metacpan.org/pod/Zucchini",
+    "language": "Perl"
+  },
+  {
+    "name": "ZZBlogX",
+    "website": "http://www.dmemos.de/ZZBlogX/",
+    "language": "newLISP",
+    "license": "GPL-3.0",
+    "created-at": "2013-01-03T00:00:00.000Z",
+    "updated_at": "2013-01-04T00:00:00.000Z"
+  }
+]
