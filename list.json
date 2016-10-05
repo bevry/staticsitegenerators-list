@@ -441,7 +441,9 @@
     "github": "docpad/docpad",
     "license": "MIT",
     "website": "http://docpad.org",
-    "language": "CoffeeScript"
+    "language": "CoffeeScript",
+    "is": "static site generator",
+    "extensible": true
   },
   {
     "name": "Docta",
@@ -745,7 +747,16 @@
     "github": "getgrav/grav",
     "license": "MIT",
     "website": "https://getgrav.org/",
-    "language": "PHP"
+    "language": "PHP",
+    "is": "flat file cms"
+  },
+  {
+    "name": "Grav Administration Panel",
+    "github": "getgrav/grav-plugin-admin",
+    "license": "MIT",
+    "website": "https://learn.getgrav.org/admin-panel/introduction",
+    "language": "PHP",
+    "is": "static site editor"
   },
   {
     "name": "Graze",
@@ -1026,7 +1037,8 @@
   {
     "name": "Jekyll",
     "github": "jekyll/jekyll",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "Jekyll Now",

@@ -86,6 +86,7 @@ At the very least, the following fields are required:
 - `name`
 - `tags`
 - `github` or `gitlab` or `bitbucket` or `website`
+- `is` will output a warning if missing, but is required for all new entries
 
 If `github` is specified, the following fields should only be specified if GitHub's data is incorrect:
 

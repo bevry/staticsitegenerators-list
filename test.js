@@ -75,11 +75,14 @@ joe.suite('static site generators list', function (suite, test) {
 	})
 
 	test('minimum required fields', function () {
+		const missingIs = []
 		data.forEach(function (entry) {
-			const {name, github, gitlab, bitbucket, website} = entry
+			const {name, github, gitlab, bitbucket, website, is} = entry
 			const location = (github || gitlab || bitbucket || website)
 			assert(name && location, `missing required fields on ${name || location}`)
+			if ( !is )  missingIs.push(name)
 		})
+		console.warn(`The following entries are missing the "is" field, please add what you can if you have time:\n${missingIs.join(', ')}`)
 	})
 
 	test('licenses are valid SPDX', function () {
