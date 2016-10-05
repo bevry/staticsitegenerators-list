@@ -571,6 +571,7 @@
   },
   {
     "name": "FantasticWindmill",
+    "license": "GPL-3.0",
     "github": "sylvainhalle/FantasticWindmill",
     "website": "http://sylvainhalle.github.io/FantasticWindmill/"
   },
