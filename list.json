@@ -657,7 +657,8 @@
   },
   {
     "name": "gor",
-    "github": "wendal/gor"
+    "github": "wendal/gor",
+    "license": "BSD-3-Clause"
   },
   {
     "name": "gostatic",
