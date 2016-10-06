@@ -17,6 +17,7 @@ script: "npm test"
 
 # Deployment should be easier, but https://github.com/travis-ci/travis.rb/issues/315 is a thing
 # Doesn't use --debug on `travis login` as that will output our github token
+install: gem install travis curb --no-rdoc --no-ri
 after_success: >
   if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
     echo "Deploying...";
