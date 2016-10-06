@@ -3,9 +3,8 @@ const fs = require('fs')
 const {equal} = require('assert-helpers')
 const assert = require('assert')
 const validSPDX = require('spdx-expression-validate')
-const {sort} = require('./util')
-const path = './list.json'
-const corrective = false
+const ssgs = require('./')
+const {sort, sourcePath, renderPath} = require('./util')
 
 function checkURL (url, next) {
 	const http = (/^https/).test(url) ? require('https') : require('http')
@@ -32,43 +31,11 @@ joe.suite('static site generators list', function (suite, test) {
 	let data = null
 
 	test('load content', function (done) {
-		fs.readFile(path, function (err, blob) {
+		ssgs.source(function (err, result) {
 			if (err)  return done(err)
-			try {
-				data = JSON.parse(blob.toString())
-			}
-			catch (err) {
-				return done(err)
-			}
+			data = result
 			return done()
 		})
-	})
-
-	test('sorted and formatted data', function (done) {
-		// sort data via string method
-		const sorted = sort(data)
-		// convert result into string for comparison
-		const source = JSON.stringify(data, null, '  ')
-		const result = JSON.stringify(sorted, null, '  ')
-		try {
-			// compare with stringified version (to ensure same format)
-			equal(
-				source,
-				result,
-				'entries are sorted and in the correct format'
-			)
-		}
-		catch (err) {
-			if ( !corrective )  return done(err)
-			console.log('content was not sorted in the correct format, adjusting for you')
-			fs.writeFile(path, result, function (err) {
-				if ( err )  return done(err)
-				data = sorted
-				console.log('all adjusted')
-				return done()
-			})
-		}
-		return done()
 	})
 
 	test('minimum required fields', function () {
@@ -107,8 +74,18 @@ joe.suite('static site generators list', function (suite, test) {
 		})
 	})
 
-	test('render is successful', function (done) {
-		require('./render')(done)
+	suite('render', function (done) {
+		this.setConfig({concurrency: 0})
+		ssgs.render({corrective: true}, function (err, results, sources) {
+			if ( err )  return done(err)
+			test(`writing corrected source listing ${sourcePath}`, function (done) {
+				fs.writeFile(sourcePath, JSON.stringify(sources, null, '  '), done)
+			})
+			test(`writing rendered listing to ${renderPath}`, function (done) {
+				fs.writeFile(renderPath, JSON.stringify(results, null, '  '), done)
+			})
+			done()
+		})
 	})
 
 })

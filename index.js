@@ -1,24 +1,24 @@
-/* eslint camelcase:0 */
 const fs = require('fs')
 const extractOpts = require('extract-opts')
-const extendr = require('extendr')
-const arrangekeys = require('arrangekeys')
-const {sort} = require('./util')
-const path = './list.json'
-const keyorder = 'name github gitlab bitbucket website license language description created_at updated_at is extensible stars forks watchers'
 
-module.exports = function renderStaticSiteGeneratorsListing (opts, next) {
+/* eslint camelcase:0 */
+module.exports.render = function render (opts, next) {
 	[opts, next] = extractOpts(opts, next)
+	if ( opts.corrective == null )  opts.corrective = false
 	if ( opts.log == null )  opts.log = console.log
 	if ( opts.cache == null )  opts.cache = 1000 * 60 * 60 * 24  // one day
+
+	const extendr = require('extendr')
+	const arrangekeys = require('arrangekeys')
+	const {sourcePath, sort, keyorder} = require('./util')
 
 	const sourceMap = {}
 	const resultMap = {}
 	const githubRepos = []
-	require(path).forEach(function (entry, index) {
+	require(sourcePath).forEach(function (entry, index) {
 		const key = entry.github && entry.github.toLowerCase() || index
-		sourceMap[key] = arrangekeys(entry, keyorder)
-		resultMap[key] = extendr.clone(sourceMap[key])
+		resultMap[key] = extendr.clone(arrangekeys(entry, keyorder))
+		sourceMap[key] =  extendr.clone(resultMap[key])
 		if ( entry.github ) {
 			githubRepos.push(entry.github)
 		}
@@ -58,11 +58,11 @@ module.exports = function renderStaticSiteGeneratorsListing (opts, next) {
 			Object.keys(fields).forEach(function (key) {
 				const value = fields[key]
 				if ( value ) {
-					if ( source[key] && result[key] && source[key].toLowerCase() === result[key].toLowerCase() ) {
+					if ( opts.corrective && source[key] && result[key] && source[key].toLowerCase() === result[key].toLowerCase() ) {
 						opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data`)
 						delete source[key]
 					}
-					else if ( result[key] == null ) {
+					if ( result[key] == null ) {
 						opts.log('info', `added ${key} on ${github.full_name} from the github data`)
 						result[key] = value
 					}
@@ -72,13 +72,22 @@ module.exports = function renderStaticSiteGeneratorsListing (opts, next) {
 			resultMap[key] = arrangekeys(result, keyorder)
 		})
 
-		// write the updated source and result data
-		fs.writeFile(path, JSON.stringify(sort(Object.values(sourceMap)), null, '  '), function (err) {
-			if (err)  return next(err)
-			fs.writeFile('./out.json', JSON.stringify(sort(Object.values(resultMap)), null, '  '), function (err) {
-				if (err)  return next(err)
-				return next()
-			})
-		})
+		return next(null, sort(Object.values(resultMap)), sort(Object.values(sourceMap)))
+	})
+}
+
+module.exports.source = function source (opts, next) {
+	[opts, next] = extractOpts(opts, next)
+	const {sourcePath} = require('./util')
+	fs.readFile(sourcePath, function (err, blob) {
+		let data = null
+		if (err)  return next(err)
+		try {
+			data = JSON.parse(blob.toString())
+		}
+		catch (err) {
+			return next(err)
+		}
+		return next(null, data)
 	})
 }
