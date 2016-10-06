@@ -1032,7 +1032,8 @@
   },
   {
     "name": "Lambda Pad",
-    "github": "gar1t/lambdapad"
+    "github": "gar1t/lambdapad",
+    "license": "Apache-2.0"
   },
   {
     "name": "Lannister",
