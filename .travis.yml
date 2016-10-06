@@ -15,6 +15,26 @@ cache:
 # Run our tests
 script: "npm test"
 
+# Deployment should be easier, but https://github.com/travis-ci/travis.rb/issues/315 is a thing
+# Doesn't use --debug on `travis login` as that will output our github token
+after_success: >
+  if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
+    echo "Deploying...";
+    travis login --skip-completion-check --org --github-token "$GITHUB_TRAVIS_TOKEN";
+    export TRAVIS_ACCESS_TOKEN=`cat ~/.travis/config.yml | grep access_token | sed 's/ *access_token: *//'`;
+    travis restart --debug --skip-completion-check --org -r "$DEPLOY_REPO_SLUG" -t "$TRAVIS_ACCESS_TOKEN";
+    echo "Deployed";
+  else
+    echo "Skipped deploy";
+  fi
+
+# Custom deployment
+# travis encrypt "GITHUB_TRAVIS_TOKEN=$GITHUB_TRAVIS_TOKEN" --add env.global
+env:
+  global:
+    - DEPLOY_REPO_SLUG='bevry/staticsitegenerators-website'  # this is the repo owner and repo name that you want tested and deployed, set correctly
+    - secure: WPW25SQXgwoW2nTu492+bIEflMarGnZZ20DuLmiUK8Ebnmh2GzJbz0aclfC38NR8+oJFaXk7HpXBTTdtXWjc8S1tvrm0yQqUahSOT/Hybewm1FqP1wIOYStSnsGfQMODSXOWFMX+fjKlHPe+lV1WeXzGh5tnudTEtNV5kzXXjOo=
+
 # Custom notifications
 notifications:
   slack:
