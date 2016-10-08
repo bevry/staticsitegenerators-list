@@ -137,7 +137,7 @@ When you submit your pull request, your submission will be automatically tested,
 
 <h2>History</h2>
 
-<a href="https://github.com/bevry/staticsitegenerators-list/releases">Discover the release history by heading on over to the releases page.</a>
+<a href="https://github.com/bevry/staticsitegenerators-list/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
 
@@ -268,6 +268,7 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/johngtait">John Tait</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=johngtait" title="View the GitHub contributions of John Tait on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/jonschlinkert">Jon Schlinkert</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonschlinkert" title="View the GitHub contributions of Jon Schlinkert on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://jonathanbullock.com">Jonathan Bullock</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonbullock" title="View the GitHub contributions of Jonathan Bullock on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com">Hugh Brown</a></li>
 <li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 
