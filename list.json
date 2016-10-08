@@ -377,13 +377,6 @@
     "license": "Apache-2.0"
   },
   {
-    "name": "Divshot",
-    "website": "https://divshot.com/",
-    "license": false,
-    "language": "Web",
-    "description": "Static web Platform-as-a-Service with pushState support."
-  },
-  {
     "name": "django-medusa",
     "github": "mtigas/django-medusa",
     "website": "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/",
