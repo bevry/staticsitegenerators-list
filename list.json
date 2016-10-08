@@ -316,6 +316,12 @@
     "license": "MIT"
   },
   {
+    "name": "Contentful",
+    "website": "https://www.contentful.com",
+    "description": "Contentful is a content management developer platform with an API at its core.",
+    "is": "static site editor"
+  },
+  {
     "name": "Cory",
     "github": "leo/cory",
     "license": "MIT"
@@ -1390,6 +1396,12 @@
     "description": "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
   },
   {
+    "name": "Osmek",
+    "website": "http://osmek.com",
+    "description": "Osmek isn't just a CMS, it's a Content API. It's time to rethink what you know about content management. Osmek takes the framework out of CMS, and that changes everything.",
+    "is": "static site editor"
+  },
+  {
     "name": "Pagegen",
     "github": "oliverfields/pagegen_v2",
     "website": "http://pagegen.phnd.net/"
@@ -1539,9 +1551,21 @@
     "description": "Static Website Hosting and CDN"
   },
   {
+    "name": "Prismic",
+    "website": "https://prismic.io",
+    "description": "A hosted, API based and developer friendly CMS backend. We take care of upgrades, scalability and security.",
+    "is": "static site editor"
+  },
+  {
     "name": "Propeller",
     "github": "thegreatsunra/propeller",
     "license": "MIT"
+  },
+  {
+    "name": "Prose",
+    "website": "http://prose.io",
+    "description": "Prose is a content editor for GitHub designed for managing websites.",
+    "is": "static site editor"
   },
   {
     "name": "Pulse CMS",
