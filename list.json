@@ -105,9 +105,8 @@
   {
     "name": "BitBalloon",
     "website": "https://www.bitballoon.com/",
-    "license": false,
-    "language": "Web",
-    "description": "A hosting platform for your static sites & apps"
+    "description": "The fastest, simplest HTML5 hosting platform on the planet",
+    "is": "static site host"
   },
   {
     "name": "Blacksmith",
@@ -285,8 +284,8 @@
   {
     "name": "Cloud Cannon",
     "website": "http://cloudcannon.com/",
-    "license": false,
-    "language": "Web"
+    "description": "The Cloud CMS for Jekyll. Build static or Jekyll websites, have your team and clients update inline with the CloudCannon GUI.",
+    "is": "static site host"
   },
   {
     "name": "CMX.js",
@@ -768,8 +767,8 @@
     "name": "Hammer",
     "website": "http://hammerformac.com/",
     "license": false,
-    "language": "App",
-    "description": "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer."
+    "description": "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer.",
+    "is": "static site generator"
   },
   {
     "name": "hanayo",
@@ -1570,7 +1569,8 @@
     "website": "https://www.pulsecms.com/",
     "license": false,
     "language": "PHP",
-    "description": "The easiest flat-file CMS for designers and their clients"
+    "description": "The easiest flat-file CMS for designers and their clients",
+    "is": "static site editor"
   },
   {
     "name": "Punch",
