@@ -5,7 +5,6 @@ const extractOpts = require('extract-opts')
 module.exports.render = function render (opts, next) {
 	[opts, next] = extractOpts(opts, next)
 	if ( opts.corrective == null )  opts.corrective = false
-	if ( opts.log == null )  opts.log = console.log
 	if ( opts.cache == null )  opts.cache = 1000 * 60 * 60 * 24  // one day
 
 	const extendr = require('extendr')
@@ -25,7 +24,7 @@ module.exports.render = function render (opts, next) {
 	})
 
 	// Enhance with github data
-	opts.log('info', `Fetching the github information, all ${githubRepos.length} of them`)
+	if ( opts.log )  opts.log('info', `Fetching the github information, all ${githubRepos.length} of them`)
 	require('getrepos').create(opts).fetchRepos(githubRepos, function (err, repos) {
 		if (err)  return next(err)
 
@@ -35,7 +34,7 @@ module.exports.render = function render (opts, next) {
 
 			// Confirm existance as name may have changed from the listing, for example a repo rename
 			if ( sourceMap[key] == null ) {
-				opts.log('warn', `${github.full_name} is missing, likely due to rename`)
+				if ( opts.log )  opts.log('warn', `${github.full_name} is missing, likely due to rename`)
 				return  // skip
 			}
 
@@ -59,11 +58,11 @@ module.exports.render = function render (opts, next) {
 				const value = fields[key]
 				if ( value ) {
 					if ( opts.corrective && source[key] && result[key] && source[key].toLowerCase() === result[key].toLowerCase() ) {
-						opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data`)
+						if ( opts.log )  opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data`)
 						delete source[key]
 					}
 					if ( result[key] == null ) {
-						opts.log('info', `added ${key} on ${github.full_name} from the github data`)
+						if ( opts.log )  opts.log('info', `added ${key} on ${github.full_name} from the github data`)
 						result[key] = value
 					}
 				}

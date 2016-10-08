@@ -4,7 +4,11 @@ const {equal} = require('assert-helpers')
 const assert = require('assert')
 const validSPDX = require('spdx-expression-validate')
 const ssgs = require('./')
-const {sort, sourcePath, renderPath} = require('./util')
+const {sourcePath, renderPath} = require('./util')
+function log (...args) {
+	if ( args[0] === 7 || args[0] === 'debug' )  return
+	console.log.apply(console.log, args)
+}
 
 function checkURL (url, next) {
 	const http = (/^https/).test(url) ? require('https') : require('http')
@@ -76,7 +80,7 @@ joe.suite('static site generators list', function (suite, test) {
 
 	suite('render', function (done) {
 		this.setConfig({concurrency: 0})
-		ssgs.render({corrective: true}, function (err, results, sources) {
+		ssgs.render({log, corrective: true}, function (err, results, sources) {
 			if ( err )  return done(err)
 			test(`writing corrected source listing ${sourcePath}`, function (done) {
 				fs.writeFile(sourcePath, JSON.stringify(sources, null, '  '), done)
