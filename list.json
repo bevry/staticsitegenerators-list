@@ -406,13 +406,6 @@
     "license": "BSD-3-Clause"
   },
   {
-    "name": "DOS on Dope",
-    "website": "http://dod.codeplex.com",
-    "license": "BSD-3-Clause",
-    "language": "Batch",
-    "description": "DOS on DOPE is the modern MVC framework built on the awesome power of Batch scripts."
-  },
-  {
     "name": "Drapache",
     "github": "louissobel/Drapache",
     "website": "https://github.com/louissobel/Drapache",
