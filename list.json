@@ -937,6 +937,12 @@
     "is": "static site generator"
   },
   {
+    "name": "Jekyll Admin",
+    "github": "jekyll/jekyll-admin",
+    "license": "MIT",
+    "is": "static site editor"
+  },
+  {
     "name": "Jekyll Now",
     "github": "barryclark/jekyll-now",
     "website": "http://www.jekyllnow.com",
