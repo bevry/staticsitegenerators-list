@@ -78,15 +78,20 @@ joe.suite('static site generators list', function (suite, test) {
 		})
 	})
 
-	suite('render', function (done) {
+	suite('render', function (suite, test, done) {
 		this.setConfig({concurrency: 0})
 		ssgs.render({log, corrective: true}, function (err, results, sources) {
 			if ( err )  return done(err)
+			const source = JSON.stringify(data, null, '  ')
+			const result = JSON.stringify(sources, null, '  ')
 			test(`writing corrected source listing ${sourcePath}`, function (done) {
-				fs.writeFile(sourcePath, JSON.stringify(sources, null, '  '), done)
+				fs.writeFile(sourcePath, result, done)
 			})
 			test(`writing rendered listing to ${renderPath}`, function (done) {
 				fs.writeFile(renderPath, JSON.stringify(results, null, '  '), done)
+			})
+			test(`source data was the same as the corrected data ${sourcePath}`, function () {
+				equal(source, result, 'there was automated data written into the manual listing, this has been removed, run the tests again')
 			})
 			done()
 		})

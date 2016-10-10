@@ -27,7 +27,6 @@
   {
     "name": "antwar",
     "github": "antwarjs/antwar",
-    "website": "http://antwarjs.github.io/",
     "license": "MIT"
   },
   {
@@ -41,7 +40,6 @@
   {
     "name": "assemble",
     "github": "assemble/assemble",
-    "website": "http://assemble.io/",
     "license": "MIT"
   },
   {
@@ -59,7 +57,6 @@
   {
     "name": "awestruct",
     "github": "awestruct/awestruct",
-    "website": "http://awestruct.org/",
     "license": "MIT"
   },
   {
@@ -184,7 +181,6 @@
   {
     "name": "Bonsai",
     "github": "benschwarz/bonsai",
-    "website": "http://tinytree.info/",
     "license": "MIT"
   },
   {
@@ -206,7 +202,6 @@
   {
     "name": "Broccoli Taco",
     "github": "moudy/broccoli-taco",
-    "website": "http://broccoli-taco.com/",
     "license": "MIT"
   },
   {
@@ -228,7 +223,6 @@
   {
     "name": "Cabin",
     "github": "CabinJS/Cabin",
-    "website": "http://www.cabinjs.com/",
     "license": "MIT"
   },
   {
@@ -239,13 +233,11 @@
   {
     "name": "Calepin",
     "github": "jokull/calepin",
-    "website": "http://calepin.co/",
     "license": "ISC"
   },
   {
     "name": "Carew",
     "github": "carew/carew",
-    "website": "http://carew.github.io/",
     "license": "MIT"
   },
   {
@@ -328,7 +320,6 @@
   {
     "name": "creo",
     "github": "ByronKellett/creo",
-    "website": "http://execo.github.io/creo/",
     "license": "MIT"
   },
   {
@@ -361,7 +352,6 @@
   {
     "name": "deplate",
     "github": "tomtom/deplate",
-    "website": "http://deplate.sourceforge.net/",
     "license": "GPL-2.0"
   },
   {
@@ -378,7 +368,6 @@
   {
     "name": "django-medusa",
     "github": "mtigas/django-medusa",
-    "website": "https://mike.tig.as/blog/2012/06/30/django-medusa-rendering-django-sites-static-html/",
     "license": "MIT"
   },
   {
@@ -393,7 +382,6 @@
   {
     "name": "DocPad",
     "github": "docpad/docpad",
-    "website": "http://docpad.org",
     "license": "MIT",
     "is": "static site generator",
     "extensible": true
@@ -401,7 +389,6 @@
   {
     "name": "Docta",
     "github": "05bit/docta",
-    "website": "http://docta.05bit.com",
     "license": "BSD-3-Clause"
   },
   {
@@ -803,7 +790,6 @@
   {
     "name": "haroopress",
     "github": "rhiokim/haroopress",
-    "website": "http://haroopress.com",
     "license": "MIT"
   },
   {
@@ -891,8 +877,7 @@
   },
   {
     "name": "Ikiwiki",
-    "github": "joeyh/ikiwiki",
-    "website": "http://ikiwiki.info/"
+    "github": "joeyh/ikiwiki"
   },
   {
     "name": "ink",
@@ -955,7 +940,6 @@
   {
     "name": "jem-press",
     "github": "stsievert/jem-press",
-    "website": "http://scottsievert.com/jem-press/",
     "license": "GPL-3.0"
   },
   {
@@ -1171,7 +1155,6 @@
   {
     "name": "Markdoc",
     "github": "zacharyvoase/markdoc",
-    "website": "http://markdoc.org/",
     "license": "Unlicense"
   },
   {
@@ -1249,7 +1232,6 @@
   {
     "name": "MkDocs",
     "github": "mkdocs/mkdocs",
-    "website": "http://www.mkdocs.org",
     "license": "BSD-2-Clause"
   },
   {
@@ -1271,7 +1253,6 @@
   {
     "name": "mynt",
     "github": "Anomareh/mynt",
-    "website": "http://mynt.uhnomoli.com/",
     "license": "BSD-3-Clause"
   },
   {
@@ -1283,7 +1264,6 @@
   {
     "name": "nanoc",
     "github": "nanoc/nanoc",
-    "website": "http://nanoc.ws/",
     "license": "MIT"
   },
   {
@@ -1314,13 +1294,11 @@
   {
     "name": "Nico",
     "github": "lepture/nico",
-    "website": "http://lab.lepture.com/nico/",
     "license": "BSD-3-Clause"
   },
   {
     "name": "Nikola",
     "github": "getnikola/nikola",
-    "website": "https://getnikola.com/",
     "license": "MIT"
   },
   {
@@ -1423,7 +1401,6 @@
   {
     "name": "pansite",
     "github": "wcaleb/website",
-    "website": "http://wcm1.web.rice.edu",
     "license": "CC-BY-SA-3.0"
   },
   {
@@ -1445,7 +1422,6 @@
   {
     "name": "Perun",
     "github": "hashobject/perun",
-    "website": "https://perun.io",
     "license": "EPL-1.0"
   },
   {
@@ -1456,7 +1432,6 @@
   {
     "name": "Phenomic",
     "github": "MoOx/phenomic",
-    "website": "https://phenomic.io/",
     "license": "MIT"
   },
   {
@@ -1473,7 +1448,6 @@
   {
     "name": "PHPoole",
     "github": "Narno/PHPoole",
-    "website": "http://phpoole.org",
     "license": "MIT"
   },
   {
@@ -1521,7 +1495,6 @@
   {
     "name": "poole",
     "github": "obensonne/poole",
-    "website": "https://bitbucket.org/obensonne/poole",
     "license": "GPL-3.0"
   },
   {
@@ -1721,7 +1694,6 @@
   {
     "name": "s2gen",
     "github": "denisftw/s2gen",
-    "website": "http://appliedscala.com/s2gen/",
     "license": "MIT"
   },
   {
@@ -1790,7 +1762,6 @@
   {
     "name": "Silex",
     "github": "silexlabs/Silex",
-    "website": "http://www.silex.me",
     "license": "GPL-3.0"
   },
   {
@@ -1801,7 +1772,6 @@
   {
     "name": "Simple",
     "github": "isnowfy/simple",
-    "website": "http://isnowfy.github.io/simple/",
     "license": "MIT"
   },
   {
@@ -1842,14 +1812,14 @@
     "description": "New and intuitive way to create websites with dropbox"
   },
   {
-    "name": "SiteGen",
+    "name": "SiteGen (Dart)",
     "github": "MikeMitterer/dart-sitegen",
     "website": "https://pub.dartlang.org/packages/sitegen",
     "license": "(Apache-2.0 AND BSD-3-Clause)",
     "description": "Sitegenerator for Dart"
   },
   {
-    "name": "sitegen",
+    "name": "Sitegen (MoonScript)",
     "github": "leafo/sitegen",
     "license": "MIT"
   },
@@ -1903,7 +1873,6 @@
   {
     "name": "Spina",
     "github": "denkGroot/Spina",
-    "website": "http://www.spinacms.com",
     "license": "MIT"
   },
   {
@@ -1913,7 +1882,6 @@
   {
     "name": "Spress",
     "github": "spress/Spress",
-    "website": "http://spress.yosymfony.com/",
     "license": "MIT"
   },
   {
@@ -1943,7 +1911,6 @@
   {
     "name": "Stacktic",
     "github": "stackticjs/stacktic",
-    "website": "http://stackticjs.github.io/stacktic/",
     "license": "MIT"
   },
   {
@@ -2076,7 +2043,6 @@
   {
     "name": "StrangeCase",
     "github": "colinta/StrangeCase",
-    "website": "http://colinta.com/projects/StrangeCase.html",
     "license": "BSD-2-Clause"
   },
   {
@@ -2230,8 +2196,7 @@
   },
   {
     "name": "vee",
-    "github": "estrabd/vee",
-    "website": "http://estrabd.github.io/vee/"
+    "github": "estrabd/vee"
   },
   {
     "name": "Vegetables",
@@ -2242,7 +2207,6 @@
   {
     "name": "vimwiki",
     "github": "vimwiki/vimwiki",
-    "website": "http://vimwiki.github.io/",
     "license": "MIT"
   },
   {
@@ -2302,7 +2266,6 @@
   {
     "name": "Webhook",
     "github": "webhook/webhook",
-    "website": "http://www.webhook.com",
     "license": "MIT"
   },
   {
@@ -2330,7 +2293,6 @@
   {
     "name": "Wintersmith",
     "github": "jnordberg/wintersmith",
-    "website": "http://wintersmith.io/",
     "license": "MIT"
   },
   {
@@ -2351,7 +2313,6 @@
   {
     "name": "Wyam",
     "github": "Wyamio/Wyam",
-    "website": "http://wyam.io",
     "license": "MIT"
   },
   {
@@ -2380,7 +2341,6 @@
   {
     "name": "Yozuch",
     "github": "akrylysov/yozuch",
-    "website": "http://yozuch.krylysov.com/",
     "license": "BSD-3-Clause"
   },
   {

@@ -16,8 +16,8 @@ module.exports.render = function render (opts, next) {
 	const githubRepos = []
 	require(sourcePath).forEach(function (entry, index) {
 		const key = entry.github && entry.github.toLowerCase() || index
+		sourceMap[key] = extendr.clone(arrangekeys(entry, keyorder))
 		resultMap[key] = extendr.clone(arrangekeys(entry, keyorder))
-		sourceMap[key] =  extendr.clone(resultMap[key])
 		if ( entry.github ) {
 			githubRepos.push(entry.github)
 		}
@@ -47,7 +47,7 @@ module.exports.render = function render (opts, next) {
 				description: github.description,
 				language: github.language,
 				license: github.license && github.license.key,
-				website: github.homepage && github.homepage.toLowerCase().indexOf(`github.com/${key}`) !== -1 && github.homepage,
+				website: github.homepage && github.homepage.toLowerCase().indexOf(`github.com/${key}`) === -1 && github.homepage,
 				stars: github.stargazers_count,
 				watchers: github.watchers_count,
 				forks: github.forks_count,
@@ -57,8 +57,8 @@ module.exports.render = function render (opts, next) {
 			Object.keys(fields).forEach(function (key) {
 				const value = fields[key]
 				if ( value ) {
-					if ( opts.corrective && source[key] && result[key] && source[key].toLowerCase() === result[key].toLowerCase() ) {
-						if ( opts.log )  opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data`)
+					if ( opts.corrective && source[key] && value && source[key].toLowerCase() === value.toLowerCase() ) {
+						if ( opts.log )  opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data: ${value}`)
 						delete source[key]
 					}
 					if ( result[key] == null ) {
