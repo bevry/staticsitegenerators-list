@@ -1877,7 +1877,8 @@
   },
   {
     "name": "Spine",
-    "github": "varl/spine"
+    "github": "varl/spine",
+    "license": "MIT"
   },
   {
     "name": "Spress",
