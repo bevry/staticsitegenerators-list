@@ -1045,6 +1045,12 @@
     "github": "andygwood/larassg"
   },
   {
+    "name": "Latemp",
+    "bitbucket": "shlomif/latemp",
+    "website": "http://web-cpan.shlomifish.org/latemp/",
+    "language": "Perl"
+  },
+  {
     "name": "lava",
     "github": "johannhof/lava",
     "license": "MIT"
