@@ -1046,7 +1046,7 @@
   },
   {
     "name": "Latemp",
-    "bitbucket": "https://bitbucket.org/shlomif/latemp",
+    "bitbucket": "shlomif/latemp",
     "website": "http://web-cpan.shlomifish.org/latemp/",
     "language": "Perl"
   },
