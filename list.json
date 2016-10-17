@@ -142,7 +142,8 @@
   },
   {
     "name": "Blogen",
-    "github": "ipconfiger/blogen"
+    "github": "ipconfiger/blogen",
+    "license": "GPL-3.0"
   },
   {
     "name": "blogit",
