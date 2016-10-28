@@ -135,10 +135,13 @@
   },
   {
     "name": "blogc++",
-    "website": "https://bitbucket.org/tux_/blogcpp",
+    "website": "http://blogcpp.org",
+    "bitbucket": "tux_/blogcpp",
     "license": "WTFPL",
     "language": "C++",
-    "description": "Just another static blog generator, written in C++17."
+    "description": "Just another static blog generator, written in C++17.",
+    "is": "static site generator",
+    "extensible": false
   },
   {
     "name": "Blogen",
@@ -300,7 +303,9 @@
     "name": "coleslaw",
     "github": "kingcons/coleslaw",
     "website": "http://www.cliki.net/coleslaw",
-    "license": "BSD-2-Clause"
+    "license": "BSD-2-Clause",
+    "is": "static site generator",
+    "extensible": true
   },
   {
     "name": "Composer",
@@ -561,7 +566,9 @@
   {
     "name": "Frog",
     "github": "greghendershott/frog",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator",
+    "extensible": false
   },
   {
     "name": "Frozen-Flask",
@@ -667,7 +674,8 @@
     "github": "getgrav/grav",
     "website": "https://getgrav.org/",
     "license": "MIT",
-    "is": "flat file cms"
+    "is": "flat file cms",
+    "extensible": true
   },
   {
     "name": "Grav Administration Panel",
@@ -744,7 +752,8 @@
     "name": "Hakyll",
     "github": "jaspervdj/hakyll",
     "website": "https://jaspervdj.be/hakyll/",
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
+    "is": "static site generator"
   },
   {
     "name": "Halwa",
@@ -818,7 +827,8 @@
     "name": "Hexo",
     "github": "hexojs/hexo",
     "website": "https://hexo.io/",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "HiD",
@@ -858,7 +868,9 @@
     "name": "Hugo",
     "github": "spf13/hugo",
     "website": "http://gohugo.io/",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "is": "static site generator",
+    "extensible": true
   },
   {
     "name": "Hyde",
@@ -1075,7 +1087,9 @@
   {
     "name": "Lektor",
     "github": "lektor/lektor",
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
+    "is": "flat file cms",
+    "extensible": true
   },
   {
     "name": "Lenscap",
@@ -1377,13 +1391,6 @@
     "github": "andyshuhsin/orca"
   },
   {
-    "name": "Org Mode",
-    "website": "http://orgmode.org/",
-    "license": "GPL-3.0",
-    "language": "Emacs Lisp",
-    "description": "Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system."
-  },
-  {
     "name": "Osmek",
     "website": "http://osmek.com",
     "description": "Osmek isn't just a CMS, it's a Content API. It's time to rethink what you know about content management. Osmek takes the framework out of CMS, and that changes everything.",
@@ -1420,7 +1427,9 @@
     "name": "Pelican",
     "github": "getpelican/pelican",
     "website": "http://blog.getpelican.com",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "is": "static site generator",
+    "extensible": true
   },
   {
     "name": "Penguin",
@@ -2039,8 +2048,10 @@
   {
     "name": "Statocles",
     "github": "preaction/Statocles",
-    "website": "http://preaction.github.io/Statocles/",
-    "license": "Artistic-1.0-Perl"
+    "website": "http://preaction.me/Statocles/",
+    "license": "Artistic-1.0-Perl",
+    "is": "static site generator",
+    "extensible": true
   },
   {
     "name": "Stog",
