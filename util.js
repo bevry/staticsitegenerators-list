@@ -1,7 +1,7 @@
 module.exports.sourcePath = './list.json'
 module.exports.renderPath = './out.json'
 
-module.exports.keyorder = 'name github gitlab bitbucket website license language description created_at updated_at is extensible stars forks watchers'
+module.exports.keyorder = 'name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
 
 module.exports.sort = function sort (data) {
 	return data.sort((a, b) => {
