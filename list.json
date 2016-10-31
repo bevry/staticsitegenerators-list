@@ -113,10 +113,11 @@
   },
   {
     "name": "Blatter",
-    "website": "https://bitbucket.org/jek/blatter",
+    "bitbucket": "jek/blatter",
     "license": "MIT",
     "language": "Python",
-    "description": "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates."
+    "description": "Blatter is a tiny tool for creating and publishing static web sites built from dynamic templates.",
+    "is": "static site generator"
   },
   {
     "name": "BlazeBlogger",
@@ -157,12 +158,14 @@
   {
     "name": "Blogofile",
     "github": "EnigmaCurry/blogofile",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "blogpy",
     "github": "travisred/blogpy",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "is": "static site generator"
   },
   {
     "name": "blosxom",
@@ -176,7 +179,9 @@
   {
     "name": "Blug",
     "github": "jeffknupp/blug",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator",
+    "abandoned": true
   },
   {
     "name": "Bolt",
@@ -208,7 +213,8 @@
   {
     "name": "Broccoli Taco",
     "github": "moudy/broccoli-taco",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "brochure",
@@ -229,7 +235,8 @@
   {
     "name": "Cabin",
     "github": "CabinJS/Cabin",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "Cactus",
@@ -339,7 +346,8 @@
     "name": "cyrax",
     "github": "piranha/cyrax",
     "website": "https://pypi.python.org/pypi/cyrax",
-    "license": "ISC"
+    "license": "ISC",
+    "is": "static site generator"
   },
   {
     "name": "cytoplasm",
@@ -467,7 +475,8 @@
   {
     "name": "Elyse",
     "github": "FSX/elyse",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "embellih",
@@ -535,7 +544,8 @@
   {
     "name": "flim",
     "github": "shapeshed/flim",
-    "license": "MIT"
+    "license": "MIT",
+    "is": "static site generator"
   },
   {
     "name": "Floyd",
@@ -2107,7 +2117,7 @@
   },
   {
     "name": "Tacot",
-    "website": "https://bitbucket.org/harobed/tacot",
+    "bitbucket": "harobed/tacot",
     "license": "MIT",
     "language": "Python"
   },
