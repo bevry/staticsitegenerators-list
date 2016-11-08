@@ -1883,6 +1883,13 @@
     "license": "GPL-3.0"
   },
   {
+    "name": "Spelt",
+    "github": "njdehoog/Spelt",
+    "license": "MIT",
+    "language": "Swift",
+    "is": "static site generator"
+  },
+  {
     "name": "SPG",
     "github": "AdamBien/spg",
     "license": "Apache-2.0"
