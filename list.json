@@ -2235,7 +2235,8 @@
   },
   {
     "name": "vee",
-    "github": "estrabd/vee"
+    "github": "estrabd/vee",
+    "license": "WTFPL"
   },
   {
     "name": "Vegetables",
