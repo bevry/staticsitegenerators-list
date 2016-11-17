@@ -1388,6 +1388,11 @@
     "description": "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
   },
   {
+    "name": "onessg",
+    "is": "static site generator",
+    "github": "RyanZim/onessg"
+  },
+  {
     "name": "operator-DD3",
     "github": "operator-dd3/operator-dd3",
     "license": "Unlicense"
