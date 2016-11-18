@@ -126,6 +126,14 @@
     "language": "Perl"
   },
   {
+    "name": "bliper",
+    "website": "http://git.2f30.org/bliper/files.html",
+    "license": "BSD-2-Clause",
+    "language": "Perl",
+    "description": "static html page generation in perl",
+    "is": "static site generator"
+  },
+  {
     "name": "Blode",
     "github": "stackoverflow/blode"
   },
