@@ -1453,6 +1453,7 @@
     "github": "getpelican/pelican",
     "website": "http://blog.getpelican.com",
     "license": "GPL-3.0",
+    "language": "Python",
     "is": "static site generator",
     "extensible": true
   },
