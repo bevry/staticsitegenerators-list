@@ -1362,6 +1362,12 @@
     "license": "MIT"
   },
   {
+    "name": "Nuxt.js",
+    "github": "nuxt/nuxt.js",
+    "website": "https://nuxtjs.org/",
+    "license": "MIT
+  },
+  {
     "name": "o-blog",
     "github": "renard/o-blog",
     "website": "http://renard.github.io/o-blog-v2/",
