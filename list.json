@@ -550,6 +550,11 @@
     "license": "MIT"
   },
   {
+    "name": "Fledermaus",
+    "github": "sapegin/fledermaus",
+    "license": "MIT"
+  },  
+  {
     "name": "flim",
     "github": "shapeshed/flim",
     "license": "MIT",
