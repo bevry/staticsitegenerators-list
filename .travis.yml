@@ -1,41 +1,52 @@
-# 2016 April 27
+# 2016 November 5
 # https://github.com/bevry/base
 
 # Use the latest travis infrastructure
 sudo: false
 
-# We use node
+# CUSTOM
+# https://github.com/nodejs/LTS
 language: node_js
 node_js:
-  - "6"
+  - "6"     # lts
 cache:
   directories:
     - node_modules
 
-# Run our tests
-script: "npm test"
-
-# Deployment should be easier, but https://github.com/travis-ci/travis.rb/issues/315 is a thing
-# Doesn't use --debug on `travis login` as that will output our github token
-before_install: rvm install 2.1
-install: gem install travis curb --no-rdoc --no-ri
-after_success: >
-  if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
-    echo "Deploying...";
-    travis login --skip-completion-check --org --github-token "$GITHUB_TRAVIS_TOKEN";
-    export TRAVIS_ACCESS_TOKEN=`cat ~/.travis/config.yml | grep access_token | sed 's/ *access_token: *//'`;
-    travis restart --debug --skip-completion-check --org -r "$DEPLOY_REPO_SLUG" -t "$TRAVIS_ACCESS_TOKEN";
-    echo "Deployed";
-  else
-    echo "Skipped deploy";
+# Ensure npm is up to date
+# Ensure dependencies install with a LTS node version
+install: |
+  export CURRENT_NPM_VERSION="$(npm --version)"
+  export LATEST_NPM_VERSION="$(npm view npm version)"
+  if test "$CURRENT_NPM_VERSION" != "$LATEST_NPM_VERSION"; then
+    echo "running an old npm version, upgrading"
+    npm instal npm --global --cache-min=Infinity
   fi
 
-# Custom deployment
-# travis encrypt "GITHUB_TRAVIS_TOKEN=$GITHUB_TRAVIS_TOKEN" --add env.global
-env:
-  global:
-    - DEPLOY_REPO_SLUG='bevry/staticsitegenerators-website'  # this is the repo owner and repo name that you want tested and deployed, set correctly
-    - secure: WPW25SQXgwoW2nTu492+bIEflMarGnZZ20DuLmiUK8Ebnmh2GzJbz0aclfC38NR8+oJFaXk7HpXBTTdtXWjc8S1tvrm0yQqUahSOT/Hybewm1FqP1wIOYStSnsGfQMODSXOWFMX+fjKlHPe+lV1WeXzGh5tnudTEtNV5kzXXjOo=
+  export CURRENT_NODE_VERSION="$(node --version)"
+  export LTS_NODE_VERSIONS="$(nvm ls-remote --lts)"
+  if echo "$LTS_NODE_VERSIONS" | grep "$CURRENT_NODE_VERSION"; then
+    echo "running on a LTS node version, completing setup"
+    npm run our:setup
+  else
+    echo "running on a non-LTS node version, completing setup on a LTS node version"
+    nvm install --lts
+    export LTS_NODE_VERSION="$(node --version)"
+    npm run our:setup
+    nvm use "$TRAVIS_NODE_VERSION"
+  fi
+
+# Ensure compilation and linting occur on an LTS node version
+before_script: |
+  if test "$LTS_NODE_VERSION"; then
+    echo "running on a non-LTS node version, compiling with LTS, skipping linting"
+    nvm use "$LTS_NODE_VERSION"
+    npm run our:compile
+    nvm use "$TRAVIS_NODE_VERSION"
+  else
+    echo "running on a LTS node version, compiling and linting"
+    npm run our:compile && npm run our:verify
+  fi
 
 # Custom notifications
 notifications:

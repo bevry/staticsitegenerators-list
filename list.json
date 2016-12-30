@@ -145,8 +145,8 @@
   },
   {
     "name": "blogc++",
-    "website": "http://blogcpp.org",
     "bitbucket": "tux_/blogcpp",
+    "website": "http://blogcpp.org",
     "license": "WTFPL",
     "language": "C++",
     "description": "Just another static blog generator, written in C++17.",
@@ -188,8 +188,8 @@
     "name": "Blug",
     "github": "jeffknupp/blug",
     "license": "MIT",
-    "is": "static site generator",
-    "abandoned": true
+    "abandoned": true,
+    "is": "static site generator"
   },
   {
     "name": "Bolt",
@@ -553,7 +553,7 @@
     "name": "Fledermaus",
     "github": "sapegin/fledermaus",
     "license": "MIT"
-  },  
+  },
   {
     "name": "flim",
     "github": "shapeshed/flim",
@@ -691,7 +691,7 @@
   {
     "name": "Grain",
     "github": "sysgears/grain",
-    "website": "http://sysgears.com/grain/",
+    "website": "https://sysgears.com/grain/",
     "license": "(Apache-2.0 AND MIT)"
   },
   {
@@ -787,7 +787,7 @@
   },
   {
     "name": "Hammer",
-    "website": "http://hammerformac.com/",
+    "website": "https://hammerformac.com",
     "license": false,
     "description": "Super-charge your web development with Hammer. Still using PHP includes for HTML? You're going to love hammer.",
     "is": "static site generator"
@@ -1233,7 +1233,7 @@
   },
   {
     "name": "Mecha",
-    "github": "mecha-cms/mecha-cms",
+    "github": "mecha-cms/mecha",
     "license": "GPL-3.0"
   },
   {
@@ -1363,14 +1363,14 @@
   },
   {
     "name": "noflo-jekyll",
-    "github": "the-grid/noflo-jekyll",
+    "github": "noflo/noflo-jekyll",
     "license": "MIT"
   },
   {
     "name": "Nuxt.js",
     "github": "nuxt/nuxt.js",
     "website": "https://nuxtjs.org/",
-    "license": "MIT
+    "license": "MIT"
   },
   {
     "name": "o-blog",
@@ -1408,8 +1408,8 @@
   },
   {
     "name": "onessg",
-    "is": "static site generator",
-    "github": "RyanZim/onessg"
+    "github": "RyanZim/onessg",
+    "is": "static site generator"
   },
   {
     "name": "operator-DD3",
@@ -1464,7 +1464,6 @@
     "github": "getpelican/pelican",
     "website": "http://blog.getpelican.com",
     "license": "GPL-3.0",
-    "language": "Python",
     "is": "static site generator",
     "extensible": true
   },
@@ -1775,7 +1774,7 @@
   {
     "name": "serious-chicken",
     "github": "rtorr/serious-chicken",
-    "website": "http://rtorr.github.io/serious-chicken/",
+    "website": "http://rtorr.com/serious-chicken/",
     "license": "MIT"
   },
   {
@@ -1911,7 +1910,6 @@
     "name": "Spelt",
     "github": "njdehoog/Spelt",
     "license": "MIT",
-    "language": "Swift",
     "is": "static site generator"
   },
   {
@@ -1978,7 +1976,6 @@
   {
     "name": "Stadø",
     "github": "lecnim/stado",
-    "website": "http://stadoproject.org/",
     "license": "MIT"
   },
   {
@@ -2082,18 +2079,17 @@
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
-  },
-  {
-    "name": "Statix",
     "github": "ff0000/statix",
     "license": "MIT"
   },
   {
+    "name": "Statix",
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
+  },
+  {
     "name": "Statocles",
     "github": "preaction/Statocles",
-    "website": "http://preaction.me/Statocles/",
     "license": "Artistic-1.0-Perl",
     "is": "static site generator",
     "extensible": true
@@ -2193,11 +2189,6 @@
     "name": "Techy",
     "github": "krasimir/techy",
     "website": "http://krasimir.github.io/techy/",
-    "license": "MIT"
-  },
-  {
-    "name": "Teddy Hyde",
-    "github": "xrd/TeddyHyde",
     "license": "MIT"
   },
   {
@@ -2325,7 +2316,7 @@
   {
     "name": "webgen",
     "github": "gettalong/webgen",
-    "website": "http://webgen.gettalong.org/",
+    "website": "https://webgen.gettalong.org",
     "license": "GPL-3.0"
   },
   {
