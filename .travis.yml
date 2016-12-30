@@ -16,7 +16,7 @@ cache:
 # Doesn't use --debug on `travis login` as that will output our github token
 before_install: >
   rvm install 2.1;
-  gem install travis curb --no-rdoc --no-ri
+  gem install travis curb --no-rdoc --no-ri;
 after_success: >
   if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
     echo "Deploying...";
