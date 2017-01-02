@@ -1063,6 +1063,11 @@
     "github": "practicingruby/korma"
   },
   {
+    "name": "Kulfon",
+    "github": "zaiste/kulfon",
+    "is": "static site generator"
+  },
+  {
     "name": "Lambda Pad",
     "github": "gar1t/lambdapad",
     "license": "Apache-2.0"
