@@ -149,7 +149,7 @@
     "website": "http://blogcpp.org",
     "license": "WTFPL",
     "language": "C++",
-    "description": "Just another static blog generator, written in C++17.",
+    "description": "Just another generator, written in C++17.",
     "is": "static site generator",
     "extensible": false
   },
@@ -630,6 +630,12 @@
   {
     "name": "Genesis",
     "github": "samstefan/genesis"
+  },
+  {
+    "name": "Gerablog",
+    "github": "paulohrpinheiro/gerablog",
+    "license": "MIT",
+    "description": "Gerablog is a static blog generator. Write your posts in in *Markdown*, publish in *HTML*. Just two commands (create and generate) and seven templates (header, footer, categories page, categories block, main index, post and feed)."
   },
   {
     "name": "gettheshitdone",
