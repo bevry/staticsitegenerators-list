@@ -632,6 +632,13 @@
     "github": "samstefan/genesis"
   },
   {
+    "name": "Gerablog",
+    "github": "paulohrpinheiro/gerablog",
+    "license": "MIT",
+    "description": "Gerablog is a static blog generator. Write your posts in in *Markdown*, publish in *HTML*. Just two commands (create and generate) and seven templates (header, footer, categories page, categories block, main index, post and feed).",
+    "is": "static site generator"
+  },
+  {
     "name": "gettheshitdone",
     "github": "johannesboyne/gettheshitdone",
     "license": "MIT"
