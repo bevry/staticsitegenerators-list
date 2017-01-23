@@ -1309,6 +1309,14 @@
     "license": "MIT"
   },
   {
+	"name": "Muleify",
+	"license": "MPL-2.0",
+	"language": "JavaScript",
+	"github": "AlexanderElias/muleify",
+	"website": "https://github.com/AlexanderElias/muleify",
+	"description": "A zero configuration static site generator and asset preprocessor compiler."
+  },
+  {
     "name": "mynt",
     "github": "Anomareh/mynt",
     "license": "BSD-3-Clause"
