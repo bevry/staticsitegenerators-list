@@ -1176,12 +1176,6 @@
     "license": "MIT"
   },
   {
-    "name": "m4-bakery",
-    "github": "datagrok/m4-bakery",
-    "website": "http://datagrok.github.io/m4-bakery/",
-    "license": "AGPL-3.0"
-  },
-  {
     "name": "Machined",
     "github": "petebrowne/machined",
     "license": "MIT"
@@ -1195,6 +1189,16 @@
     "name": "Magneto",
     "github": "donmelton/magneto",
     "license": "MIT"
+  },
+  {
+    "name": "makebakery",
+    "github": "datagrok/makebakery",
+    "description": "A static website generator built on GNU Make",
+    "website": "http://datagrok.github.io/makebakery/",
+    "license": "AGPL-3.0+ WITH Autoconf-exception-3.0",
+    "is": "static site generator",
+    "extensible": true,
+    "language": "Makefile"
   },
   {
     "name": "makeblog",
