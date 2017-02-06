@@ -2439,6 +2439,11 @@
     "license": "MIT"
   },
   {
+    "name": "Zine",
+    "github": "mikekreuzer/zine",
+    "is": "static site generator"
+  },  
+  {
     "name": "zodiac",
     "github": "nuex/zodiac",
     "license": "MIT"
