@@ -78,7 +78,7 @@ Accepted project fields:
   - `static site editor` a project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin
   - `other` if some other type of project that is related to flat-file content management systems or static website generators
 - `extensible` should be `true` or `false` providing whether or not the project provides a way for users to add new features
-- `abandoned` can be `true` to signal that the author decided to pull the plug on future updates
+- `defunct` can be `true` to signal that the project is no longer functioning or receiving support
 
 Dates should be in ISO format which looks like this `2006-08-18T16:00:00.000Z`. Conversion can be done with JavaScript using `console.log(new Date('19-Aug-2006').toISOString())` or via the command line using Node.js via `node -e "console.log(new Date('19-Aug-2006').toISOString())"`.
 
