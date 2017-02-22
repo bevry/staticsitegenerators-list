@@ -54,8 +54,6 @@ Currently, this listing is only for projects that relate to Flat File Content Ma
 
 Entries are stored within the `list.json` file.
 
-#### Fields
-
 Accepted project fields:
 
 - `name` the project's name
@@ -114,7 +112,7 @@ The following fields are automatic and only apply to our rendered listing:
 - `watchers`
 
 
-#### Testing
+### Testing
 
 When you submit your pull request, your submission will be automatically tested, so no need to test locally, however if you do wish to, you can:
 
@@ -137,7 +135,7 @@ When you submit your pull request, your submission will be automatically tested,
 1. Make any changes that the tests indicate, commit your changes, and submit
 
 
-#### Usage
+## Usage
 
 Using the npm package is done like so:
 
