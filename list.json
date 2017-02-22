@@ -1776,9 +1776,10 @@
   },
   {
     "name": "Scriptogr.am",
-    "website": "http://scriptogr.am/",
+    "website": "https://scriptogr.am",
     "license": false,
-    "language": "Web"
+    "language": "Web",
+    "abandoned": true
   },
   {
     "name": "Sculpin",
