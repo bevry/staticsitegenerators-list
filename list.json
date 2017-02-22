@@ -1483,7 +1483,6 @@
   {
     "name": "Pelican",
     "github": "getpelican/pelican",
-    "website": "http://blog.getpelican.com",
     "license": "GPL-3.0",
     "is": "static site generator",
     "extensible": true
