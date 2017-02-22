@@ -188,8 +188,8 @@
     "name": "Blug",
     "github": "jeffknupp/blug",
     "license": "MIT",
-    "defunct": true,
-    "is": "static site generator"
+    "is": "static site generator",
+    "defunct": true
   },
   {
     "name": "Bolt",
@@ -1192,12 +1192,12 @@
   {
     "name": "makebakery",
     "github": "datagrok/makebakery",
-    "description": "A static website generator built on GNU Make",
     "website": "http://datagrok.github.io/makebakery/",
     "license": "AGPL-3.0+ WITH Autoconf-exception-3.0",
+    "language": "Makefile",
+    "description": "A static website generator built on GNU Make",
     "is": "static site generator",
-    "extensible": true,
-    "language": "Makefile"
+    "extensible": true
   },
   {
     "name": "makeblog",
@@ -1311,12 +1311,11 @@
     "license": "MIT"
   },
   {
-	"name": "Muleify",
-	"license": "MPL-2.0",
-	"language": "JavaScript",
-	"github": "AlexanderElias/muleify",
-	"website": "https://github.com/AlexanderElias/muleify",
-	"description": "A zero configuration static site generator and asset preprocessor compiler."
+    "name": "Muleify",
+    "github": "AlexanderElias/muleify",
+    "website": "https://github.com/AlexanderElias/muleify",
+    "license": "MPL-2.0",
+    "description": "A zero configuration static site generator and asset preprocessor compiler."
   },
   {
     "name": "mynt",
@@ -2446,7 +2445,7 @@
     "name": "Zine",
     "github": "mikekreuzer/zine",
     "is": "static site generator"
-  },  
+  },
   {
     "name": "zodiac",
     "github": "nuex/zodiac",
