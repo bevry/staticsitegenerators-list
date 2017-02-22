@@ -141,7 +141,7 @@ When you submit your pull request, your submission will be automatically tested,
 
 Using the npm package is done like so:
 
-```
+``` javascript
 const ssgs = require('staticsitegenerators')
 
 // fetch remote data and render it
