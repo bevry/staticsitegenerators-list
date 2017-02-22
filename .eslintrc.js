@@ -1,4 +1,4 @@
-// 2016 November 1
+// 2017 February 22
 // https://github.com/bevry/base
 // http://eslint.org
 // This code must be able to run on Node 0.10
@@ -849,6 +849,11 @@ if ( data.editions ) {
 	}
 	config.parserOptions.ecmaFeatures.sourceType = sourceEdition.syntaxes.indexOf('import') !== -1 ? 'module' : 'script'
 	config.parserOptions.ecmaFeatures.jsx = sourceEdition.syntaxes.indexOf('jsx') !== -1
+}
+else {
+	// node version
+	const node = data.engines && data.engines.node && data.engines.node.replace('>=', '').replace(/ /g, '').replace(/\..+$/, '')
+	config.parserOptions.ecmaVersion = node >= 6 ? 6 : 5
 }
 
 // Set the environments depending on whether we need them or not

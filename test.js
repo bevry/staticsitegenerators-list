@@ -1,10 +1,16 @@
+/* eslint no-console:0 */
+'use strict'
+
 const joe = require('joe')
 const fs = require('fs')
 const {equal} = require('assert-helpers')
 const assert = require('assert')
 const validSPDX = require('spdx-expression-validate')
 const ssgs = require('./')
-const {sourcePath, renderPath} = require('./util')
+
+const sourcePath = './list.json'
+const renderPath = './out.json'
+
 function log (...args) {
 	if ( args[0] === 7 || args[0] === 'debug' )  return
 	console.log.apply(console.log, args)
@@ -34,8 +40,12 @@ function checkURL (url, next) {
 joe.suite('static site generators list', function (suite, test) {
 	let data = null
 
-	test('load content', function (done) {
-		ssgs.source(function (err, result) {
+	test('load remote content', function (done) {
+		ssgs.remote(done)
+	})
+
+	test('load local content', function (done) {
+		ssgs.local(function (err, result) {
 			if (err)  return done(err)
 			data = result
 			return done()
@@ -78,23 +88,41 @@ joe.suite('static site generators list', function (suite, test) {
 		})
 	})
 
-	suite('render', function (suite, test, done) {
+	suite('local render', function (suite, test, done) {
 		this.setConfig({concurrency: 0})
-		ssgs.render({log, corrective: true}, function (err, results, sources) {
+		ssgs.local(function (err, data) {
 			if ( err )  return done(err)
-			const source = JSON.stringify(data, null, '  ')
-			const result = JSON.stringify(sources, null, '  ')
-			test(`writing corrected source listing ${sourcePath}`, function (done) {
-				fs.writeFile(sourcePath, result, done)
+			ssgs.render(data, {log, corrective: true}, function (err, results, sources) {
+				if ( err )  return done(err)
+				const source = JSON.stringify(data, null, '  ')
+				const result = JSON.stringify(sources, null, '  ')
+				test(`writing corrected source listing ${sourcePath}`, function (done) {
+					fs.writeFile(sourcePath, result, done)
+				})
+				test(`writing rendered listing to ${renderPath}`, function (done) {
+					fs.writeFile(renderPath, JSON.stringify(results, null, '  '), done)
+				})
+				test('source data was the same as the corrected data', function () {
+					equal(source, result, 'there was automated data written into the manual listing, this has been removed, run the tests again')
+				})
+				done()
 			})
-			test(`writing rendered listing to ${renderPath}`, function (done) {
-				fs.writeFile(renderPath, JSON.stringify(results, null, '  '), done)
-			})
-			test(`source data was the same as the corrected data ${sourcePath}`, function () {
-				equal(source, result, 'there was automated data written into the manual listing, this has been removed, run the tests again')
-			})
-			done()
 		})
 	})
 
+	suite('remote render', function (suite, test, done) {
+		this.setConfig({concurrency: 0})
+		ssgs.remote(function (err, data) {
+			if ( err )  return done(err)
+			ssgs.render(data, {log, corrective: true}, function (err, results, sources) {
+				if ( err )  return done(err)
+				const source = JSON.stringify(data, null, '  ')
+				const result = JSON.stringify(sources, null, '  ')
+				test('source data was the same as the corrected data', function () {
+					equal(source, result, 'there was automated data written into the manual listing, this has been removed, run the tests again')
+				})
+				done()
+			})
+		})
+	})
 })

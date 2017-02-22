@@ -1,5 +1,4 @@
-module.exports.sourcePath = './list.json'
-module.exports.renderPath = './out.json'
+'use strict'
 
 module.exports.keyorder = 'name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
 

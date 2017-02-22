@@ -13,13 +13,15 @@
 <span class="badge-daviddm"><a href="https://david-dm.org/bevry/staticsitegenerators-list" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/staticsitegenerators-list.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/staticsitegenerators-list#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/staticsitegenerators-list.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
-<span class="badge-slackin"><a href="https://slack.bevry.me" title="Join this project's slack community"><img src="https://slack.bevry.me/badge.svg" alt="Slack community badge" /></a></span>
-<span class="badge-patreon"><a href="http://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-opencollective"><a href="https://opencollective.com/bevry" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span>
 <span class="badge-gratipay"><a href="https://www.gratipay.com/bevry" title="Donate weekly to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" alt="Gratipay donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-paypal"><a href="https://bevry.me/paypal" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
 <span class="badge-bitcoin"><a href="https://bevry.me/bitcoin" title="Donate once-off to this project using Bitcoin"><img src="https://img.shields.io/badge/bitcoin-donate-yellow.svg" alt="Bitcoin donate button" /></a></span>
 <span class="badge-wishlist"><a href="https://bevry.me/wishlist" title="Buy an item on our wishlist for us"><img src="https://img.shields.io/badge/wishlist-donate-yellow.svg" alt="Wishlist browse button" /></a></span>
+<br class="badge-separator" />
+<span class="badge-slackin"><a href="https://slack.bevry.me" title="Join this project's slack community"><img src="https://slack.bevry.me/badge.svg" alt="Slack community badge" /></a></span>
 
 <!-- /BADGES -->
 
@@ -134,6 +136,28 @@ When you submit your pull request, your submission will be automatically tested,
 
 1. Make any changes that the tests indicate, commit your changes, and submit
 
+
+#### Usage
+
+Using the npm package is done like so:
+
+```
+const ssgs = require('staticsitegenerators')
+
+// fetch remote data and render it
+ssgs.remote(opts, function (err, data) {
+  ssgs.render(data, opts, function (err, result) {
+    console.log(result)
+  })
+})
+
+// fetch the local data, using its last render
+ssgs.local(opts, function (err, result) {
+  console.log(result)
+})
+```
+
+
 <!-- HISTORY/ -->
 
 <h2>History</h2>
@@ -159,7 +183,8 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-<span class="badge-patreon"><a href="http://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
+<span class="badge-opencollective"><a href="https://opencollective.com/bevry" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span>
 <span class="badge-gratipay"><a href="https://www.gratipay.com/bevry" title="Donate weekly to this project using Gratipay"><img src="https://img.shields.io/badge/gratipay-donate-yellow.svg" alt="Gratipay donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-paypal"><a href="https://bevry.me/paypal" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
@@ -243,7 +268,7 @@ These amazing people have contributed code to this project:
 <li><a href="https://github.com/elaOnMars">Daniela Knoll</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=elaOnMars" title="View the GitHub contributions of Daniela Knoll on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://dario.im">Dario Castañé</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=imdario" title="View the GitHub contributions of Dario Castañé on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://daveaglick.com">Dave Glick</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=daveaglick" title="View the GitHub contributions of Dave Glick on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://www.webhook.com">dave.snider@gmail.com</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=snide" title="View the GitHub contributions of dave.snider@gmail.com on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://www.davesnider.org">dave.snider@gmail.com</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=snide" title="View the GitHub contributions of dave.snider@gmail.com on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://porkrind.org">David Caldwell</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=caldwell" title="View the GitHub contributions of David Caldwell on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/eads">David Eads</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=eads" title="View the GitHub contributions of David Eads on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://davidherron.com">David Herron</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=robogeek" title="View the GitHub contributions of David Herron on repository bevry/staticsitegenerators-list">view contributions</a></li>
@@ -268,11 +293,14 @@ These amazing people have contributed code to this project:
 <li><a href="http://genehack.org">John SJ Anderson</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=genehack" title="View the GitHub contributions of John SJ Anderson on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/johngtait">John Tait</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=johngtait" title="View the GitHub contributions of John Tait on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/jonschlinkert">Jon Schlinkert</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonschlinkert" title="View the GitHub contributions of Jon Schlinkert on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://jonathanbullock.com">Jonathan Bullock</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jonbullock" title="View the GitHub contributions of Jonathan Bullock on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://jonathanbullock.com">Jonathan Bullock</a></li>
 <li><a href="Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com">Hugh Brown</a></li>
 <li><a href="http://git.alanpearce.uk">Alan Pearce</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=alanpearce" title="View the GitHub contributions of Alan Pearce on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.alexchopin.com">Alexandre Chopin</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=alexchopin" title="View the GitHub contributions of Alexandre Chopin on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://git-ssb.celehner.com/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=clehner" title="View the GitHub contributions of Charles Lehner on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://git-ssb.celehner.com/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a></li>
+<li><a href="http://datagrok.org">Michael F. Lamb</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=datagrok" title="View the GitHub contributions of Michael F. Lamb on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="alex-elias.com">Alexander Elias</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=AlexanderElias" title="View the GitHub contributions of Alexander Elias on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://git.scuttlebot.io/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=clehner" title="View the GitHub contributions of Charles Lehner on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 

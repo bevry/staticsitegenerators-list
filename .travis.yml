@@ -12,27 +12,64 @@ cache:
   directories:
     - node_modules
 
-# Deployment should be easier, but https://github.com/travis-ci/travis.rb/issues/315 is a thing
-# Doesn't use --debug on `travis login` as that will output our github token
+before_script: |
+  # https://github.com/balupton/awesome-travis#use-lts-node-version-for-preparation
+  echo "running on a LTS node version, linting..."
+  npm run our:verify
+  echo "...linted"
+
 after_success: >
-  if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
-    echo "Deploying...";
-    rvm install 2.1;
-    gem install travis curb --no-rdoc --no-ri;
-    travis login --skip-completion-check --org --github-token "$GITHUB_TRAVIS_TOKEN";
-    export TRAVIS_ACCESS_TOKEN=`cat ~/.travis/config.yml | grep access_token | sed 's/ *access_token: *//'`;
-    travis restart --debug --skip-completion-check --org -r "$DEPLOY_REPO_SLUG" -t "$TRAVIS_ACCESS_TOKEN";
-    echo "Deployed";
+  # Release to NPM
+  # https://github.com/balupton/awesome-travis#release-to-npm
+  # travis encrypt "NPM_USERNAME=$NPM_USERNAME" --add env.global
+  # travis encrypt "NPM_PASSWORD=$NPM_PASSWORD" --add env.global
+  # travis encrypt "NPM_EMAIL=$NPM_EMAIL" --add env.global
+  export CURRENT_NODE_VERSION="$(node --version)"
+  export LTS_NODE_LATEST_VERSION="$(nvm version-remote --lts)"
+  if test "$CURRENT_NODE_VERSION" = "$LTS_NODE_LATEST_VERSION"; then
+    if test "$TRAVIS_TAG"; then
+      echo "logging in..."
+      echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
+      echo "publishing..."
+      npm run our:meta
+      npm publish
+      echo "...released to npm"
+    else
+      echo "non-tag, no need for release"
+    fi
   else
-    echo "Skipped deploy";
+    echo "running on non-latest LTS node version, skipping release to npm"
   fi
 
-# Custom deployment
-# travis encrypt "GITHUB_TRAVIS_TOKEN=$GITHUB_TRAVIS_TOKEN" --add env.global
+  # Rerun another project's tests
+  # https://github.com/balupton/awesome-travis#rerun-another-projects-tests
+  if [ ! -z $GITHUB_TRAVIS_TOKEN ]; then
+    echo "pinging $OTHER_REPO_SLUG..."
+    rvm install 2.1
+    gem install travis curb --no-rdoc --no-ri
+    travis login --skip-completion-check --org --github-token "$GITHUB_TRAVIS_TOKEN"
+    export TRAVIS_ACCESS_TOKEN=`cat ~/.travis/config.yml | grep access_token | sed 's/ *access_token: *//'`
+    travis restart --debug --skip-completion-check --org -r "$OTHER_REPO_SLUG" -t "$TRAVIS_ACCESS_TOKEN"
+    echo "pinged $OTHER_REPO_SLUG"
+  else
+    echo "skipped ping $OTHER_REPO_SLUG"
+  fi
+
 env:
   global:
-    - DEPLOY_REPO_SLUG='bevry/staticsitegenerators-website'  # this is the repo owner and repo name that you want tested and deployed, set correctly
-    - secure: WPW25SQXgwoW2nTu492+bIEflMarGnZZ20DuLmiUK8Ebnmh2GzJbz0aclfC38NR8+oJFaXk7HpXBTTdtXWjc8S1tvrm0yQqUahSOT/Hybewm1FqP1wIOYStSnsGfQMODSXOWFMX+fjKlHPe+lV1WeXzGh5tnudTEtNV5kzXXjOo=
+  # Rerun another project's tests
+  # https://github.com/balupton/awesome-travis#rerun-another-projects-tests
+  # travis encrypt "GITHUB_TRAVIS_TOKEN=$GITHUB_TRAVIS_TOKEN" --add env.global
+  - OTHER_REPO_SLUG='bevry/staticsitegenerators-website'  # this is the repo owner and repo name that you want tested and deployed, set correctly
+  - secure: WPW25SQXgwoW2nTu492+bIEflMarGnZZ20DuLmiUK8Ebnmh2GzJbz0aclfC38NR8+oJFaXk7HpXBTTdtXWjc8S1tvrm0yQqUahSOT/Hybewm1FqP1wIOYStSnsGfQMODSXOWFMX+fjKlHPe+lV1WeXzGh5tnudTEtNV5kzXXjOo=
+  # Release to NPM
+  # https://github.com/balupton/awesome-travis#release-to-npm
+  # travis encrypt "NPM_USERNAME=$NPM_USERNAME" --add env.global
+  # travis encrypt "NPM_PASSWORD=$NPM_PASSWORD" --add env.global
+  # travis encrypt "NPM_EMAIL=$NPM_EMAIL" --add env.global
+  - secure: WgvMdeCFa0yz49rRIJYWbTB0LDA4BdTqsNkeNfXVrkNEB2sIqBZBBTrCN4v47cpqAwVZEPzM1kxOiYmxf2zDRODRZuGn4mqxD/KTRNiO86H3Z/MPqAdJJlEPTMpJF54UBmD7P5wIA0xOxhXiSMffkGiP5SD6zMUMun88ok7DrE0=
+  - secure: agEVTfHTCZdB9AAtOac02OG42cPZnSjx5xh0Yh2BqEde+6vPoU7QzpZ370CC5c26/R9UU0eTuil4sMremEcpczzQRegs4PfXtZyGQtdrWxSRXPPzLL4P4FU8YDkxvXS6QMCUUeecZsd5zIl5CsVB/iUomV258KcAf8W1gnfOVkg=
+  - secure: anGIKqCGfhuwx8HIiGz2DDwe9hAThdktuYOUxzBKPS9iQSi/wEng7rWITxdz8Ctw5Bsx9qlYf+9wbk8Op7XzH4W9s+TuYOskFI0mSTNewsrgDZyHnkJJMaeUHm1opEqskpmUpZ/6uFb6tzj+xM+5E6RH9eaGr9MqDJb+aPWr13g=
 
 # Custom notifications
 notifications:

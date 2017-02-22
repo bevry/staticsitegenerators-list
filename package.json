@@ -1,7 +1,7 @@
 {
   "title": "Static Site Generators Listing",
   "name": "staticsitegenerators",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them",
   "license": "Unlicense",
   "keywords": [
@@ -17,16 +17,19 @@
       "daviddm",
       "daviddmdev",
       "---",
-      "slackin",
       "patreon",
+      "opencollective",
       "gratipay",
       "flattr",
       "paypal",
       "bitcoin",
-      "wishlist"
+      "wishlist",
+      "---",
+      "slackin"
     ],
     "config": {
       "patreonUsername": "bevry",
+      "opencollectiveUsername": "bevry",
       "gratipayUsername": "bevry",
       "flattrUsername": "balupton",
       "paypalURL": "https://bevry.me/paypal",
@@ -115,7 +118,7 @@
     "Daniela Knoll <hallo@datentupel.de> (https://github.com/elaOnMars)",
     "Dario Castañé <i@dario.im> (http://dario.im)",
     "Dave Glick <dave@daveaglick.com> (http://daveaglick.com)",
-    "dave.snider@gmail.com <dave.snider@gmail.com> (http://www.webhook.com)",
+    "dave.snider@gmail.com <dave.snider@gmail.com> (http://www.davesnider.org)",
     "David Caldwell (http://porkrind.org)",
     "David Eads (https://github.com/eads)",
     "David Herron (http://davidherron.com)",
@@ -145,6 +148,9 @@
     "Alan Pearce <alan@alanpearce.uk> (http://git.alanpearce.uk)",
     "Alexandre Chopin <contact@alexchopin.com> (http://www.alexchopin.com)",
     "Charles Lehner (http://git-ssb.celehner.com/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519)",
+    "Michael F. Lamb (http://datagrok.org)",
+    "Alexander Elias <alex.steven.elias@gmail.com> (alex-elias.com)",
+    "Charles Lehner (http://git.scuttlebot.io/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519)",
     "Hugh Brown (Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com)"
   ],
   "bugs": {
@@ -158,19 +164,20 @@
     "node": ">=6"
   },
   "main": "index.js",
+  "browser": "index.js",
   "scripts": {
     "our:setup": "npm install",
-    "our:clean": "echo 'no need for clean'",
-    "our:compile": "echo 'no need for compile'",
     "our:meta": "npm run our:meta:projectz",
     "our:meta:projectz": "projectz compile",
     "our:verify": "npm run our:verify:eslint",
     "our:verify:eslint": "eslint --fix ./source",
     "our:test": "npm run our:verify && npm test",
-    "our:release": "npm run our:release:prepare && npm run our:release:publish && npm run our:release:tag && npm run our:release:push",
-    "our:release:prepare": "npm run our:clean && npm run our:compile && npm run our:test && npm run our:meta",
-    "our:release:publish": "npm publish",
-    "our:release:tag": "git tag v$npm_package_version -a",
+    "our:release": "npm run our:release:prepare && npm run our:release:check && npm run our:release:tag && npm run our:release:push",
+    "our:release:prepare": "npm run our:test && npm run our:meta",
+    "our:release:check": "npm run our:release:check:changelog && npm run our:release:check:dirty",
+    "our:release:check:changelog": "cat ./HISTORY.md | grep v$npm_package_version || (echo add a changelog entry for v$npm_package_version && exit -1)",
+    "our:release:check:dirty": "git diff --exit-code",
+    "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
     "our:release:push": "git push origin master && git push origin --tags",
     "test": "node --harmony ./test.js --joe-reporter=console"
   },
@@ -178,7 +185,8 @@
     "arrangekeys": "^1.2.0",
     "extendr": "^3.2.2",
     "extract-opts": "^3.3.1",
-    "getrepos": "^1.0.7"
+    "getrepos": "^1.0.7",
+    "node-fetch": "^1.6.3"
   },
   "devDependencies": {
     "assert-helpers": "^4.4.0",

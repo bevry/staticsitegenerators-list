@@ -1,21 +1,24 @@
-const fs = require('fs')
+/* eslint camelcase:0 */
+'use strict'
+
+// Imports
 const extractOpts = require('extract-opts')
 
-/* eslint camelcase:0 */
-module.exports.render = function render (opts, next) {
+// Trim redundant data from the listing
+module.exports.render = function render (data, opts, next) {
 	[opts, next] = extractOpts(opts, next)
 	if ( opts.corrective == null )  opts.corrective = false
 	if ( opts.cache == null )  opts.cache = 1000 * 60 * 60 * 24  // one day
 
 	const extendr = require('extendr')
 	const arrangekeys = require('arrangekeys')
-	const {sourcePath, sort, keyorder} = require('./util')
+	const {sort, keyorder} = require('./util')
 
 	const sourceMap = {}
 	const resultMap = {}
 	const githubRepos = []
-	require(sourcePath).forEach(function (entry, index) {
-		const key = entry.github && entry.github.toLowerCase() || index
+	data.forEach(function (entry, index) {
+		const key = (entry.github && entry.github.toLowerCase()) || index
 		sourceMap[key] = extendr.clone(arrangekeys(entry, keyorder))
 		resultMap[key] = extendr.clone(arrangekeys(entry, keyorder))
 		if ( entry.github ) {
@@ -28,7 +31,7 @@ module.exports.render = function render (opts, next) {
 	require('getrepos').create(opts).fetchRepos(githubRepos, function (err, repos) {
 		if (err)  return next(err)
 
-		// Prepare the proejcts with the github data
+		// Prepare the projects with the github data
 		repos.forEach(function (github) {
 			const key = github.full_name.toLowerCase()
 
@@ -75,18 +78,28 @@ module.exports.render = function render (opts, next) {
 	})
 }
 
-module.exports.source = function source (opts, next) {
+module.exports.remote = function remote (opts, next) {
 	[opts, next] = extractOpts(opts, next)
-	const {sourcePath} = require('./util')
-	fs.readFile(sourcePath, function (err, blob) {
-		let data = null
-		if (err)  return next(err)
-		try {
-			data = JSON.parse(blob.toString())
-		}
-		catch (err) {
-			return next(err)
-		}
-		return next(null, data)
-	})
+	require('node-fetch')('https://raw.githubusercontent.com/bevry/staticsitegenerators-list/master/list.json')
+		.then(function (response) {
+			return response.json()
+		})
+		.then(function (json) {
+			next(null, json)
+		})
+		.catch(function (err) {
+			next(err)
+		})
+}
+
+module.exports.local = function local (opts, next) {
+	[opts, next] = extractOpts(opts, next)
+	let data = null
+	try {
+		data = require('./list.json')
+	}
+	catch (err) {
+		return next(err)
+	}
+	return next(null, data)
 }
