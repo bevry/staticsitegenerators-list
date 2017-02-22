@@ -62,7 +62,7 @@ Accepted project fields:
 - `github` the slug of the GitHub repository if applicable
 - `gitlab` the slug of the GitLab repository if applicable
 - `bitbucket` the slug of BitBucket repository if applicable
-- `website` the project's website if they have one
+- `website` the project's website if they have one, if the automatic website fetch is incorrect you can specify as `false`
 - `language` the project's primary programming language if applicable
 - `description` the project's description
 - `created_at` the project's date of creation in ISO format
