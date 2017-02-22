@@ -1,7 +1,7 @@
 {
   "title": "Static Site Generators Listing",
   "name": "staticsitegenerators",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them",
   "license": "Unlicense",
   "keywords": [
