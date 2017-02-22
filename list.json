@@ -1996,8 +1996,9 @@
   },
   {
     "name": "Stacktic",
-    "github": "stackticjs/stacktic",
-    "license": "MIT"
+    "github": "bahiamartins/stacktic",
+    "license": "MIT",
+    "abandoned": true
   },
   {
     "name": "Stadø",
