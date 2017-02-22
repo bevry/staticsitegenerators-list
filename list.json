@@ -1258,8 +1258,7 @@
   },
   {
     "name": "metalsmith",
-    "github": "metalsmith/metalsmith",
-    "website": "http://www.metalsmith.io",
+    "github": "segmentio/metalsmith",
     "license": "MIT"
   },
   {
