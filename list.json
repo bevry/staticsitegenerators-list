@@ -14,7 +14,7 @@
     "github": "posativ/acrylamid",
     "website": "https://posativ.org/acrylamid/",
     "license": "BSD-2-Clause",
-    "abandoned": true
+    "defunct": true
   },
   {
     "name": "AkashaCMS",
@@ -182,13 +182,13 @@
     "language": "Perl",
     "description": "Blosxom (pronounced blossom) is a lightweight yet feature-packed weblog application designed from the ground up with simplicity, usability, and interoperability in mind.",
     "created_at": "2002-02-28T00:00:00Z",
-    "abandoned": true
+    "defunct": true
   },
   {
     "name": "Blug",
     "github": "jeffknupp/blug",
     "license": "MIT",
-    "abandoned": true,
+    "defunct": true,
     "is": "static site generator"
   },
   {
@@ -1634,7 +1634,7 @@
     "github": "pyblosxom/pyblosxom",
     "website": "http://pyblosxom.github.io/",
     "license": "MIT",
-    "abandoned": true
+    "defunct": true
   },
   {
     "name": "PyBlue",
@@ -1779,7 +1779,7 @@
     "website": "https://scriptogr.am",
     "license": false,
     "language": "Web",
-    "abandoned": true
+    "defunct": true
   },
   {
     "name": "Sculpin",
@@ -1998,7 +1998,7 @@
     "name": "Stacktic",
     "github": "bahiamartins/stacktic",
     "license": "MIT",
-    "abandoned": true
+    "defunct": true
   },
   {
     "name": "Stadø",
