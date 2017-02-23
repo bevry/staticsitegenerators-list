@@ -920,7 +920,7 @@
     "website": "http://igapyon.github.io/igapyonv3/",
     "license": "Apache-2.0",
     "is": "static site generator",
-    "description": “Lightweight and turnkey static site/blog generator for developers "
+    "description": "Lightweight and turnkey static site/blog generator for developers"
   },
   {
     "name": "igor",
