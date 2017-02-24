@@ -4,8 +4,8 @@
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; <a href="http://jaspervdj.be">Jasper Van der Jeugt</a></li>
-<li>Copyright &copy; 2013+ <a href="http://bevry.me">Bevry Pty Ltd</a></li></ul>
+<ul><li>Copyright &copy; 2013+ <a href="http://bevry.me">Bevry Pty Ltd</a></li>
+<li>Copyright &copy; 2013 <a href="http://jaspervdj.be">Jasper Van der Jeugt</a></li></ul>
 
 and licensed under:
 
