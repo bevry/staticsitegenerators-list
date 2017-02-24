@@ -299,6 +299,7 @@ These amazing people have contributed code to this project:
 <li><a href="http://datagrok.org">Michael F. Lamb</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=datagrok" title="View the GitHub contributions of Michael F. Lamb on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="alex-elias.com">Alexander Elias</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=AlexanderElias" title="View the GitHub contributions of Alexander Elias on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://git.scuttlebot.io/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=clehner" title="View the GitHub contributions of Charles Lehner on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://igapyon.github.io/diary/">Toshiki Iga</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=igapyon" title="View the GitHub contributions of Toshiki Iga on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 
@@ -312,8 +313,8 @@ These amazing people have contributed code to this project:
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; <a href="http://jaspervdj.be">Jasper Van der Jeugt</a></li>
-<li>Copyright &copy; 2013+ <a href="http://bevry.me">Bevry Pty Ltd</a></li></ul>
+<ul><li>Copyright &copy; 2013+ <a href="http://bevry.me">Bevry Pty Ltd</a></li>
+<li>Copyright &copy; 2013 <a href="http://jaspervdj.be">Jasper Van der Jeugt</a></li></ul>
 
 and licensed under:
 
