@@ -2280,9 +2280,7 @@
   {
     "name": "Utterson",
     "github": "stef/utterson",
-    "website": "https://github.com/stef/utterson",
-    "language": "shell",
-    "license": "AGPL-3.0"
+    "website": "https://github.com/stef/utterson"
   },
   {
     "name": "Utterson",
