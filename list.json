@@ -41,7 +41,8 @@
   {
     "name": "assemble",
     "github": "assemble/assemble",
-    "license": "MIT"
+    "license": "MIT",
+    "language": "JavaScript"
   },
   {
     "name": "Asteroid",
@@ -173,6 +174,7 @@
     "name": "blogpy",
     "github": "travisred/blogpy",
     "license": "GPL-3.0",
+    "language": "Python",
     "is": "static site generator"
   },
   {
@@ -189,6 +191,7 @@
     "github": "jeffknupp/blug",
     "license": "MIT",
     "is": "static site generator",
+    "language": "Python",
     "defunct": true
   },
   {
@@ -500,6 +503,7 @@
     "name": "Engineer",
     "github": "tylerbutler/engineer",
     "website": "https://engineer.readthedocs.io/en/latest/",
+    "language": "Python",
     "license": "MIT"
   },
   {
@@ -585,7 +589,8 @@
   {
     "name": "Franklin",
     "github": "bryanbraun/franklin",
-    "license": "MIT"
+    "license": "MIT",
+    "language": "Ruby"
   },
   {
     "name": "Frog",
@@ -614,7 +619,8 @@
   {
     "name": "Garoozis",
     "github": "aguerrera/Garoozis",
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
+    "language": "F#"
   },
   {
     "name": "Gatsby",
@@ -852,7 +858,8 @@
   {
     "name": "Helpful Site",
     "github": "g4b1nagy/helpful-site",
-    "license": "Unlicense"
+    "license": "Unlicense",
+    "language": "Python"
   },
   {
     "name": "Hexo",
@@ -943,7 +950,8 @@
     "name": "JAGSS",
     "github": "esonderegger/jagss",
     "website": "https://jagss.rpy.xyz/",
-    "license": "MIT"
+    "license": "MIT",
+    "language": "Python"
   },
   {
     "name": "JBake",
@@ -996,7 +1004,8 @@
   {
     "name": "Jen",
     "github": "rfunduk/jen",
-    "license": "MIT"
+    "license": "MIT",
+    "defunct": true
   },
   {
     "name": "jigsaw",
@@ -1137,7 +1146,8 @@
   {
     "name": "Lenscap",
     "github": "honza/lenscap",
-    "license": "BSD-2-Clause"
+    "license": "BSD-2-Clause",
+    "language": "Python"
   },
   {
     "name": "Leo",
@@ -2046,7 +2056,8 @@
   {
     "name": "static-io",
     "github": "CosminAnca/static-io",
-    "licence": "MIT"
+    "license": "MIT",
+    "language": "JavaScript"
   },
   {
     "name": "Static-weber",
@@ -2222,7 +2233,8 @@
     "name": "Techy",
     "github": "krasimir/techy",
     "website": "http://krasimir.github.io/techy/",
-    "license": "MIT"
+    "license": "MIT",
+    "language": "JavaScript"
   },
   {
     "name": "Templer",
