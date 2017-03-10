@@ -108,6 +108,12 @@
     "is": "static site host"
   },
   {
+    "name": "Bitbucket Pages",
+    "website": "https://pages.bitbucket.io",
+    "description": "Host your static websites on Bitbucket.com for free.",
+    "is": "static site host"
+  },
+  {
     "name": "Blacksmith",
     "github": "flatiron/blacksmith",
     "license": "MIT"
