@@ -196,8 +196,8 @@
     "name": "Blug",
     "github": "jeffknupp/blug",
     "license": "MIT",
-    "is": "static site generator",
     "language": "Python",
+    "is": "static site generator",
     "defunct": true
   },
   {
@@ -509,8 +509,8 @@
     "name": "Engineer",
     "github": "tylerbutler/engineer",
     "website": "https://engineer.readthedocs.io/en/latest/",
-    "language": "Python",
-    "license": "MIT"
+    "license": "MIT",
+    "language": "Python"
   },
   {
     "name": "Equiprose",
@@ -2124,13 +2124,13 @@
   },
   {
     "name": "Statix",
-    "github": "ff0000/statix",
-    "license": "MIT"
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
+    "github": "ff0000/statix",
+    "license": "MIT"
   },
   {
     "name": "Statocles",
@@ -2294,8 +2294,8 @@
     "name": "Utterson",
     "github": "stef/utterson",
     "website": "https://github.com/stef/utterson",
-    "language": "shell",
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "language": "shell"
   },
   {
     "name": "Utterson",
