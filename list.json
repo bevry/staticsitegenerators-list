@@ -2101,11 +2101,6 @@
     "license": "MIT"
   },
   {
-    "name": "statics",
-    "github": "Tiendil/statics",
-    "license": "BSD-3-Clause"
-  },
-  {
     "name": "staticsite",
     "github": "trevorc/staticsite",
     "license": "BSD-3-Clause"
