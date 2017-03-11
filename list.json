@@ -2297,6 +2297,11 @@
   },
   {
     "name": "Utterson",
+    "github": "stef/utterson",
+    "website": "https://github.com/stef/utterson"
+  },
+  {
+    "name": "Utterson",
     "github": "pepijndevos/utterson",
     "website": "https://github.com/pepijndevos/utterson"
   },
