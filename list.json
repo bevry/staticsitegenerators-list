@@ -2420,6 +2420,15 @@
     "license": "MIT"
   },
   {
+    "name": "WP Static HTML Output",
+    "github": "leonstafford/wordpress-static-html-plugin",
+    "license": "Unlicense",
+    "website": "https://wordpress.org/plugins/static-html-output-plugin",
+    "is": "static site exporter",
+    "language": "php",
+    "description": "Benefit from WordPress as a CMS but with the speed, performance and portability of a static site"
+  },
+  {
     "name": "Wyam",
     "github": "Wyamio/Wyam",
     "license": "MIT"
