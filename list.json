@@ -445,12 +445,6 @@
     "github": "markashleybell/dropbox-blog"
   },
   {
-    "name": "DropPages",
-    "website": "http://droppages.com/",
-    "license": false,
-    "language": "Web"
-  },
-  {
     "name": "Dropplets",
     "github": "Circa75/dropplets",
     "license": "MIT"
@@ -1531,7 +1525,6 @@
   {
     "name": "Phileas",
     "github": "farvardin/phileas",
-    "website": "https://dl.dropboxusercontent.com/u/620905/phileas/index.html",
     "license": "MIT"
   },
   {
@@ -2124,13 +2117,13 @@
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
+    "github": "ff0000/statix",
+    "license": "MIT"
   },
   {
     "name": "Statix",
-    "github": "ff0000/statix",
-    "license": "MIT"
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
   },
   {
     "name": "Statocles",
@@ -2423,10 +2416,7 @@
     "name": "WP Static HTML Output",
     "github": "leonstafford/wordpress-static-html-plugin",
     "license": "Unlicense",
-    "website": "https://wordpress.org/plugins/static-html-output-plugin",
-    "is": "static site exporter",
-    "language": "php",
-    "description": "Benefit from WordPress as a CMS but with the speed, performance and portability of a static site"
+    "is": "static site exporter"
   },
   {
     "name": "Wyam",
