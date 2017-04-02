@@ -1366,6 +1366,15 @@
     "github": "demon386/Neverland"
   },
   {
+    "name": "Newcomen",
+    "gitlab": "goeb/newcomen",
+    "website": "https://subtype.de/newcomen/",
+    "language": "Perl",
+    "license": "GPL-3.0",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "nib",
     "github": "jreese/nib",
     "license": "MIT"
