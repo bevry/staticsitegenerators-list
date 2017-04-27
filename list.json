@@ -2392,6 +2392,13 @@
     "license": "MIT"
   },
   {
+    "name": "wersh",
+    "description": "Minimal static site generator for POSIX systems",
+    "license": "MIT",
+    "language": "Shell",
+    "website": "http://git.agunix.org/wersh"
+  },
+  {
     "name": "Wheat",
     "github": "creationix/wheat",
     "license": "MIT"
