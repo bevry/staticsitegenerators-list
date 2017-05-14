@@ -459,6 +459,11 @@
     "license": "BSD-2-Clause"
   },
   {
+    "name": "DSSG",
+    "github": "kambrium/dssg",
+    "is": "static site generator"
+  },
+  {
     "name": "DSW",
     "github": "dfr62/dsw"
   },
