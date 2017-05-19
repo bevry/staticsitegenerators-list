@@ -2435,6 +2435,14 @@
     "is": "static site exporter"
   },
   {
+    "name": "WPWMM4",
+    "github": "uzsolt/wpwmm4",
+    "website": "http://git.uzsolt.hu/wpwmm4/",
+    "language": "Makefile, m4",
+    "is": "static site generator",
+    "extensible": "true"
+  },
+  {
     "name": "Wyam",
     "github": "Wyamio/Wyam",
     "license": "MIT"
