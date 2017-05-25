@@ -1,6 +1,7 @@
 # 2017 May 26
 # https://docpad.org/docs/deploy
 # https://github.com/balupton/awesome-travis
+sudo: false
 language: node_js
 node_js:
 - "7"     # stable
