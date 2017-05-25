@@ -1351,9 +1351,11 @@
     "language": "Shell"
   },
   {
-    "name": "nanoc",
+    "name": "Nanoc",
     "github": "nanoc/nanoc",
-    "license": "MIT"
+    "website": "https://nanoc.ws/",
+    "license": "MIT",
+    "created_at": "2007-05-03T00:00:00Z"
   },
   {
     "name": "nanogen",
