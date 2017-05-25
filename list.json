@@ -312,7 +312,6 @@
   {
     "name": "CMX.js",
     "github": "bullpizzle/cmx.js",
-    "website": "http://cmxjs.byronlk.net",
     "license": "MIT"
   },
   {
@@ -954,7 +953,6 @@
   {
     "name": "JAGSS",
     "github": "esonderegger/jagss",
-    "website": "https://jagss.rpy.xyz/",
     "license": "MIT",
     "language": "Python"
   },
@@ -1041,7 +1039,7 @@
   {
     "name": "Jr",
     "github": "xeoncross/jr",
-    "website": "http://xeoncross.github.io/jr/",
+    "website": "http://joyfulandbeloved.com/jr/",
     "license": "MIT"
   },
   {
@@ -1452,13 +1450,6 @@
     "license": "MIT"
   },
   {
-    "name": "Olai",
-    "website": "http://olai.in/",
-    "license": false,
-    "language": "Go",
-    "description": "A blogging platform that integrates with existing blogging editors via XMLRPC/API, generates plain HTML files and automatically pushes these files to Amazon S3 or Github Pages"
-  },
-  {
     "name": "onessg",
     "github": "RyanZim/onessg",
     "is": "static site generator"
@@ -1804,13 +1795,6 @@
     "license": "MIT"
   },
   {
-    "name": "Scriptogr.am",
-    "website": "https://scriptogr.am",
-    "license": false,
-    "language": "Web",
-    "defunct": true
-  },
-  {
     "name": "Sculpin",
     "github": "sculpin/sculpin",
     "website": "https://sculpin.io/",
@@ -2094,7 +2078,7 @@
   },
   {
     "name": "StaticMatic2",
-    "github": "mindeavor/staticmatic2",
+    "github": "gilbert/staticmatic2",
     "license": "MIT"
   },
   {
@@ -2282,7 +2266,7 @@
   },
   {
     "name": "trofaf",
-    "github": "PuerkitoBio/trofaf",
+    "github": "mna/trofaf",
     "license": "BSD-3-Clause"
   },
   {
@@ -2370,7 +2354,7 @@
   },
   {
     "name": "webgen",
-    "github": "janpecha/webgen",
+    "github": "webgen-org/webgen",
     "license": "BSD-3-Clause"
   },
   {
@@ -2425,7 +2409,7 @@
   },
   {
     "name": "Woods",
-    "github": "studiomoniker/woods",
+    "github": "paperjs/woods",
     "license": "MIT"
   },
   {
