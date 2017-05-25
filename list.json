@@ -1374,8 +1374,8 @@
     "name": "Newcomen",
     "gitlab": "goeb/newcomen",
     "website": "https://subtype.de/newcomen/",
-    "language": "Perl",
     "license": "GPL-3.0",
+    "language": "Perl",
     "is": "static site generator",
     "extensible": true
   },
@@ -2117,13 +2117,13 @@
   },
   {
     "name": "Statix",
-    "github": "ff0000/statix",
-    "license": "MIT"
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
+    "github": "ff0000/statix",
+    "license": "MIT"
   },
   {
     "name": "Statocles",
@@ -2384,10 +2384,10 @@
   },
   {
     "name": "wersh",
-    "description": "Minimal static site generator for POSIX systems",
+    "website": "http://git.agunix.org/wersh",
     "license": "MIT",
     "language": "Shell",
-    "website": "http://git.agunix.org/wersh"
+    "description": "Minimal static site generator for POSIX systems"
   },
   {
     "name": "Wheat",
