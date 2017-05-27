@@ -467,6 +467,11 @@
     "github": "dfr62/dsw"
   },
   {
+    "name": "dwttool",
+    "github": "kambrium/dwttool",
+    "is": "static site generator"
+  },
+  {
     "name": "dynamicmatic",
     "github": "nex3/dynamicmatic",
     "license": "MIT"
