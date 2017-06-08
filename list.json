@@ -2215,6 +2215,15 @@
     "license": "MIT"
   },
   {
+    "name": "Tapestry",
+    "github": "tapestry-cloud/tapestry",
+    "website": "https://www.tapestry.cloud",
+    "license": "MIT",
+    "language": "PHP",
+    "extensible": true,
+    "is": "static site generator"
+  },
+  {
     "name": "tclog",
     "website": "http://wiki.tcl.tk/9148",
     "license": "BSD-3-Clause",
