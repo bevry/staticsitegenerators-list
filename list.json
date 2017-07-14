@@ -18,8 +18,7 @@
   },
   {
     "name": "AkashaCMS",
-    "github": "akashacms/akashacms",
-    "website": "http://akashacms.com"
+    "github": "akashacms/akashacms"
   },
   {
     "name": "Akashic",
@@ -311,7 +310,7 @@
   },
   {
     "name": "CMX.js",
-    "github": "bullpizzle/cmx.js",
+    "github": "byrondev/cmx.js",
     "license": "MIT"
   },
   {
@@ -445,7 +444,7 @@
   },
   {
     "name": "Dropplets",
-    "github": "Circa75/dropplets",
+    "github": "johnroper100/dropplets",
     "license": "MIT"
   },
   {
@@ -512,8 +511,7 @@
     "name": "Engineer",
     "github": "tylerbutler/engineer",
     "website": "https://engineer.readthedocs.io/en/latest/",
-    "license": "MIT",
-    "language": "Python"
+    "license": "MIT"
   },
   {
     "name": "Equiprose",
@@ -618,12 +616,6 @@
     "name": "Funnel",
     "github": "shuhaowu/Funnel",
     "license": "GPL-3.0"
-  },
-  {
-    "name": "Gabby",
-    "github": "alexmingoia/gabby",
-    "website": "http://www.alexmingoia.com/gabby/",
-    "license": "BSD-3-Clause"
   },
   {
     "name": "Garoozis",
@@ -913,7 +905,7 @@
   },
   {
     "name": "Hugo",
-    "github": "spf13/hugo",
+    "github": "gohugoio/hugo",
     "website": "http://gohugo.io/",
     "license": "Apache-2.0",
     "is": "static site generator",
@@ -1473,7 +1465,7 @@
   },
   {
     "name": "Orca",
-    "github": "andyshuhsin/orca"
+    "github": "andinus/orca"
   },
   {
     "name": "Osmek",
@@ -1531,7 +1523,7 @@
   },
   {
     "name": "Phenomic",
-    "github": "MoOx/phenomic",
+    "github": "phenomic/phenomic",
     "license": "MIT"
   },
   {
@@ -1793,7 +1785,6 @@
   {
     "name": "Ruhoh",
     "github": "ruhoh/ruhoh.rb",
-    "website": "http://ruhoh.com/",
     "license": "MIT"
   },
   {
@@ -2123,13 +2114,13 @@
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
+    "github": "ff0000/statix",
+    "license": "MIT"
   },
   {
     "name": "Statix",
-    "github": "ff0000/statix",
-    "license": "MIT"
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
   },
   {
     "name": "Statocles",
@@ -2210,19 +2201,18 @@
     "license": "BSD-3-Clause"
   },
   {
-    "name": "Tarbell",
-    "github": "tarbell-project/tarbell",
-    "website": "http://www.tarbell.io/",
-    "license": "MIT"
-  },
-  {
     "name": "Tapestry",
     "github": "tapestry-cloud/tapestry",
     "website": "https://www.tapestry.cloud",
     "license": "MIT",
-    "language": "PHP",
-    "extensible": true,
-    "is": "static site generator"
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
+    "name": "Tarbell",
+    "github": "tarbell-project/tarbell",
+    "website": "http://www.tarbell.io/",
+    "license": "MIT"
   },
   {
     "name": "tclog",
