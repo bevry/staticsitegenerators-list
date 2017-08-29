@@ -2,7 +2,9 @@
   {
     "name": "ABlog",
     "github": "abakan/ablog",
-    "license": "MIT"
+    "license": "MIT",
+    "website": "https://ablog.readthedocs.io/",
+    "descirption": "ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
   },
   {
     "name": "Ace",
@@ -398,7 +400,8 @@
   {
     "name": "django-medusa",
     "github": "mtigas/django-medusa",
-    "license": "MIT"
+    "license": "MIT",
+    "defunct": true
   },
   {
     "name": "django-staticgen",
@@ -1173,7 +1176,8 @@
     "name": "lilac",
     "github": "hit9/lilac",
     "website": "https://lilac.readthedocs.io/en/latest/",
-    "license": "MIT"
+    "license": "MIT",
+    "defunct": true
   },
   {
     "name": "liquidluck",
@@ -1445,7 +1449,7 @@
   },
   {
     "name": "Octopress",
-    "github": "imathis/octopress",
+    "github": "octopress/octopress",
     "license": "MIT"
   },
   {
@@ -1551,7 +1555,8 @@
     "name": "Pilcrow",
     "github": "araile/pilcrow",
     "website": "http://inky.github.io/pilcrow/",
-    "license": "MIT"
+    "license": "MIT",
+    "defunct": true
   },
   {
     "name": "Pith",
@@ -1626,7 +1631,8 @@
   {
     "name": "Propeller",
     "github": "thegreatsunra/propeller",
-    "license": "MIT"
+    "license": "MIT",
+    "defunct": true
   },
   {
     "name": "Prose",
@@ -1639,7 +1645,7 @@
     "website": "https://www.pulsecms.com/",
     "license": false,
     "language": "PHP",
-    "description": "The easiest flat-file CMS for designers and their clients",
+    "description": "The easiest flat-file CMS for designers and their clients.",
     "is": "static site editor"
   },
   {
@@ -2346,7 +2352,8 @@
   },
   {
     "name": "Wanna",
-    "github": "shaoshuai0102/wanna"
+    "github": "shaoshuai0102/wanna",
+    "defunct": true
   },
   {
     "name": "Weaver",
