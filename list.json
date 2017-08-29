@@ -2333,7 +2333,7 @@
   },
   {
     "name": "VoodooPad",
-    "website": "https://plausible.coop/voodoopad/",
+    "website": "https://plausible.coop/voodoopad",
     "license": false,
     "language": "App",
     "description": "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
