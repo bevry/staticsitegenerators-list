@@ -306,7 +306,7 @@
   },
   {
     "name": "Cloud Cannon",
-    "website": "http://cloudcannon.com/",
+    "website": "https://cloudcannon.com/",
     "description": "The Cloud CMS for Jekyll. Build static or Jekyll websites, have your team and clients update inline with the CloudCannon GUI.",
     "is": "static site host"
   },
