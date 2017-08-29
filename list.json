@@ -1548,9 +1548,7 @@
   {
     "name": "PieCrust",
     "github": "ludovicchabant/piecrust",
-    "website": "https://bolt80.com/piecrust/",
-    "license": "Apache-2.0",
-    "defunct": true
+    "license": "Apache-2.0"
   },
   {
     "name": "Pilcrow",
