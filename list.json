@@ -1293,6 +1293,14 @@
     "license": "MIT"
   },
   {
+    "name": "Minimal",
+    "website": "https://www.lutzroeder.com/web",
+    "github": "lutzroeder/Minimal",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Personal static website and blog generator for Go, Node.js and Python. No external dependencies and requires only a few hundred lines of code to run."
+  },
+  {
     "name": "MinoriWiki",
     "github": "phoenixlzx/MinoriWiki",
     "website": "http://phoenixlzx.github.io/MinoriWiki/",
