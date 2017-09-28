@@ -2170,6 +2170,16 @@
     "is": "static site host"
   },
   {
+    "name": "Stati",
+    "website": "https://github.com/jfoucher/stati",
+    "description": "A static site generator written in PHP that can work with any (most) existing Jekyll site, but can be easily extended in your (and my) favorite programming language, PHP!",
+    "is": "static site generator",
+    "license": "MIT",
+    "github": "jfoucher/stati",
+    "language": "PHP",
+    "extensible": true
+  },
+  {
     "name": "Susi",
     "github": "AVGP/susi",
     "license": "ISC"
