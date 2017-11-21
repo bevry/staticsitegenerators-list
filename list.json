@@ -629,6 +629,7 @@
   {
     "name": "Gatsby",
     "github": "gatsbyjs/gatsby",
+    "website": "https://www.gatsbyjs.org/",
     "license": "MIT"
   },
   {
