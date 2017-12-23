@@ -246,6 +246,15 @@
     "language": "Perl"
   },
   {
+    "name": "Bunto",
+    "github": "bunto/bunto",
+    "website": "https://buntowaf.tk/",
+    "language": "Ruby",
+    "description": "A modern web application framework and static site generator based on Jekyll.",
+    "license": "MIT",
+    "is": "static site generator"
+  },
+  {
     "name": "buster",
     "github": "axitkhurana/buster",
     "license": "MIT"
