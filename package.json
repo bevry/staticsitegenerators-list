@@ -1,8 +1,9 @@
 {
   "title": "Static Site Generators Listing",
   "name": "staticsitegenerators",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them",
+  "homepage": "https://github.com/bevry/staticsitegenerators-list",
   "license": "Unlicense",
   "keywords": [
     "static site generators",
@@ -19,7 +20,6 @@
       "---",
       "patreon",
       "opencollective",
-      "gratipay",
       "flattr",
       "paypal",
       "bitcoin",
@@ -30,7 +30,6 @@
     "config": {
       "patreonUsername": "bevry",
       "opencollectiveUsername": "bevry",
-      "gratipayUsername": "bevry",
       "flattrUsername": "balupton",
       "paypalURL": "https://bevry.me/paypal",
       "bitcoinURL": "https://bevry.me/bitcoin",
@@ -167,29 +166,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bevry/staticsitegenerators-list.git"
+    "url": "https://github.com/bevry/staticsitegenerators-list.git"
   },
   "engines": {
     "node": ">=6"
   },
-  "main": "index.js",
-  "browser": "index.js",
-  "scripts": {
-    "our:setup": "npm install",
-    "our:meta": "npm run our:meta:projectz",
-    "our:meta:projectz": "projectz compile",
-    "our:verify": "npm run our:verify:eslint",
-    "our:verify:eslint": "eslint --fix ./source",
-    "our:test": "npm run our:verify && npm test",
-    "our:release": "npm run our:release:prepare && npm run our:release:check && npm run our:release:tag && npm run our:release:push",
-    "our:release:prepare": "npm run our:test && npm run our:meta",
-    "our:release:check": "npm run our:release:check:changelog && npm run our:release:check:dirty",
-    "our:release:check:changelog": "cat ./HISTORY.md | grep v$npm_package_version || (echo add a changelog entry for v$npm_package_version && exit -1)",
-    "our:release:check:dirty": "git diff --exit-code",
-    "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
-    "our:release:push": "git push origin master && git push origin --tags",
-    "test": "node --harmony ./source/test.js --joe-reporter=console"
-  },
+  "editions": [
+    {
+      "description": "Source + ESNext + Require",
+      "directory": "source",
+      "entry": "index.js",
+      "syntaxes": [
+        "javascript",
+        "esnext",
+        "require"
+      ]
+    }
+  ],
+  "main": "source/index.js",
   "dependencies": {
     "arrangekeys": "^1.2.0",
     "extendr": "^3.2.2",
@@ -198,12 +192,32 @@
     "node-fetch": "^2.0.0"
   },
   "devDependencies": {
-    "assert-helpers": "^4.4.0",
+    "assert-helpers": "^4.5.1",
     "eslint": "^4.17.0",
     "joe": "^2.0.2",
+    "joe-reporter-console": "^2.0.1",
     "joe-reporter-list": "^2.0.1",
-    "projectz": "^1.3.2",
+    "projectz": "^1.4.0",
     "spdx-expression-validate": "^1.0.2",
     "taskgroup": "^5.0.1"
+  },
+  "scripts": {
+    "our:setup": "npm run our:setup:npm",
+    "our:setup:npm": "npm install",
+    "our:clean": "rm -Rf ./docs ./es2015 ./es5 ./out",
+    "our:compile": "echo no need for this project",
+    "our:meta": "npm run our:meta:projectz",
+    "our:meta:projectz": "projectz compile",
+    "our:verify": "npm run our:verify:eslint",
+    "our:verify:eslint": "eslint --fix ./source",
+    "our:deploy": "echo no need for this project",
+    "our:test": "npm run our:verify && npm test",
+    "our:release": "npm run our:release:prepare && npm run our:release:check-changelog && npm run our:release:check-dirty && npm run our:release:tag && npm run our:release:push",
+    "our:release:prepare": "npm run our:clean && npm run our:compile && npm run our:test && npm run our:meta",
+    "our:release:check-changelog": "cat ./HISTORY.md | grep v$npm_package_version || (echo add a changelog entry for v$npm_package_version && exit -1)",
+    "our:release:check-dirty": "git diff --exit-code",
+    "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
+    "our:release:push": "git push origin master && git push origin --tags",
+    "test": "node --harmony ./source/test.js --joe-reporter=console"
   }
 }
