@@ -2,14 +2,12 @@
   {
     "name": "ABlog",
     "github": "abakan/ablog",
-    "license": "MIT",
     "website": "https://ablog.readthedocs.io/",
     "descirption": "ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
   },
   {
     "name": "Ace",
-    "github": "botanicus/ace",
-    "license": "MIT"
+    "github": "botanicus/ace"
   },
   {
     "name": "acrylamid",
@@ -28,8 +26,7 @@
   },
   {
     "name": "antwar",
-    "github": "antwarjs/antwar",
-    "license": "MIT"
+    "github": "antwarjs/antwar"
   },
   {
     "name": "Appernetic",
@@ -42,13 +39,7 @@
   {
     "name": "assemble",
     "github": "assemble/assemble",
-    "license": "MIT",
     "language": "JavaScript"
-  },
-  {
-    "name": "Asteroid",
-    "github": "amyinorbit/Asteroid",
-    "license": "MIT"
   },
   {
     "name": "Automad",
@@ -59,18 +50,15 @@
   },
   {
     "name": "awestruct",
-    "github": "awestruct/awestruct",
-    "license": "MIT"
+    "github": "awestruct/awestruct"
   },
   {
     "name": "AYM CMS",
-    "github": "lethain/aym-cms",
-    "license": "MIT"
+    "github": "lethain/aym-cms"
   },
   {
     "name": "baker",
-    "github": "taylorchu/baker",
-    "license": "GPL-2.0"
+    "github": "taylorchu/baker"
   },
   {
     "name": "Balloon",
@@ -89,13 +77,11 @@
   },
   {
     "name": "bazinga",
-    "github": "ap0calypse/bazinga",
-    "license": "GPL-3.0"
+    "github": "ap0calypse/bazinga"
   },
   {
     "name": "Beetle",
-    "github": "cknv/beetle",
-    "license": "MIT"
+    "github": "cknv/beetle"
   },
   {
     "name": "Benjen",
@@ -116,8 +102,7 @@
   },
   {
     "name": "Blacksmith",
-    "github": "flatiron/blacksmith",
-    "license": "MIT"
+    "github": "flatiron/blacksmith"
   },
   {
     "name": "Blatter",
@@ -148,8 +133,7 @@
   {
     "name": "blogc",
     "github": "blogc/blogc",
-    "website": "https://blogc.rgm.io",
-    "license": "BSD-3-Clause"
+    "website": "https://blogc.rgm.io"
   },
   {
     "name": "blogc++",
@@ -163,8 +147,7 @@
   },
   {
     "name": "Blogen",
-    "github": "ipconfiger/blogen",
-    "license": "GPL-3.0"
+    "github": "ipconfiger/blogen"
   },
   {
     "name": "blogit",
@@ -180,7 +163,6 @@
   {
     "name": "blogpy",
     "github": "travisred/blogpy",
-    "license": "GPL-3.0",
     "language": "Python",
     "is": "static site generator"
   },
@@ -204,23 +186,19 @@
   {
     "name": "Bolt",
     "github": "benmcredmond/Bolt",
-    "website": "https://github.com/benmcredmond/Bolt",
-    "license": "MIT"
+    "website": "https://github.com/benmcredmond/Bolt"
   },
   {
     "name": "Bonsai",
-    "github": "benschwarz/bonsai",
-    "license": "MIT"
+    "github": "benschwarz/bonsai"
   },
   {
     "name": "Bramble MVC",
-    "github": "iansullivan88/bramble-mvc",
-    "license": "MIT"
+    "github": "iansullivan88/bramble-mvc"
   },
   {
     "name": "Bread",
-    "github": "pvorb/node-bread",
-    "license": "MIT"
+    "github": "pvorb/node-bread"
   },
   {
     "name": "Bricolage CMS",
@@ -236,8 +214,7 @@
   },
   {
     "name": "brochure",
-    "github": "sstephenson/brochure",
-    "license": "MIT"
+    "github": "sstephenson/brochure"
   },
   {
     "name": "Bryar",
@@ -248,53 +225,42 @@
   {
     "name": "Bunto",
     "github": "bunto/bunto",
-    "website": "https://buntowaf.tk/",
-    "language": "Ruby",
     "description": "A modern web application framework and static site generator based on Jekyll.",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "buster",
-    "github": "axitkhurana/buster",
-    "license": "MIT"
+    "github": "axitkhurana/buster"
   },
   {
     "name": "Cabin",
     "github": "CabinJS/Cabin",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "Cactus",
-    "github": "eudicots/Cactus",
-    "license": "BSD-3-Clause"
+    "github": "eudicots/Cactus"
   },
   {
     "name": "Calepin",
-    "github": "jokull/calepin",
-    "license": "ISC"
+    "github": "jokull/calepin"
   },
   {
     "name": "Carew",
-    "github": "carew/carew",
-    "license": "MIT"
+    "github": "carew/carew"
   },
   {
     "name": "catsup",
     "github": "whtsky/Catsup",
-    "website": "https://catsup.readthedocs.io/en/latest/",
-    "license": "MIT"
+    "website": "https://catsup.readthedocs.io/en/latest/"
   },
   {
     "name": "Chili",
-    "github": "clvrobj/chili",
-    "license": "MIT"
+    "github": "clvrobj/chili"
   },
   {
     "name": "Chisel",
-    "github": "dz/chisel",
-    "license": "MIT"
+    "github": "dz/chisel"
   },
   {
     "name": "Chronicle",
@@ -310,8 +276,7 @@
   {
     "name": "cl-blog-generator",
     "github": "hugoduncan/cl-blog-generator",
-    "website": "http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml",
-    "license": "BSD-2-Clause"
+    "website": "http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml"
   },
   {
     "name": "Cloud Cannon",
@@ -326,8 +291,7 @@
   },
   {
     "name": "cobalt.rs",
-    "github": "cobalt-org/cobalt.rs",
-    "license": "MIT"
+    "github": "cobalt-org/cobalt.rs"
   },
   {
     "name": "Codex",
@@ -337,15 +301,12 @@
   {
     "name": "coleslaw",
     "github": "kingcons/coleslaw",
-    "website": "http://www.cliki.net/coleslaw",
-    "license": "BSD-2-Clause",
     "is": "static site generator",
     "extensible": true
   },
   {
     "name": "Composer",
-    "github": "shazow/composer",
-    "license": "MIT"
+    "github": "shazow/composer"
   },
   {
     "name": "Contentful",
@@ -355,8 +316,7 @@
   },
   {
     "name": "Cory",
-    "github": "leo/cory",
-    "license": "MIT"
+    "github": "leo/cory"
   },
   {
     "name": "creo",
@@ -372,13 +332,11 @@
     "name": "cyrax",
     "github": "piranha/cyrax",
     "website": "https://pypi.python.org/pypi/cyrax",
-    "license": "ISC",
     "is": "static site generator"
   },
   {
     "name": "cytoplasm",
-    "github": "startling/cytoplasm",
-    "license": "MIT"
+    "github": "startling/cytoplasm"
   },
   {
     "name": "Dapper",
@@ -393,23 +351,19 @@
   },
   {
     "name": "deplate",
-    "github": "tomtom/deplate",
-    "license": "GPL-2.0"
+    "github": "tomtom/deplate"
   },
   {
     "name": "Deplot",
-    "github": "cdn64/deplot",
-    "license": "MIT"
+    "github": "cdn64/deplot"
   },
   {
     "name": "Desi",
-    "github": "DearDesi/desirae",
-    "license": "Apache-2.0"
+    "github": "DearDesi/desirae"
   },
   {
     "name": "django-medusa",
     "github": "mtigas/django-medusa",
-    "license": "MIT",
     "defunct": true
   },
   {
@@ -418,8 +372,7 @@
   },
   {
     "name": "djangothis",
-    "github": "amitu/djangothis",
-    "license": "BSD-3-Clause"
+    "github": "amitu/djangothis"
   },
   {
     "name": "DocPad",
@@ -430,25 +383,21 @@
   },
   {
     "name": "Docta",
-    "github": "05bit/docta",
-    "license": "BSD-3-Clause"
+    "github": "05bit/docta"
   },
   {
     "name": "Drapache",
     "github": "louissobel/Drapache",
-    "website": "https://github.com/louissobel/Drapache",
-    "license": "MIT"
+    "website": "https://github.com/louissobel/Drapache"
   },
   {
     "name": "drfrederson",
     "github": "klml/drfrederson",
-    "website": "http://drfrederson.klml.org/",
-    "license": "MIT"
+    "website": "http://drfrederson.klml.org/"
   },
   {
     "name": "Drop-a-Site",
-    "github": "herschel666/Drop-a-Site",
-    "license": "MIT"
+    "github": "herschel666/Drop-a-Site"
   },
   {
     "name": "dropbox-blog",
@@ -484,13 +433,11 @@
   },
   {
     "name": "dynamicmatic",
-    "github": "nex3/dynamicmatic",
-    "license": "MIT"
+    "github": "nex3/dynamicmatic"
   },
   {
     "name": "Easystatic",
-    "github": "easystatic/easystatic",
-    "license": "Apache-2.0"
+    "github": "easystatic/easystatic"
   },
   {
     "name": "ecstatic",
@@ -505,25 +452,21 @@
   {
     "name": "Elyse",
     "github": "FSX/elyse",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "embellih",
     "github": "boscoh/embellish",
-    "website": "http://boscoh.github.io/embellish/",
-    "license": "BSD-2-Clause"
+    "website": "http://boscoh.github.io/embellish/"
   },
   {
     "name": "enfield",
-    "github": "fortes/enfield",
-    "license": "MIT"
+    "github": "fortes/enfield"
   },
   {
     "name": "Engineer",
     "github": "tylerbutler/engineer",
-    "website": "https://engineer.readthedocs.io/en/latest/",
-    "license": "MIT"
+    "website": "https://engineer.readthedocs.io/en/latest/"
   },
   {
     "name": "Equiprose",
@@ -532,14 +475,12 @@
   },
   {
     "name": "Fairytale",
-    "github": "46Bit/fairytale",
-    "license": "MIT"
+    "github": "46Bit/fairytale"
   },
   {
     "name": "FantasticWindmill",
     "github": "sylvainhalle/FantasticWindmill",
-    "website": "http://sylvainhalle.github.io/FantasticWindmill/",
-    "license": "GPL-3.0"
+    "website": "http://sylvainhalle.github.io/FantasticWindmill/"
   },
   {
     "name": "fBlog",
@@ -563,13 +504,11 @@
   {
     "name": "fjord",
     "github": "dkuntz2/fjord",
-    "website": "https://github.com/dkuntz2/fjord",
-    "license": "BSD-3-Clause"
+    "website": "https://github.com/dkuntz2/fjord"
   },
   {
     "name": "Flamel",
-    "github": "ipavl/flamel",
-    "license": "MIT"
+    "github": "ipavl/flamel"
   },
   {
     "name": "Fledermaus",
@@ -579,14 +518,12 @@
   {
     "name": "flim",
     "github": "shapeshed/flim",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "Floyd",
     "github": "nikcub/floyd",
-    "website": "https://nikcub.github.io/floyd/",
-    "license": "BSD-2-Clause"
+    "website": "https://nikcub.github.io/floyd/"
   },
   {
     "name": "FMPP",
@@ -597,13 +534,11 @@
   },
   {
     "name": "ford.py",
-    "github": "citruspi/ford.py",
-    "license": "MIT"
+    "github": "citruspi/ford.py"
   },
   {
     "name": "Frank",
-    "github": "blahed/frank",
-    "license": "MIT"
+    "github": "blahed/frank"
   },
   {
     "name": "Franklin",
@@ -621,30 +556,25 @@
   {
     "name": "Frozen-Flask",
     "github": "Frozen-Flask/Frozen-Flask",
-    "website": "http://pythonhosted.org/Frozen-Flask/",
-    "license": "BSD-3-Clause"
+    "website": "http://pythonhosted.org/Frozen-Flask/"
   },
   {
     "name": "Funnel",
-    "github": "shuhaowu/Funnel",
-    "license": "GPL-3.0"
+    "github": "shuhaowu/Funnel"
   },
   {
     "name": "Garoozis",
     "github": "aguerrera/Garoozis",
-    "license": "BSD-3-Clause",
     "language": "F#"
   },
   {
     "name": "Gatsby",
     "github": "gatsbyjs/gatsby",
-    "website": "https://www.gatsbyjs.org/",
-    "license": "MIT"
+    "website": "https://www.gatsbyjs.org/"
   },
   {
     "name": "Gen",
-    "github": "trq/Gen",
-    "license": "MIT"
+    "github": "trq/Gen"
   },
   {
     "name": "Genesis",
@@ -653,14 +583,12 @@
   {
     "name": "Gerablog",
     "github": "paulohrpinheiro/gerablog",
-    "license": "MIT",
     "description": "Gerablog is a static blog generator. Write your posts in in *Markdown*, publish in *HTML*. Just two commands (create and generate) and seven templates (header, footer, categories page, categories block, main index, post and feed).",
     "is": "static site generator"
   },
   {
     "name": "gettheshitdone",
-    "github": "johannesboyne/gettheshitdone",
-    "license": "MIT"
+    "github": "johannesboyne/gettheshitdone"
   },
   {
     "name": "ghost-render",
@@ -681,13 +609,11 @@
   {
     "name": "Glyph",
     "github": "h3rald/glyph",
-    "website": "https://h3rald.com/glyph/",
-    "license": "MIT"
+    "website": "https://h3rald.com/glyph/"
   },
   {
     "name": "Go-Static!",
-    "github": "colynb/generator-go-static",
-    "license": "MIT"
+    "github": "colynb/generator-go-static"
   },
   {
     "name": "goblog",
@@ -696,8 +622,7 @@
   },
   {
     "name": "Goldbarg",
-    "github": "Schnouki/Golbarg",
-    "license": "GPL-3.0"
+    "github": "Schnouki/Golbarg"
   },
   {
     "name": "gollum-site",
@@ -711,8 +636,7 @@
   },
   {
     "name": "gostatic",
-    "github": "piranha/gostatic",
-    "license": "ISC"
+    "github": "piranha/gostatic"
   },
   {
     "name": "Grain",
@@ -724,7 +648,6 @@
     "name": "Grav",
     "github": "getgrav/grav",
     "website": "https://getgrav.org/",
-    "license": "MIT",
     "is": "flat file cms",
     "extensible": true
   },
@@ -732,7 +655,6 @@
     "name": "Grav Administration Panel",
     "github": "getgrav/grav-plugin-admin",
     "website": "https://learn.getgrav.org/admin-panel/introduction",
-    "license": "MIT",
     "is": "static site editor"
   },
   {
@@ -748,14 +670,12 @@
   },
   {
     "name": "Griffin",
-    "github": "pawandubey/griffin",
-    "license": "Apache-2.0"
+    "github": "pawandubey/griffin"
   },
   {
     "name": "Grow",
     "github": "grow/grow",
-    "website": "https://grow.io/",
-    "license": "MIT"
+    "website": "https://grow.io/"
   },
   {
     "name": "Growl",
@@ -764,13 +684,11 @@
   },
   {
     "name": "grunt-generator",
-    "github": "clavery/grunt-generator",
-    "license": "MIT"
+    "github": "clavery/grunt-generator"
   },
   {
     "name": "GSL",
-    "github": "imatix/gsl",
-    "license": "GPL-3.0"
+    "github": "imatix/gsl"
   },
   {
     "name": "guetzli",
@@ -796,20 +714,17 @@
   },
   {
     "name": "haggis",
-    "github": "tych0/haggis",
-    "license": "MIT"
+    "github": "tych0/haggis"
   },
   {
     "name": "Hakyll",
     "github": "jaspervdj/hakyll",
     "website": "https://jaspervdj.be/hakyll/",
-    "license": "BSD-3-Clause",
     "is": "static site generator"
   },
   {
     "name": "Halwa",
-    "github": "mhlakhani/halwa",
-    "license": "MIT"
+    "github": "mhlakhani/halwa"
   },
   {
     "name": "Hammer",
@@ -829,24 +744,19 @@
   },
   {
     "name": "Handle",
-    "github": "gilbitron/handle",
-    "website": "https://handlecli.com/",
-    "license": "MIT"
+    "github": "gilbitron/handle"
   },
   {
     "name": "handroll",
-    "github": "handroll/handroll",
-    "license": "BSD-2-Clause"
+    "github": "handroll/handroll"
   },
   {
     "name": "happyplan",
-    "github": "happyplan/happyplan",
-    "license": "MIT"
+    "github": "happyplan/happyplan"
   },
   {
     "name": "Harmonic",
-    "github": "JSRocksHQ/harmonic",
-    "license": "MIT"
+    "github": "JSRocksHQ/harmonic"
   },
   {
     "name": "haroopress",
@@ -861,25 +771,21 @@
   },
   {
     "name": "Hastie",
-    "github": "mkaz/hastie",
-    "license": "MIT"
+    "github": "mkaz/hastie"
   },
   {
     "name": "Heckle",
-    "github": "marijnh/heckle",
-    "license": "MIT"
+    "github": "marijnh/heckle"
   },
   {
     "name": "Helpful Site",
     "github": "g4b1nagy/helpful-site",
-    "license": "Unlicense",
     "language": "Python"
   },
   {
     "name": "Hexo",
     "github": "hexojs/hexo",
     "website": "https://hexo.io/",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
@@ -891,19 +797,16 @@
   {
     "name": "High Voltage",
     "github": "thoughtbot/high_voltage",
-    "website": "http://thoughtbot.github.io/high_voltage/",
-    "license": "MIT"
+    "website": "http://thoughtbot.github.io/high_voltage/"
   },
   {
     "name": "Hobix",
     "github": "hobix/hobix",
-    "website": "https://hobix.github.io/hobix/",
-    "license": "MIT"
+    "website": "https://hobix.github.io/hobix/"
   },
   {
     "name": "HSC",
-    "github": "mbethke/hsc",
-    "license": "GPL-2.0"
+    "github": "mbethke/hsc"
   },
   {
     "name": "hublo",
@@ -912,8 +815,7 @@
   },
   {
     "name": "HubPress",
-    "github": "HubPress/hubpress.io",
-    "license": "MIT"
+    "github": "HubPress/hubpress.io"
   },
   {
     "name": "Hugo",
@@ -926,13 +828,11 @@
   {
     "name": "Hyde",
     "github": "hyde/hyde",
-    "website": "http://hyde.github.io/",
-    "license": "MIT"
+    "website": "http://hyde.github.io/"
   },
   {
     "name": "Hydrastic",
-    "github": "bpizzi/Hydrastic",
-    "license": "MIT"
+    "github": "bpizzi/Hydrastic"
   },
   {
     "name": "igapyon",
@@ -943,8 +843,7 @@
   },
   {
     "name": "igor",
-    "github": "aconbere/igor",
-    "license": "MIT"
+    "github": "aconbere/igor"
   },
   {
     "name": "Ikiwiki",
@@ -956,25 +855,21 @@
   },
   {
     "name": "ipsum genera",
-    "github": "dom96/ipsumgenera",
-    "license": "MIT"
+    "github": "dom96/ipsumgenera"
   },
   {
     "name": "JAGSS",
     "github": "esonderegger/jagss",
-    "license": "MIT",
     "language": "Python"
   },
   {
     "name": "JBake",
     "github": "jbake-org/jbake",
-    "website": "http://jbake.org/",
-    "license": "MIT"
+    "website": "http://jbake.org/"
   },
   {
     "name": "Jedie",
-    "github": "mattn/jedie",
-    "license": "MIT"
+    "github": "mattn/jedie"
   },
   {
     "name": "Jekxll",
@@ -989,20 +884,17 @@
   {
     "name": "Jekyll",
     "github": "jekyll/jekyll",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "Jekyll Admin",
     "github": "jekyll/jekyll-admin",
-    "license": "MIT",
     "is": "static site editor"
   },
   {
     "name": "Jekyll Now",
     "github": "barryclark/jekyll-now",
-    "website": "http://www.jekyllnow.com",
-    "license": "MIT"
+    "website": "http://www.jekyllnow.com"
   },
   {
     "name": "Jekytrum",
@@ -1016,29 +908,24 @@
   {
     "name": "Jen",
     "github": "rfunduk/jen",
-    "license": "MIT",
     "defunct": true
   },
   {
     "name": "jigsaw",
     "github": "tightenco/jigsaw",
-    "website": "http://jigsaw.tighten.co",
-    "license": "MIT"
+    "website": "http://jigsaw.tighten.co"
   },
   {
     "name": "jinjet",
-    "github": "jokull/jinjet",
-    "license": "ISC"
+    "github": "jokull/jinjet"
   },
   {
     "name": "jkl",
-    "github": "drone/jkl",
-    "license": "MIT"
+    "github": "drone/jkl"
   },
   {
     "name": "Jott",
-    "github": "jonsherrard/jott",
-    "license": "Unlicense"
+    "github": "jonsherrard/jott"
   },
   {
     "name": "Journo",
@@ -1058,8 +945,7 @@
   },
   {
     "name": "jstatico",
-    "github": "egeozcan/jstatico",
-    "license": "MIT"
+    "github": "egeozcan/jstatico"
   },
   {
     "name": "kalastatic",
@@ -1073,8 +959,7 @@
   },
   {
     "name": "Kerouac",
-    "github": "jaredhanson/kerouac",
-    "license": "MIT"
+    "github": "jaredhanson/kerouac"
   },
   {
     "name": "Kickster",
@@ -1089,8 +974,7 @@
   },
   {
     "name": "kkr",
-    "github": "dchest/kkr",
-    "license": "BSD-2-Clause"
+    "github": "dchest/kkr"
   },
   {
     "name": "Korma",
@@ -1103,8 +987,7 @@
   },
   {
     "name": "Lambda Pad",
-    "github": "gar1t/lambdapad",
-    "license": "Apache-2.0"
+    "github": "gar1t/lambdapad"
   },
   {
     "name": "Lannister",
@@ -1114,8 +997,7 @@
   {
     "name": "Lanyon",
     "github": "arthurk/lanyon",
-    "website": "https://lanyon.readthedocs.io/en/latest/",
-    "license": "BSD-3-Clause"
+    "website": "https://lanyon.readthedocs.io/en/latest/"
   },
   {
     "name": "larassg",
@@ -1129,19 +1011,16 @@
   },
   {
     "name": "lava",
-    "github": "johannhof/lava",
-    "license": "MIT"
+    "github": "johannhof/lava"
   },
   {
     "name": "Laze",
     "github": "avdgaag/laze",
-    "website": "http://avdgaag.github.io/laze/",
-    "license": "MIT"
+    "website": "http://avdgaag.github.io/laze/"
   },
   {
     "name": "lazyblorg",
-    "github": "novoid/lazyblorg",
-    "license": "GPL-3.0"
+    "github": "novoid/lazyblorg"
   },
   {
     "name": "Leeflets",
@@ -1151,14 +1030,12 @@
   {
     "name": "Lektor",
     "github": "lektor/lektor",
-    "license": "BSD-3-Clause",
     "is": "flat file cms",
     "extensible": true
   },
   {
     "name": "Lenscap",
     "github": "honza/lenscap",
-    "license": "BSD-2-Clause",
     "language": "Python"
   },
   {
@@ -1169,8 +1046,7 @@
   },
   {
     "name": "Letterpress",
-    "github": "an0/Letterpress",
-    "license": "BSD-3-Clause"
+    "github": "an0/Letterpress"
   },
   {
     "name": "lettersmith",
@@ -1182,13 +1058,6 @@
     "license": "MIT"
   },
   {
-    "name": "lilac",
-    "github": "hit9/lilac",
-    "website": "https://lilac.readthedocs.io/en/latest/",
-    "license": "MIT",
-    "defunct": true
-  },
-  {
     "name": "liquidluck",
     "github": "avelino/liquidluck",
     "website": "http://www.avelino.xxx/liquidluck/"
@@ -1196,28 +1065,23 @@
   {
     "name": "logya",
     "github": "yaph/logya",
-    "website": "http://pythonhosted.org/logya/",
-    "license": "MIT"
+    "website": "http://pythonhosted.org/logya/"
   },
   {
     "name": "Luapress",
-    "github": "Fizzadar/Luapress",
-    "license": "MIT"
+    "github": "Fizzadar/Luapress"
   },
   {
     "name": "Machined",
-    "github": "petebrowne/machined",
-    "license": "MIT"
+    "github": "petebrowne/machined"
   },
   {
     "name": "Madoko",
-    "github": "houshuang/madoko",
-    "license": "Apache-2.0"
+    "github": "houshuang/madoko"
   },
   {
     "name": "Magneto",
-    "github": "donmelton/magneto",
-    "license": "MIT"
+    "github": "donmelton/magneto"
   },
   {
     "name": "makebakery",
@@ -1231,8 +1095,7 @@
   },
   {
     "name": "makeblog",
-    "github": "fyhuang/makeblog",
-    "license": "BSD-2-Clause"
+    "github": "fyhuang/makeblog"
   },
   {
     "name": "Makefly",
@@ -1245,8 +1108,7 @@
   },
   {
     "name": "Markdoc",
-    "github": "zacharyvoase/markdoc",
-    "license": "Unlicense"
+    "github": "zacharyvoase/markdoc"
   },
   {
     "name": "markdown-styles",
@@ -1255,13 +1117,11 @@
   },
   {
     "name": "Markx",
-    "github": "jgallen23/markx",
-    "license": "MIT"
+    "github": "jgallen23/markx"
   },
   {
     "name": "massimo",
-    "github": "petebrowne/massimo",
-    "license": "MIT"
+    "github": "petebrowne/massimo"
   },
   {
     "name": "Maven Site Plugin",
@@ -1278,13 +1138,11 @@
   },
   {
     "name": "Mecha",
-    "github": "mecha-cms/mecha",
-    "license": "GPL-3.0"
+    "github": "mecha-cms/mecha"
   },
   {
     "name": "meinhof",
-    "github": "miguelibero/meinhof",
-    "license": "MIT"
+    "github": "miguelibero/meinhof"
   },
   {
     "name": "metalsmith",
@@ -1298,14 +1156,11 @@
   },
   {
     "name": "Middleman",
-    "github": "middleman/middleman",
-    "license": "MIT"
+    "github": "middleman/middleman"
   },
   {
     "name": "Minimal",
-    "website": "https://www.lutzroeder.com/web",
     "github": "lutzroeder/Minimal",
-    "license": "MIT",
     "language": "JavaScript",
     "description": "Personal static website and blog generator for Go, Node.js and Python. No external dependencies and requires only a few hundred lines of code to run."
   },
@@ -1318,47 +1173,39 @@
   {
     "name": "Misakai Baker",
     "github": "Kelindar/misakai-baker",
-    "website": "http://baker.misakai.com",
-    "license": "Apache-2.0"
+    "website": "http://baker.misakai.com"
   },
   {
     "name": "misaki",
     "github": "liquidz/misaki",
-    "website": "http://liquidz.github.io/misaki/",
-    "license": "EPL-1.0"
+    "website": "http://liquidz.github.io/misaki/"
   },
   {
     "name": "MkDocs",
-    "github": "mkdocs/mkdocs",
-    "license": "BSD-2-Clause"
+    "github": "mkdocs/mkdocs"
   },
   {
     "name": "mksite",
     "github": "clehner/mksite",
-    "website": "http://celehner.com/mksite/",
-    "license": "MIT"
+    "website": "http://celehner.com/mksite/"
   },
   {
     "name": "monkeyman",
-    "github": "wspringer/monkeyman",
-    "license": "GPL-2.0"
+    "github": "wspringer/monkeyman"
   },
   {
     "name": "Mulder",
-    "github": "dragan/mulder",
-    "license": "MIT"
+    "github": "dragan/mulder"
   },
   {
     "name": "Muleify",
     "github": "AlexanderElias/muleify",
     "website": "https://github.com/AlexanderElias/muleify",
-    "license": "MPL-2.0",
     "description": "A zero configuration static site generator and asset preprocessor compiler."
   },
   {
     "name": "mynt",
-    "github": "Anomareh/mynt",
-    "license": "BSD-3-Clause"
+    "github": "Anomareh/mynt"
   },
   {
     "name": "NanoBlogger",
@@ -1370,19 +1217,16 @@
     "name": "Nanoc",
     "github": "nanoc/nanoc",
     "website": "https://nanoc.ws/",
-    "license": "MIT",
     "created_at": "2007-05-03T00:00:00Z"
   },
   {
     "name": "nanogen",
-    "github": "epochblue/nanogen",
-    "license": "MIT"
+    "github": "epochblue/nanogen"
   },
   {
     "name": "NestaCMS",
     "github": "gma/nesta",
-    "website": "http://nestacms.com/",
-    "license": "MIT"
+    "website": "http://nestacms.com/"
   },
   {
     "name": "Neverland",
@@ -1399,23 +1243,19 @@
   },
   {
     "name": "nib",
-    "github": "jreese/nib",
-    "license": "MIT"
+    "github": "jreese/nib"
   },
   {
     "name": "Nibbleblog",
-    "github": "dignajar/nibbleblog",
-    "license": "GPL-3.0"
+    "github": "dignajar/nibbleblog"
   },
   {
     "name": "Nico",
-    "github": "lepture/nico",
-    "license": "BSD-3-Clause"
+    "github": "lepture/nico"
   },
   {
     "name": "Nikola",
-    "github": "getnikola/nikola",
-    "license": "MIT"
+    "github": "getnikola/nikola"
   },
   {
     "name": "node-blog",
@@ -1423,13 +1263,11 @@
   },
   {
     "name": "node-qssg",
-    "github": "shanewholloway/node-qssg",
-    "license": "MIT"
+    "github": "shanewholloway/node-qssg"
   },
   {
     "name": "nodeache",
-    "github": "nunull/nodeache",
-    "license": "MIT"
+    "github": "nunull/nodeache"
   },
   {
     "name": "noflo-jekyll",
@@ -1439,8 +1277,7 @@
   {
     "name": "Nuxt.js",
     "github": "nuxt/nuxt.js",
-    "website": "https://nuxtjs.org/",
-    "license": "MIT"
+    "website": "https://nuxtjs.org/"
   },
   {
     "name": "o-blog",
@@ -1450,24 +1287,20 @@
   },
   {
     "name": "Oak",
-    "github": "marc0s/oak",
-    "license": "WTFPL"
+    "github": "marc0s/oak"
   },
   {
     "name": "obelisk",
-    "github": "BennyHallett/obelisk",
-    "license": "MIT"
+    "github": "BennyHallett/obelisk"
   },
   {
     "name": "Ocam",
     "github": "toddlucas/ocam",
-    "website": "http://toddlucas.github.io/ocam/",
-    "license": "MIT"
+    "website": "http://toddlucas.github.io/ocam/"
   },
   {
     "name": "Octopress",
-    "github": "octopress/octopress",
-    "license": "MIT"
+    "github": "octopress/octopress"
   },
   {
     "name": "onessg",
@@ -1476,23 +1309,15 @@
   },
   {
     "name": "operator-DD3",
-    "github": "operator-dd3/operator-dd3",
-    "license": "Unlicense"
+    "github": "operator-dd3/operator-dd3"
   },
   {
     "name": "OpooPress",
-    "github": "opoo/opoopress",
-    "license": "Apache-2.0"
+    "github": "opoo/opoopress"
   },
   {
     "name": "Orca",
-    "github": "andyblaesus/orca"
-  },
-  {
-    "name": "Osmek",
-    "website": "http://osmek.com",
-    "description": "Osmek isn't just a CMS, it's a Content API. It's time to rethink what you know about content management. Osmek takes the framework out of CMS, and that changes everything.",
-    "is": "static site editor"
+    "github": "AndreasBlaesus/orca"
   },
   {
     "name": "Pagegen",
@@ -1501,14 +1326,12 @@
   },
   {
     "name": "Pagen",
-    "github": "jawerty/pagen",
-    "license": "MIT"
+    "github": "jawerty/pagen"
   },
   {
     "name": "Pancake.io",
     "github": "hassox/pancake",
-    "website": "https://pancakestacks.wordpress.com/",
-    "license": "MIT"
+    "website": "https://pancakestacks.wordpress.com/"
   },
   {
     "name": "pansite",
@@ -1534,18 +1357,15 @@
   },
   {
     "name": "Perun",
-    "github": "hashobject/perun",
-    "license": "EPL-1.0"
+    "github": "hashobject/perun"
   },
   {
     "name": "Petrify",
-    "github": "caolan/petrify",
-    "license": "MIT"
+    "github": "caolan/petrify"
   },
   {
     "name": "Phenomic",
-    "github": "phenomic/phenomic",
-    "license": "MIT"
+    "github": "phenomic/phenomic"
   },
   {
     "name": "Phileas",
@@ -1569,20 +1389,16 @@
   },
   {
     "name": "Pilcrow",
-    "github": "araile/pilcrow",
-    "website": "http://inky.github.io/pilcrow/",
-    "license": "MIT",
+    "github": "ljcooke/pilcrow",
     "defunct": true
   },
   {
     "name": "Pith",
-    "github": "mdub/pith",
-    "license": "MIT"
+    "github": "mdub/pith"
   },
   {
     "name": "PlainSite",
-    "github": "JexCheng/plain_site",
-    "license": "MIT"
+    "github": "JexCheng/plain_site"
   },
   {
     "name": "PMBlog",
@@ -1591,18 +1407,15 @@
   {
     "name": "poet",
     "github": "jsantell/poet",
-    "website": "http://jsantell.github.io/poet/",
-    "license": "MIT"
+    "website": "http://jsantell.github.io/poet/"
   },
   {
     "name": "Pointless",
-    "github": "scarwu/Pointless",
-    "license": "MIT"
+    "github": "scarwu/Pointless"
   },
   {
     "name": "Polo",
-    "github": "agonzalezro/polo",
-    "license": "MIT"
+    "github": "agonzalezro/polo"
   },
   {
     "name": "poole",
@@ -1612,8 +1425,7 @@
   {
     "name": "pop",
     "github": "alexyoung/pop",
-    "website": "https://github.com/alexyoung/pop",
-    "license": "MIT"
+    "website": "https://github.com/alexyoung/pop"
   },
   {
     "name": "PowerSite",
@@ -1628,8 +1440,7 @@
   {
     "name": "Pretzel",
     "github": "Code52/pretzel",
-    "website": "http://code52.org/pretzel/",
-    "license": "MS-PL"
+    "website": "http://code52.org/pretzel/"
   },
   {
     "name": "Primoca",
@@ -1647,7 +1458,6 @@
   {
     "name": "Propeller",
     "github": "thegreatsunra/propeller",
-    "license": "MIT",
     "defunct": true
   },
   {
@@ -1667,14 +1477,12 @@
   {
     "name": "Punch",
     "github": "laktek/punch",
-    "website": "https://laktek.github.io/punch/",
-    "license": "MIT"
+    "website": "https://laktek.github.io/punch/"
   },
   {
     "name": "PyBlosxom",
     "github": "pyblosxom/pyblosxom",
     "website": "http://pyblosxom.github.io/",
-    "license": "MIT",
     "defunct": true
   },
   {
@@ -1684,8 +1492,7 @@
   },
   {
     "name": "Pyll",
-    "github": "arthurk/pyll",
-    "license": "BSD-3-Clause"
+    "github": "arthurk/pyll"
   },
   {
     "name": "Quietly Confident",
@@ -1706,14 +1513,12 @@
   },
   {
     "name": "rant",
-    "github": "lrvick/rant",
-    "license": "Apache-2.0"
+    "github": "lrvick/rant"
   },
   {
     "name": "Rassmalog",
     "github": "sunaku/rassmalog",
-    "website": "http://snk.tuxfamily.org/lib/rassmalog/doc/guide.html",
-    "license": "ISC"
+    "website": "http://snk.tuxfamily.org/lib/rassmalog/doc/guide.html"
   },
   {
     "name": "rawk",
@@ -1722,13 +1527,11 @@
   },
   {
     "name": "reacat",
-    "github": "reacat/reacat",
-    "license": "MIT"
+    "github": "reacat/reacat"
   },
   {
     "name": "react-static",
-    "github": "rpearce/react-static",
-    "license": "MIT"
+    "github": "rpearce/react-static"
   },
   {
     "name": "react-static-site",
@@ -1741,15 +1544,12 @@
   },
   {
     "name": "Read the Docs (RTD)",
-    "github": "rtfd/readthedocs.org",
-    "website": "https://readthedocs.org/",
-    "license": "MIT"
+    "github": "rtfd/readthedocs.org"
   },
   {
     "name": "Really Static",
     "github": "trajano/really-static",
-    "website": "https://wordpress.org/plugins/really-static/",
-    "license": "GPL-3.0"
+    "website": "https://wordpress.org/plugins/really-static/"
   },
   {
     "name": "Refrain",
@@ -1763,8 +1563,7 @@
   },
   {
     "name": "reptar",
-    "github": "reptar/reptar",
-    "license": "MIT"
+    "github": "reptar/reptar"
   },
   {
     "name": "Riji",
@@ -1774,29 +1573,24 @@
   },
   {
     "name": "Rizzo",
-    "github": "fifthposition/rizzo",
-    "license": "MIT"
+    "github": "fifthposition/rizzo"
   },
   {
     "name": "romulus",
-    "github": "felixge/node-romulus",
-    "license": "MIT"
+    "github": "felixge/node-romulus"
   },
   {
     "name": "Roots",
     "github": "jescalan/roots",
-    "website": "http://roots.cx/",
-    "license": "MIT"
+    "website": "http://roots.cx/"
   },
   {
     "name": "Rosid",
-    "github": "electerious/Rosid",
-    "license": "MIT"
+    "github": "electerious/Rosid"
   },
   {
     "name": "rstblog",
-    "github": "mitsuhiko/rstblog",
-    "license": "BSD-3-Clause"
+    "github": "mitsuhiko/rstblog"
   },
   {
     "name": "RubyFrontier",
@@ -1811,41 +1605,34 @@
   },
   {
     "name": "s2gen",
-    "github": "denisftw/s2gen",
-    "license": "MIT"
+    "github": "denisftw/s2gen"
   },
   {
     "name": "Sculpin",
     "github": "sculpin/sculpin",
-    "website": "https://sculpin.io/",
-    "license": "MIT"
+    "website": "https://sculpin.io/"
   },
   {
     "name": "Second Crack",
-    "github": "marcoarment/secondcrack",
-    "license": "BSD-2-Clause"
+    "github": "marcoarment/secondcrack"
   },
   {
     "name": "serif",
-    "github": "aprescott/serif",
-    "license": "MIT"
+    "github": "aprescott/serif"
   },
   {
     "name": "serious-chicken",
     "github": "rtorr/serious-chicken",
-    "website": "http://rtorr.com/serious-chicken/",
-    "license": "MIT"
+    "website": "http://rtorr.com/serious-chicken/"
   },
   {
     "name": "Serve",
     "github": "jlong/serve",
-    "website": "http://get-serve.com/",
-    "license": "MIT"
+    "website": "http://get-serve.com/"
   },
   {
     "name": "SG",
-    "github": "maxailloud/SG",
-    "license": "WTFPL"
+    "github": "maxailloud/SG"
   },
   {
     "name": "sg.py",
@@ -1858,8 +1645,7 @@
   },
   {
     "name": "shelob",
-    "github": "rubyworks/shelob",
-    "license": "BSD-2-Clause"
+    "github": "rubyworks/shelob"
   },
   {
     "name": "Shire",
@@ -1869,23 +1655,19 @@
   {
     "name": "Shonku",
     "github": "kushaldas/shonku",
-    "website": "http://shonku.readthedocs.io/en/latest/",
-    "license": "GPL-3.0"
+    "website": "http://shonku.readthedocs.io/en/latest/"
   },
   {
     "name": "Silex",
-    "github": "silexlabs/Silex",
-    "license": "GPL-3.0"
+    "github": "silexlabs/Silex"
   },
   {
     "name": "Simiki",
-    "github": "tankywoo/simiki",
-    "license": "MIT"
+    "github": "tankywoo/simiki"
   },
   {
     "name": "Simple",
-    "github": "isnowfy/simple",
-    "license": "MIT"
+    "github": "isnowfy/simple"
   },
   {
     "name": "simple-static",
@@ -1893,36 +1675,26 @@
   },
   {
     "name": "simple-website",
-    "github": "alexanderteinum/simple-website"
+    "github": "alexanderte/simple-website"
   },
   {
     "name": "simsalabash",
-    "github": "markusfisch/simsalabash",
-    "license": "MIT"
+    "github": "markusfisch/simsalabash"
   },
   {
     "name": "Site builder",
-    "github": "inanimatt/site-builder",
-    "license": "MIT"
+    "github": "inanimatt/site-builder"
   },
   {
     "name": "Site builder console",
-    "website": "http://sitebuilder.codeplex.com/",
-    "license": "MIT",
-    "language": "C#"
+    "github": "efdummy/Site-builder-console",
+    "license": "MIT"
   },
   {
     "name": "Site44",
     "website": "http://www.site44.com/",
     "license": false,
     "language": "Web"
-  },
-  {
-    "name": "Sitebox.io",
-    "website": "http://www.sitebox.io",
-    "license": false,
-    "language": "Web",
-    "description": "New and intuitive way to create websites with dropbox"
   },
   {
     "name": "SiteGen (Dart)",
@@ -1938,8 +1710,7 @@
   },
   {
     "name": "Smallest Blogger",
-    "github": "ranmocy/smallest-blogger",
-    "license": "MIT"
+    "github": "ranmocy/smallest-blogger"
   },
   {
     "name": "snowshoe",
@@ -1953,29 +1724,24 @@
   {
     "name": "Socrates",
     "github": "honza/socrates",
-    "website": "http://honza.ca/socrates/",
-    "license": "BSD-3-Clause"
+    "website": "http://honza.ca/socrates/"
   },
   {
     "name": "sortastatic",
-    "github": "haldean/sortastatic",
-    "license": "BSD-2-Clause"
+    "github": "haldean/sortastatic"
   },
   {
     "name": "Speechhub",
-    "github": "pythonmg/speechhub",
-    "license": "GPL-3.0"
+    "github": "pythonmg/speechhub"
   },
   {
     "name": "Spelt",
     "github": "njdehoog/Spelt",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
     "name": "SPG",
-    "github": "AdamBien/spg",
-    "license": "Apache-2.0"
+    "github": "AdamBien/spg"
   },
   {
     "name": "Sphinx",
@@ -1986,23 +1752,19 @@
   {
     "name": "Spike",
     "github": "static-dev/spike",
-    "website": "https://spike.readme.io",
-    "license": "MIT"
+    "website": "https://spike.readme.io"
   },
   {
     "name": "Spina",
-    "github": "denkGroot/Spina",
-    "license": "MIT"
+    "github": "SpinaCMS/Spina"
   },
   {
     "name": "Spine",
-    "github": "varl/spine",
-    "license": "MIT"
+    "github": "varl/spine"
   },
   {
     "name": "Spress",
-    "github": "spress/Spress",
-    "license": "MIT"
+    "github": "spress/Spress"
   },
   {
     "name": "Spring Board",
@@ -2025,13 +1787,11 @@
   {
     "name": "Stacey",
     "github": "kolber/stacey",
-    "website": "http://staceyapp.com/",
-    "license": "MIT"
+    "website": "http://staceyapp.com/"
   },
   {
     "name": "Stacktic",
     "github": "bahiamartins/stacktic",
-    "license": "MIT",
     "defunct": true
   },
   {
@@ -2041,13 +1801,11 @@
   },
   {
     "name": "StaGen",
-    "github": "wiztools/stagen",
-    "license": "Apache-2.0"
+    "github": "wiztools/stagen"
   },
   {
     "name": "Stasis",
-    "github": "winton/stasis",
-    "license": "MIT"
+    "github": "winton/stasis"
   },
   {
     "name": "Stasis.clj",
@@ -2062,45 +1820,46 @@
     "description": "The friendliest CMS you'll ever meet. Powered by flat files, your favorites content parsers, and the raw power of nature."
   },
   {
+    "name": "Stati",
+    "github": "jfoucher/stati",
+    "website": "https://github.com/jfoucher/stati",
+    "description": "A static site generator written in PHP that can work with any (most) existing Jekyll site, but can be easily extended in your (and my) favorite programming language, PHP!",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "static",
     "github": "nakkaya/static",
     "license": "EPL-1.0"
   },
   {
     "name": "Static Website Starter Kit",
-    "github": "kriasoft/static-site-starter",
-    "license": "Apache-2.0"
+    "github": "kriasoft/static-site-starter"
   },
   {
     "name": "static-io",
     "github": "CosminAnca/static-io",
-    "license": "MIT",
     "language": "JavaScript"
   },
   {
     "name": "Static-weber",
-    "github": "xorpd/static_weber",
-    "license": "MIT"
+    "github": "xorpd/static_weber"
   },
   {
     "name": "static2000",
-    "github": "judas-christ/static2000",
-    "license": "MIT"
+    "github": "judas-christ/static2000"
   },
   {
     "name": "staticjinja",
-    "github": "Ceasar/staticjinja",
-    "license": "MIT"
+    "github": "Ceasar/staticjinja"
   },
   {
     "name": "StaticMatic",
-    "github": "staticmatic/staticmatic",
-    "license": "MIT"
+    "github": "staticmatic/staticmatic"
   },
   {
     "name": "StaticMatic2",
-    "github": "gilbert/staticmatic2",
-    "license": "MIT"
+    "github": "gilbert/staticmatic2"
   },
   {
     "name": "staticpress",
@@ -2109,8 +1868,7 @@
   },
   {
     "name": "staticpy",
-    "github": "toddsifleet/staticpy",
-    "license": "MIT"
+    "github": "toddsifleet/staticpy"
   },
   {
     "name": "staticsite",
@@ -2131,18 +1889,16 @@
   },
   {
     "name": "Statik",
-    "github": "thanethomson/statik",
-    "license": "MIT"
-  },
-  {
-    "name": "Statix",
-    "github": "ff0000/statix",
-    "license": "MIT"
+    "github": "thanethomson/statik"
   },
   {
     "name": "Statix",
     "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
     "language": "Shell"
+  },
+  {
+    "name": "Statix",
+    "github": "ff0000/statix"
   },
   {
     "name": "Statocles",
@@ -2154,23 +1910,19 @@
   {
     "name": "Stog",
     "github": "zoggy/stog",
-    "website": "http://zoggy.github.io/stog/",
-    "license": "GPL-3.0"
+    "website": "http://zoggy.github.io/stog/"
   },
   {
     "name": "StrangeCase",
-    "github": "colinta/StrangeCase",
-    "license": "BSD-2-Clause"
+    "github": "colinta/StrangeCase"
   },
   {
     "name": "stratic",
-    "github": "jaubourg/stratic",
-    "license": "MIT"
+    "github": "jaubourg/stratic"
   },
   {
     "name": "Striker",
-    "github": "swaroopsm/striker",
-    "license": "MIT"
+    "github": "swaroopsm/striker"
   },
   {
     "name": "Surge",
@@ -2179,36 +1931,22 @@
     "is": "static site host"
   },
   {
-    "name": "Stati",
-    "website": "https://github.com/jfoucher/stati",
-    "description": "A static site generator written in PHP that can work with any (most) existing Jekyll site, but can be easily extended in your (and my) favorite programming language, PHP!",
-    "is": "static site generator",
-    "license": "MIT",
-    "github": "jfoucher/stati",
-    "language": "PHP",
-    "extensible": true
-  },
-  {
     "name": "Susi",
-    "github": "AVGP/susi",
-    "license": "ISC"
+    "github": "AVGP/susi"
   },
   {
     "name": "SWG",
     "github": "evilsocket/SWG",
-    "website": "http://pythonhosted.org/swg/",
-    "license": "GPL-3.0"
+    "website": "http://pythonhosted.org/swg/"
   },
   {
     "name": "SWSG",
     "github": "derdon/swsg",
-    "website": "http://derdon.github.io/swsg/",
-    "license": "WTFPL"
+    "website": "http://derdon.github.io/swsg/"
   },
   {
     "name": "Szyslak",
-    "github": "ido50/Szyslak",
-    "license": "GPL-3.0"
+    "github": "ido50/Szyslak"
   },
   {
     "name": "Tacot",
@@ -2218,8 +1956,7 @@
   },
   {
     "name": "Tags",
-    "github": "braceio/tags",
-    "license": "MIT"
+    "github": "braceio/tags"
   },
   {
     "name": "Tagy",
@@ -2229,14 +1966,12 @@
   },
   {
     "name": "Tahchee",
-    "github": "sebastien/tahchee",
-    "license": "BSD-3-Clause"
+    "github": "sebastien/tahchee"
   },
   {
     "name": "Tapestry",
     "github": "tapestry-cloud/tapestry",
     "website": "https://www.tapestry.cloud",
-    "license": "MIT",
     "is": "static site generator",
     "extensible": true
   },
@@ -2257,14 +1992,12 @@
   },
   {
     "name": "Tclssg",
-    "github": "tclssg/tclssg",
-    "license": "MIT"
+    "github": "tclssg/tclssg"
   },
   {
     "name": "Techy",
     "github": "krasimir/techy",
     "website": "http://krasimir.github.io/techy/",
-    "license": "MIT",
     "language": "JavaScript"
   },
   {
@@ -2274,8 +2007,7 @@
   },
   {
     "name": "Tempo",
-    "github": "catnapgames/Tempo",
-    "license": "MIT"
+    "github": "catnapgames/Tempo"
   },
   {
     "name": "Text Assembler",
@@ -2296,8 +2028,7 @@
   },
   {
     "name": "toto",
-    "github": "cloudhead/toto",
-    "license": "MIT"
+    "github": "cloudhead/toto"
   },
   {
     "name": "Tribo",
@@ -2305,8 +2036,7 @@
   },
   {
     "name": "trofaf",
-    "github": "mna/trofaf",
-    "license": "BSD-3-Clause"
+    "github": "mna/trofaf"
   },
   {
     "name": "Ultra simple Site Maker",
@@ -2324,7 +2054,6 @@
     "name": "Utterson",
     "github": "stef/utterson",
     "website": "https://github.com/stef/utterson",
-    "license": "AGPL-3.0",
     "language": "shell"
   },
   {
@@ -2340,8 +2069,7 @@
   {
     "name": "Vegetables",
     "github": "partageit/vegetables",
-    "website": "http://partageit.github.io/vegetables/",
-    "license": "MIT"
+    "website": "http://partageit.github.io/vegetables/"
   },
   {
     "name": "vimwiki",
@@ -2350,8 +2078,7 @@
   },
   {
     "name": "Voldemort",
-    "github": "semk/voldemort",
-    "license": "Apache-2.0"
+    "github": "semk/voldemort"
   },
   {
     "name": "volt",
@@ -2367,8 +2094,7 @@
   },
   {
     "name": "wadoo",
-    "github": "alpacaaa/wadoo",
-    "license": "WTFPL"
+    "github": "alpacaaa/wadoo"
   },
   {
     "name": "Wallflower",
@@ -2384,8 +2110,7 @@
   {
     "name": "Weaver",
     "github": "davidsiaw/weaver",
-    "website": "http://davidsiaw.github.io/weaver-docs/",
-    "license": "MIT"
+    "website": "http://davidsiaw.github.io/weaver-docs/"
   },
   {
     "name": "Webby",
@@ -2394,19 +2119,16 @@
   },
   {
     "name": "webgen",
-    "github": "webgen-org/webgen",
-    "license": "BSD-3-Clause"
+    "github": "webgen-org/webgen"
   },
   {
     "name": "webgen",
     "github": "gettalong/webgen",
-    "website": "https://webgen.gettalong.org",
     "license": "GPL-3.0"
   },
   {
     "name": "Webhook",
-    "github": "webhook/webhook",
-    "license": "MIT"
+    "github": "webhook/webhook"
   },
   {
     "name": "Website Meta Language",
@@ -2417,20 +2139,11 @@
   },
   {
     "name": "Websleydale",
-    "github": "kalgynirae/websleydale",
-    "license": "MIT"
-  },
-  {
-    "name": "wersh",
-    "website": "http://git.agunix.org/wersh",
-    "license": "MIT",
-    "language": "Shell",
-    "description": "Minimal static site generator for POSIX systems"
+    "github": "kalgynirae/websleydale"
   },
   {
     "name": "Wheat",
-    "github": "creationix/wheat",
-    "license": "MIT"
+    "github": "creationix/wheat"
   },
   {
     "name": "Wikismith",
@@ -2439,18 +2152,15 @@
   },
   {
     "name": "Wintersmith",
-    "github": "jnordberg/wintersmith",
-    "license": "MIT"
+    "github": "jnordberg/wintersmith"
   },
   {
     "name": "wok",
-    "github": "mythmon/wok",
-    "license": "MIT"
+    "github": "mythmon/wok"
   },
   {
     "name": "Woods",
-    "github": "paperjs/woods",
-    "license": "MIT"
+    "github": "paperjs/woods"
   },
   {
     "name": "wordsister",
@@ -2466,15 +2176,13 @@
   {
     "name": "WPWMM4",
     "github": "uzsolt/wpwmm4",
-    "website": "http://git.uzsolt.hu/wpwmm4/",
     "language": "Makefile, m4",
     "is": "static site generator",
     "extensible": "true"
   },
   {
     "name": "Wyam",
-    "github": "Wyamio/Wyam",
-    "license": "MIT"
+    "github": "Wyamio/Wyam"
   },
   {
     "name": "Yana",
@@ -2488,8 +2196,7 @@
   },
   {
     "name": "Yellow",
-    "github": "datenstrom/yellow",
-    "license": "GPL-2.0"
+    "github": "datenstrom/yellow"
   },
   {
     "name": "Yggdrasil",
@@ -2501,18 +2208,15 @@
   },
   {
     "name": "Yozuch",
-    "github": "akrylysov/yozuch",
-    "license": "BSD-3-Clause"
+    "github": "akrylysov/yozuch"
   },
   {
     "name": "yst",
-    "github": "jgm/yst",
-    "license": "GPL-2.0"
+    "github": "jgm/yst"
   },
   {
     "name": "zas",
-    "github": "imdario/zas",
-    "license": "AGPL-3.0"
+    "github": "imdario/zas"
   },
   {
     "name": "ZenWeb",
@@ -2527,8 +2231,7 @@
   },
   {
     "name": "zodiac",
-    "github": "nuex/zodiac",
-    "license": "MIT"
+    "github": "nuex/zodiac"
   },
   {
     "name": "Zucchini",
