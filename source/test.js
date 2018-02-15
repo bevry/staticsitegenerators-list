@@ -4,13 +4,17 @@
 const joe = require('joe')
 const fs = require('fs')
 const path = require('path')
-const { equal } = require('assert-helpers')
-const assert = require('assert')
+const { equal, deepEqual } = require('assert-helpers')
+const fetch = require('node-fetch')
 const validSPDX = require('spdx-expression-validate')
 const ssgs = require('./')
 
 const sourcePath = path.resolve(__dirname, '..', 'list.json')
 const renderPath = path.resolve(__dirname, '..', 'out.json')
+const fetchOptions = {
+	timeout: 30 * 1000,
+	redirect: 'error'
+}
 
 function log (...args) {
 	if (args[0] === 7 || args[0] === 'debug') return
@@ -18,23 +22,17 @@ function log (...args) {
 }
 
 function checkURL (url, next) {
-	const http = (/^https/).test(url) ? require('https') : require('http')
-	const req = http.get(url, (res) => {
-		try {
-			equal(res.statusCode, 200, 'response http status code should be 200 success')
+	fetch(url, fetchOptions).then(function (res) {
+		if (!res.ok) {
+			equal(res.status, 200, 'response http status code should be 200 success')
+			return Promise.reject(
+				new Error('Network response was not ok.')
+			)
 		}
-		catch (err) {
-			return next(err)
-		}
-		res.destroy()
+	}).then(function () {
 		return next()
-	})
-	req.on('error', function (err) {
-		req.destroy()
-		next(err)
-	})
-	req.setTimeout(30 * 1000, function () {
-		req.destroy('socket timed out')
+	}).catch(function (err) {
+		return next(err)
 	})
 }
 
@@ -58,7 +56,7 @@ joe.suite('static site generators list', function (suite, test) {
 		data.forEach(function (entry) {
 			const { name, github, gitlab, bitbucket, website, is } = entry
 			const location = (github || gitlab || bitbucket || website)
-			assert(name && location, `missing required fields on ${name || location}`)
+			equal(Boolean(name && location), true, `missing required fields on ${name || location}`)
 			if (!is) missingIs.push(name)
 		})
 		console.warn(`The following entries are missing the "is" field, please add what you can if you have time:\n${missingIs.join(', ')}`)
@@ -67,7 +65,7 @@ joe.suite('static site generators list', function (suite, test) {
 	test('licenses are valid SPDX', function () {
 		data.forEach(function ({ name, license }) {
 			if (license) {
-				assert(validSPDX(license), `${name}: license of ${license} is not a valid SPDX identifier: http://spdx.org/licenses/`)
+				equal(validSPDX(license), true, `${name}: license of ${license} is not a valid SPDX identifier: http://spdx.org/licenses/`)
 			}
 		})
 	})
@@ -89,24 +87,31 @@ joe.suite('static site generators list', function (suite, test) {
 		})
 	})
 
-	suite('local render', function (suite, test, done) {
-		ssgs.local(function (err, data) {
-			if (err) return done(err)
-			ssgs.render(data, { log, corrective: true }, function (err, results, sources) {
+	suite('local render', function (suite, test) {
+		let localData, latestLocalData, latestCompleteData
+		test('fetch local data', function (done) {
+			ssgs.local(function (err, _data) {
 				if (err) return done(err)
-				const source = JSON.stringify(data, null, '  ')
-				const result = JSON.stringify(sources, null, '  ')
-				test(`writing corrected source listing ${sourcePath}`, function (done) {
-					fs.writeFile(sourcePath, result, done)
-				})
-				test(`writing rendered listing to ${renderPath}`, function (done) {
-					fs.writeFile(renderPath, JSON.stringify(results, null, '  '), done)
-				})
-				test('source data was the same as the corrected data', function () {
-					equal(source, result, 'there was automated data written into the manual listing, this has been removed, run the tests again')
-				})
-				done()
+				localData = _data
+				return done()
 			})
+		})
+		test('render local data', function (done) {
+			ssgs.render(data, { log, corrective: true }, function (err, _results, _sources) {
+				if (err) return done(err)
+				latestCompleteData = _results
+				latestLocalData = _sources
+				return done()
+			})
+		})
+		test(`writing corrected source listing ${sourcePath}`, function (done) {
+			fs.writeFile(sourcePath, JSON.stringify(latestLocalData, null, '  '), done)
+		})
+		test(`writing rendered listing to ${renderPath}`, function (done) {
+			fs.writeFile(renderPath, JSON.stringify(latestCompleteData, null, '  '), done)
+		})
+		test('source data was the same as the corrected data', function () {
+			deepEqual(localData, latestLocalData, 'there was automated data written into the manual listing, this has been removed, run the tests again')
 		})
 	})
 
