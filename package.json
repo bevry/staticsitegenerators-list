@@ -66,9 +66,9 @@
     "AJ ONeal <awesome@coolaj86.com> (http://coolaj86.com)",
     "Benjamin Klotz <benny.klotz92@gmail.com> (http://www.bennyklotz.at)",
     "Jorge Epuñan <juanbrujo@gmail.com> (http://www.csslab.cl)",
-    "Konstantin Tarkus <hello+github@tarkus.me> (http://medium.com/@tarkus)",
+    "Konstantin Tarkus <hello@tarkus.me> (http://medium.com/@tarkus)",
     "Mark Seuffert (http://datenstrom.se)",
-    "Maxime Thirouin (http://moox.io/)",
+    "MoOx (http://moox.io/)",
     "Pawan Dubey (http://pawandubey.com)",
     "Ramiro Gómez (http://ramiro.org/)",
     "Rob Loach <robloach@gmail.com> (http://robloach.net)",
@@ -146,12 +146,20 @@
     "Jonathan Bullock <jonbullock@gmail.com> (http://jonathanbullock.com)",
     "Hugh Brown (Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com)",
     "Alan Pearce <alan@alanpearce.uk> (http://git.alanpearce.uk)",
-    "Alexandre Chopin <contact@alexchopin.com> (http://www.alexchopin.com)",
+    "Alexandre Chopin <alex@orion.sh> (http://www.alexchopin.com)",
     "Charles Lehner (http://git-ssb.celehner.com/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519)",
     "Michael F. Lamb (http://datagrok.org)",
-    "Alexander Elias <alex.steven.elias@gmail.com> (alex-elias.com)",
+    "Alexander Elias <alex.steven.elias@gmail.com> (http://alex-elias.com/)",
     "Charles Lehner (http://git.scuttlebot.io/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519)",
     "Toshiki Iga (http://igapyon.github.io/diary/)",
+    "Denis Defreyne <denis@denis.ws> (http://denis.ws/)",
+    "wifiextender (https://github.com/wifiextender)",
+    "Mark Seuffert (http://mayberg.se)",
+    "MinchinWeb (http://minchin.ca)",
+    "kambrium (https://github.com/kambrium)",
+    "Alan Pearce <alan@alanpearce.eu> (http://alanpearce.uk)",
+    "___^___ <d02d25c0@opayq.com> (https://github.com/estrabd)",
+    "Byron LK (https://github.com/byrondev)",
     "Hugh Brown (Saint Aardvark the Carpeted) <aardvark@saintaardvarkthecarpeted.com> (http://saintaardvarkthecarpeted.com)"
   ],
   "bugs": {
@@ -180,18 +188,18 @@
     "our:release:check:dirty": "git diff --exit-code",
     "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
     "our:release:push": "git push origin master && git push origin --tags",
-    "test": "node --harmony ./test.js --joe-reporter=console"
+    "test": "node --harmony ./source/test.js --joe-reporter=console"
   },
   "dependencies": {
     "arrangekeys": "^1.2.0",
     "extendr": "^3.2.2",
     "extract-opts": "^3.3.1",
     "getrepos": "^1.0.7",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^2.0.0"
   },
   "devDependencies": {
     "assert-helpers": "^4.4.0",
-    "eslint": "^3.12.2",
+    "eslint": "^4.17.0",
     "joe": "^2.0.2",
     "joe-reporter-list": "^2.0.1",
     "projectz": "^1.3.2",

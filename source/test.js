@@ -3,16 +3,17 @@
 
 const joe = require('joe')
 const fs = require('fs')
-const {equal} = require('assert-helpers')
+const path = require('path')
+const { equal } = require('assert-helpers')
 const assert = require('assert')
 const validSPDX = require('spdx-expression-validate')
 const ssgs = require('./')
 
-const sourcePath = './list.json'
-const renderPath = './out.json'
+const sourcePath = path.resolve(__dirname, '..', 'list.json')
+const renderPath = path.resolve(__dirname, '..', 'out.json')
 
 function log (...args) {
-	if ( args[0] === 7 || args[0] === 'debug' )  return
+	if (args[0] === 7 || args[0] === 'debug') return
 	console.log.apply(console.log, args)
 }
 
@@ -46,7 +47,7 @@ joe.suite('static site generators list', function (suite, test) {
 
 	test('load local content', function (done) {
 		ssgs.local(function (err, result) {
-			if (err)  return done(err)
+			if (err) return done(err)
 			data = result
 			return done()
 		})
@@ -55,32 +56,32 @@ joe.suite('static site generators list', function (suite, test) {
 	test('minimum required fields', function () {
 		const missingIs = []
 		data.forEach(function (entry) {
-			const {name, github, gitlab, bitbucket, website, is} = entry
+			const { name, github, gitlab, bitbucket, website, is } = entry
 			const location = (github || gitlab || bitbucket || website)
 			assert(name && location, `missing required fields on ${name || location}`)
-			if ( !is )  missingIs.push(name)
+			if (!is) missingIs.push(name)
 		})
 		console.warn(`The following entries are missing the "is" field, please add what you can if you have time:\n${missingIs.join(', ')}`)
 	})
 
 	test('licenses are valid SPDX', function () {
-		data.forEach(function ({name, license}) {
-			if ( license ) {
+		data.forEach(function ({ name, license }) {
+			if (license) {
 				assert(validSPDX(license), `${name}: license of ${license} is not a valid SPDX identifier: http://spdx.org/licenses/`)
 			}
 		})
 	})
 
 	suite('uris are valid / still exist', function (suite, test) {
-		this.setConfig({concurrency: 30})
-		data.forEach(function ({name, github, website, testWebsite}) {
-			if ( github ) {
+		this.setConfig({ concurrency: 30 })
+		data.forEach(function ({ name, github, website, testWebsite }) {
+			if (github) {
 				github = `https://github.com/${github}`
 				test(`${name}: http get github: ${github}`, function (done) {
 					checkURL(github, done)
 				})
 			}
-			if ( website && testWebsite !== false ) {
+			if (website && testWebsite !== false) {
 				test(`${name}: http get website: ${website}`, function (done) {
 					checkURL(website, done)
 				})
@@ -90,9 +91,9 @@ joe.suite('static site generators list', function (suite, test) {
 
 	suite('local render', function (suite, test, done) {
 		ssgs.local(function (err, data) {
-			if ( err )  return done(err)
-			ssgs.render(data, {log, corrective: true}, function (err, results, sources) {
-				if ( err )  return done(err)
+			if (err) return done(err)
+			ssgs.render(data, { log, corrective: true }, function (err, results, sources) {
+				if (err) return done(err)
 				const source = JSON.stringify(data, null, '  ')
 				const result = JSON.stringify(sources, null, '  ')
 				test(`writing corrected source listing ${sourcePath}`, function (done) {

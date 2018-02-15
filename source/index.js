@@ -7,12 +7,12 @@ const extractOpts = require('extract-opts')
 // Trim redundant data from the listing
 module.exports.render = function render (data, opts, next) {
 	[opts, next] = extractOpts(opts, next)
-	if ( opts.corrective == null )  opts.corrective = false
-	if ( opts.cache == null )  opts.cache = 1000 * 60 * 60 * 24  // one day
+	if (opts.corrective == null) opts.corrective = false
+	if (opts.cache == null) opts.cache = 1000 * 60 * 60 * 24  // one day
 
 	const extendr = require('extendr')
 	const arrangekeys = require('arrangekeys')
-	const {sort, keyorder} = require('./util')
+	const { sort, keyorder } = require('./util')
 
 	const sourceMap = {}
 	const resultMap = {}
@@ -21,23 +21,23 @@ module.exports.render = function render (data, opts, next) {
 		const key = (entry.github && entry.github.toLowerCase()) || index
 		sourceMap[key] = extendr.clone(arrangekeys(entry, keyorder))
 		resultMap[key] = extendr.clone(arrangekeys(entry, keyorder))
-		if ( entry.github ) {
+		if (entry.github) {
 			githubRepos.push(entry.github)
 		}
 	})
 
 	// Enhance with github data
-	if ( opts.log )  opts.log('info', `Fetching the github information, all ${githubRepos.length} of them`)
+	if (opts.log) opts.log('info', `Fetching the github information, all ${githubRepos.length} of them`)
 	require('getrepos').create(opts).fetchRepos(githubRepos, function (err, repos) {
-		if (err)  return next(err)
+		if (err) return next(err)
 
 		// Prepare the projects with the github data
 		repos.forEach(function (github) {
 			const key = github.full_name.toLowerCase()
 
 			// Confirm existance as name may have changed from the listing, for example a repo rename
-			if ( sourceMap[key] == null ) {
-				if ( opts.log )  opts.log('warn', `${github.full_name} is missing, likely due to rename`)
+			if (sourceMap[key] == null) {
+				if (opts.log) opts.log('warn', `${github.full_name} is missing, likely due to rename`)
 				return  // skip
 			}
 
@@ -59,13 +59,13 @@ module.exports.render = function render (data, opts, next) {
 			}
 			Object.keys(fields).forEach(function (key) {
 				const value = fields[key]
-				if ( value ) {
-					if ( opts.corrective && source[key] && value && source[key].toLowerCase() === value.toLowerCase() ) {
-						if ( opts.log )  opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data: ${value}`)
+				if (value) {
+					if (opts.corrective && source[key] && value && source[key].toLowerCase() === value.toLowerCase()) {
+						if (opts.log) opts.log('note', `trimming ${key} on ${github.full_name} as it is the same as the github data: ${value}`)
 						delete source[key]
 					}
-					if ( result[key] == null ) {
-						if ( opts.log )  opts.log('info', `added ${key} on ${github.full_name} from the github data`)
+					if (result[key] == null) {
+						if (opts.log) opts.log('info', `added ${key} on ${github.full_name} from the github data`)
 						result[key] = value
 					}
 				}
@@ -96,7 +96,7 @@ module.exports.local = function local (opts, next) {
 	[opts, next] = extractOpts(opts, next)
 	let data = null
 	try {
-		data = require('./list.json')
+		data = require('../list.json')
 	}
 	catch (err) {
 		return next(err)
