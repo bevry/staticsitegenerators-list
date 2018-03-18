@@ -1103,6 +1103,12 @@
     "license": "GPL-3.0"
   },
   {
+    "name": "makesite.py",
+    "github": "sunainapai/makesite",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "Markbox",
     "github": "myfreeweb/markbox"
   },
