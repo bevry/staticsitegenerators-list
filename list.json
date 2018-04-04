@@ -1326,6 +1326,17 @@
     "github": "AndreasBlaesus/orca"
   },
   {
+    "name": "Orchid",
+    "github": "JavaEden/Orchid",
+    "website": "https://orchid.netlify.com/",
+    "license": "LGPL-3.0",
+    "language": "Java",
+    "description": "A beautiful and truly unique documentation engine and static site generator.",
+    "created_at": "2018-03-19T00:00:00Z",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "Pagegen",
     "github": "oliverfields/pagegen_v2",
     "website": "http://pagegen.phnd.net/"
