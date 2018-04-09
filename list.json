@@ -299,6 +299,13 @@
     "license": "MIT"
   },
   {
+    "name": "Coisas",
+    "github": "fiatjaf/coisas",
+    "is": "static site editor",
+    "extensible": true,
+    "description": "Pure client-side CMS-like file editor and media manager for stuff hosted on GitHub."
+  },
+  {
     "name": "coleslaw",
     "github": "kingcons/coleslaw",
     "is": "static site generator",
