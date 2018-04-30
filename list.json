@@ -1490,6 +1490,14 @@
     "description": "Prose is a content editor for GitHub designed for managing websites.",
     "is": "static site editor"
   },
+    {
+    "name": "Prosopopee",
+    "website": false,
+    "github": "https://github.com/Psycojoker/prosopopee",
+    "is": "static site editor",
+    "language": "Python",
+    "extensible": true
+  },
   {
     "name": "Pulse CMS",
     "website": "https://www.pulsecms.com/",
