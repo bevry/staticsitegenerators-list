@@ -285,6 +285,12 @@
     "is": "static site host"
   },
   {
+    "name": "CMintS",
+    "github": "Manvel/cmints",
+    "license": "MIT",
+    "is": "static site generator"
+  },
+  {
     "name": "CMX.js",
     "github": "byrondev/cmx.js",
     "license": "MIT"
