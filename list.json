@@ -43,7 +43,7 @@
   },
   {
     "name": "Automad",
-    "website": "http://automad.org/",
+    "website": "https://automad.org/",
     "license": "MIT",
     "language": "PHP",
     "description": "Automad is a file-based CMS and template engine. It is designed to be fully portable without any dependencies on databases or fixed locations and doesn't require any complicated setup process."
@@ -344,7 +344,7 @@
   {
     "name": "cyrax",
     "github": "piranha/cyrax",
-    "website": "https://pypi.python.org/pypi/cyrax",
+    "website": "https://pypi.org/project/cyrax/",
     "is": "static site generator"
   },
   {
@@ -510,7 +510,7 @@
   },
   {
     "name": "Firmant",
-    "website": "https://pypi.python.org/pypi/Firmant/0.2.2",
+    "website": "https://pypi.org/project/Firmant/0.2.2/",
     "license": "BSD-3-Clause",
     "language": "Python"
   },
@@ -569,7 +569,7 @@
   {
     "name": "Frozen-Flask",
     "github": "Frozen-Flask/Frozen-Flask",
-    "website": "http://pythonhosted.org/Frozen-Flask/"
+    "website": "https://pythonhosted.org/Frozen-Flask/"
   },
   {
     "name": "Funnel",
@@ -654,7 +654,7 @@
   {
     "name": "Grain",
     "github": "sysgears/grain",
-    "website": "https://sysgears.com/grain/",
+    "website": "https://sysgears.com/work/grain/",
     "license": "(Apache-2.0 AND MIT)"
   },
   {
@@ -673,7 +673,7 @@
   {
     "name": "Graze",
     "github": "mikoskinen/graze",
-    "website": "http://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor",
+    "website": "https://mikaelkoskinen.net/post/Graze-Static-site-generator-using-Razor",
     "license": "MIT"
   },
   {
@@ -752,7 +752,7 @@
   },
   {
     "name": "handcrank",
-    "website": "http://pythonhosted.org/handcrank/",
+    "website": "https://pythonhosted.org/handcrank/",
     "language": "Python"
   },
   {
@@ -860,7 +860,7 @@
   },
   {
     "name": "Ikiwiki",
-    "github": "joeyh/ikiwiki"
+    "website": "http://ikiwiki.info/"
   },
   {
     "name": "ink",
@@ -878,7 +878,7 @@
   {
     "name": "JBake",
     "github": "jbake-org/jbake",
-    "website": "http://jbake.org/"
+    "website": "https://jbake.org/"
   },
   {
     "name": "Jedie",
@@ -948,7 +948,7 @@
   {
     "name": "Jr",
     "github": "xeoncross/jr",
-    "website": "http://joyfulandbeloved.com/jr/",
+    "website": "http://xeoncross.github.io/jr/",
     "license": "MIT"
   },
   {
@@ -1073,12 +1073,12 @@
   {
     "name": "liquidluck",
     "github": "avelino/liquidluck",
-    "website": "http://www.avelino.xxx/liquidluck/"
+    "website": "http://liquidluck.readthedocs.io/en/latest/"
   },
   {
     "name": "logya",
     "github": "yaph/logya",
-    "website": "http://pythonhosted.org/logya/"
+    "website": "https://pythonhosted.org/logya/"
   },
   {
     "name": "Luapress",
@@ -1336,7 +1336,7 @@
   },
   {
     "name": "Orca",
-    "github": "AndreasBlaesus/orca"
+    "github": "blaesus/orca"
   },
   {
     "name": "Orchid",
@@ -1499,7 +1499,7 @@
     {
     "name": "Prosopopee",
     "website": false,
-    "github": "https://github.com/Psycojoker/prosopopee",
+    "github": "Psycojoker/prosopopee",
     "is": "static site editor",
     "language": "Python",
     "extensible": true
@@ -1534,7 +1534,7 @@
   },
   {
     "name": "Quietly Confident",
-    "website": "http://search.cpan.org/dist/Quietly-Confident/qc.pod",
+    "website": "https://metacpan.org/pod/release/TLINDEN/Quietly-Confident-0.11/qc.pod",
     "license": "Artistic-1.0-Perl",
     "language": "Perl"
   },
@@ -1620,7 +1620,7 @@
   {
     "name": "Roots",
     "github": "jescalan/roots",
-    "website": "http://roots.cx/"
+    "website": "http://roots.netlify.com/"
   },
   {
     "name": "Rosid",
@@ -1831,8 +1831,7 @@
   },
   {
     "name": "Stacey",
-    "github": "kolber/stacey",
-    "website": "http://staceyapp.com/"
+    "github": "kolber/stacey"
   },
   {
     "name": "Stacktic",
@@ -1883,7 +1882,7 @@
   },
   {
     "name": "static-io",
-    "github": "CosminAnca/static-io",
+    "github": "CosAnca/static-io",
     "language": "JavaScript"
   },
   {
@@ -1982,7 +1981,7 @@
   {
     "name": "SWG",
     "github": "evilsocket/SWG",
-    "website": "http://pythonhosted.org/swg/"
+    "website": "https://pythonhosted.org/swg/"
   },
   {
     "name": "SWSG",
@@ -2049,10 +2048,6 @@
     "name": "Templer",
     "github": "skx/templer",
     "license": "Artistic-1.0-Perl"
-  },
-  {
-    "name": "Tempo",
-    "github": "catnapgames/Tempo"
   },
   {
     "name": "Text Assembler",
@@ -2174,13 +2169,6 @@
   {
     "name": "Webhook",
     "github": "webhook/webhook"
-  },
-  {
-    "name": "Website Meta Language",
-    "website": "http://www.thewml.org/",
-    "license": "GPL-2.0",
-    "language": "Perl",
-    "updated_at": "2006-08-18T16:00:00.000Z"
   },
   {
     "name": "Websleydale",
