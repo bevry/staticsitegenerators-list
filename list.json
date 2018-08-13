@@ -287,7 +287,6 @@
   {
     "name": "CMintS",
     "github": "Manvel/cmints",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
@@ -307,9 +306,9 @@
   {
     "name": "Coisas",
     "github": "fiatjaf/coisas",
+    "description": "Pure client-side CMS-like file editor and media manager for stuff hosted on GitHub.",
     "is": "static site editor",
-    "extensible": true,
-    "description": "Pure client-side CMS-like file editor and media manager for stuff hosted on GitHub."
+    "extensible": true
   },
   {
     "name": "coleslaw",
@@ -525,8 +524,7 @@
   },
   {
     "name": "Fledermaus",
-    "github": "sapegin/fledermaus",
-    "license": "MIT"
+    "github": "sapegin/fledermaus"
   },
   {
     "name": "flim",
@@ -568,8 +566,7 @@
   },
   {
     "name": "Frozen-Flask",
-    "github": "Frozen-Flask/Frozen-Flask",
-    "website": "https://pythonhosted.org/Frozen-Flask/"
+    "github": "Frozen-Flask/Frozen-Flask"
   },
   {
     "name": "Funnel",
@@ -834,7 +831,6 @@
     "name": "Hugo",
     "github": "gohugoio/hugo",
     "website": "http://gohugo.io/",
-    "license": "Apache-2.0",
     "is": "static site generator",
     "extensible": true
   },
@@ -1342,9 +1338,6 @@
     "name": "Orchid",
     "github": "JavaEden/Orchid",
     "website": "https://orchid.netlify.com/",
-    "license": "LGPL-3.0",
-    "language": "Java",
-    "description": "A beautiful and truly unique documentation engine and static site generator.",
     "created_at": "2018-03-19T00:00:00Z",
     "is": "static site generator",
     "extensible": true
@@ -1496,12 +1489,12 @@
     "description": "Prose is a content editor for GitHub designed for managing websites.",
     "is": "static site editor"
   },
-    {
+  {
     "name": "Prosopopee",
-    "website": false,
     "github": "Psycojoker/prosopopee",
-    "is": "static site editor",
+    "website": false,
     "language": "Python",
+    "is": "static site editor",
     "extensible": true
   },
   {
@@ -1619,8 +1612,7 @@
   },
   {
     "name": "Roots",
-    "github": "jescalan/roots",
-    "website": "http://roots.netlify.com/"
+    "github": "jescalan/roots"
   },
   {
     "name": "Rosid",
@@ -1725,8 +1717,7 @@
   },
   {
     "name": "Site builder console",
-    "github": "efdummy/Site-builder-console",
-    "license": "MIT"
+    "github": "efdummy/Site-builder-console"
   },
   {
     "name": "Site44",
@@ -1750,8 +1741,7 @@
     "name": "sitio",
     "github": "fiatjaf/sitio",
     "is": "static site generator",
-    "extensible": true,
-    "license": "MIT"
+    "extensible": true
   },
   {
     "name": "Smallest Blogger",
@@ -1937,12 +1927,12 @@
   },
   {
     "name": "Statix",
-    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
-    "language": "Shell"
+    "github": "ff0000/statix"
   },
   {
     "name": "Statix",
-    "github": "ff0000/statix"
+    "website": "https://gist.github.com/plugnburn/c2f7cc3807e8934b179e",
+    "language": "Shell"
   },
   {
     "name": "Statocles",
@@ -2203,7 +2193,6 @@
   {
     "name": "WP Static HTML Output",
     "github": "leonstafford/wordpress-static-html-plugin",
-    "license": "Unlicense",
     "is": "static site exporter"
   },
   {
