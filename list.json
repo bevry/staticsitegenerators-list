@@ -90,7 +90,6 @@
   },
   {
     "name": "BitBalloon",
-    "website": "https://www.bitballoon.com/",
     "description": "The fastest, simplest HTML5 hosting platform on the planet",
     "is": "static site host",
     "defunct": true
