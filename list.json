@@ -89,12 +89,6 @@
     "license": "WTFPL"
   },
   {
-    "name": "BitBalloon",
-    "website": "https://www.bitballoon.com/",
-    "description": "The fastest, simplest HTML5 hosting platform on the planet",
-    "is": "static site host"
-  },
-  {
     "name": "Bitbucket Pages",
     "website": "https://pages.bitbucket.io",
     "description": "Host your static websites on Bitbucket.com for free.",
