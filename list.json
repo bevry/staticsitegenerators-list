@@ -462,6 +462,11 @@
     "github": "caldwell/electro"
   },
   {
+    "name": "Eleventy",
+    "github": "11ty/eleventy",
+    "is": "static site generator"
+  },
+  {
     "name": "Elyse",
     "github": "FSX/elyse",
     "is": "static site generator"
