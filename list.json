@@ -89,12 +89,6 @@
     "license": "WTFPL"
   },
   {
-    "name": "BitBalloon",
-    "website": "https://www.bitballoon.com/",
-    "description": "The fastest, simplest HTML5 hosting platform on the planet",
-    "is": "static site host"
-  },
-  {
     "name": "Bitbucket Pages",
     "website": "https://pages.bitbucket.io",
     "description": "Host your static websites on Bitbucket.com for free.",
@@ -460,6 +454,11 @@
   {
     "name": "electro",
     "github": "caldwell/electro"
+  },
+  {
+    "name": "Eleventy",
+    "github": "11ty/eleventy",
+    "is": "static site generator"
   },
   {
     "name": "Elyse",
@@ -1069,7 +1068,7 @@
   {
     "name": "liquidluck",
     "github": "avelino/liquidluck",
-    "website": "http://liquidluck.readthedocs.io/en/latest/"
+    "website": "https://liquidluck.readthedocs.io/en/latest/"
   },
   {
     "name": "logya",
@@ -1685,7 +1684,7 @@
   {
     "name": "Shonku",
     "github": "kushaldas/shonku",
-    "website": "http://shonku.readthedocs.io/en/latest/"
+    "website": "https://shonku.readthedocs.io/en/latest/"
   },
   {
     "name": "Silex",
@@ -2117,7 +2116,7 @@
   },
   {
     "name": "VoodooPad",
-    "website": "https://plausible.coop/voodoopad",
+    "website": "https://www.voodoopad.com/",
     "license": false,
     "language": "App",
     "description": "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
