@@ -1242,6 +1242,12 @@
     "github": "gma/nesta",
     "website": "http://nestacms.com/"
   },
+  {		
+     "name": "Netlify Drop",		
+     "website": "https://app.netlify.com/drop",		
+     "description": "Drag and drop a folder with your site’s HTML, CSS, and JS files. We’ll publish them live and give you a link to share it.",		
+     "is": "static site host"		
+  },
   {
     "name": "Neverland",
     "github": "demon386/Neverland"
