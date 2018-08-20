@@ -1531,6 +1531,12 @@
     "github": "arthurk/pyll"
   },
   {
+    "name": "Qgoda",
+    "github": "gflohr/qgoda",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "Quietly Confident",
     "website": "https://metacpan.org/pod/release/TLINDEN/Quietly-Confident-0.11/qc.pod",
     "license": "Artistic-1.0-Perl",
