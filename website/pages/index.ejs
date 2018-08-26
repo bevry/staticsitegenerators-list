@@ -1,0 +1,72 @@
+---
+title: Static Site Generator lists
+---
+
+<table class="sortable projects">
+	<thead>
+		<tr>
+			<th class="sorttable_numeric">Stars</th>
+			<th>Name</th>
+			<th>License</th>
+			<th>Language</th>
+			<th class="sorttable_numeric">Created</th>
+			<th class="sorttable_numeric">Updated</th>
+		</tr>
+	</thead>
+	<tbody>
+  <% for (let ssg of listing) { %>
+    <% const {name, github, website, license, language, description, created_at,
+              updated_at, stars, forks, watchers, descirption} = ssg; %>
+
+    <tr class="project">
+      <td sorttable_customkey="<%= (stars || 0) %>">
+        <% if (stars) { %>
+          <%= stars %>
+          <i class="icon star"></i>
+        <% } %>
+      </td>
+      <td sorttable_customkey="<%= name %>">
+        <label>
+          <% if (name) { %>
+            <a href="<%=website%>" title="Visit <%= name %>&rsquo;s website">
+              <%= name %>
+            </a>
+          <% } else { %>
+            <%= name %>
+          <% } %>
+          <% if (github) { %>
+            <a href="https://github.com/<%=github%>" title="Visit <%= name %>&rsquo;s GitHub repository">
+              &#x1F4DD;
+            </a>
+          <% } %>
+        </label>
+        <span><%= description %></span>
+      </td>
+      <td>
+        <% if (license) { %>
+          <%= license %>
+        <% } %>
+      </td>
+      <td>
+        <%= (language || '') %>
+      </td>
+      <td sorttable_customkey="<%= moment(created_at || 0).unix() %>">
+        <% if (created_at) { %>
+          <%= moment(created_at).fromNow() %>
+        <% } %>
+      </td>
+      <td sorttable_customkey="<%= moment(updated_at || 0).unix() %>">
+        <% if (updated_at) { %>
+          <%= moment(updated_at).fromNow() %>
+        <% } %>
+      </td>
+    </tr>
+  <% } %>
+  </tbody>
+</table>
+
+<footer>
+	<a href="https://github.com/bevry/staticsitegenerators-list" title="Update this static site generator listing">Update Listing</a>
+	<a href="https://github.com/bevry/staticsitegenerators-website" title="Update this website&rsquo;s content">Update Website</a>
+	<a href="./list.json" title="Get the listing in the JSON data format">JSON Data</a>
+</footer>

@@ -1,0 +1,10 @@
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Site Properities -->
+  <title><%= page.title || site.title %></title>
+	<meta name="description" content="<%= page.description || site.description %>" />
+	<meta name="keywords" content="<%= site.keywords.concat(page.keywords || []).join(', ') %>" />
+  

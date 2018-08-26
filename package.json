@@ -186,9 +186,11 @@
   "main": "source/index.js",
   "dependencies": {
     "arrangekeys": "^1.2.0",
+    "cmints": "^0.6.2",
     "extendr": "^3.2.2",
     "extract-opts": "^3.3.1",
     "getrepos": "^1.0.7",
+    "moment": "^2.22.2",
     "node-fetch": "^2.0.0"
   },
   "devDependencies": {
@@ -218,6 +220,8 @@
     "our:release:check-dirty": "git diff --exit-code",
     "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
     "our:release:push": "git push origin master && git push origin --tags",
-    "test": "node --harmony ./source/test.js --joe-reporter=console"
+    "test": "node --harmony ./source/test.js --joe-reporter=console",
+    "test-launch-server": "npm run test && node website/cmints.js --src=website --server --no-cache",
+    "test-generate-site": "npm run test && node website/cmints.js --src=website --static"
   }
 }

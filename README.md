@@ -133,6 +133,23 @@ When you submit your pull request, your submission will be automatically tested,
 
 1. Make any changes that the tests indicate, commit your changes, and submit
 
+**Note:** In order to avoide `API rate limit exceeded` error, setup `process.env.GITHUB_CLIENT_ID` and `process.env.GITHUB_CLIENT_SECRET` accordingly.
+
+### Launching server
+
+Command below runs the test, prepare the website and run server.
+
+```
+npm run test-launch-server
+```
+
+### Generating static content
+
+Command below runs the test and generates static content of the website in the `content` directory.
+
+```
+npm run test-generate-site
+```
 
 ## Usage
 

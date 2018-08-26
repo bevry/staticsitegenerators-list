@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<% include _ie %>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <% include _head %>
+</head>
+<body>
+  <header class="header">
+      <h1>
+        <%= site.title %>
+      </h1>
+      <h2>
+        <%= site.description %> &mdash; all <%= listing.length %> of them!
+      </h2>
+      <iframe id="service-buttons-container"></iframe>
+  </header>
+  <article>
+    <%- page.body %>
+  </article>
+  <% include _scripts %>
+</body>
+</html>

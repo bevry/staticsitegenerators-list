@@ -35,6 +35,9 @@ docs/
 .idea
 .cake_task_cache
 
+# Website Files
+website/public/css/style.css
+website/public/list.json
 
 # =====================================
 # CUSTOM
