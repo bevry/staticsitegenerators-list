@@ -38,6 +38,7 @@ docs/
 # Website Files
 website/public/css/style.css
 website/public/list.json
+website/content
 
 # =====================================
 # CUSTOM

@@ -28,14 +28,14 @@ const templateData =
 
 		// The website's styles
 		styles: [
-			'/vendor/normalize.css',
-			'/css/style.css'
+			'vendor/normalize.css',
+			'css/style.css'
 		].map((url) => `${url}?websiteVersion=${websiteVersion}`),
 
 		// The website's scripts
 		scripts: [
-			'/vendor/sorttable.js',
-			'/scripts/script.js'
+			'vendor/sorttable.js',
+			'scripts/script.js'
 		].map((url) => `${url}?websiteVersion=${websiteVersion}`),
 
 		services: {
