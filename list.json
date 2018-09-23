@@ -829,7 +829,7 @@
   {
     "name": "Hugo",
     "github": "gohugoio/hugo",
-    "website": "http://gohugo.io/",
+    "website": "https://gohugo.io/",
     "is": "static site generator",
     "extensible": true
   },
@@ -1242,11 +1242,11 @@
     "github": "gma/nesta",
     "website": "http://nestacms.com/"
   },
-  {		
-     "name": "Netlify Drop",		
-     "website": "https://app.netlify.com/drop",		
-     "description": "Drag and drop a folder with your site’s HTML, CSS, and JS files. We’ll publish them live and give you a link to share it.",		
-     "is": "static site host"		
+  {
+    "name": "Netlify Drop",
+    "website": "https://app.netlify.com/drop",
+    "description": "Drag and drop a folder with your site’s HTML, CSS, and JS files. We’ll publish them live and give you a link to share it.",
+    "is": "static site host"
   },
   {
     "name": "Neverland",
@@ -1971,7 +1971,7 @@
   },
   {
     "name": "Surge",
-    "website": "http://surge.sh",
+    "website": "https://surge.sh",
     "description": "Shipping web projects should be fast, easy, and low risk. Surge is static web publishing for Front-End Developers, right from the CLI.",
     "is": "static site host"
   },
@@ -2104,8 +2104,7 @@
   },
   {
     "name": "vee",
-    "github": "estrabd/vee",
-    "license": "WTFPL"
+    "github": "estrabd/vee"
   },
   {
     "name": "Vegetables",
