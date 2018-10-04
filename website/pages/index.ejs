@@ -15,7 +15,7 @@ title: Static Site Generator lists
 	</thead>
 	<tbody>
   <% for (let ssg of listing) { %>
-    <% const {name, github, website, license, language, description, created_at,
+    <% const {name, github, bitbucket, website, license, language, description, created_at,
               updated_at, stars, forks, watchers, descirption} = ssg; %>
 
     <tr class="project">
@@ -36,6 +36,10 @@ title: Static Site Generator lists
           <% } %>
           <% if (github) { %>
             <a href="https://github.com/<%=github%>" title="Visit <%= name %>&rsquo;s GitHub repository">
+              &#x1F4DD;
+            </a>
+          <% } else if (bitbucket) { %>
+            <a href="https://bitbucket.org/<%=bitbucket%>" title="Visit <%= name %>&rsquo;s Bitbucket repository">
               &#x1F4DD;
             </a>
           <% } %>
