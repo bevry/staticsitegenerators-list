@@ -145,7 +145,8 @@ npm start
 
 ### Generating static content
 
-Command below runs the test and generates static content of the website in the `content` directory.
+Command below runs tests, generates static content and publish changes to the
+github pages.
 
 ```
 npm run publish:gh-pages
