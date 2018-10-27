@@ -5,6 +5,11 @@ const listing = JSON.parse(fs.readFileSync('out.json', 'utf8'))
 const moment = require('moment')
 const websiteVersion = require('../package.json').version
 
+const deployment = {
+	where: 'gh-pages',
+	gitDir: '.'
+}
+
 const templateData =
 {
 	listing,
@@ -44,4 +49,4 @@ const templateData =
 	}
 }
 
-module.exports = {templateData}
+module.exports = {templateData, deployment}

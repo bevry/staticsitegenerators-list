@@ -1,7 +1,7 @@
 [
   {
     "name": "ABlog",
-    "github": "abakan/ablog",
+    "github": "abakan-zz/ablog",
     "website": "https://ablog.readthedocs.io/",
     "descirption": "ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
   },
@@ -498,13 +498,6 @@
     "website": "https://sourceforge.net/projects/fortranblog/",
     "language": "Fortran",
     "licence": "GPL-3.0"
-  },
-  {
-    "name": "Firedrop2",
-    "website": "http://www.voidspace.org.uk/python/firedrop2/",
-    "license": "BSD-3-Clause",
-    "language": "Python",
-    "description": "The Blog Tool for Discerning Pythoneers"
   },
   {
     "name": "Firmant",

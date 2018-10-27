@@ -140,7 +140,7 @@ When you submit your pull request, your submission will be automatically tested,
 Command below runs the test, prepare the website and run server.
 
 ```
-npm run test-launch-server
+npm start
 ```
 
 ### Generating static content
@@ -148,7 +148,7 @@ npm run test-launch-server
 Command below runs the test and generates static content of the website in the `content` directory.
 
 ```
-npm run test-generate-site
+npm run publish:gh-pages
 ```
 
 ## Usage
