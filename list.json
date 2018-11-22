@@ -1071,9 +1071,14 @@
     "website": "https://liquidluck.readthedocs.io/en/latest/"
   },
   {
-    "name": "logya",
+    "created_at": "2011-08-21T00:00:00Z",
+    "description": "Logya is a static Web site generator written in Python designed to be easy to use and flexible.",
     "github": "yaph/logya",
-    "website": "https://pythonhosted.org/logya/"
+    "is": "static site generator",
+    "language": "Python",
+    "license": "MIT",
+    "name": "Logya",
+    "website": "http://ramiro.org/logya/"
   },
   {
     "name": "Luapress",
