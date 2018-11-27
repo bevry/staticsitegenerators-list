@@ -1072,7 +1072,7 @@
   },
   {
     "created_at": "2011-08-21T00:00:00Z",
-    "description": "Logya is a static Web site generator written in Python designed to be easy to use and flexible.",
+    "description": "Logya is a static website generator written in Python designed to be easy to use and flexible.",
     "github": "yaph/logya",
     "is": "static site generator",
     "language": "Python",
