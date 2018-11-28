@@ -2094,14 +2094,14 @@
   },
   {
     "name": "Utterson",
-    "github": "pepijndevos/utterson",
-    "website": "https://github.com/pepijndevos/utterson"
-  },
-  {
-    "name": "Utterson",
     "github": "stef/utterson",
     "website": "https://github.com/stef/utterson",
     "language": "shell"
+  },
+  {
+    "name": "Utterson",
+    "github": "pepijndevos/utterson",
+    "website": "https://github.com/pepijndevos/utterson"
   },
   {
     "name": "vee",
@@ -2160,12 +2160,12 @@
   },
   {
     "name": "webgen",
-    "github": "gettalong/webgen",
-    "license": "GPL-3.0"
+    "github": "webgen-org/webgen"
   },
   {
     "name": "webgen",
-    "github": "webgen-org/webgen"
+    "github": "gettalong/webgen",
+    "license": "GPL-3.0"
   },
   {
     "name": "Webhook",
@@ -2271,13 +2271,5 @@
     "website": "https://metacpan.org/pod/Zucchini",
     "license": "Artistic-1.0-Perl",
     "language": "Perl"
-  },
-  {
-    "name": "ZZBlogX",
-    "website": "http://www.dmemos.de/ZZBlogX/",
-    "license": "GPL-3.0",
-    "language": "newLISP",
-    "created_at": "2013-01-03T00:00:00.000Z",
-    "updated_at": "2013-01-04T00:00:00.000Z"
   }
 ]
