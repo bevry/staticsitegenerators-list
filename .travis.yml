@@ -10,11 +10,11 @@ cache:
     - '$HOME/.npm'
     - '$HOME/.yarn-cache'
 install:
-  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/242420a1831879ff85711c17c459db0edfc6a058/scripts/node-install.bash)"
+  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/d973f8c129d209d51ae5ebc74921cc383d761296/scripts/node-install.bash)"
 before_script:
-  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/242420a1831879ff85711c17c459db0edfc6a058/scripts/node-verify.bash)"
+  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/d973f8c129d209d51ae5ebc74921cc383d761296/scripts/node-verify.bash)"
 after_success:
-  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/242420a1831879ff85711c17c459db0edfc6a058/scripts/node-publish.bash)"
+  - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/d973f8c129d209d51ae5ebc74921cc383d761296/scripts/node-publish.bash)"
 notifications:
   email:
     recipients:
