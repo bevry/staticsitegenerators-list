@@ -3,22 +3,17 @@
 
 // Imports
 const extractOpts = require('extract-opts')
+const naturalCompare = require('string-natural-compare')
 
 const keyorder =
 	'name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
 
 function sort(data) {
-	return data.sort((a, b) => {
-		const aName = a.name.toLowerCase()
-		const bName = b.name.toLowerCase()
-		const z = aName <= bName ? -1 : aName >= bName ? 1 : 0
-		if (z) return z
-		const aGithub = (a.github || '').toLowerCase()
-		const bGithub = (b.github || '').toLowerCase()
-		const Z = aGithub <= bGithub ? -1 : aGithub >= bGithub ? 1 : 0
-		console.log('resorted to fallback sorting', z, Z, a, b)
-		return Z
-	})
+	return data.sort(
+		(a, b) =>
+			naturalCompare.caseInsensitive(a.name, b.name) ||
+			naturalCompare.caseInsensitive(a.github, b.github)
+	)
 }
 
 // Trim redundant data from the listing

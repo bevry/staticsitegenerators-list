@@ -2094,14 +2094,14 @@
   },
   {
     "name": "Utterson",
-    "github": "stef/utterson",
-    "website": "https://github.com/stef/utterson",
-    "language": "shell"
+    "github": "pepijndevos/utterson",
+    "website": "https://github.com/pepijndevos/utterson"
   },
   {
     "name": "Utterson",
-    "github": "pepijndevos/utterson",
-    "website": "https://github.com/pepijndevos/utterson"
+    "github": "stef/utterson",
+    "website": "https://github.com/stef/utterson",
+    "language": "shell"
   },
   {
     "name": "vee",
@@ -2160,12 +2160,12 @@
   },
   {
     "name": "webgen",
-    "github": "webgen-org/webgen"
+    "github": "gettalong/webgen",
+    "license": "GPL-3.0"
   },
   {
     "name": "webgen",
-    "github": "gettalong/webgen",
-    "license": "GPL-3.0"
+    "github": "webgen-org/webgen"
   },
   {
     "name": "Webhook",

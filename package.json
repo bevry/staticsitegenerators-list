@@ -203,7 +203,9 @@
   ],
   "main": "source/index.js",
   "browser": "source/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "string-natural-compare": "^2.0.3"
+  },
   "devDependencies": {
     "arrangekeys": "^1.2.0",
     "assert-helpers": "^4.5.1",
