@@ -2202,8 +2202,8 @@
     "license": "MIT"
   },
   {
-    "name": "WP Static HTML Output",
-    "github": "leonstafford/wordpress-static-html-plugin",
+    "name": "WP2Static",
+    "github": "leonstafford/wp2static",
     "is": "static site exporter"
   },
   {
