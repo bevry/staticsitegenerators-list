@@ -132,7 +132,7 @@
   {
     "name": "blogc++",
     "bitbucket": "tux_/blogcpp",
-    "website": "http://blogcpp.org",
+    "website": "https://blogcpp.org",
     "license": "WTFPL",
     "language": "C++",
     "description": "Just another static blog generator, written in C++17.",
