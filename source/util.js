@@ -33,6 +33,16 @@ function hydrate(data, opts, next) {
 	const hydratedMap = {}
 	const githubRepos = []
 	data.forEach(function(entry, index) {
+		entry.id = require('crypto')
+			.createHash('md5')
+			.update(
+				JSON.stringify({
+					name: entry.name,
+					website: entry.website,
+					github: entry.github
+				})
+			)
+			.digest('hex')
 		const key = (entry.github && entry.github.toLowerCase()) || index
 		rawMap[key] = extendr.clone(arrangekeys(entry, keyorder))
 		hydratedMap[key] = extendr.clone(arrangekeys(entry, keyorder))

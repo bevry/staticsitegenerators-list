@@ -4,7 +4,6 @@
 
 <!-- /TITLE -->
 
-
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.org/bevry/staticsitegenerators-list" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/staticsitegenerators-list/master.svg" alt="Travis CI Build Status" /></a></span>
@@ -26,13 +25,11 @@
 
 <!-- /BADGES -->
 
-
 <!-- DESCRIPTION/ -->
 
 A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them
 
 <!-- /DESCRIPTION -->
-
 
 -   [View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.json) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.json)
 -   [View the rendered listing](https://staticsitegenerators.net/list.json)
@@ -107,6 +104,7 @@ If `gitlab` is specified, the following fields should only be specified if GitLa
 
 The following fields are automatic and only apply to our rendered listing:
 
+-   `id`
 -   `stars`
 -   `forks`
 -   `watchers`
@@ -154,7 +152,6 @@ console.log(listing.raw)
 <a href="https://github.com/bevry/staticsitegenerators-list/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
-
 
 <!-- BACKERS/ -->
 
@@ -318,7 +315,6 @@ These amazing people have contributed code to this project:
 <a href="https://github.com/bevry/staticsitegenerators-list/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
-
 
 <!-- LICENSE/ -->
 
