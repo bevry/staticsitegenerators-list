@@ -6,7 +6,7 @@ const extractOpts = require('extract-opts')
 const naturalCompare = require('string-natural-compare')
 
 const keyorder =
-	'name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
+	'id name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
 
 function sort(data) {
 	return data.sort(
@@ -33,19 +33,24 @@ function hydrate(data, opts, next) {
 	const hydratedMap = {}
 	const githubRepos = []
 	data.forEach(function(entry, index) {
-		entry.id = require('crypto')
-			.createHash('md5')
-			.update(
-				JSON.stringify({
-					name: entry.name,
-					website: entry.website,
-					github: entry.github
-				})
-			)
-			.digest('hex')
+		delete entry.id
 		const key = (entry.github && entry.github.toLowerCase()) || index
 		rawMap[key] = extendr.clone(arrangekeys(entry, keyorder))
-		hydratedMap[key] = extendr.clone(arrangekeys(entry, keyorder))
+		hydratedMap[key] = extendr.extend(
+			{
+				id: require('crypto')
+					.createHash('md5')
+					.update(
+						JSON.stringify({
+							name: entry.name,
+							website: entry.website,
+							github: entry.github
+						})
+					)
+					.digest('hex')
+			},
+			arrangekeys(entry, keyorder)
+		)
 		if (entry.github) {
 			githubRepos.push(entry.github)
 		}

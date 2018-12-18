@@ -1097,7 +1097,6 @@
     "github": "datagrok/makebakery",
     "website": "http://datagrok.github.io/makebakery/",
     "license": "AGPL-3.0+ WITH Autoconf-exception-3.0",
-    "language": "Makefile",
     "description": "A static website generator built on GNU Make",
     "is": "static site generator",
     "extensible": true
