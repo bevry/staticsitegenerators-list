@@ -1878,6 +1878,13 @@
     "license": "EPL-1.0"
   },
   {
+    "name": "Static Site Boilerplate",
+    "github": "ericalli/static-site-boilerplate",
+    "website": "http://staticsiteboilerplate.com",
+    "license": "MIT",
+    "is": "static site generator"
+  },
+  {
     "name": "Static Website Starter Kit",
     "github": "kriasoft/static-site-starter"
   },
