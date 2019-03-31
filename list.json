@@ -249,6 +249,12 @@
     "website": "https://catsup.readthedocs.io/en/latest/"
   },
   {
+    "name": "Cecil",
+    "github": "Cecilapp/Cecil",
+    "website": "https://cecil.app",
+    "is": "static site generator"
+  },
+  {
     "name": "Chili",
     "github": "clvrobj/chili"
   },
@@ -1404,11 +1410,6 @@
     "name": "PhlyBlog",
     "github": "phly/PhlyBlog",
     "license": "BSD-2-Clause"
-  },
-  {
-    "name": "PHPoole",
-    "github": "Cecilapp/PHPoole",
-    "is": "static site generator"
   },
   {
     "name": "PieCrust",
