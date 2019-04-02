@@ -398,6 +398,14 @@
     "github": "05bit/docta"
   },
   {
+    "name": "Docusaurus",
+    "github": "facebook/docusaurus",
+    "license": "MIT",
+    "language": "JavaScript",
+    "description": "Docusaurus makes it easy to build and maintain Open Source documentation websites.",
+    "website": "https://docusaurus.io"
+  },
+  {
     "name": "Drapache",
     "github": "louissobel/Drapache",
     "website": "https://github.com/louissobel/Drapache"
