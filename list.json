@@ -403,7 +403,8 @@
     "license": "MIT",
     "language": "JavaScript",
     "description": "Docusaurus makes it easy to build and maintain Open Source documentation websites.",
-    "website": "https://docusaurus.io"
+    "website": "https://docusaurus.io",
+    "is": "static site generator"
   },
   {
     "name": "Drapache",
