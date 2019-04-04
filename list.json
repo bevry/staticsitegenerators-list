@@ -251,7 +251,6 @@
   {
     "name": "Cecil",
     "github": "Cecilapp/Cecil",
-    "website": "https://cecil.app",
     "is": "static site generator"
   },
   {
@@ -286,13 +285,8 @@
   },
   {
     "name": "CMintS",
-    "github": "Manvel/cmints",
+    "github": "cmints/cmints",
     "is": "static site generator"
-  },
-  {
-    "name": "CMX.js",
-    "github": "byrondev/cmx.js",
-    "license": "MIT"
   },
   {
     "name": "cobalt.rs",
@@ -331,11 +325,6 @@
     "github": "leo/cory"
   },
   {
-    "name": "creo",
-    "github": "ByronKellett/creo",
-    "license": "MIT"
-  },
-  {
     "name": "cub",
     "github": "patcoll/cub",
     "license": "MIT"
@@ -358,7 +347,7 @@
   {
     "name": "Daux.io",
     "github": "justinwalsh/daux.io",
-    "website": "http://daux.io/",
+    "website": "https://daux.io",
     "license": "MIT"
   },
   {
@@ -401,9 +390,7 @@
     "name": "Docusaurus",
     "github": "facebook/docusaurus",
     "license": "MIT",
-    "language": "JavaScript",
     "description": "Docusaurus makes it easy to build and maintain Open Source documentation websites.",
-    "website": "https://docusaurus.io",
     "is": "static site generator"
   },
   {
@@ -678,7 +665,7 @@
   {
     "name": "Grav Administration Panel",
     "github": "getgrav/grav-plugin-admin",
-    "website": "https://learn.getgrav.org/admin-panel/introduction",
+    "website": "https://learn.getgrav.org/15/admin-panel/introduction",
     "is": "static site editor"
   },
   {
@@ -935,7 +922,7 @@
   {
     "name": "jigsaw",
     "github": "tightenco/jigsaw",
-    "website": "http://jigsaw.tighten.co"
+    "website": "https://jigsaw.tighten.co"
   },
   {
     "name": "jinjet",
@@ -1004,7 +991,7 @@
   },
   {
     "name": "Kulfon",
-    "github": "zaiste/kulfon",
+    "github": "kulfonjs/kulfon",
     "is": "static site generator"
   },
   {
@@ -1057,8 +1044,7 @@
   },
   {
     "name": "Lenscap",
-    "github": "honza/lenscap",
-    "language": "Python"
+    "github": "honza/lenscap"
   },
   {
     "name": "Leo",
@@ -1228,8 +1214,7 @@
   },
   {
     "name": "Muleify",
-    "github": "AlexanderElias/muleify",
-    "website": "https://github.com/AlexanderElias/muleify",
+    "github": "vokeio/muleify",
     "description": "A zero configuration static site generator and asset preprocessor compiler."
   },
   {
@@ -1673,8 +1658,7 @@
   },
   {
     "name": "serious-chicken",
-    "github": "rtorr/serious-chicken",
-    "website": "http://rtorr.com/serious-chicken/"
+    "github": "rtorr/serious-chicken"
   },
   {
     "name": "Serve",
@@ -1890,8 +1874,6 @@
   {
     "name": "Static Site Boilerplate",
     "github": "ericalli/static-site-boilerplate",
-    "website": "http://staticsiteboilerplate.com",
-    "license": "MIT",
     "is": "static site generator"
   },
   {
@@ -1952,10 +1934,6 @@
   {
     "name": "Statik",
     "github": "thanethomson/statik"
-  },
-  {
-    "name": "Statix",
-    "github": "ff0000/statix"
   },
   {
     "name": "Statix",
@@ -2116,8 +2094,7 @@
   {
     "name": "Utterson",
     "github": "stef/utterson",
-    "website": "https://github.com/stef/utterson",
-    "language": "shell"
+    "website": "https://github.com/stef/utterson"
   },
   {
     "name": "vee",
@@ -2219,7 +2196,7 @@
   },
   {
     "name": "WP2Static",
-    "github": "leonstafford/wp2static",
+    "github": "WP2Static/wp2static",
     "is": "static site exporter"
   },
   {
@@ -2285,12 +2262,9 @@
   {
     "name": "zola",
     "github": "getzola/zola",
-    "website": "https://www.getzola.org",
-    "language": "Rust",
     "description": "Your one-stop static site engine. Forget dependencies. Everything you need in one binary. Previously called Gutenberg until WordPress took the name.",
     "created_at": "2016-12-06T13:51:00+08:00",
     "updated_at": "2019-02-28T00:48:00+08:00",
-    "license": "MIT",
     "is": "static site generator"
   },
   {

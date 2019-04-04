@@ -4,6 +4,7 @@
 // Imports
 const extractOpts = require('extract-opts')
 const naturalCompare = require('string-natural-compare')
+const githubAuthQueryString = require('githubauthquerystring').fetch()
 
 const keyorder =
 	'id name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
@@ -18,10 +19,10 @@ function sort(data) {
 
 // Trim redundant data from the listing
 function hydrate(data, opts, next) {
-	if (!process.env.GITHUB_CLIENT_ID)
-		throw new Error('env var GITHUB_CLIENT_ID must be set')
-	if (!process.env.GITHUB_CLIENT_SECRET)
-		throw new Error('env var GITHUB_CLIENT_SECRET must be set')
+	if (!githubAuthQueryString)
+		throw new Error(
+			'environment variables GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET or GITHUB_ACCESS_TOKEN must be set'
+		)
 	;[opts, next] = extractOpts(opts, next)
 	if (opts.corrective == null) opts.corrective = false
 	if (opts.cache == null) opts.cache = 1000 * 60 * 60 * 24 // one day
