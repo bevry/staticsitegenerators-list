@@ -1,7 +1,7 @@
 /* eslint no-console:0 */
 'use strict'
 
-const joe = require('joe')
+const kava = require('kava')
 const fs = require('fs')
 const path = require('path')
 const { equal, deepEqual } = require('assert-helpers')
@@ -43,7 +43,7 @@ function checkURL(url, next) {
 		})
 }
 
-joe.suite('static site generators list', function(suite, test) {
+kava.suite('static site generators list', function(suite, test) {
 	test('raw', function() {
 		const { raw } = listing
 		equal(Array.isArray(raw), true, 'isArray')
