@@ -2127,6 +2127,17 @@
     "description": "MacOS/iOS application for editing notes. Has a static site publishing functionality extensible via JavaScript."
   },
   {
+    "name": "VuePress",
+    "website": "https://vuepress.vuejs.org/",
+    "github": "https://github.com/vuejs/vuepress",
+    "language": "javascript",
+    "description": "Vue-powered Static Site Generator",
+    "created_at": "2018-04-12T22:41:30Z",
+    "license": "MIT",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "wadoo",
     "github": "alpacaaa/wadoo"
   },
