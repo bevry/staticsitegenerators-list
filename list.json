@@ -785,6 +785,15 @@
     "github": "mkaz/hastie"
   },
   {
+    "name": "Haunt",
+    "website": "https://dthompson.us/projects/haunt.html",
+    "language": "Scheme",
+    "description": "A simple, functional, hackable static site generator that gives authors the ability to treat websites as Scheme programs.",
+    "license": "GPL-3.0-or-later",
+    "is": "static site generator",
+    "extensible": true
+  },
+  {
     "name": "Heckle",
     "github": "marijnh/heckle"
   },
