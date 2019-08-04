@@ -803,6 +803,13 @@
     "language": "Python"
   },
   {
+    "name": "Hepek",
+    "github": "https://github.com/sake92/hepek",
+    "language": "Scala",
+    "description": "Content generators in Scala. Intuitive, scalable, powerful.",
+    "is": "static site generator"
+  },
+  {
     "name": "Hexo",
     "github": "hexojs/hexo",
     "website": "https://hexo.io/",
