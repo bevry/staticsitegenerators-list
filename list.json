@@ -1278,6 +1278,11 @@
     "extensible": true
   },
   {
+    "name": "Next.js",
+    "github": "zeit/next.js",
+    "website": "https://nextjs.org"
+  },
+  {
     "name": "nib",
     "github": "jreese/nib"
   },
