@@ -306,7 +306,7 @@
   },
   {
     "name": "coleslaw",
-    "github": "kingcons/coleslaw",
+    "github": "coleslaw-org/coleslaw",
     "is": "static site generator",
     "extensible": true
   },
