@@ -1788,7 +1788,7 @@
   {
     "name": "Sphinx",
     "github": "sphinx-doc/sphinx",
-    "website": "http://www.sphinx-doc.org/en/stable/",
+    "website": "https://www.sphinx-doc.org/en/master/",
     "license": "BSD-2-Clause"
   },
   {
