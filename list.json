@@ -306,7 +306,7 @@
   },
   {
     "name": "coleslaw",
-    "github": "kingcons/coleslaw",
+    "github": "coleslaw-org/coleslaw",
     "is": "static site generator",
     "extensible": true
   },
@@ -1276,6 +1276,11 @@
     "language": "Perl",
     "is": "static site generator",
     "extensible": true
+  },
+  {
+    "name": "Next.js",
+    "github": "zeit/next.js",
+    "website": "https://nextjs.org"
   },
   {
     "name": "nib",
