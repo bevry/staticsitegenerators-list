@@ -804,7 +804,7 @@
   },
   {
     "name": "Hepek",
-    "github": "https://github.com/sake92/hepek",
+    "github": "sake92/hepek",
     "language": "Scala",
     "description": "Content generators in Scala. Intuitive, scalable, powerful.",
     "is": "static site generator"
@@ -2150,7 +2150,7 @@
   {
     "name": "VuePress",
     "website": "https://vuepress.vuejs.org/",
-    "github": "https://github.com/vuejs/vuepress",
+    "github": "vuejs/vuepress",
     "language": "javascript",
     "description": "Vue-powered Static Site Generator",
     "created_at": "2018-04-12T22:41:30Z",
