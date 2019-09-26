@@ -804,7 +804,7 @@
   },
   {
     "name": "Hepek",
-    "github": "https://github.com/sake92/hepek",
+    "github": "sake92/hepek",
     "language": "Scala",
     "description": "Content generators in Scala. Intuitive, scalable, powerful.",
     "is": "static site generator"
@@ -985,11 +985,6 @@
   {
     "name": "Kerouac",
     "github": "jaredhanson/kerouac"
-  },
-  {
-    "name": "Kickster",
-    "github": "timhartmann/Kickster",
-    "license": "MIT"
   },
   {
     "name": "Kirby",
@@ -1401,10 +1396,6 @@
     "extensible": true
   },
   {
-    "name": "Penguin",
-    "github": "Endi1/Penguin"
-  },
-  {
     "name": "Perun",
     "github": "hashobject/perun"
   },
@@ -1441,10 +1432,6 @@
     "github": "mdub/pith"
   },
   {
-    "name": "PlainSite",
-    "github": "CJex/plain_site"
-  },
-  {
     "name": "PMBlog",
     "github": "lizheming/PMBlog"
   },
@@ -1474,12 +1461,6 @@
   {
     "name": "PowerSite",
     "github": "Jaykul/PowerSite"
-  },
-  {
-    "name": "PPWizard",
-    "website": "http://dennisbareis.com/ppwizard.htm",
-    "language": "REXX",
-    "description": "Uses classic REXX or Regina interpreter"
   },
   {
     "name": "Pretzel",
@@ -1602,7 +1583,7 @@
   },
   {
     "name": "Read the Docs (RTD)",
-    "github": "rtfd/readthedocs.org"
+    "github": "readthedocs/readthedocs.org"
   },
   {
     "name": "Really Static",
@@ -1626,7 +1607,7 @@
   {
     "name": "Riji",
     "github": "Songmu/p5-Riji",
-    "website": "http://songmu.github.io/p5-Riji/blog/",
+    "website": "https://junkyard.song.mu/p5-Riji/blog/",
     "license": "Artistic-1.0-Perl"
   },
   {
@@ -1754,7 +1735,7 @@
   {
     "name": "SiteGen (Dart)",
     "github": "MikeMitterer/dart-sitegen",
-    "website": "https://pub.dartlang.org/packages/sitegen",
+    "website": "https://pub.dev/packages/sitegen",
     "license": "(Apache-2.0 AND BSD-3-Clause)",
     "description": "Sitegenerator for Dart"
   },
@@ -1807,7 +1788,7 @@
   {
     "name": "Sphinx",
     "github": "sphinx-doc/sphinx",
-    "website": "http://www.sphinx-doc.org/en/stable/",
+    "website": "https://www.sphinx-doc.org/en/master/",
     "license": "BSD-2-Clause"
   },
   {
@@ -2150,7 +2131,7 @@
   {
     "name": "VuePress",
     "website": "https://vuepress.vuejs.org/",
-    "github": "https://github.com/vuejs/vuepress",
+    "github": "vuejs/vuepress",
     "language": "javascript",
     "description": "Vue-powered Static Site Generator",
     "created_at": "2018-04-12T22:41:30Z",
