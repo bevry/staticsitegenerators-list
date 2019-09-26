@@ -1463,12 +1463,6 @@
     "github": "Jaykul/PowerSite"
   },
   {
-    "name": "PPWizard",
-    "website": "http://dennisbareis.com/ppwizard.htm",
-    "language": "REXX",
-    "description": "Uses classic REXX or Regina interpreter"
-  },
-  {
     "name": "Pretzel",
     "github": "Code52/pretzel",
     "website": "http://code52.org/pretzel/"
