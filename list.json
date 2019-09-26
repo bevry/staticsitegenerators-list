@@ -1741,7 +1741,7 @@
   {
     "name": "SiteGen (Dart)",
     "github": "MikeMitterer/dart-sitegen",
-    "website": "https://pub.dartlang.org/packages/sitegen",
+    "website": "https://pub.dev/packages/sitegen",
     "license": "(Apache-2.0 AND BSD-3-Clause)",
     "description": "Sitegenerator for Dart"
   },
