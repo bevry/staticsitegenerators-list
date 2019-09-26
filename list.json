@@ -987,11 +987,6 @@
     "github": "jaredhanson/kerouac"
   },
   {
-    "name": "Kickster",
-    "github": "timhartmann/Kickster",
-    "license": "MIT"
-  },
-  {
     "name": "Kirby",
     "github": "getkirby/starterkit",
     "website": "https://getkirby.com/",
