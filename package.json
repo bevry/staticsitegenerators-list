@@ -208,7 +208,7 @@
   },
   "devDependencies": {
     "arrangekeys": "^1.2.0",
-    "assert-helpers": "^4.9.6",
+    "assert-helpers": "^5.0.0",
     "eslint": "^5.16.0",
     "eslint-config-bevry": "^1.2.0",
     "eslint-config-prettier": "^4.1.0",
