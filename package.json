@@ -216,7 +216,7 @@
     "extendr": "^3.4.1",
     "extract-opts": "^3.3.1",
     "getrepos": "^1.3.0",
-    "githubauthquerystring": "^1.0.2",
+    "githubauthquerystring": "^2.0.0",
     "kava": "^3.1.0",
     "node-fetch": "^2.3.0",
     "prettier": "^1.16.4",
