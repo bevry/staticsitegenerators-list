@@ -222,7 +222,7 @@
     "prettier": "^1.16.4",
     "projectz": "^1.7.4",
     "spdx-expression-validate": "^2.0.0",
-    "taskgroup": "^5.3.0",
+    "taskgroup": "^6.2.0",
     "valid-directory": "^1.0.0"
   },
   "eslintConfig": {
