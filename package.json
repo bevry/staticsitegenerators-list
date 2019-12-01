@@ -207,7 +207,7 @@
     "string-natural-compare": "^2.0.3"
   },
   "devDependencies": {
-    "arrangekeys": "^1.2.0",
+    "arrangekeys": "^2.3.0",
     "assert-helpers": "^4.9.6",
     "eslint": "^5.16.0",
     "eslint-config-bevry": "^1.2.0",
