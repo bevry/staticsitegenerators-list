@@ -8,6 +8,11 @@
 
 The below are the changes to the Node.js Package
 
+### v3.0.0 2018 November 28
+
+-   Converted to TypeScript
+-   Direct imports are now at `hydrated.json` and `raw.json`
+
 ### v2.0.0 2018 November 28
 
 -   New API that simply exports `hydrated` or `raw`

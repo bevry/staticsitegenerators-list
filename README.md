@@ -4,6 +4,7 @@
 
 <!-- /TITLE -->
 
+
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.org/bevry/staticsitegenerators-list" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/staticsitegenerators-list/master.svg" alt="Travis CI Build Status" /></a></span>
@@ -12,11 +13,10 @@
 <span class="badge-daviddm"><a href="https://david-dm.org/bevry/staticsitegenerators-list" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/staticsitegenerators-list.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/staticsitegenerators-list#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/staticsitegenerators-list.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
+<span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span>
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-liberapay"><a href="https://liberapay.com/bevry" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
-<span class="badge-thanksapp"><a href="https://givethanks.app/donate/npm/staticsitegenerators" title="Donate to this project using Thanks App"><img src="https://img.shields.io/badge/thanksapp-donate-yellow.svg" alt="Thanks App donate button" /></a></span>
-<span class="badge-boostlab"><a href="https://boost-lab.app/bevry/staticsitegenerators-list" title="Donate to this project using Boost Lab"><img src="https://img.shields.io/badge/boostlab-donate-yellow.svg" alt="Boost Lab donate button" /></a></span>
 <span class="badge-buymeacoffee"><a href="https://buymeacoffee.com/balupton" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
 <span class="badge-opencollective"><a href="https://opencollective.com/bevry" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span>
 <span class="badge-crypto"><a href="https://bevry.me/crypto" title="Donate to this project using Cryptocurrency"><img src="https://img.shields.io/badge/crypto-donate-yellow.svg" alt="crypto donate button" /></a></span>
@@ -25,14 +25,17 @@
 
 <!-- /BADGES -->
 
+
 <!-- DESCRIPTION/ -->
 
 A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them
 
 <!-- /DESCRIPTION -->
 
--   [View the listing](https://github.com/bevry/staticsitegenerators-list/blob/master/list.json) | [Edit the listing](https://github.com/bevry/staticsitegenerators-list/edit/master/list.json)
--   [View the rendered listing](https://staticsitegenerators.net/list.json)
+
+-   [View the source listing](https://github.com/bevry/staticsitegenerators-list/blob/master/source/list.ts) | [Edit the source listing](https://github.com/bevry/staticsitegenerators-list/edit/master/source/list.ts)
+-   [View the raw JSON listing](https://staticsitegenerators.net/raw.json)
+-   [View the rendered JSON listing](https://staticsitegenerators.net/list.json)
 -   [View the website](http://staticsitegenerators.net) | [View the website source](https://github.com/bevry/staticsitegenerators-website)
 
 ## Contributing
@@ -49,65 +52,9 @@ Currently, this listing is only for projects that relate to Flat File Content Ma
 
 ### Adding
 
-Entries are stored within the `list.json` file.
+Entries are stored within the [`source/list.ts` file](https://github.com/bevry/staticsitegenerators-list/blob/master/source/list.ts).
 
-Accepted project fields:
-
--   `name` the project's name
--   `github` the slug of the GitHub repository if applicable
--   `gitlab` the slug of the GitLab repository if applicable
--   `bitbucket` the slug of BitBucket repository if applicable
--   `website` the project's website if they have one, if the automatic website fetch is incorrect you can specify as `false`
--   `language` the project's primary programming language if applicable
--   `description` the project's description
--   `created_at` the project's date of creation in ISO format
--   `updated_at` the project's date of last update in ISO format
--   `license` the project's [SPDX license code](https://spdx.org/licenses/)
-    -   if license is missing, omit this field
-    -   if license is not applicable because it is a commercial service, use `false`
-    -   if multiple licenses, see the [SPDX parser](https://www.npmjs.com/package/spdx) for formatting
--   `is` should be one of the following:
-    -   `flat file cms` a project that takes in local file content, renders it, and exposes the rendered contents via its own web server, without exporting to static files that can be deployment elsewhere, such as Grav and Harp
-    -   `static site generator` a project that takes in local file content, renders it, and exports it into a static file content for deployment somewhere, with or without a bundled web server, such as Jekyll and DocPad
-    -   `static site importer` a project that takes in local or dynamic content and imports it into a database, such as a file system to Contentful importer
-    -   `static site exporter` a project that takes in database content and generates a static website with it, such as a Contentful or Wordpress to static website exporter
-    -   `static site host` a project that hosts static site content, such as GitHub Pages or Surge.sh
-    -   `static site editor` a project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin
-    -   `other` if some other type of project that is related to flat-file content management systems or static website generators
--   `extensible` should be `true` or `false` providing whether or not the project provides a way for users to add new features
--   `defunct` can be `true` to signal that the project is no longer functioning or receiving support
-
-Dates should be in ISO format which looks like this `2006-08-18T16:00:00.000Z`. Conversion can be done with JavaScript using `console.log(new Date('19-Aug-2006').toISOString())` or via the command line using Node.js via `node -e "console.log(new Date('19-Aug-2006').toISOString())"`.
-
-At the very least, the following fields are required:
-
--   `name`
--   `tags`
--   `github` or `gitlab` or `bitbucket` or `website`
--   `is` will output a warning if missing, but is required for all new entries
-
-If `github` is specified, the following fields should only be specified if GitHub's data is incorrect:
-
--   `license`
--   `website`
--   `language`
--   `description`
--   `created_at`
--   `updated_at`
-
-If `gitlab` is specified, the following fields should only be specified if GitLab's data is incorrect:
-
--   `language`
--   `description`
--   `created_at`
--   `updated_at`
-
-The following fields are automatic and only apply to our rendered listing:
-
--   `id`
--   `stars`
--   `forks`
--   `watchers`
+Entries must conform to the [`RawEntry` type](http://master.staticsitegenerators-list.bevry.surge.sh/docs/interfaces/rawentry).
 
 ### Testing
 
@@ -119,15 +66,15 @@ When you submit your pull request, your submission will be automatically tested,
 
 1. Install local dependencies (1 minute)
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 1. Running the tests (1 minute)
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
 1. Make any changes that the tests indicate, commit your changes, and submit
 
@@ -153,6 +100,7 @@ console.log(listing.raw)
 
 <!-- /HISTORY -->
 
+
 <!-- BACKERS/ -->
 
 <h2>Backers</h2>
@@ -169,11 +117,10 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
+<span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span>
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-liberapay"><a href="https://liberapay.com/bevry" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
-<span class="badge-thanksapp"><a href="https://givethanks.app/donate/npm/staticsitegenerators" title="Donate to this project using Thanks App"><img src="https://img.shields.io/badge/thanksapp-donate-yellow.svg" alt="Thanks App donate button" /></a></span>
-<span class="badge-boostlab"><a href="https://boost-lab.app/bevry/staticsitegenerators-list" title="Donate to this project using Boost Lab"><img src="https://img.shields.io/badge/boostlab-donate-yellow.svg" alt="Boost Lab donate button" /></a></span>
 <span class="badge-buymeacoffee"><a href="https://buymeacoffee.com/balupton" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
 <span class="badge-opencollective"><a href="https://opencollective.com/bevry" title="Donate to this project using Open Collective"><img src="https://img.shields.io/badge/open%20collective-donate-yellow.svg" alt="Open Collective donate button" /></a></span>
 <span class="badge-crypto"><a href="https://bevry.me/crypto" title="Donate to this project using Cryptocurrency"><img src="https://img.shields.io/badge/crypto-donate-yellow.svg" alt="crypto donate button" /></a></span>
@@ -195,23 +142,23 @@ These amazing people have contributed code to this project:
 <li><a href="http://japh.com.au">Japh</a></li>
 <li><a href="mixu.net">Mikito Takada</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=mixu" title="View the GitHub contributions of Mikito Takada on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://dbohdan.com/">dbohdan</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=dbohdan" title="View the GitHub contributions of dbohdan on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://tuxproject.de">Cthulhux</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=dertuxmalwieder" title="View the GitHub contributions of Cthulhux on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://tuxproject.de">Cthulhux</a></li>
 <li><a href="http://davidsiaw.github.io/">David Siaw</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=davidsiaw" title="View the GitHub contributions of David Siaw on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://wikismith.com">Jeffrey Hicks</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=wikismith" title="View the GitHub contributions of Jeffrey Hicks on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.mattlayman.com">Matt Layman</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=mblayman" title="View the GitHub contributions of Matt Layman on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://appernetic.io">goransv</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=appernetic" title="View the GitHub contributions of goransv on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://appernetic.io">goransv</a></li>
 <li><a href="https://github.com/vikrantrathore">vikrantrathore</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=vikrantrathore" title="View the GitHub contributions of vikrantrathore on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://narno.org">Arnaud Ligny</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Narno" title="View the GitHub contributions of Arnaud Ligny on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://coolaj86.com">AJ ONeal</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=coolaj86" title="View the GitHub contributions of AJ ONeal on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://narno.org">Arnaud Ligny</a></li>
+<li><a href="http://solderjs.com">AJ ONeal</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=solderjs" title="View the GitHub contributions of AJ ONeal on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.bennyklotz.at">Benjamin Klotz</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=tak1n" title="View the GitHub contributions of Benjamin Klotz on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.csslab.cl">Jorge Epuñan</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=juanbrujo" title="View the GitHub contributions of Jorge Epuñan on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://medium.com/@tarkus">Konstantin Tarkus</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=koistya" title="View the GitHub contributions of Konstantin Tarkus on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://datenstrom.se">Mark Seuffert</a></li>
-<li><a href="http://moox.io/">MoOx</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=MoOx" title="View the GitHub contributions of MoOx on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://moox.io/">Max Thirouin</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=MoOx" title="View the GitHub contributions of Max Thirouin on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://pawandubey.com">Pawan Dubey</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=pawandubey" title="View the GitHub contributions of Pawan Dubey on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://ramiro.org/">Ramiro Gómez</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=yaph" title="View the GitHub contributions of Ramiro Gómez on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://robloach.net">Rob Loach</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://emitter.io">Roman Atachiants</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Kelindar" title="View the GitHub contributions of Roman Atachiants on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://emitter.io">Roman Atachiants</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=kelindar" title="View the GitHub contributions of Roman Atachiants on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.adnetinc.com/">Rudy Affandi</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=lesaff" title="View the GitHub contributions of Rudy Affandi on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="www.micrypt.com">Seyi Ogunyemi</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=micrypt" title="View the GitHub contributions of Seyi Ogunyemi on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.dte.web.id">Taufik Nurrohman</a></li>
@@ -248,7 +195,7 @@ These amazing people have contributed code to this project:
 <li><a href="www.icir.org/johanna">Johanna</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=0xxon" title="View the GitHub contributions of Johanna on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://whump.com/">Bill Humphries</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=whump" title="View the GitHub contributions of Bill Humphries on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://boscoh.com">Bosco Ho</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=boscoh" title="View the GitHub contributions of Bosco Ho on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://byronkellett.github.io">Byron Kellett</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=ByronKellett" title="View the GitHub contributions of Byron Kellett on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://byronkellett.github.io">Byron Kellett</a></li>
 <li><a href="https://github.com/bullpizzle">Byron LK</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=bullpizzle" title="View the GitHub contributions of Byron LK on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://celehner.com/">Charles Lehner</a></li>
 <li><a href="http://webiphany.com">Chris Dawson</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=xrd" title="View the GitHub contributions of Chris Dawson on repository bevry/staticsitegenerators-list">view contributions</a></li>
@@ -288,33 +235,41 @@ These amazing people have contributed code to this project:
 <li><a href="http://www.alexchopin.com">Alexandre Chopin</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=alexchopin" title="View the GitHub contributions of Alexandre Chopin on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://git-ssb.celehner.com/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a></li>
 <li><a href="http://datagrok.org">Michael F. Lamb</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=datagrok" title="View the GitHub contributions of Michael F. Lamb on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://alexelias.io/">Alexander Elias</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=AlexanderElias" title="View the GitHub contributions of Alexander Elias on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://voke.io/">Alexander Elias</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=vokeio" title="View the GitHub contributions of Alexander Elias on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://git.scuttlebot.io/%40f%2F6sQ6d2CMxRUhLpspgGIulDxDCwYD7DzFzPNr7u5AU%3D.ed25519">Charles Lehner</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=clehner" title="View the GitHub contributions of Charles Lehner on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://igapyon.github.io/diary/">Toshiki Iga</a></li>
 <li><a href="http://denis.ws/">Denis Defreyne</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=ddfreyne" title="View the GitHub contributions of Denis Defreyne on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/wifiextender">wifiextender</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=wifiextender" title="View the GitHub contributions of wifiextender on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://mayberg.se">Mark Seuffert</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=markseu" title="View the GitHub contributions of Mark Seuffert on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://mayberg.se">Mark Seuffert</a></li>
 <li><a href="http://minchin.ca">MinchinWeb</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=MinchinWeb" title="View the GitHub contributions of MinchinWeb on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/kambrium">kambrium</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=kambrium" title="View the GitHub contributions of kambrium on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://alanpearce.uk">Alan Pearce</a></li>
 <li><a href="https://github.com/estrabd">___^___</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=estrabd" title="View the GitHub contributions of ___^___ on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="https://github.com/byrondev">Byron LK</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=byrondev" title="View the GitHub contributions of Byron LK on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.stevejamesson.com/">Steve Jamesson</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=jevets" title="View the GitHub contributions of Steve Jamesson on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="https://github.com/beudbeud">beudbeud</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=beudbeud" title="View the GitHub contributions of beudbeud on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="https://github.com/beudbeud">Adrien Beudin</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=beudbeud" title="View the GitHub contributions of Adrien Beudin on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.caseyjbrooks.com/">Casey Brooks</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=cjbrooks12" title="View the GitHub contributions of Casey Brooks on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://adblockplus.org/">Manvel Saroyan</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Manvel" title="View the GitHub contributions of Manvel Saroyan on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://latitudu.tk">Taufik Nurrohman</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=tovic" title="View the GitHub contributions of Taufik Nurrohman on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://manvel.me">Manvel Saroyan</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Manvel" title="View the GitHub contributions of Manvel Saroyan on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://latitudu.tk">Taufik Nurrohman</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=taufik-nurrohman" title="View the GitHub contributions of Taufik Nurrohman on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.japh.com.au">Japh</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Japh" title="View the GitHub contributions of Japh on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://www.alanpearce.eu">Alan Pearce</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=alanpearce" title="View the GitHub contributions of Alan Pearce on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://www.alanpearce.eu">Alan Pearce</a></li>
 <li><a href="http://www.guido-flohr.net/">Guido Flohr</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=gflohr" title="View the GitHub contributions of Guido Flohr on repository bevry/staticsitegenerators-list">view contributions</a></li>
-<li><a href="http://fiatjaf.alhur.es/">Giovanni T. Parra</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=fiatjaf" title="View the GitHub contributions of Giovanni T. Parra on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://fiatjaf.alhur.es/">fiatjaf</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=fiatjaf" title="View the GitHub contributions of fiatjaf on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.igapyon.jp/">Toshiki Iga</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=igapyon" title="View the GitHub contributions of Toshiki Iga on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://www.acko.com">Amit Upadhyay</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=amitu" title="View the GitHub contributions of Amit Upadhyay on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://code.rosaelefanten.org">Cthulhux</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=dertuxmalwieder" title="View the GitHub contributions of Cthulhux on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://arnaudligny.fr">Arnaud Ligny</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=Narno" title="View the GitHub contributions of Arnaud Ligny on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://www.ceriously.com">Steven</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=styfle" title="View the GitHub contributions of Steven on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://github.com/apps/dependabot">dependabot[bot]</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=dependabot[bot]" title="View the GitHub contributions of dependabot[bot] on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="https://github.com/markseu">Mark Seuffert</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=markseu" title="View the GitHub contributions of Mark Seuffert on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="http://ericalli.com">Eric Alli</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=ericalli" title="View the GitHub contributions of Eric Alli on repository bevry/staticsitegenerators-list">view contributions</a></li>
+<li><a href="https://github.com/ByronKellett">Byron Kellett</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=ByronKellett" title="View the GitHub contributions of Byron Kellett on repository bevry/staticsitegenerators-list">view contributions</a></li>
 <li><a href="http://saintaardvarkthecarpeted.com">Hugh Brown (Saint Aardvark the Carpeted)</a> — <a href="https://github.com/bevry/staticsitegenerators-list/commits?author=saintaardvark" title="View the GitHub contributions of Hugh Brown (Saint Aardvark the Carpeted) on repository bevry/staticsitegenerators-list">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/staticsitegenerators-list/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
+
 
 <!-- LICENSE/ -->
 
