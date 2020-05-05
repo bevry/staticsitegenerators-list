@@ -842,7 +842,8 @@ const rawList: RawEntry[] = [
 	},
 	{
 		name: 'HSC',
-		github: 'mbethke/hsc'
+		github: 'mbethke/hsc',
+		created_at: '1998-09-21'
 	},
 	{
 		name: 'hublo',
