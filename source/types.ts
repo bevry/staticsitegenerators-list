@@ -14,7 +14,7 @@ export enum Is {
 	/** A project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin */
 	SSEditor = 'static site editor',
 	/** If some other type of project that is related to flat-file content management systems or static website generators */
-	Other = 'other'
+	Other = 'other',
 }
 
 /**

@@ -4,7 +4,6 @@
 
 <!-- /TITLE -->
 
-
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.org/bevry/staticsitegenerators-list" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/staticsitegenerators-list/master.svg" alt="Travis CI Build Status" /></a></span>
@@ -25,13 +24,11 @@
 
 <!-- /BADGES -->
 
-
 <!-- DESCRIPTION/ -->
 
 A comprehensive, partially automatically generated comparison of static site generators with some minimal meta data about them
 
 <!-- /DESCRIPTION -->
-
 
 -   [View the source listing](https://github.com/bevry/staticsitegenerators-list/blob/master/source/list.ts) | [Edit the source listing](https://github.com/bevry/staticsitegenerators-list/edit/master/source/list.ts)
 -   [View the raw JSON listing](https://staticsitegenerators.net/raw.json)
@@ -80,6 +77,8 @@ When you submit your pull request, your submission will be automatically tested,
 
 ## Usage
 
+[Complete API Documentation.](http://master.staticsitegenerators.bevry.surge.sh/docs/globals.html)
+
 Using the npm package is done like so:
 
 ```javascript
@@ -99,7 +98,6 @@ console.log(listing.raw)
 <a href="https://github.com/bevry/staticsitegenerators-list/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
-
 
 <!-- BACKERS/ -->
 
@@ -269,7 +267,6 @@ These amazing people have contributed code to this project:
 <a href="https://github.com/bevry/staticsitegenerators-list/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
-
 
 <!-- LICENSE/ -->
 

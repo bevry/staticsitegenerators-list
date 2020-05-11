@@ -3,7 +3,7 @@
 // Imports
 import { RawEntry, HydratedEntry } from './types'
 import naturalCompare from 'string-natural-compare'
-import githubAuthQueryString from 'githubauthquerystring'
+import { validate as validateGithub } from 'githubauthreq'
 import { getRepos } from 'getrepos'
 
 const keyorder =
@@ -13,10 +13,10 @@ function sort<T extends { name: string; github?: string }>(data: T[]) {
 	return data.sort(
 		(a, b) =>
 			naturalCompare(a.name, b.name, {
-				caseInsensitive: true
+				caseInsensitive: true,
 			}) ||
 			naturalCompare(a.github, b.github, {
-				caseInsensitive: true
+				caseInsensitive: true,
 			})
 	)
 }
@@ -48,10 +48,7 @@ export async function hydrate(
 	data: RawEntry[],
 	opts: HydrateOptions = {}
 ): Promise<HydrateReturn> {
-	if (!githubAuthQueryString.fetch())
-		throw new Error(
-			'environment variables GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET or GITHUB_ACCESS_TOKEN must be set'
-		)
+	validateGithub()
 	if (opts.corrective == null) opts.corrective = false
 	if (opts.cache == null) opts.cache = 1000 * 60 * 60 * 24 // one day
 
@@ -61,7 +58,7 @@ export async function hydrate(
 	const rawMap: { [id: string]: RawEntry } = {}
 	const hydratedMap: { [id: string]: HydratedEntry } = {}
 	const githubRepos: string[] = []
-	data.forEach(function(entry, index) {
+	data.forEach(function (entry, index) {
 		// @ts-ignore
 		delete entry.id
 		const key = (entry.github && entry.github.toLowerCase()) || index
@@ -74,10 +71,10 @@ export async function hydrate(
 						JSON.stringify({
 							name: entry.name,
 							website: entry.website,
-							github: entry.github
+							github: entry.github,
 						})
 					)
-					.digest('hex')
+					.digest('hex'),
 			},
 			arrangekeys(entry, keyorder)
 		)
@@ -125,7 +122,7 @@ export async function hydrate(
 			// @ts-ignore
 			created_at: github.created_at,
 			// @ts-ignore
-			updated_at: github.updated_at
+			updated_at: github.updated_at,
 		}
 		for (const [key, value] of Object.entries(fields)) {
 			const rawValue = raw[key]
@@ -154,7 +151,7 @@ export async function hydrate(
 	}
 
 	return {
-		hydrated: sort(Object.keys(hydratedMap).map(k => hydratedMap[k])),
-		raw: sort(Object.keys(rawMap).map(k => rawMap[k]))
+		hydrated: sort(Object.keys(hydratedMap).map((k) => hydratedMap[k])),
+		raw: sort(Object.keys(rawMap).map((k) => rawMap[k])),
 	}
 }

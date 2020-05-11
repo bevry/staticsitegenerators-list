@@ -12,7 +12,7 @@ const rawPath = path.resolve(__dirname, '..', 'raw.json')
 const hydratedPath = path.resolve(__dirname, '..', 'hydrated.json')
 const fetchOptions: RequestInit = {
 	// timeout: 30 * 1000,
-	redirect: 'error'
+	redirect: 'error',
 }
 
 function log(logLevel: string | number, ...args: any) {
@@ -34,10 +34,10 @@ async function checkURL(url: string) {
 	}
 }
 
-kava.suite('static site generators list', function(suite, test) {
-	test('minimum required fields', function() {
+kava.suite('static site generators list', function (suite, test) {
+	test('minimum required fields', function () {
 		const missingIs: string[] = []
-		rawList.forEach(function(entry) {
+		rawList.forEach(function (entry) {
 			const { name, github, gitlab, bitbucket, website, is } = entry
 			const location = github || gitlab || bitbucket || website
 			equal(
@@ -54,8 +54,8 @@ kava.suite('static site generators list', function(suite, test) {
 		)
 	})
 
-	test('licenses are valid SPDX', function() {
-		rawList.forEach(function({ name, license }) {
+	test('licenses are valid SPDX', function () {
+		rawList.forEach(function ({ name, license }) {
 			if (license) {
 				equal(
 					validSPDX(license),
@@ -66,20 +66,20 @@ kava.suite('static site generators list', function(suite, test) {
 		})
 	})
 
-	suite('uris are valid / still exist', function(suite, test) {
+	suite('uris are valid / still exist', function (suite, test) {
 		// @ts-ignore
 		this.setConfig({ concurrency: 30 })
-		rawList.forEach(function({ name, github, website, testWebsite }) {
+		rawList.forEach(function ({ name, github, website, testWebsite }) {
 			if (github) {
 				github = `https://github.com/${github}`
-				test(`${name}: http get github: ${github}`, function(done) {
+				test(`${name}: http get github: ${github}`, function (done) {
 					checkURL(github as string)
 						.then(() => done())
 						.catch(done)
 				})
 			}
 			if (website && testWebsite !== false) {
-				test(`${name}: http get website: ${website}`, function(done) {
+				test(`${name}: http get website: ${website}`, function (done) {
 					checkURL(website)
 						.then(() => done())
 						.catch(done)
@@ -88,12 +88,12 @@ kava.suite('static site generators list', function(suite, test) {
 		})
 	})
 
-	suite('local render', function(suite, test) {
+	suite('local render', function (suite, test) {
 		let result: HydrateReturn
 
-		test('hydrate local data', function(done) {
+		test('hydrate local data', function (done) {
 			hydrate(rawList, { log, corrective: true })
-				.then(function(_result) {
+				.then(function (_result) {
 					ok(_result.raw, 'raw result was as expected')
 					ok(_result.hydrated, 'hydration result was as expected')
 					result = _result
@@ -102,7 +102,7 @@ kava.suite('static site generators list', function(suite, test) {
 				.catch(done)
 		})
 
-		test(`writing corrected raw listing ${rawPath}`, function(done) {
+		test(`writing corrected raw listing ${rawPath}`, function (done) {
 			fs.writeFile(
 				rawPath,
 				JSON.stringify(result.raw, null, '  '),
@@ -111,7 +111,7 @@ kava.suite('static site generators list', function(suite, test) {
 			)
 		})
 
-		test(`writing hydrated listing to ${hydratedPath}`, function(done) {
+		test(`writing hydrated listing to ${hydratedPath}`, function (done) {
 			fs.writeFile(
 				hydratedPath,
 				JSON.stringify(result.hydrated, null, '  '),
@@ -120,7 +120,7 @@ kava.suite('static site generators list', function(suite, test) {
 			)
 		})
 
-		test('raw data was the same as the corrected data', function() {
+		test('raw data was the same as the corrected data', function () {
 			try {
 				deepEqual(rawList, result.raw)
 			} catch (err) {
