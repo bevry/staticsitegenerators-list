@@ -8,6 +8,10 @@
 
 The below are the changes to the Node.js Package
 
+### v3.1.0 2020 May 11
+
+-   Updated dependencies
+
 ### v3.0.0 2018 November 28
 
 -   Converted to TypeScript
