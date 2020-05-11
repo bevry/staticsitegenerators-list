@@ -299,10 +299,7 @@
     "singleQuote": true
   },
   "boundation": {
-    "desiredNodeVersion": 12,
-    "minimumSupportNodeVersion": 12,
-    "maximumSupportNodeVersion": 12,
-    "minimumTestNodeVersion": 12,
-    "maximumTestNodeVersion": 12
+    "ltsNodeOnly": true,
+    "desiredNodeOnly": true
   }
 }
