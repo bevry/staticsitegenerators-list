@@ -8,7 +8,7 @@ export enum Is {
 	/** A project that takes in local or dynamic content and imports it into a database, such as a file system to Contentful importer */
 	SSImporter = 'static site importer',
 	/** A project that takes in database content and generates a static website with it, such as a Contentful or Wordpress to static website exporter */
-	SSExporter = 'static site exported',
+	SSExporter = 'static site exporter',
 	/** A project that hosts static site content, such as GitHub Pages or Surge.sh **/
 	SSHost = 'static site host',
 	/** A project that a custom editing experience for static website content, such as Contentful and Prose.io, or even Grav's admin plugin */

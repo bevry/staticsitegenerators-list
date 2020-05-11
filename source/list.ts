@@ -141,8 +141,8 @@ const rawList: RawEntry[] = [
 		license: 'WTFPL',
 		language: 'C++',
 		description: 'Just another static blog generator, written in C++17.',
-		extensible: false,
 		is: Is.SSGenerator,
+		extensible: false,
 	},
 	{
 		name: 'Blogen',
@@ -182,11 +182,6 @@ const rawList: RawEntry[] = [
 		language: 'Python',
 		is: Is.SSGenerator,
 		defunct: true,
-	},
-	{
-		name: 'Bolt',
-		github: 'benmcredmond/Bolt',
-		website: 'https://github.com/benmcredmond/Bolt',
 	},
 	{
 		name: 'Bonsai',
@@ -271,7 +266,7 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Chronicle',
 		github: 'skx/chronicle2',
-		website: 'https://steve.fi/Software/chronicle/',
+		website: 'https://steve.fi/software/chronicle/',
 		license: '(GPL-3.0 OR Artistic-1.0-Perl)',
 	},
 	{
@@ -501,8 +496,8 @@ const rawList: RawEntry[] = [
 	{
 		name: 'fBlog',
 		website: 'https://sourceforge.net/projects/fortranblog/',
-		language: 'Fortran',
 		license: 'GPL-3.0',
+		language: 'Fortran',
 	},
 	{
 		name: 'Firedrop2',
@@ -795,10 +790,10 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Haunt',
 		website: 'https://dthompson.us/projects/haunt.html',
+		license: 'GPL-3.0-or-later',
 		language: 'Scheme',
 		description:
 			'A simple, functional, hackable static site generator that gives authors the ability to treat websites as Scheme programs.',
-		license: 'GPL-3.0-or-later',
 		is: Is.SSGenerator,
 		extensible: true,
 	},
@@ -814,7 +809,6 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Hepek',
 		github: 'sake92/hepek',
-		language: 'Scala',
 		description: 'Content generators in Scala. Intuitive, scalable, powerful.',
 		is: Is.SSGenerator,
 	},
@@ -1208,7 +1202,6 @@ const rawList: RawEntry[] = [
 		name: 'MinoriWiki',
 		github: 'phoenixlzx/MinoriWiki',
 		website: 'http://phoenixlzx.github.io/MinoriWiki/',
-		license: 'MIT',
 	},
 	{
 		name: 'Misakai Baker',
@@ -1482,13 +1475,6 @@ const rawList: RawEntry[] = [
 		name: 'Pretzel',
 		github: 'Code52/pretzel',
 		website: 'http://code52.org/pretzel/',
-	},
-	{
-		name: 'Primoca',
-		website: 'https://www.primoca.com',
-		license: false,
-		language: 'Web',
-		description: 'Static Website Hosting and CDN',
 	},
 	{
 		name: 'Prismic',
@@ -2150,12 +2136,10 @@ const rawList: RawEntry[] = [
 	},
 	{
 		name: 'VuePress',
-		website: 'https://vuepress.vuejs.org/',
 		github: 'vuejs/vuepress',
-		language: 'javascript',
+		website: 'https://vuepress.vuejs.org/',
 		description: 'Vue-powered Static Site Generator',
 		created_at: '2018-04-12T22:41:30Z',
-		license: 'MIT',
 		is: Is.SSGenerator,
 		extensible: true,
 	},
@@ -2280,7 +2264,7 @@ const rawList: RawEntry[] = [
 	{
 		name: 'ZenWeb',
 		github: 'seattlerb/zenweb',
-		website: 'http://www.zenspider.com/projects/zenweb.html',
+		website: 'https://www.zenspider.com/projects/zenweb.html',
 		license: 'MIT',
 	},
 	{

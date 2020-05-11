@@ -20,14 +20,44 @@ function log(logLevel: string | number, ...args: any) {
 	console.log.apply(console.log, [logLevel, ...args])
 }
 
+export function halt(milliseconds: number) {
+	if (milliseconds < 1000) {
+		console.warn(
+			'halt accepts milliseconds, you may have attempted to send it seconds, as you sent a value below 1000 milliseconds'
+		)
+	}
+	return new Promise(function (resolve, reject) {
+		setTimeout(resolve, milliseconds)
+	})
+}
+
+export async function fetcher(
+	url: string,
+	init: RequestInit
+): Promise<Response> {
+	const response = await fetch(url, init)
+	if (response.status === 429) {
+		// wait a minute
+		console.warn(
+			`${url} returned 429, too many requests, trying again in a minute`
+		)
+		await halt(60 * 1000)
+		return fetcher(url, init)
+	}
+	return response
+}
+
 async function checkURL(url: string) {
 	try {
-		const res = await fetch(url, fetchOptions)
+		// use a response that caches heavily
+		const u = new URL('https://status.bevry.workers.dev')
+		u.searchParams.set('url', url)
+		const res = await fetcher(u.toString(), fetchOptions)
 		if (!res.ok)
 			equal(
 				res.status,
 				200,
-				`response http status code should be 200 success on ${url}`
+				`checkURL: response http status code should be 200 success on ${url}`
 			)
 	} catch (err) {
 		return Promise.reject(err)
@@ -68,7 +98,7 @@ kava.suite('static site generators list', function (suite, test) {
 
 	suite('uris are valid / still exist', function (suite, test) {
 		// @ts-ignore
-		this.setConfig({ concurrency: 30 })
+		this.setConfig({ concurrency: 25 })
 		rawList.forEach(function ({ name, github, website, testWebsite }) {
 			if (github) {
 				github = `https://github.com/${github}`

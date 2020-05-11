@@ -5,6 +5,8 @@ import { RawEntry, HydratedEntry } from './types'
 import naturalCompare from 'string-natural-compare'
 import { validate as validateGithub } from 'githubauthreq'
 import { getRepos } from 'getrepos'
+import arrangekeys from 'arrangekeys'
+import crypto from 'crypto'
 
 const keyorder =
 	'id name github gitlab bitbucket website license language description created_at updated_at abandoned is extensible stars forks watchers'
@@ -52,9 +54,6 @@ export async function hydrate(
 	if (opts.corrective == null) opts.corrective = false
 	if (opts.cache == null) opts.cache = 1000 * 60 * 60 * 24 // one day
 
-	const extendr = require('extendr')
-	const arrangekeys = require('arrangekeys')
-
 	const rawMap: { [id: string]: RawEntry } = {}
 	const hydratedMap: { [id: string]: HydratedEntry } = {}
 	const githubRepos: string[] = []
@@ -62,10 +61,10 @@ export async function hydrate(
 		// @ts-ignore
 		delete entry.id
 		const key = (entry.github && entry.github.toLowerCase()) || index
-		rawMap[key] = extendr.clone(arrangekeys(entry, keyorder))
-		hydratedMap[key] = extendr.extend(
+		rawMap[key] = Object.assign({}, arrangekeys(entry, keyorder))
+		hydratedMap[key] = Object.assign(
 			{
-				id: require('crypto')
+				id: crypto
 					.createHash('md5')
 					.update(
 						JSON.stringify({
