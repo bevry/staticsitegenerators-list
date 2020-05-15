@@ -202,6 +202,10 @@ const rawList: RawEntry[] = [
 		license: '(BSD-3-Clause AND LGPL-2.1 AND CC-BY-SA-2.5)',
 	},
 	{
+		name: 'Bridgetown',
+		github: 'bridgetownrb/bridgetown'
+	},
+	{
 		name: 'Broccoli Taco',
 		github: 'moudy/broccoli-taco',
 		license: 'MIT',
