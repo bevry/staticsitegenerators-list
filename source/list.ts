@@ -1436,6 +1436,14 @@ const rawList: RawEntry[] = [
 		license: 'Apache-2.0',
 	},
 	{
+		name: 'Pigmeat',
+		github: 'MadeByEmil/Pigmeat',
+		license: 'GPL-3.0',
+		website: 'https://madebyemil.github.io/pigmeat-website',
+		language: 'C#',
+		description: 'A static content publishing tool for the modern web.',
+	},
+	{
 		name: 'Pilcrow',
 		github: 'ljcooke/pilcrow',
 		defunct: true,
