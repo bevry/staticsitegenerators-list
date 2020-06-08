@@ -27,6 +27,15 @@ const rawList: RawEntry[] = [
 		github: 'Liutos/cl-github-page',
 	},
 	{
+		name: 'Almace Scaffolding',
+		github: 'sparanoid/almace-scaffolding',
+		license: 'MIT',
+		website: 'https://sparanoid.com/lab/amsf/',
+		language: 'JavaScript',
+		description:
+			'A super-fast Jekyll framework fighting against the website obesity. It supports LiveReload, Sass, HTML minification, inlined stylesheets and more.'
+	},
+	{
 		name: 'antwar',
 		github: 'antwarjs/antwar',
 	},
