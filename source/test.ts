@@ -1,6 +1,6 @@
 import kava from 'kava'
 import fs from 'fs'
-import path from 'path'
+import * as path from 'path'
 import { equal, deepEqual, compare } from 'assert-helpers'
 import { ok } from 'assert'
 import fetch from 'cross-fetch'
