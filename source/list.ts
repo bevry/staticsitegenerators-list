@@ -355,7 +355,7 @@ const rawList: RawEntry[] = [
 	},
 	{
 		name: 'Daux.io',
-		github: 'justinwalsh/daux.io',
+		github: 'dauxio/daux.io',
 		website: 'https://daux.io',
 		license: 'MIT',
 	},
