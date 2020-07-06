@@ -863,6 +863,15 @@ const rawList: RawEntry[] = [
 		github: 'hyde/hyde',
 		website: 'http://hyde.github.io/',
 	},
+    {
+		name: 'Hyde (CHICKEN)',
+        license: 'BSD',
+        description: 'Schemey clone of programs such as Webby and Jekyll',
+        is: Is.SSGenerator,
+        extensible: true,
+		website: 'http://wiki.call-cc.org/eggref/5/hyde',
+        language: 'Scheme',
+	},
 	{
 		name: 'Hydrastic',
 		github: 'bpizzi/Hydrastic',
