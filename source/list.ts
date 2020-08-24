@@ -80,6 +80,11 @@ const rawList: RawEntry[] = [
 		license: 'GPL-3.0',
 	},
 	{
+		name: 'Basildon',
+		github: 'samwilson/basildon',
+		license: 'GPL-3.0-or-later',
+	},
+	{
 		name: 'bazinga',
 		github: 'ap0calypse/bazinga',
 	},
