@@ -83,6 +83,10 @@ const rawList: RawEntry[] = [
 		name: 'Basildon',
 		github: 'samwilson/basildon',
 		license: 'GPL-3.0-or-later',
+		website: 'https://basildon.netlify.app/',
+		description: 'A simple generator written in PHP, built around Markdown with Yaml frontmatter that is read into a SQLite database and queried in Twig templates.',
+		is: Is.SSGenerator,
+		language: 'PHP'
 	},
 	{
 		name: 'bazinga',
