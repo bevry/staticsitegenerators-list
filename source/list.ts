@@ -599,6 +599,15 @@ const rawList: RawEntry[] = [
 		github: 'trq/Gen',
 	},
 	{
+		name: 'Generic Static Site Generator',
+		github: 'theabbie/Generic-Static-Site-Generator',
+                website: 'https://github.com/theabbie/Generic-Static-Site-Generator',
+		license: 'MIT',
+		language: 'JavaScript',
+		description:
+			'A Generic Static Site Generator',
+	},
+	{
 		name: 'Genesis',
 		github: 'samstefan/genesis',
 	},
