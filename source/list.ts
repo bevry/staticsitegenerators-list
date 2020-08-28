@@ -604,6 +604,7 @@ const rawList: RawEntry[] = [
                 website: 'https://github.com/theabbie/Generic-Static-Site-Generator',
 		license: 'MIT',
 		language: 'JavaScript',
+                is: Is.SSGenerator,
 		description:
 			'A Generic Static Site Generator',
 	},
