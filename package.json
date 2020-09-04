@@ -394,7 +394,6 @@
   },
   "boundation": {
     "targets": [
-      "browser",
       "ES2019"
     ],
     "ltsNodeOnly": true,
