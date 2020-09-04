@@ -1,7 +1,7 @@
 /* eslint camelcase:0 */
 
 // Imports
-import { RawEntry, HydratedEntry } from './types'
+import { RawEntry, HydratedEntry } from './types.js'
 import naturalCompare from 'string-natural-compare'
 import { validate as validateGithub } from 'githubauthreq'
 import { getRepos } from 'getrepos'

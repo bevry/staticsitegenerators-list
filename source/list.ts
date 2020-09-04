@@ -1,4 +1,4 @@
-import { RawEntry, Is } from './types'
+import { RawEntry, Is } from './types.js'
 const rawList: RawEntry[] = [
 	{
 		name: 'ABlog',
@@ -84,9 +84,10 @@ const rawList: RawEntry[] = [
 		github: 'samwilson/basildon',
 		license: 'GPL-3.0-or-later',
 		website: 'https://basildon.netlify.app/',
-		description: 'A simple generator written in PHP, built around Markdown with Yaml frontmatter that is read into a SQLite database and queried in Twig templates.',
+		description:
+			'A simple generator written in PHP, built around Markdown with Yaml frontmatter that is read into a SQLite database and queried in Twig templates.',
 		is: Is.SSGenerator,
-		language: 'PHP'
+		language: 'PHP',
 	},
 	{
 		name: 'bazinga',
@@ -212,7 +213,7 @@ const rawList: RawEntry[] = [
 	},
 	{
 		name: 'Bridgetown',
-		github: 'bridgetownrb/bridgetown'
+		github: 'bridgetownrb/bridgetown',
 	},
 	{
 		name: 'Broccoli Taco',
@@ -601,12 +602,11 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Generic Static Site Generator',
 		github: 'theabbie/Generic-Static-Site-Generator',
-                website: 'https://github.com/theabbie/Generic-Static-Site-Generator',
+		website: 'https://github.com/theabbie/Generic-Static-Site-Generator',
 		license: 'MIT',
 		language: 'JavaScript',
-                is: Is.SSGenerator,
-		description:
-			'A Generic Static Site Generator',
+		is: Is.SSGenerator,
+		description: 'A Generic Static Site Generator',
 	},
 	{
 		name: 'Genesis',
@@ -882,14 +882,14 @@ const rawList: RawEntry[] = [
 		github: 'hyde/hyde',
 		website: 'http://hyde.github.io/',
 	},
-    {
+	{
 		name: 'Hyde (CHICKEN)',
-        license: 'BSD',
-        description: 'Schemey clone of programs such as Webby and Jekyll',
-        is: Is.SSGenerator,
-        extensible: true,
+		license: 'BSD',
+		description: 'Schemey clone of programs such as Webby and Jekyll',
+		is: Is.SSGenerator,
+		extensible: true,
 		website: 'http://wiki.call-cc.org/eggref/5/hyde',
-        language: 'Scheme',
+		language: 'Scheme',
 	},
 	{
 		name: 'Hydrastic',

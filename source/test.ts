@@ -1,15 +1,19 @@
 import kava from 'kava'
 import fs from 'fs'
-import * as path from 'path'
+import { join } from 'path'
 import { equal, deepEqual, compare } from 'assert-helpers'
 import { ok } from 'assert'
 import fetch from 'cross-fetch'
 import validSPDX from 'spdx-expression-validate'
-import { hydrate, HydrateReturn } from './util'
 
-import rawList from './list'
-const rawPath = path.resolve(__dirname, '..', 'raw.json')
-const hydratedPath = path.resolve(__dirname, '..', 'hydrated.json')
+import rawList from './list.js'
+import { hydrate, HydrateReturn } from './util.js'
+
+import filedirname from 'filedirname'
+const [file, dir] = filedirname()
+const rawPath = join(dir, '..', 'raw.json')
+const hydratedPath = join(dir, '..', 'hydrated.json')
+
 const fetchOptions: RequestInit = {
 	// timeout: 30 * 1000,
 	redirect: 'error',
