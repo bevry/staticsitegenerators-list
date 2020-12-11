@@ -2331,5 +2331,16 @@ const rawList: RawEntry[] = [
 		license: 'Artistic-1.0-Perl',
 		language: 'Perl',
 	},
+	{
+		name: 'Log4brains',
+		github: 'thomvaill/log4brains',
+		description:
+			'Docs-as-code knowledge base to manage Architecture Decision Records (ADR) for your project and publish them automatically as a static website.',
+		license: 'Apache-2.0',
+		language: 'JavaScript',
+		created_at: '2020-12-11T13:00:00+01:00',
+		updated_at: '2020-12-11T13:00:00+01:00',
+		is: Is.SSGenerator,
+	},
 ]
 export default rawList
