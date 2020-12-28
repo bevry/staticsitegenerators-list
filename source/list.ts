@@ -2319,10 +2319,11 @@ const rawList: RawEntry[] = [
 	{
 		name: 'zola',
 		github: 'getzola/zola',
+		website: 'https://www.getzola.org',
 		description:
 			'Your one-stop static site engine. Forget dependencies. Everything you need in one binary. Previously called Gutenberg until WordPress took the name.',
 		created_at: '2016-12-06T13:51:00+08:00',
-		updated_at: '2019-02-28T00:48:00+08:00',
+		updated_at: '2020-09-28T00:00:00+08:00',
 		is: Is.SSGenerator,
 	},
 	{
