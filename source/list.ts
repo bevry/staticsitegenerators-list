@@ -647,6 +647,13 @@ const rawList: RawEntry[] = [
 		website: 'https://h3rald.com/glyph/',
 	},
 	{
+		name: 'Glyph',
+		github: 'dbriemann/glyph',
+		website: 'https://dbriemann.github.io/blog/2-introducing-glyph-static-site-generator-powered-by-github-issues-and-pages.html',
+		description: 'A static site generator utilizing Github issues and pages.',
+		license: 'MIT',
+	},
+	{
 		name: 'Go-Static!',
 		github: 'colynb/generator-go-static',
 	},
