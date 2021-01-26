@@ -1564,6 +1564,10 @@ const rawList: RawEntry[] = [
 		website: 'https://laktek.github.io/punch/',
 	},
 	{
+		name: 'Publii',
+		github: 'GetPublii/Publii',
+	},
+	{
 		name: 'PyBlosxom',
 		github: 'pyblosxom/pyblosxom',
 		website: 'http://pyblosxom.github.io/',
