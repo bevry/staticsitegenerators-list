@@ -1702,6 +1702,11 @@ const rawList: RawEntry[] = [
 		github: 'denisftw/s2gen',
 	},
 	{
+		name: 'saait',
+		website: 'http://codemadness.org/saait.html',
+		license: 'ISC',
+	},
+	{
 		name: 'Sculpin',
 		github: 'sculpin/sculpin',
 		website: 'https://sculpin.io/',
