@@ -252,6 +252,13 @@ const rawList: RawEntry[] = [
 		github: 'eudicots/Cactus',
 	},
 	{
+		name: 'caixw-blogit',
+		github: 'caixw/blogit',
+		license: 'MIT',
+		language: 'Go',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'Calepin',
 		github: 'jokull/calepin',
 	},
