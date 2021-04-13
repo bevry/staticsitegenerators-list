@@ -164,13 +164,6 @@ const rawList: RawEntry[] = [
 		license: 'BSD-3-Clause',
 	},
 	{
-		name: 'blogit',
-		github: 'caixw/blogit',
-		license: 'MIT',
-		language: 'Go',
-		is: Is.SSGenerator,
-	},
-	{
 		name: 'Blogofile',
 		github: 'EnigmaCurry/blogofile',
 		license: 'MIT',
@@ -257,6 +250,13 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Cactus',
 		github: 'eudicots/Cactus',
+	},
+	{
+		name: 'caixw-blogit',
+		github: 'caixw/blogit',
+		license: 'MIT',
+		language: 'Go',
+		is: Is.SSGenerator,
 	},
 	{
 		name: 'Calepin',
