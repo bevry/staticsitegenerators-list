@@ -1522,6 +1522,13 @@ const rawList: RawEntry[] = [
 		website: 'https://github.com/alexyoung/pop',
 	},
 	{
+		name: 'portable-php',
+		github: 'cadars/portable-php',
+		website: 'https://portable.fyi',
+		language: 'PHP',
+		license: 'MIT',
+	},
+	{
 		name: 'PowerSite',
 		github: 'Jaykul/PowerSite',
 	},
