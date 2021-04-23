@@ -1892,6 +1892,15 @@ const rawList: RawEntry[] = [
 		github: 'geekforbrains/squid',
 	},
 	{
+		name: 'squido',
+		website: 'https://squido.org',
+		license: 'MIT',
+		language: 'Node.js',
+		github: 'mrvautin/squido',
+		description: 'A dead simple static HTML website builder which can be hosted anywhere for super fast websites and very little effort.',
+		created_at: '2021-04-23T15:46:08Z',
+	},
+	{
 		name: 'Squirrel',
 		github: 'nickpetty/squirrel',
 	},
