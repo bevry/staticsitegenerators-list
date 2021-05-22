@@ -815,6 +815,12 @@ const rawList: RawEntry[] = [
 		license: 'MIT',
 	},
 	{
+		name: 'HaroldJS',
+		github: 'juliancwirko/create-harold-app',
+		website: 'https://www.haroldjs.com',
+		license: 'MIT',
+	},
+	{
 		name: 'Harp',
 		github: 'sintaxi/harp',
 		website: 'http://harpjs.com/',
