@@ -57,6 +57,10 @@ const rawList: RawEntry[] = [
 		github: 'awestruct/awestruct',
 	},
 	{
+		name: 'Axiom',
+		github: 'TheLastZombie/Axiom',
+	},
+	{
 		name: 'AYM CMS',
 		github: 'lethain/aym-cms',
 	},
