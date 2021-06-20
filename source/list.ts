@@ -1740,6 +1740,15 @@ const rawList: RawEntry[] = [
 		github: 'marcoarment/secondcrack',
 	},
 	{
+		name: 'sessg',
+		github: 'pachacamac/sessg',
+		license: 'MIT',
+		description: 'Simple Extendable Static Site Generator',
+		is: Is.SSGenerator,
+		language: 'JavaScript',
+		extensible: true,
+	},
+	{
 		name: 'serif',
 		github: 'aprescott/serif',
 	},
