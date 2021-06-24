@@ -1731,6 +1731,14 @@ const rawList: RawEntry[] = [
 		license: 'ISC',
 	},
 	{
+		name: 'Scroll',
+		github: 'publicdomaincompany/scroll',
+		website: 'https://scroll.pub/',
+		is: Is.SSGenerator,
+		language: 'JavaScript',
+		extensible: true,
+	},
+	{
 		name: 'Sculpin',
 		github: 'sculpin/sculpin',
 		website: 'https://sculpin.io/',
