@@ -1133,6 +1133,12 @@ const rawList: RawEntry[] = [
 		github: 'gordonbrander/lettersmith',
 	},
 	{
+		name: 'Liara',
+		github: 'anteru/liara',
+		is: Is.SSGenerator,
+		extensible: true,
+	},
+	{
 		name: 'lightning',
 		github: 'borismus/lightning',
 		license: 'MIT',
