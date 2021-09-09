@@ -1285,6 +1285,13 @@ const rawList: RawEntry[] = [
 		website: 'http://celehner.com/mksite/',
 	},
 	{
+		name: 'mkws',
+		github: 'mkws-1/mkws',
+		website: 'http://mkws.sh/',
+		description:
+			'A simple static site generator using sh as a template language',
+	},
+	{
 		name: 'monkeyman',
 		github: 'wspringer/monkeyman',
 	},
