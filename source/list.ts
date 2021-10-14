@@ -355,6 +355,12 @@ const rawList: RawEntry[] = [
 		github: 'leo/cory',
 	},
 	{
+		name: 'Create Static Web',
+		github: 'franciscop/create-static-web',
+		description: 'Another static site generator',
+		license: 'MIT',
+	},
+	{
 		name: 'cub',
 		github: 'patcoll/cub',
 		license: 'MIT',
