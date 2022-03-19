@@ -893,6 +893,16 @@ const rawList: RawEntry[] = [
 		created_at: '1998-09-21',
 	},
 	{
+		name: 'htmd',
+		website: 'https://github.com/Siecje/htmd',
+		github: 'Siecje/htmd',
+		language: 'Python',
+		license: 'MIT',
+		is: Is.SSGenerator,
+		created_at: '2015-01-31',
+		updated_at: '2022-03-16',
+	},
+	{
 		name: 'hublo',
 		github: 'pyr/hublo',
 		website: 'http://spootnik.org/',
