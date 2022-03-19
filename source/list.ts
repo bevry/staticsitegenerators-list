@@ -1594,6 +1594,11 @@ const rawList: RawEntry[] = [
 		extensible: true,
 	},
 	{
+		name: 'Publii',
+		github: 'GetPublii/Publii',
+		language: 'JavaScript',
+	},
+	{
 		name: 'Pulse CMS',
 		website: 'https://www.pulsecms.com/',
 		license: false,
