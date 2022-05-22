@@ -2239,6 +2239,15 @@ const rawList: RawEntry[] = [
 		website: 'https://github.com/stef/utterson',
 	},
 	{
+		name: 'Uzu',
+		github: 'scmorrison/uzu',
+		website: 'https://uzluisf.github.io/uzu-demo-site/',
+		language: 'Raku',
+		description:
+			'Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Raku module, and external pre/post command execution. Uzu is a work in progress - it is functional and does a bunch of cool stuff, but it is not perfect.',
+		extensible: true,
+	},
+	{
 		name: 'vee',
 		github: 'estrabd/vee',
 	},
