@@ -950,6 +950,11 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Ikiwiki',
 		website: 'http://ikiwiki.info/',
+		license: 'GPL-2.0',
+		language: 'Perl',
+		description: 'Ikiwiki is a wiki compiler. It converts wiki pages into HTML pages suitable for publishing on a website.',
+		created_at: '2006-03-10',
+		updated_at: '2022-05-30',
 	},
 	{
 		name: 'ink',
