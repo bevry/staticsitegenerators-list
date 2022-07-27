@@ -117,6 +117,14 @@ const rawList: RawEntry[] = [
 		github: 'flatiron/blacksmith',
 	},
 	{
+		name: 'Blag',
+		github: 'venthur/blag',
+		description: 'Blog-aware, static site generator',
+		license: 'MIT',
+		language: 'Python',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'Blatter',
 		bitbucket: 'jek/blatter',
 		license: 'MIT',
