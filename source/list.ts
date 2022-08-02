@@ -374,6 +374,14 @@ const rawList: RawEntry[] = [
 		license: 'MIT',
 	},
 	{
+		name: 'Curvenote',
+		description: 'Generate websites from Markdown and Jupyter Notebooks',
+		github: 'https://github.com/curvenote/curvenote',
+		website: 'https://curvenote.com/docs/web',
+		license: 'MIT',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'cyrax',
 		github: 'piranha/cyrax',
 		website: 'https://pypi.org/project/cyrax/',
