@@ -2377,6 +2377,12 @@ const rawList: RawEntry[] = [
 		license: 'MIT',
 	},
 	{
+		name: 'Wordmogul',
+		website: 'https://wordmogul.com',
+		language: 'Go',
+		description: 'Minimalistic blogging platform with ZIP export of .md files (GUI for Hugo/Jekyll).',
+	},
+	{
 		name: 'WP2Static',
 		github: 'WP2Static/wp2static',
 		is: Is.SSExporter,
