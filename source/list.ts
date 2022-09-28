@@ -313,6 +313,12 @@ const rawList: RawEntry[] = [
 		website: 'http://hugoduncan.org/cl-blog-generator/content/site/index.xhtml',
 	},
 	{
+		name: 'cl-yag',
+		language: 'Common LISP',
+		website: 'https://dataswamp.org/~solene/2017-12-16-announcement-cl-yag.html',
+		description: 'Publish a website and/or a gopher hole from a list of articles. Supports different markup language per article'
+	},
+	{
 		name: 'Cloud Cannon',
 		website: 'https://cloudcannon.com/',
 		description:
@@ -1504,6 +1510,13 @@ const rawList: RawEntry[] = [
 		language: 'Perl',
 	},
 	{
+		name: 'pblog',
+		website: 'https://pblog.xyz/',
+		license: 'ISC',
+		language: 'Shell',
+		description: 'Pandoc static blog generator. 5-second configuration. Markdown. Valid RSS 2.0 feed. No advanced template layouts. No themes. No categories / tagging systems. No comments. No auto rebuilds for local testing. But you can add these things yourself with a little know-how and patience',
+	},
+	{
 		name: 'Pelican',
 		github: 'getpelican/pelican',
 		license: 'GPL-3.0',
@@ -1531,6 +1544,12 @@ const rawList: RawEntry[] = [
 		name: 'PhlyBlog',
 		github: 'phly/PhlyBlog',
 		license: 'BSD-2-Clause',
+	},
+	{
+		name: 'PHPetite',
+		website: 'https://phpetite.org/',
+		github: 'bradleytaunt/phpetite',
+		language: 'PHP',
 	},
 	{
 		name: 'PieCrust',
@@ -1781,6 +1800,13 @@ const rawList: RawEntry[] = [
 		license: 'ISC',
 	},
 	{
+		name: 'sblg',
+		github: 'kristapsdz/sblg',
+		website: 'https://kristaps.bsd.lv/sblg/',
+		language: 'C',
+		description: 'Generate static HTML files, Atom feeds, and JSON files. You write your XHTML articles and templates. You can write articles in any format — like Markdown — so long it converts into XHTML. sblg(1) pulls data from the articles and merges it into the templates. Orchestrated with a Makefile'
+	},
+	{
 		name: 'Scroll',
 		github: 'publicdomaincompany/scroll',
 		website: 'https://scroll.pub/',
@@ -1835,6 +1861,12 @@ const rawList: RawEntry[] = [
 	{
 		name: 'shelob',
 		github: 'rubyworks/shelob',
+	},
+	{
+		name: 'Shinobi',
+		website: 'https://shinobi.website/',
+		language: 'Shell',
+		license: 'MIT',
 	},
 	{
 		name: 'Shire',
