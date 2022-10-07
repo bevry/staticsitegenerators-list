@@ -430,6 +430,13 @@ const rawList: RawEntry[] = [
 		github: 'amitu/djangothis',
 	},
 	{
+		name: 'DocKnot',
+		github: 'rra/docknot',
+		website: 'https://www.eyrie.org/~eagle/software/docknot/',
+		language: 'Perl',
+		description: 'Static web site generator with special support for managing software releases. It can generate distribution tarballs and software package documentation from a YAML metadata file and templates. The goal is to generate both web pages and distributed documentation files from the same source, using templates for consistency across multiple packages',
+	},
+	{
 		name: 'DocPad',
 		github: 'docpad/docpad',
 		license: 'MIT',
