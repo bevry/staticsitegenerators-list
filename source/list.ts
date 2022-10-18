@@ -2039,6 +2039,13 @@ const rawList: RawEntry[] = [
 		github: 'wiztools/stagen',
 	},
 	{
+		name: 'Stapy',
+		website: 'https://www.stapy.net/',
+		license: 'BSD-2-Clause',
+		language: 'Python',
+		description: 'A Static Site Generator that can generate a Website without a command line.',
+	},
+	{
 		name: 'Stasis',
 		github: 'winton/stasis',
 	},
