@@ -1402,8 +1402,9 @@ const rawList: RawEntry[] = [
 	},
 	{
 		name: 'Next.js',
-		github: 'zeit/next.js',
+		github: 'vercel/next.js',
 		website: 'https://nextjs.org',
+		license: 'MIT',
 	},
 	{
 		name: 'nib',
