@@ -45,6 +45,12 @@ const rawList: RawEntry[] = [
 		language: 'JavaScript',
 	},
 	{
+		name: 'Astro',
+		github: 'withastro/astro',
+		language: 'TypeScript',
+		website: 'https://astro.build',
+	},
+	{
 		name: 'Automad',
 		website: 'https://automad.org/',
 		license: 'MIT',
