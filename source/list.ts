@@ -1498,6 +1498,16 @@ const rawList: RawEntry[] = [
 		is: Is.SSGenerator,
 		extensible: true,
 	},
+	
+	{
+		name: 'Page',
+		github: 'fmalina/page',
+		license: 'BSD-3-Clause',
+		language: 'Python',
+		is: Is.SSGenerator,
+		extensible: true,
+		description: 'A static website generator that creates a well organized website with clear navigation reflecting the folder structure of source text documents. Produces fast, well compressed, mobile friendly pages, feed and sitemap files and supports import from any CMS DB',
+	},
 	{
 		name: 'Pagegen',
 		github: 'oliverfields/pagegen_v2',
