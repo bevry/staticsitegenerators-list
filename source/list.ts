@@ -281,6 +281,14 @@ const rawList: RawEntry[] = [
 		github: 'jokull/calepin',
 	},
 	{
+		name: 'Capro',
+		description: 'Flexible PHP static-site generator',
+		github: 'xy2z/capro',
+		language: 'PHP',
+		website: 'https://capro.xy2z.io',
+		license: 'MIT',
+	},
+	{
 		name: 'Carew',
 		github: 'carew/carew',
 	},
