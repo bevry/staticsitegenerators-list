@@ -21,10 +21,6 @@ const rawList: RawEntry[] = [
 	{
 		name: 'Adduce',
 		github: 'DeclanChidlow/Adduce',
-		website: 'http://adduce.vale.rocks/',
-		license: '(LGPL-3.0)',
-		language: 'Rust',
-		description: 'Adduce is a static site generator, blog creator and markdown HTML tool all in one.',
 		is: Is.SSGenerator,
 	},
 	{
