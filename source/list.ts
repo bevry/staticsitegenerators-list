@@ -19,6 +19,11 @@ const rawList: RawEntry[] = [
 		defunct: true,
 	},
 	{
+		name: 'Adduce',
+		github: 'DeclanChidlow/Adduce',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'AkashaCMS',
 		github: 'akashacms/akashacms',
 	},
