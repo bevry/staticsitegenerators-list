@@ -1459,6 +1459,11 @@ const rawList: RawEntry[] = [
 		license: 'MIT',
 	},
 	{
+		name: 'noter',
+		github: 'koutsie/noter',
+		license: 'MIT',
+	},
+	{
 		name: 'Nuxt.js',
 		github: 'nuxt/nuxt.js',
 		website: 'https://nuxtjs.org/',
