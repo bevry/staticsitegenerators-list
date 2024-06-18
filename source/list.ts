@@ -56,6 +56,13 @@ const rawList: RawEntry[] = [
 		website: 'https://astro.build',
 	},
 	{
+		name: 'Aurora',
+		github: 'capjamesg/aurora',
+		language: 'Python',
+		license: 'MIT',
+		description: 'A fast, extensible static site generator implemented in Python.',
+	},
+	{
 		name: 'Automad',
 		website: 'https://automad.org/',
 		license: 'MIT',
