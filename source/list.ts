@@ -189,6 +189,15 @@ const rawList: RawEntry[] = [
 		github: 'ipconfiger/blogen',
 	},
 	{
+		name: 'Bloggrify',
+		github: 'bloggrify/bloggrify',
+		website: 'https://bloggrify.com',
+		license: 'MIT',
+		language: 'Javascript',
+		description: 'Static blog generator built on top of Nuxt and Vue.',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'blogit',
 		github: 'oz123/blogit',
 		license: 'BSD-3-Clause',
