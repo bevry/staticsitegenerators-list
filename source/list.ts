@@ -1246,6 +1246,15 @@ const rawList: RawEntry[] = [
 		github: 'Fizzadar/Luapress',
 	},
 	{
+		name: 'Lume',
+		github: 'lumeland/lume',
+		website: 'http://lume.land',
+		description: 'Fast and flexible static site generator for Deno.',
+		created_at: '2020-09-07T19:24:00Z',
+		license: 'MIT',
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'Machined',
 		github: 'petebrowne/machined',
 	},
