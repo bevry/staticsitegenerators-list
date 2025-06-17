@@ -2202,6 +2202,12 @@ const rawList: RawEntry[] = [
 		github: 'thanethomson/statik',
 	},
 	{
+		name: 'Statiq',
+		github: 'statiqdev/Statiq.Framework',
+		extensible: true,
+		is: Is.SSGenerator,
+	},
+	{
 		name: 'Statix',
 		website: 'https://gist.github.com/plugnburn/c2f7cc3807e8934b179e',
 		language: 'Shell',
