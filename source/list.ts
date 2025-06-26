@@ -75,8 +75,14 @@ const rawList: RawEntry[] = [
 		github: 'awestruct/awestruct',
 	},
 	{
+		created_at: '2021-02-20',
+		defunct: true,
+		is: Is.SSGenerator,
+		language: 'JavaScript',
+		license: 'Unlicense',
 		name: 'Axiom',
-		github: 'TheLastZombie/Axiom',
+		updated_at: '2023-04-29',
+		website: 'https://forgejo.sny.sh/sun/Axiom',
 	},
 	{
 		name: 'AYM CMS',
